@@ -91,7 +91,23 @@
               <p class="caption"><span class="caption-text">目录:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="%E8%BD%AF%E4%BB%B6%E6%A6%82%E8%BF%B0.html">软件概述</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">数据格式说明</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">数据格式说明</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">2.1 地图工程文件</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gdal">2.2 GDAL栅格数据</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ogr">2.3 OGR矢量格式</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">2.4 非OGR矢量数据</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id4">2.4.1 点位数据</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gnss">2.4.2 GNSS形变格式</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id5">2.4.3 水准形变场格式</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id7">2.4.4 主应变率格式</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id9">2.4.5 旋转率场格式</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id11">2.4.6 震源机制解格式</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gmt">2.4.7 旧版本GMT线数据</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#insar">2.5 InSAR 二进制文件</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="%E6%95%B0%E6%8D%AE%E5%8A%A0%E8%BD%BD.html">数据加载</a></li>
 <li class="toctree-l1"><a class="reference internal" href="%E6%95%B0%E6%8D%AE%E6%B5%8F%E8%A7%88.html">数据浏览</a></li>
 <li class="toctree-l1"><a class="reference internal" href="%E6%A0%85%E6%A0%BC%E6%95%B0%E6%8D%AE%E6%B8%B2%E6%9F%93.html">栅格数据渲染</a></li>
@@ -166,6 +182,189 @@
             
   <div class="section" id="id1">
 <h1>数据格式说明<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
+<div class="section" id="id2">
+<h2>2.1 地图工程文件<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
+<p>软件使用QGIS标准的.qgz与.qgs作为地图工程文件格式，类似 ArcGIS的.mxd文件，工程文件记录 了 一个工程所引用的图层、渲染样式及其他用 QGIS开发接口实现的配置信息。.qgz是二进制格式 ，.qgs则是 XML格式的文本文件，可以在普通的文本编辑器中直接进行编辑。</p>
+</div>
+<div class="section" id="gdal">
+<h2>2.2 GDAL栅格数据<a class="headerlink" href="#gdal" title="永久链接至标题">¶</a></h2>
+<p>软件使用QGIS封装的GDAL/OGR库进行GIS数据的独写。考虑到构造大地测量制图领域常用的数据格式，软件实现了对4种标准GDAL栅格格式的支持，如表2.1所示。其中，GTiff与HFA是GIS中最常用的两种栅格影像存储格式；STRMHGT是NASA航天飞机雷达地形任务（Shttle Radar Topographic Mission, SRTM）的DEM产品格式，该产品覆盖全球80%以上，由USGS免费分发；由于GDAL驱动的限制，软件对GMT NetCDF文件支持有体积上限，为2GB。</p>
+<table class="colwidths-given docutils align-default" id="id14">
+<caption><span class="caption-text">表2.1 软件支持的栅格地理空间数据格式</span><a class="headerlink" href="#id14" title="永久链接至表格">¶</a></caption>
+<colgroup>
+<col style="width: 27%" />
+<col style="width: 20%" />
+<col style="width: 53%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>GDAL代码</p></th>
+<th class="head"><p>后缀</p></th>
+<th class="head"><p>说明</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>GTiff</p></td>
+<td><p>tiff</p></td>
+<td><p>可以带有空间参考的TIF格式</p></td>
+</tr>
+<tr class="row-odd"><td><p>HFA</p></td>
+<td><p>img</p></td>
+<td><p>常用于卫星影响数据</p></td>
+</tr>
+<tr class="row-even"><td><p>SRTMHGT</p></td>
+<td><p>hgt</p></td>
+<td><p>SRTM高程数据</p></td>
+</tr>
+<tr class="row-odd"><td><p>GMT</p></td>
+<td><p>grd</p></td>
+<td><p>GMT常用的NetCDF网格文件</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="ogr">
+<h2>2.3 OGR矢量格式<a class="headerlink" href="#ogr" title="永久链接至标题">¶</a></h2>
+<p>考虑到构造大地测量制图领域常用的数据格式，软件实现了对4种标准OGR矢量格式的支持，如表2.2所示。其中，ESRI shapefile是美国环境系统研究所公司（ESRI）开发的空间数据开放格式，该文件格式也是地理信息软件界的开放标准；GMT指的是GMT5新定义的OGR兼容格式，包含空间信息 、属性信息和元数据（包括版本号、空间投影等，使其可以被其他GIS软件调用，该格式的详细介绍可以参见 <a class="reference external" href="https://docs.gmt-china.org/latest/table/ogr/">https://docs.gmt-china.org/latest/table/ogr/</a>，非OGR兼容格式的旧版本GMT格式见1.2.4节；GeoJSON是近年来开始流行的地理空间数据格式，相比ESRI Shapefile，GeoJSON格式的数据更为简洁，并且是JSON格式的纯文本，更具可读性。</p>
+<table class="colwidths-given docutils align-default" id="id15">
+<caption><span class="caption-text">表2.2 软件支持的矢量地理空间数据格式</span><a class="headerlink" href="#id15" title="永久链接至表格">¶</a></caption>
+<colgroup>
+<col style="width: 27%" />
+<col style="width: 20%" />
+<col style="width: 53%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>OGR代码</p></th>
+<th class="head"><p>后缀</p></th>
+<th class="head"><p>说明</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>ESRI Shapefile</p></td>
+<td><p>shp</p></td>
+<td><p>应用最广泛的矢量GIS格式</p></td>
+</tr>
+<tr class="row-odd"><td><p>KML</p></td>
+<td><p>kml</p></td>
+<td><p>Google Earth默认格式，基于XML</p></td>
+</tr>
+<tr class="row-even"><td><p>GMT</p></td>
+<td><p>gmt</p></td>
+<td><p>GMT默认ASCII矢量格式</p></td>
+</tr>
+<tr class="row-odd"><td><p>GeoJSON</p></td>
+<td><p>geojson</p></td>
+<td><p>轻量级矢量格式，基于JSON</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="id3">
+<h2>2.4 非OGR矢量数据<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h2>
+<p>为实现GNSS形变场、水准形变场、主应变场、旋转率场与震源机制解等构造大地测量常见元素的绘制， 软件为这些元素定义了数据加载的输入格式 ，每种格式均为纯文本文件，以表的形式存储，方便用户编辑。第一行为表头，以“#”为开头的行注释符，读取时会被忽略；每列之间以任意数量的空格或Tab分隔；坐标列 Long、Lat 两列要求为 WGS 84 大地坐标。如果数据的某个属性存在缺失，可由 0 或其他标点符号占位，但不允许为空。每种格式规定了文件的后缀以便软件识别。</p>
+<div class="section" id="id4">
+<h3>2.4.1 点位数据<a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h3>
+<p>点位数据结构包括点位的名字、经度、纬度与别名，文件后缀为.pts，格式请参考 <a class="reference external" href="https://github.com/wanghai1988/qtgahelp/blob/main/files/%E7%82%B9%E4%BD%8D%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.txt">点位数据格式.txt</a> ，下面是一个简单的示例。</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">NAME</span>        <span class="n">long</span>    <span class="n">lat</span>     <span class="n">ALias</span>
+<span class="n">BMCL</span>        <span class="mf">81.71</span>   <span class="mf">28.66</span>   <span class="o">-</span>
+<span class="n">CUOM</span>        <span class="mf">86.9</span>    <span class="mf">30.45</span>   <span class="o">-</span>
+<span class="n">D053</span>        <span class="mi">107</span>     <span class="mf">40.32</span>   <span class="o">-</span>
+<span class="n">D055</span>        <span class="mf">108.72</span>  <span class="mf">39.85</span>   <span class="o">-</span>
+<span class="n">D056</span>        <span class="mf">109.8</span>   <span class="mf">39.35</span>   <span class="o">-</span>
+<span class="n">D058</span>        <span class="mf">109.82</span>  <span class="mf">38.29</span>   <span class="o">-</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="gnss">
+<h3>2.4.2 GNSS形变格式<a class="headerlink" href="#gnss" title="永久链接至标题">¶</a></h3>
+<p>GNSS形变场（或速度场）的数据结构包括站点名、坐标、经向形变、纬向形变、经向误差、纬向误差、误差相关系数、以及 站点的观测时间。文件后缀为 .gps格式，示例格式请参考 <a class="reference external" href="https://github.com/wanghai1988/qtgahelp/blob/main/files/GNSS%E5%BD%A2%E5%8F%98%E6%95%B0%E6%8D%AE%E8%BE%93%E5%85%A5%E6%A0%BC%E5%BC%8F.txt">GNSS形变数据输入格式.txt</a>。形变量与误差的单位不做要求，时间格式为年 -月 -日，下面是一个简单的示例 。</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Site</span>        <span class="n">Long</span>    <span class="n">Lat</span>     <span class="n">DisL</span>    <span class="n">DisB</span>    <span class="n">DisH</span>    <span class="n">SigL</span>    <span class="n">SigB</span>    <span class="n">CorrBL</span>  <span class="n">Date</span>
+<span class="n">SITEA</span>       <span class="mf">96.153</span>  <span class="mf">33.795</span>  <span class="mf">11.866</span>  <span class="o">-</span><span class="mf">4.084</span>  <span class="o">-</span><span class="mf">2.632</span>  <span class="mf">1.00</span>    <span class="mf">1.00</span>    <span class="mi">0</span>       <span class="mi">2019</span><span class="o">-</span><span class="mi">01</span><span class="o">-</span><span class="mi">01</span>
+<span class="n">SITEB</span>       <span class="mf">96.154</span>  <span class="mf">33.770</span>  <span class="mf">12.481</span>  <span class="o">-</span><span class="mf">4.309</span>  <span class="o">-</span><span class="mf">2.711</span>  <span class="mf">1.00</span>    <span class="mf">1.00</span>    <span class="mi">0</span>       <span class="mi">2019</span><span class="o">-</span><span class="mi">01</span><span class="o">-</span><span class="mi">02</span>
+<span class="n">SITEC</span>       <span class="mf">96.155</span>  <span class="mf">33.746</span>  <span class="mf">13.140</span>  <span class="o">-</span><span class="mf">4.550</span>  <span class="o">-</span><span class="mf">2.794</span>  <span class="mf">1.00</span>    <span class="mf">1.00</span>    <span class="mi">0</span>       <span class="mi">2019</span><span class="o">-</span><span class="mi">01</span><span class="o">-</span><span class="mi">03</span>
+<span class="n">SITED</span>       <span class="mf">96.156</span>  <span class="mf">33.722</span>  <span class="mf">13.845</span>  <span class="o">-</span><span class="mf">4.810</span>  <span class="o">-</span><span class="mf">2.884</span>  <span class="mf">1.00</span>    <span class="mf">1.00</span>    <span class="mi">0</span>       <span class="mi">2019</span><span class="o">-</span><span class="mi">01</span><span class="o">-</span><span class="mi">04</span>
+<span class="n">SITEE</span>       <span class="mf">96.157</span>  <span class="mf">33.697</span>  <span class="mf">14.601</span>  <span class="o">-</span><span class="mf">5.088</span>  <span class="o">-</span><span class="mf">2.982</span>  <span class="mf">1.00</span>    <span class="mf">1.00</span>    <span class="mi">0</span>       <span class="mi">2019</span><span class="o">-</span><span class="mi">01</span><span class="o">-</span><span class="mi">05</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="id5">
+<h3>2.4.3 水准形变场格式<a class="headerlink" href="#id5" title="永久链接至标题">¶</a></h3>
+<p>水准形变场数据格式包括站点名、坐标、垂向形变、形变精度与观测时间。文件后缀为 .lev，格式请参考 <a class="reference external" href="https://github.com/wanghai1988/qtgahelp/blob/main/files/%E6%B0%B4%E5%87%86%E5%BD%A2%E5%8F%98%E6%95%B0%E6%8D%AE%E8%BE%93%E5%85%A5%E6%A0%BC%E5%BC%8F.txt">水准形变数据输入格式.txt</a>   。形变量与精度的单位不做要求，时间格式为年 -月 -日，下面是一个简单的示例。</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Site</span>        <span class="n">Long</span>    <span class="n">Lat</span>     <span class="n">H</span>       <span class="n">DisH</span>    <span class="n">SigH</span>    <span class="n">Date</span>
+<span class="n">SITEA</span>       <span class="mf">96.153</span>  <span class="mf">33.795</span>  <span class="mf">11.866</span>  <span class="o">-</span><span class="mf">2.632</span>  <span class="mf">1.00</span>    <span class="mi">2019</span><span class="o">-</span><span class="mi">01</span><span class="o">-</span><span class="mi">01</span>
+<span class="n">SITEB</span>       <span class="mf">96.154</span>  <span class="mf">33.770</span>  <span class="mf">12.481</span>  <span class="o">-</span><span class="mf">2.711</span>  <span class="mf">1.00</span>    <span class="mi">2019</span><span class="o">-</span><span class="mi">01</span><span class="o">-</span><span class="mi">02</span>
+<span class="n">SITEC</span>       <span class="mf">96.155</span>  <span class="mf">33.746</span>  <span class="mf">13.140</span>  <span class="o">-</span><span class="mf">2.794</span>  <span class="mf">1.00</span>    <span class="mi">2019</span><span class="o">-</span><span class="mi">01</span><span class="o">-</span><span class="mi">03</span>
+<span class="n">SITED</span>       <span class="mf">96.156</span>  <span class="mf">33.722</span>  <span class="mf">13.845</span>  <span class="o">-</span><span class="mf">2.884</span>  <span class="mf">1.00</span>    <span class="mi">2019</span><span class="o">-</span><span class="mi">01</span><span class="o">-</span><span class="mi">04</span>
+<span class="n">SITED</span>       <span class="mf">96.157</span>  <span class="mf">33.697</span>  <span class="mf">14.601</span>  <span class="o">-</span><span class="mf">2.982</span>  <span class="mf">1.00</span>    <span class="mi">2019</span><span class="o">-</span><span class="mi">01</span><span class="o">-</span><span class="mi">05</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="id7">
+<h3>2.4.4 主应变率格式<a class="headerlink" href="#id7" title="永久链接至标题">¶</a></h3>
+<p>主应变率数据格式包括格网点的经纬度、最大应变率、最大应变率中误差、最小应变率、最小应变率其误差、最小应变率中误差、方位角以及方位角中误差，文件后缀为 .psr，格式请参考 <a class="reference external" href="https://github.com/wanghai1988/qtgahelp/blob/main/files/%E4%B8%BB%E5%BA%94%E5%8F%98%E7%8E%87%E6%95%B0%E6%8D%AE%E8%BE%93%E5%85%A5%E6%A0%BC%E5%BC%8F.txt">主应变率数据输入格式.txt</a> 。方位角以北方向为起始方向，逆时针旋转，单位为角度。主应变率场通常由格网生成，因此软件没有规定各个点位的站点名字段，下面是一个简单的示例。</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Long</span>        <span class="n">Lat</span>     <span class="n">E1</span>      <span class="n">Sig1</span>    <span class="n">E2</span>      <span class="n">Sig2</span>    <span class="n">Azi</span>     <span class="n">SigA</span>
+<span class="mf">73.000</span>      <span class="mf">21.000</span>  <span class="mf">3.118</span>   <span class="mf">0.000</span>   <span class="o">-</span><span class="mf">9.059</span>  <span class="mf">0.00</span>    <span class="mf">60.50</span>   <span class="mi">0</span>
+<span class="mf">73.000</span>      <span class="mf">22.000</span>  <span class="mf">3.572</span>   <span class="mf">0.000</span>   <span class="o">-</span><span class="mf">6.299</span>  <span class="mf">0.00</span>    <span class="mf">53.26</span>   <span class="mi">0</span>
+<span class="mf">73.000</span>      <span class="mf">23.000</span>  <span class="mf">5.739</span>   <span class="mf">0.000</span>   <span class="o">-</span><span class="mf">4.942</span>  <span class="mf">0.00</span>    <span class="mf">312.89</span>  <span class="mi">0</span>
+<span class="mf">73.000</span>      <span class="mf">24.000</span>  <span class="mf">9.100</span>   <span class="mf">0.000</span>   <span class="o">-</span><span class="mf">5.377</span>  <span class="mf">0.00</span>    <span class="mf">307.55</span>  <span class="mi">0</span>
+<span class="mf">73.000</span>      <span class="mf">25.000</span>  <span class="mf">12.257</span>  <span class="mf">0.000</span>   <span class="o">-</span><span class="mf">7.185</span>  <span class="mf">0.00</span>    <span class="mf">307.44</span>  <span class="mi">0</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="id9">
+<h3>2.4.5 旋转率场格式<a class="headerlink" href="#id9" title="永久链接至标题">¶</a></h3>
+<p>旋转率场数据格式包括网格点的经纬度、旋转率值域旋转率中误差，文件后缀为 .ror，格式请参考 <a class="reference external" href="https://github.com/wanghai1988/qtgahelp/blob/main/files/%E6%97%8B%E8%BD%AC%E7%8E%87%E6%95%B0%E6%8D%AE%E8%BE%93%E5%85%A5%E6%A0%BC%E5%BC%8F.txt">旋转率数据输入格式.txt</a> 。旋转角以北方向为起始方向，逆时针旋转，单位不做要求。同主应变率类似，旋转率数据也不必规定点位的站点名，下面是一个简单的示例。</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Long</span>        <span class="n">Lat</span>     <span class="n">R</span>       <span class="n">Sig</span>
+<span class="mf">73.000</span>      <span class="mf">21.000</span>  <span class="mf">60.50</span>   <span class="mi">0</span>
+<span class="mf">73.000</span>      <span class="mf">22.000</span>  <span class="mf">53.26</span>   <span class="mi">0</span>
+<span class="mf">73.000</span>      <span class="mf">23.000</span>  <span class="mf">312.89</span>  <span class="mi">0</span>
+<span class="mf">73.000</span>      <span class="mf">24.000</span>  <span class="mf">307.55</span>  <span class="mi">0</span>
+<span class="mf">73.000</span>      <span class="mf">25.000</span>  <span class="mf">307.44</span>  <span class="mi">0</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="id11">
+<h3>2.4.6 震源机制解格式<a class="headerlink" href="#id11" title="永久链接至标题">¶</a></h3>
+<p>震源机制解数据格式包括地震名称、震中坐标与深度、地震矩震级、两个P波初动节面的走向角、倾角和滑动角，以及发震的日期和时间，文件后缀为 .fms，格式请参考 <a class="reference external" href="https://github.com/wanghai1988/qtgahelp/blob/main/files/%E9%9C%87%E6%BA%90%E6%9C%BA%E5%88%B6%E8%A7%A3%E6%95%B0%E6%8D%AE%E8%BE%93%E5%85%A5%E6%A0%BC%E5%BC%8F.txt">震源机制解数据输入格式.txt</a> ，下面是一个简单的示例。</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Name</span>        <span class="n">Long</span>    <span class="n">Lat</span>     <span class="n">Depth</span>   <span class="n">Mw</span>      <span class="n">Str1</span>    <span class="n">Dip1</span>    <span class="n">Rake1</span>   <span class="n">Str2</span>    <span class="n">Dip2</span>    <span class="n">Rake2</span>   <span class="n">Date</span>            <span class="n">Time</span>
+<span class="n">GCMT</span>        <span class="mf">104.42</span>  <span class="mf">32.63</span>   <span class="mi">15</span>      <span class="mf">6.7</span>     <span class="mi">29</span>      <span class="mi">48</span>      <span class="mi">122</span>     <span class="mi">166</span>     <span class="mi">51</span>      <span class="mi">60</span>      <span class="mi">1976</span><span class="o">-</span><span class="mi">08</span><span class="o">-</span><span class="mi">16</span>      <span class="mi">14</span><span class="p">:</span><span class="mi">06</span><span class="p">:</span><span class="mi">55</span>
+<span class="n">GCMT</span>        <span class="mf">104.29</span>  <span class="mf">32.37</span>   <span class="mf">15.3</span>    <span class="mf">6.3</span>     <span class="mi">198</span>     <span class="mi">40</span>      <span class="mi">113</span>     <span class="mi">349</span>     <span class="mi">54</span>      <span class="mi">72</span>      <span class="mi">1976</span><span class="o">-</span><span class="mi">08</span><span class="o">-</span><span class="mi">21</span>      <span class="mi">21</span><span class="p">:</span><span class="mi">49</span><span class="p">:</span><span class="mi">58</span>
+<span class="n">GCMT</span>        <span class="mf">104.21</span>  <span class="mf">32.11</span>   <span class="mf">19.6</span>    <span class="mf">6.4</span>     <span class="mi">172</span>     <span class="mi">45</span>      <span class="mi">72</span>      <span class="mi">16</span>      <span class="mi">48</span>      <span class="mi">107</span>     <span class="mi">1976</span><span class="o">-</span><span class="mi">08</span><span class="o">-</span><span class="mi">23</span>      <span class="mi">03</span><span class="p">:</span><span class="mi">30</span><span class="p">:</span><span class="mi">12</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="gmt">
+<h3>2.4.7 旧版本GMT线数据<a class="headerlink" href="#gmt" title="永久链接至标题">¶</a></h3>
+<p>除2.3介绍的OGR兼容的GMT格式外，旧版本GMT线数据是设计过程中需要考虑的兼容格式，其格式请参考 <a class="reference external" href="https://github.com/wanghai1988/qtgahelp/blob/main/files/GMT%E7%BA%BF%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.txt">GMT线数据格式.txt</a> 。线数据使用 2种后缀，分别为 .lin与.plg。前者加载后识别为线要素；后者加载后识别为面要素，若每段线首尾坐标不一致，自动将其闭合。面要素可以使用填充符号，还可以在数据提取时作为范围模板要素，下面是一个简单的示例。</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&gt;</span>
+<span class="mf">142.65</span>      <span class="mf">53.23</span>
+<span class="mf">141.57</span>      <span class="mf">52.58</span>
+<span class="mf">141.03</span>      <span class="mf">52.27</span>
+<span class="mf">140.43</span>      <span class="mf">51.81</span>
+<span class="mf">139.76</span>      <span class="mf">51.52</span>
+<span class="mf">139.57</span>      <span class="mf">51.47</span>
+<span class="o">&gt;</span>
+<span class="mf">136.85</span>      <span class="mf">50.54</span>
+<span class="mf">135.71</span>      <span class="mf">50.06</span>
+<span class="mf">134.89</span>      <span class="mf">49.86</span>
+<span class="mf">134.09</span>      <span class="mf">49.68</span>
+<span class="mf">131.36</span>      <span class="mf">47.99</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="insar">
+<h2>2.5 InSAR 二进制文件<a class="headerlink" href="#insar" title="永久链接至标题">¶</a></h2>
+<p>GAMMA等 SAR软件处理获取的地面形变信息以二进制形式存储。要将形变信息在地图上显示，需要将其转换为软件支持的栅格格式。二进制文件不包含任何范围、分辨率等信息，因此在使用时需要搭配记录了必要信息的头文件。二进制数据后缀为 .bin，头文件后缀为 .rsc。头文件记录了二进制数据起始点（左上角像元）的经纬度、最大灰度值、最小灰度值、经向步长、纬向步长、像元行数、像元列数以及像元格式。像元格式包括16位整形、 32位浮点型或 64位浮点型3种，分别使用“ int16”、 float”、“double”标记。输入格式请参考 <a class="reference external" href="https://github.com/wanghai1988/qtgahelp/blob/main/files/%E6%A0%85%E6%A0%BC%E5%A4%B4%E6%96%87%E4%BB%B6%E8%BE%93%E5%85%A5%E6%A0%BC%E5%BC%8F.txt">栅格头文件输入格式.txt</a> ，下面是一个简单的示例。</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ROW</span>         <span class="mi">5400</span>
+<span class="n">COLUMN</span>              <span class="mi">4950</span>
+<span class="n">TOPLEFT_X</span>   <span class="mf">103.000</span>
+<span class="n">X_STEP</span>              <span class="mf">0.000277777777777778</span>
+<span class="n">TOPLEFT_Y</span>   <span class="mf">33.900</span>
+<span class="n">Y_STEP</span>              <span class="o">-</span><span class="mf">0.000277777777777778</span>
+<span class="n">DATA_FORMAT</span> <span class="nb">float</span>
+</pre></div>
+</div>
+</div>
 </div>
 
 
