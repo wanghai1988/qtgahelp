@@ -46,8 +46,21 @@ Plot菜单包括下列功能：
 
 Tools菜单包括下列功能：
 
-(1) Construct Fault Geometry
-(#) Create Checkboard Test Model
+(1) Construct Fault Geometry，该菜单包括两个子菜单，其中 With Segments Along the Strike Direction 菜单的界面如下：
+
+    .. image:: ../images/menu_image/Tools/WithSegmentsAlong.png
+        :align: center  
+
+    With Segments In the Dip Direction 菜单的界面如下：
+
+    .. image:: ../images/menu_image/Tools/WithSegmentsDip.png
+        :align: center
+
+(#) Create Checkboard Test Model，该菜单的界面如下：
+
+    .. image:: ../images/menu_image/Tools/CreateCheckboardTestModel.png
+    :align: center
+
 (#) Construct Deep Slip Model
 (#) Extract EQs Within a Block
 (#) Extract Leveling Data Within a Block
@@ -71,17 +84,41 @@ Tools菜单包括下列功能：
 
 Analysis菜单包括下列功能：
 
-(1) Calculate Min/Max Values
+(1) Calculate Min/Max Values，该菜单界面如下： 
+
+    .. image:: ../images/menu_image/Analysis/minmax.png
+        :align: center  
+
 (#) Calculate Total Seismic Moment
-(#) Compare GNSS/InSAR Displacement
+(#) Compare GNSS/InSAR Displacement，该菜单界面如下： 
+
+.. image:: ../images/menu_image/Analysis/CompareGNSSInSARDisplacement.png
+    :align: center  
+
 (#) Estimate Observation Standard Deviation
 (#) Correlation between Seismicity and Faults
 (#) Correlation between Seismicity and Stressing Rates
 (#) Correlation between Aftershocks and CFS Change
-(#) Fit Interseismic GNSS Time Series
-(#) Correct Postseimic GNSS Time Series
-(#) Fit Postseimic GNSS Time Series
-(#) Fit Temporal Distribution Of Aftershocks
+(#) Fit Interseismic GNSS Time Series，该菜单界面如下： 
+
+.. image:: ../images/menu_image/Analysis/FitInterseismicGNSSTimeSeries.png
+    :align: center  
+
+(#) Correct Postseimic GNSS Time Series，该菜单界面如下： 
+
+.. image:: ../images/menu_image/Analysis/CorrectPostseimicGNSSTimeSeries.png
+    :align: center  
+
+(#) Fit Postseimic GNSS Time Series，该菜单界面如下： 
+
+.. image:: ../images/menu_image/Analysis/FitInterseismicGNSSTimeSeries.png
+    :align: center  
+
+(#) Fit Temporal Distribution Of Aftershocks，该菜单界面如下：
+
+    .. image:: ../images/menu_image/Analysis/FitTemporalDistributionOfAftershocks.png
+       :align: center 
+
 (#) Fit GNSS Velocities
 
 
