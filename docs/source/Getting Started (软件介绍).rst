@@ -2,6 +2,7 @@
  Getting Started (软件介绍)
 ===========================
 
+:download:`QTGA下载 <https://github.com/wanghai1988/QTGA/releases/download/v0.1/QTGA.zip>`.
 
 1.1 Overview (概述)
 ------------------------
