@@ -1,1 +1,4 @@
 theme: jekyll-theme-dinky
+show_downloads: true
+github:
+  zip_url: https://github.com/wanghai1988/QTGA/releases/download/v0.1/QTGA.zip
