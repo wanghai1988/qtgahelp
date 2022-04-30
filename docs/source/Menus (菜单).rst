@@ -1,8 +1,8 @@
 ================
-Menus (菜单)
+2.Menus (菜单)
 ================
 
-2.1 File
+2.1 File (文件)
 --------
 
 File菜单下包括下列功能：
@@ -18,7 +18,7 @@ File菜单下包括下列功能：
 (9) Exit
 
 
-2.2 Plot
+2.2 Plot (绘制)
 ---------
 
 Plot菜单包括下列功能：
@@ -41,7 +41,7 @@ Plot菜单包括下列功能：
 (#) Temporal Variation of EQs
 
 
-2.3 Tools
+2.3 Tools (工具)
 ----------
 
 Tools菜单包括下列功能：
@@ -79,7 +79,7 @@ Tools菜单包括下列功能：
 (#) Clip Images
 
 
-2.4 Analysis
+2.4 Analysis (分析)
 --------------
 
 Analysis菜单包括下列功能：
@@ -122,7 +122,7 @@ Analysis菜单包括下列功能：
 (#) Fit GNSS Velocities
 
 
-2.5 Forward
+2.5 Forward (正演)
 ------------
 
 Forward菜单包括下列功能：
@@ -142,7 +142,7 @@ Forward菜单包括下列功能：
 (#) Forward Lyr Grn Function
 
 
-2.6 Invert
+2.6 Invert (反演)
 -----------
 
 Invert菜单包括下列功能：
@@ -159,7 +159,7 @@ Invert菜单包括下列功能：
 (#) Slip Distribution
 
 
-2.7 Evaluate
+2.7 Evaluate (评估)
 -------------
 
 Evaluate菜单包括下列功能：
@@ -169,12 +169,3 @@ Evaluate菜单包括下列功能：
 (#) After shock Duration
 (#) Assess Earthquake OccurTime
 (#) Stress Disturb Time
-
-
-1.9 Help
-----------
-
-Help菜单包括下列功能：
-
-(1) Help Document
-(#) About QTGA

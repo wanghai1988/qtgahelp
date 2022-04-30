@@ -5,8 +5,8 @@
    :maxdepth: 2
    :caption: 目录:
 
-   Getting Started (软件介绍)
-   Menus (菜单)
-   Toolbars (工具条)
-   References & Support
+   1.Getting Started (软件介绍)
+   2.Menus (菜单)
+   3.Toolbars (工具条)
+   4.References & Support
    
