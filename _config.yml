@@ -3,4 +3,5 @@ description: Dinky is a red hot theme for GitHub Pages.
 theme: jekyll-theme-dinky
 show_downloads: true
 github:
+  is_project_page: false
   exe_url: https://github.com/wanghai1988/QTGA/releases/download/v0.1/QTGA.zip
