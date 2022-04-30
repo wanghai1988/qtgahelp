@@ -2,7 +2,7 @@
  1.Getting Started (软件介绍)
 ===========================
 
-:download:`QTGA下载 <https://github.com/wanghai1988/QTGA/releases/download/v0.1/QTGA.zip>`.
+
 
 1.1 Overview (概述)
 ------------------------
@@ -204,3 +204,7 @@ GAMMA等 SAR软件处理获取的地面形变信息以二进制形式存储。�
 
 1.3 Coordinate Systems (坐标系统)
 ------------------------------------
+
+1.4 Software installation and operating environment (软件安装与运行环境)
+------------------------------------------------------------------------
+:download:`QTGA下载 <https://github.com/wanghai1988/QTGA/releases/download/v0.1/QTGA.zip>`.
