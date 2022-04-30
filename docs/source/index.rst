@@ -8,5 +8,5 @@
    1.Getting Started (软件介绍)
    2.Menus (菜单)
    3.Toolbars (工具条)
-   4.References & Support
+   4.References & Support (技术支持)
    
