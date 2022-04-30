@@ -1,8 +1,8 @@
 ================
-菜单介绍
+Menus (菜单)
 ================
 
-1.1 File
+2.1 File
 --------
 
 File菜单下包括下列功能：
@@ -18,7 +18,7 @@ File菜单下包括下列功能：
 (9) Exit
 
 
-1.2 Plot
+2.2 Plot
 ---------
 
 Plot菜单包括下列功能：
@@ -41,7 +41,7 @@ Plot菜单包括下列功能：
 (#) Temporal Variation of EQs
 
 
-1.3 Tools
+2.3 Tools
 ----------
 
 Tools菜单包括下列功能：
@@ -59,7 +59,7 @@ Tools菜单包括下列功能：
 (#) Create Checkboard Test Model，该菜单的界面如下：
 
     .. image:: ../images/menu_image/Tools/CreateCheckboardTestModel.png
-    :align: center
+       :align: center
 
 (#) Construct Deep Slip Model
 (#) Extract EQs Within a Block
@@ -79,7 +79,7 @@ Tools菜单包括下列功能：
 (#) Clip Images
 
 
-1.4 Analysis
+2.4 Analysis
 --------------
 
 Analysis菜单包括下列功能：
@@ -122,7 +122,7 @@ Analysis菜单包括下列功能：
 (#) Fit GNSS Velocities
 
 
-1.5 Forward
+2.5 Forward
 ------------
 
 Forward菜单包括下列功能：
@@ -142,7 +142,7 @@ Forward菜单包括下列功能：
 (#) Forward Lyr Grn Function
 
 
-1.6 Invert
+2.6 Invert
 -----------
 
 Invert菜单包括下列功能：
@@ -159,7 +159,7 @@ Invert菜单包括下列功能：
 (#) Slip Distribution
 
 
-1.7 Evaluate
+2.7 Evaluate
 -------------
 
 Evaluate菜单包括下列功能：
@@ -169,21 +169,6 @@ Evaluate菜单包括下列功能：
 (#) After shock Duration
 (#) Assess Earthquake OccurTime
 (#) Stress Disturb Time
-
-
-1.8 Layer
------------
-
-Layer菜单包括下列功能：
-
-(1) Add Ground Point Layer
-(#) Add GMT Lines Layer
-(#) Add GNSS Layer
-(#) Add Leveling Layer
-(#) Add Principal Strain Layer
-(#) Add Rotation Rate Layer
-(#) Add Focal Mechanism Layer
-(#) Remove Layer
 
 
 1.9 Help

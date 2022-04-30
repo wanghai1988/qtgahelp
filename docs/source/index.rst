@@ -5,13 +5,8 @@
    :maxdepth: 2
    :caption: 目录:
 
-   软件概述
-   数据格式说明
-   数据加载
-   数据浏览
-   栅格数据渲染
-   处理工具
-   地图整饰输出
-   菜单介绍
-
+   Getting Started (软件介绍)
+   Menus (菜单)
+   Toolbars (工具条)
+   References & Support
 

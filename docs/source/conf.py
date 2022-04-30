@@ -1,3 +1,4 @@
+#coding:utf-8
 # Configuration file for the Sphinx documentation builder.
 #
 # This file only contains a selection of the most common options. For a full
@@ -17,9 +18,9 @@ from recommonmark.parser import CommonMarkParser
 
 # -- Project information -----------------------------------------------------
 
-project = 'QTGA'
-copyright = '2021, 武汉大学测绘学院:江国焰'
-author = '武汉大学测绘学院'
+project = u'QTGA'
+copyright = '2021, ' + u'武汉大学测绘学院:江国焰'
+author = u'武汉大学测绘学院'
 
 
 # -- General configuration ---------------------------------------------------
