@@ -211,7 +211,7 @@ GAMMA等 SAR软件处理获取的地面形变信息以二进制形式存储。�
 ------------------------------------------------------------------------
 :download:`QTGA下载 <https://github.com/wanghai1988/QTGA/releases/download/v0.1/QTGA.zip>`.
 
-1.5 Runtime environment (运行环境)
+1.5 Runtime Environment (运行环境)
 ------------------------------------------------------------------------
 
 (1) 操作系统：软件目前支持Windows 7/10/11 64位操作系统
