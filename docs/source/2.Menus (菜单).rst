@@ -2,12 +2,21 @@
 2.Menus (菜单)
 ================
 
+
+    
 2.1 File (文件)
 ---------------
+.. image:: ../images/menu_image/File/menu_file.png
+    :align: center  
 
 File菜单下包括下列功能：
 
-(1) Open Map
+(1) Open Map（打开地图工程）
+Open Map，该菜单会打开文件打开对话框，用来打开已经存在的地图工程（后缀为.qgs/.qgz/.QGS/.QGZ），界面如下：
+
+.. image:: ../images/menu_image/File/dialog_openproject.png
+    :align: center
+    
 (2) Open Recent
 (3) Close Map
 (4) Add Raster Layer
