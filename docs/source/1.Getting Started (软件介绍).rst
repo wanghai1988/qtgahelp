@@ -210,3 +210,9 @@ GAMMA等 SAR软件处理获取的地面形变信息以二进制形式存储。�
 1.4 Installation (软件安装)
 ------------------------------------------------------------------------
 :download:`QTGA下载 <https://github.com/wanghai1988/QTGA/releases/download/v0.1/QTGA.zip>`.
+
+1.5 Runtime environment (运行环境)
+------------------------------------------------------------------------
+
+(1) 操作系统：软件目前支持Windows 7/10/11 64位操作系统
+(2) 依赖环境：软件目前运行需依赖 MATLAB R2020a，因此需要安装MATLAB R2020a软件或安装R2020a版本对应的MATLAB Runtime（下载地址：https://ww2.mathworks.cn/products/compiler/matlab-runtime.html）
