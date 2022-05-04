@@ -1,6 +1,8 @@
+====================================
 构造大地测量应用软件用户指南
 ====================================
-User Manual for Tectonic Geodesy Application (TGA)
+User Manual for Tectonic Geodesy Application (TGA) 
+====================================
 
 .. toctree::
    :maxdepth: 2
