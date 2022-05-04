@@ -1,5 +1,5 @@
 ================================
- 1.Getting Started (软件介绍)
+ 1 Getting Started (软件介绍)
 ================================
 
 .. image:: ../images/mainform2.png
