@@ -2,10 +2,10 @@
 4 References & Support (技术支持)
 =================================
 
-* References
+4.1 References
 ------------------
 
-* User Support
+4.2 User Support
 ------------------
 
 * Release Notes
