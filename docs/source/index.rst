@@ -8,7 +8,6 @@ User Manual for Tectonic Geodesy Application (TGA)
 
 .. toctree::
    :maxdepth: 2
-   :caption: 目录
 
    1 Getting Started (软件介绍)
    2 Menus (菜单)
