@@ -22,7 +22,7 @@
 
 1.2 Installation (软件安装)
 ------------------------------------------------------------------------
-:download:`QTGA下载 <https://github.com/wanghai1988/QTGA/releases/download/v0.1/QTGA.zip>`.
+:download:`TGA下载 <https://github.com/wanghai1988/QTGA/releases/download/v0.1/QTGA.zip>`.
 
 1.3 Runtime Environment (运行环境)
 ------------------------------------------------------------------------
