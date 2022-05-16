@@ -2,7 +2,7 @@
 4 References & Support (技术支持)
 =================================
 
-4.1 References (参考)
+4.1 References (参考文献)
 ------------------
 
 4.2 User Support (用户支持)
