@@ -20,7 +20,7 @@
 (4) 绘图准确：绘图过程中的数据处理结果准确，符号标注、图例、比例尺、坐标注记的信息正确无误。
 (5) 可以指定格式输出：在地图制作完成后，可以将结果输出为矢量格式或指定分辨率的栅格格式。
 
-1.2 Installation (软件安装)
+1.2 Download (软件下载)
 ------------------------------------------------------------------------
 :download:`TGA下载 <https://github.com/wanghai1988/QTGA/releases/download/v0.1/QTGA.zip>`.
 
@@ -92,7 +92,7 @@
 1.4.4 站点数据格式
 ~~~~~~~~~~~~~~~~~~
 
-站点数据结构包括点位的站号、别名、经度与纬度，文件后缀为.nll，格式请参考 `站点数据格式.nll <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E7%AB%99%E7%82%B9%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F%E7%A4%BA%E4%BE%8B.nll>`_ ，下面是一个简单的示例。
+站点数据支持.nll和.nxy两种格式。其中，.nll格式结构包括点位的站号、别名、经度与纬度，格式请参考 `站点数据格式.nll <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E7%AB%99%E7%82%B9%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F%E7%A4%BA%E4%BE%8B.nll>`_ ，下面是一个简单的示例。
 
 .. code-block:: go
 
@@ -104,6 +104,7 @@
        4      4     101.113    30.962   
        5      5     101.169    30.938
 
+其次，.nxy格式结构包括点位的站号、别名、X坐标与Y坐标，格式请参考 `站点数据格式.nxy <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E7%AB%99%E7%82%B9%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F%E7%A4%BA%E4%BE%8B.nxy>`_ ，下面是一个简单的示例。
 
 1.4.5 GNSS形变数据格式
 ~~~~~~~~~~~~~~~~~~
