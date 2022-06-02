@@ -92,7 +92,8 @@
 1.4.4 站点数据格式
 ~~~~~~~~~~~~~~~~~~
 
-站点数据支持.nll和.nxy两种格式。其中，.nll格式结构包括点位的站号、别名、经度与纬度，格式请参考 `站点数据格式.nll <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E7%AB%99%E7%82%B9%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F%E7%A4%BA%E4%BE%8B.nll>`_ ，下面是一个简单的示例。
+站点数据支持.nll和.nxy两种格式。
+其中，.nll格式结构包括点位的站号、别名、经度与纬度，格式请参考 `站点数据格式.nll <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E7%AB%99%E7%82%B9%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F%E7%A4%BA%E4%BE%8B.nll>`_ ，下面是一个简单的示例。
 
 .. code-block:: go
 
@@ -105,6 +106,15 @@
        5      5     101.169    30.938
 
 其次，.nxy格式结构包括点位的站号、别名、X坐标与Y坐标，格式请参考 `站点数据格式.nxy <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E7%AB%99%E7%82%B9%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F%E7%A4%BA%E4%BE%8B.nxy>`_ ，下面是一个简单的示例。
+
+.. code-block:: go
+
+     Name1    Name2       X(m)              Y(m)  Relative to Well 82 (-115.535169E, 32.712321N)
+     A-33      A-33       1084.11505761    -3646.41292
+     S-1225    S-1225     3322.39191767     3409.499403
+     1-A-4     1-A-4      73.97556776      -352.770468
+     1-A-3     1-A-3      900.92929580     -380.454743
+     C-31      C-31       3332.36216476     1627.343375
 
 1.4.5 GNSS形变数据格式
 ~~~~~~~~~~~~~~~~~~
