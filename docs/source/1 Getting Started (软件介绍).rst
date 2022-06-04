@@ -22,13 +22,13 @@
 
 1.2 Download (软件下载)
 ------------------------------------------------------------------------
-:download:`TGA下载 <https://github.com/wanghai1988/TGA_Publish/releases/download/TGA/QTGA.zip>`.
+:download:`TGA下载 <https://github.com/wanghai1988/TGA_Publish/releases/download/TGA/QTGA.zip>`
 
 1.3 Runtime Environment (运行环境)
 ------------------------------------------------------------------------
 
 (1) 操作系统：软件目前支持Windows 7/10/11 64位操作系统
-(2) 依赖环境：软件目前运行需依赖 MATLAB R2020a，因此需要安装MATLAB R2020a软件或安装R2020a版本对应的MATLAB Runtime（下载地址：https://ww2.mathworks.cn/products/compiler/matlab-runtime.html）
+(2) 依赖环境：软件目前运行需依赖 MATLAB R2020a，因此需要安装MATLAB R2020a软件或安装R2020a版本对应的MATLAB Runtime（:download:`下载地址 <https://ww2.mathworks.cn/products/compiler/matlab-runtime.html>`）
 
 1.4 Data Files (数据格式)
 ------------------------------------
