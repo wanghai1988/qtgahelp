@@ -152,7 +152,7 @@ GNSS形变场（或速度场）的数据结构包括站点名、经度、纬度�
 
 .. code-block:: go
 
-    Long	Lat	E1	Sig1	E2	Sig2	Azi	SigA
+    Long(deg)	Lati(deg)	E1(nanostr/yr)	Sig1(nanostr/yr)	E2(nanostr/yr)	Sig2(nanostr/yr)	Azi(deg)	Sig3(deg)
     73.000	21.000	3.118	0.000	-9.059	0.00	60.50	0
     73.000	22.000	3.572	0.000	-6.299	0.00	53.26	0
     73.000	23.000	5.739	0.000	-4.942	0.00	312.89	0
