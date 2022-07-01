@@ -31,16 +31,16 @@ File菜单下包括下列功能：
 
 Plot菜单包括下列功能：
 
-(1) Create layer
-(2) Leveling Displacement
-(3) GNSS　Displacement
-(4) Focal Mechanism
+(1) Focal Mechanism
+(2) GNSS　Displacement
+(3) Leveling Displacement
+(4) Ratation Rate
 (#) GNSS Time Series
-(#) GNSS Velocity Profile
+(#) Principal Strain Rate
 (#) Leveling Displacement Profile
 (#) Raster Data Profile
-(#) Ratation Rate
-(#) Principal Strain Rate
+(#) GNSS Velocity Profile
+(#) 
 (#) Coseismic Slip Distribution
 (#) Interseismic Coupling Model
 (#) CFS Change on Fault Plane
