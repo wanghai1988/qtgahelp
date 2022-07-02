@@ -48,7 +48,7 @@ File菜单下包括下列功能：
     .. image:: ../images/menu_image/File/menu_export.png
         :align: center
     
-  A. 点击Export Map View（输出地图视图），会弹出输出地图视图对话框，用于保存并输出当前地图视图的屏幕效果。
+  1) 点击Export Map View（输出地图视图），会弹出输出地图视图对话框，用于保存并输出当前地图视图的屏幕效果。
     
     .. image:: ../images/menu_image/File/dailog_exportMapView.png
         :align: center
@@ -63,7 +63,7 @@ File菜单下包括下列功能：
         
     * 点击按钮Export（输出）后，会弹出图片保存对话框，用户可自行设置保存路径与格式。
         
-  B. 点击Export Map View（输出地图视图），会弹出输出地图视图对话框，用于保存并输出当前地图视图的屏幕效果。
+  2) 点击Export Map View（输出地图视图），会弹出输出地图视图对话框，用于保存并输出当前地图视图的屏幕效果。
     
     
 (10) Exit（退出）
