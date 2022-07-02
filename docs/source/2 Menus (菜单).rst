@@ -21,7 +21,11 @@ File菜单下包括下列功能：
     .. image:: ../images/menu_image/File/dialog_saveproject.png
         :align: center
         
-(3) Save as
+(3) Save as（另存为），该菜单用于另存当前工程为新的地图工程（后缀为.qgs/.qgz/.QGS/.QGZ），点击后会弹出地图工程另存对话框，界面如下：
+
+    .. image:: ../images/menu_image/File/dialog_saveas.png.png
+        :align: center
+
 (4) Add Raster Layer
 (5) Add Vector Layer
 (6) Open Recent
