@@ -23,12 +23,16 @@ File菜单下包括下列功能：
         
 (3) Save as（另存为），该菜单用于另存当前工程为新的地图工程（后缀为.qgs/.qgz/.QGS/.QGZ），点击后会弹出地图工程另存对话框，界面如下：
 
-    .. image:: ../images/menu_image/File/dialog_saveas.png.png
+    .. image:: ../images/menu_image/File/dialog_saveas.png
         :align: center
 
 (4) Close Map（关闭地图工程），该菜单用于关闭当前地图工程
-(5) Open Recent（最近工程），该菜单用户显示用户最近打开过的地图工程列表
-(6) Add Raster Layer（添加栅格图层）
+(5) Open Recent（最近工程），该菜单用于显示用户最近打开过的地图工程列表
+(6) Add Raster Layer（添加栅格图层），该菜单用于添加栅格类地图数据（后缀为.tif/.img/.grd等），点击后会弹出添加栅格数据对话框，界面如下：
+
+    .. image:: ../images/menu_image/File/dialog_saveas.png.png
+        :align: center
+        
 (7) Add Vector Layer（添加矢量图层）
 (8) Add Online Map（添加在线地图）
 (9) Export（输出视图）
