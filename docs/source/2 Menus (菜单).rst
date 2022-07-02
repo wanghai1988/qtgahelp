@@ -16,12 +16,16 @@ File菜单下包括下列功能：
     .. image:: ../images/menu_image/File/dialog_openproject.png
         :align: center
     
-(2) Open Recent
-(3) Close Map
+(2) Save（保存），该菜单用于保存当前地图工程（后缀为.qgs/.qgz/.QGS/.QGZ），如果当前为新建地图工程时，会弹出地图工程保存对话框，界面如下：
+
+    .. image:: ../images/menu_image/File/dialog_saveproject.png
+        :align: center
+        
+(3) Save as
 (4) Add Raster Layer
 (5) Add Vector Layer
-(6) Save
-(7) Save as
+(6) Open Recent
+(7) Close Map
 (8) Export
 (9) Exit
 
