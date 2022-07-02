@@ -30,8 +30,9 @@ File菜单下包括下列功能：
 (5) Open Recent（最近工程），该菜单用户显示用户最近打开过的地图工程列表
 (6) Add Raster Layer（添加栅格图层）
 (7) Add Vector Layer（添加矢量图层）
-(8) Export（输出视图）
-(9) Exit（退出）
+(8) Add Online Map（添加在线地图）
+(9) Export（输出视图）
+(10) Exit（退出）
 
 
 2.2 Plot (绘制)
