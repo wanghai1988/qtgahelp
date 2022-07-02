@@ -38,7 +38,11 @@ File菜单下包括下列功能：
     .. image:: ../images/menu_image/File/dailog_addVectorLayer.png
         :align: center
         
-(8) Add Online Map（添加在线地图）
+(8) Add Online Map（添加在线地图），该菜单用于添加在线地图服务图层如天地图、谷歌地图、ERSI等在线地图服务，界面如下：
+
+    .. image:: ../images/menu_image/File/menu_onlineMap.png
+        :align: center
+        
 (9) Export（输出视图）
 (10) Exit（退出）
 
