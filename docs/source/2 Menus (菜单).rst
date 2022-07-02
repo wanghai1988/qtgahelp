@@ -26,12 +26,12 @@ File菜单下包括下列功能：
     .. image:: ../images/menu_image/File/dialog_saveas.png.png
         :align: center
 
-(4) Add Raster Layer
-(5) Add Vector Layer
-(6) Open Recent
-(7) Close Map
-(8) Export
-(9) Exit
+(4) Close Map（关闭地图工程），该菜单用于关闭当前地图工程
+(5) Open Recent（最近工程），该菜单用户显示用户最近打开过的地图工程列表
+(6) Add Raster Layer（添加栅格图层）
+(7) Add Vector Layer（添加矢量图层）
+(8) Export（输出视图）
+(9) Exit（退出）
 
 
 2.2 Plot (绘制)
