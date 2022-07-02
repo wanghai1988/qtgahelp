@@ -43,7 +43,30 @@ File菜单下包括下列功能：
     .. image:: ../images/menu_image/File/menu_onlineMap.png
         :align: center
         
-(9) Export（输出视图）
+(9) Export（输出），该菜单用于输出当前地图视图，包含2个子菜单，界面如下：
+
+    .. image:: ../images/menu_image/File/menu_export.png
+        :align: center
+    
+  A. 点击Export Map View（输出地图视图），会弹出输出地图视图对话框，用于保存并输出当前地图视图的屏幕效果。
+    
+      .. image:: ../images/menu_image/File/dailog_exportMapView.png
+          :align: center
+        
+      * Extent（范围）通过当前地图视图自动进行确定，用户也可以通过手动输入、Calculate from Layer（由图层计算）、Map Canvas Extent（地图画布范围）或Draw on Canvas（手动绘制）自行确定输出的视图范围。
+        
+      * Scale（比例尺）通常由视图范围自动确定，也可以通过手动输入进行调整。
+        
+      * Resolution（分辨率）默认为96dpi，用户也可根据自身需要进行调整。
+        
+      * Output Width（输出宽度）和Output Height（输出高度）用来确定输出图片的尺寸。
+        
+      * 点击按钮Export（输出）后，会弹出图片保存对话框，用户可自行设置保存路径与格式。
+        
+      
+    B. 点击Export Map View（输出地图视图），会弹出输出地图视图对话框，用于保存并输出当前地图视图的屏幕效果。
+    
+    
 (10) Exit（退出）
 
 
