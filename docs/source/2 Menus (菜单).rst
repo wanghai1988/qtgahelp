@@ -28,12 +28,16 @@ File菜单下包括下列功能：
 
 (4) Close Map（关闭地图工程），该菜单用于关闭当前地图工程
 (5) Open Recent（最近工程），该菜单用于显示用户最近打开过的地图工程列表
-(6) Add Raster Layer（添加栅格图层），该菜单用于添加栅格类地图数据（后缀为.tif/.img/.grd等），点击后会弹出添加栅格数据对话框，界面如下：
+(6) Add Raster Layer（添加栅格图层），该菜单用于添加栅格类型地图数据（后缀为.tif/.img/.grd等），点击后会弹出添加栅格数据对话框，界面如下：
 
     .. image:: ../images/menu_image/File/dailog_addRasterLayer.png
         :align: center
         
-(7) Add Vector Layer（添加矢量图层）
+(7) Add Vector Layer（添加矢量图层），该菜单用于添加矢量类型地图数据（后缀为.shp/.geojson/.kml等），点击后会弹出添加矢量数据对话框，界面如下：
+
+    .. image:: ../images/menu_image/File/dailog_addVectorLayer.png
+        :align: center
+        
 (8) Add Online Map（添加在线地图）
 (9) Export（输出视图）
 (10) Exit（退出）
