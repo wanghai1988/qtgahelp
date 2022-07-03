@@ -84,7 +84,7 @@ Plot菜单包括下列功能：
     .. image:: ../images/menu_image/Plot/dialog_FocalMechanism.png
         :align: center
     使用步骤：
-    STEP 1:输入 震源机制解数据（后缀为.fms） `格式说明<https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#id6>`_
+    STEP 1:输入 震源机制解数据（后缀为.fms） `格式说明 <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#id6>`_
  
     
     
