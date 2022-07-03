@@ -99,6 +99,7 @@ Plot菜单包括下列功能：
     
 (2) GNSS Displacement（GNSS形变场）
     GNSS形变场对话框界面如下：
+    
     .. image:: ../images/menu_image/Plot/dialog_GNSSDisplacement.png
         :align: center
     
@@ -106,7 +107,7 @@ Plot菜单包括下列功能：
     
     STEP 1：选择或输入 `GNSS形变数据（后缀为.gps） <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#gnss>`_ 路径 
  
-    STEP 2：
+    STEP 2：设置Draw Error Ellipse（绘制误差椭圆）、Ellipse Scale（椭圆比例）和Arrow Scale（箭头比例）
       * Draw Error Ellipse（绘制误差椭圆）用于设置是否绘制误差椭圆；
       * Ellipse Scale（椭圆比例）用于设置绘制误差椭圆的比例，设置范围为0.01-99数值；
       * Arrow Scale（箭头比例）其中Style用于设置绘制箭头的比例，设置范围为0.01-99数值；
