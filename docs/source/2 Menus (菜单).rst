@@ -71,7 +71,9 @@ File菜单下包括下列功能：
 
 2.2 Plot (绘制)
 ----------------
-.. image:: ../images/menu_image/Plot/menu_plot.png
+.. image:: ../images/menu_image/Plot/menu_plot1.png
+    :align: center
+.. image:: ../images/menu_image/Plot/menu_plot2.png
     :align: center
 
 Plot菜单包括下列功能：
