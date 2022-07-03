@@ -80,6 +80,7 @@ Plot菜单包括下列功能：
 
 (1) Focal Mechanism（震源机制）
     震源机制对话框界面如下：
+    
     .. image:: ../images/menu_image/Plot/dialog_FocalMechanism.png
     :align: center
     
