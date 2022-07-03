@@ -71,10 +71,20 @@ File菜单下包括下列功能：
 
 2.2 Plot (绘制)
 ----------------
+.. image:: ../images/menu_image/Plot/menu_plot.png
+    :align: center
 
 Plot菜单包括下列功能：
 
-(1) Focal Mechanism
+(1) Focal Mechanism（震源机制）
+    震源机制对话框界面如下：
+    .. image:: ../images/menu_image/Plot/dialog_FocalMechanism.png
+    :align: center
+    
+    
+    
+    
+    
 (2) GNSS　Displacement
 (3) Leveling Displacement
 (4) Ratation Rate
