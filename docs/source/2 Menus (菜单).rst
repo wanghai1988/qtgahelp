@@ -52,7 +52,7 @@ File菜单下包括下列功能：
     
     .. image:: ../images/menu_image/File/dailog_exportMapView.png
         :align: center
-        
+    参数说明：
     * Extent（范围）通过当前地图视图自动进行确定，用户也可以通过手动输入、Calculate from Layer（由图层计算）、Map Canvas Extent（地图画布范围）或Draw on Canvas（手动绘制）自行确定输出的视图范围。
         
     * Scale（比例尺）通常由视图范围自动确定，也可以通过手动输入进行调整。
@@ -82,8 +82,10 @@ Plot菜单包括下列功能：
     震源机制对话框界面如下：
     
     .. image:: ../images/menu_image/Plot/dialog_FocalMechanism.png
-    :align: center
-    
+        :align: center
+    使用步骤：
+    STEP 1:输入 震源机制解数据（后缀为.fms），`格式说明<https://github.com/DataCanvasIO/Hypernets>`_
+ 
     
     
     
