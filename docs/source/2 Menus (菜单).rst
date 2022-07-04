@@ -119,7 +119,12 @@ Plot菜单包括下列功能：
     .. image:: ../images/menu_image/Plot/result_GNSSDisplacement.png
         :align: center
     
-(3) Leveling Displacement
+(3) Leveling Displacement（水准形变场）
+    水准形变场对话框界面如下：
+    
+    .. image:: ../images/menu_image/Plot/dialog_LevelingDisplacement.png
+        :align: center
+
 (4) Ratation Rate
 (#) GNSS Time Series
 (#) Principal Strain Rate
