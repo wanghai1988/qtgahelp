@@ -79,6 +79,7 @@ File菜单下包括下列功能：
 Plot菜单包括下列功能：
 
 (1) Focal Mechanism（震源机制）
+
     震源机制对话框界面如下：
     
     .. image:: ../images/menu_image/Plot/dialog_FocalMechanism.png
@@ -99,6 +100,7 @@ Plot菜单包括下列功能：
 
 
 (2) GNSS Displacement（GNSS形变场）
+
     GNSS形变场对话框界面如下：
     
     .. image:: ../images/menu_image/Plot/dialog_GNSSDisplacement.png
@@ -122,10 +124,12 @@ Plot菜单包括下列功能：
 
 
 (3) Leveling Displacement（水准形变场）
+
     水准形变场对话框界面如下：
     
     .. image:: ../images/menu_image/Plot/dialog_LevelingDisplacement.png
         :align: center
+
 
 (4) Ratation Rate
 (#) GNSS Time Series
