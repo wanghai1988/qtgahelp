@@ -96,7 +96,8 @@ Plot菜单包括下列功能：
     
     .. image:: ../images/menu_image/Plot/result_FocalMechanism.png
         :align: center
-    
+
+
 (2) GNSS Displacement（GNSS形变场）
     GNSS形变场对话框界面如下：
     
@@ -118,7 +119,8 @@ Plot菜单包括下列功能：
     
     .. image:: ../images/menu_image/Plot/result_GNSSDisplacement.png
         :align: center
-    
+
+
 (3) Leveling Displacement（水准形变场）
     水准形变场对话框界面如下：
     
