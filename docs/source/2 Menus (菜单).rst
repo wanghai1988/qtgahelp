@@ -92,7 +92,7 @@ Plot菜单包括下列功能：
     
     STEP 3：点击Preview（预览）按钮，即可在地图界面查看显示效果
     
-    STEP 4：设置输出文件路径（文件格式为geojson），点击Export（输出）按钮即可输出结果文件
+    STEP 4：设置输出文件路径（文件格式为geojson），点击Export（输出）按钮即可输出结果文件，勾选Add File To Current Project（添加文件到当前工程）则会将结果文件添加到当前地图工程内。
     
     .. image:: ../images/menu_image/Plot/result_FocalMechanism.png
         :align: center
@@ -114,7 +114,7 @@ Plot菜单包括下列功能：
     
     STEP 3：点击Preview（预览）按钮，即可在地图界面查看显示效果
     
-    STEP 4：设置输出文件路径（文件格式为geojson），点击Export（输出）按钮即可输出结果文件
+    STEP 4：设置输出文件路径（文件格式为geojson），点击Export（输出）按钮即可输出结果文件，勾选Add File To Current Project（添加文件到当前工程）则会将结果文件添加到当前地图工程内。
     
     .. image:: ../images/menu_image/Plot/result_GNSSDisplacement.png
         :align: center
