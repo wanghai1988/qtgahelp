@@ -135,8 +135,8 @@ Plot菜单包括下列功能：
     STEP 1：选择或输入 `水准形变场数据（后缀为.lev） <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#id3>`_ 路径 
  
     STEP 2：设置Draw Error Circle（绘制误差圆）和Scale（比例）
-    * 勾选Draw Error Circle（绘制误差圆）后可绘制绘制误差圆
-    * Scale用于设置绘制比例，设置范围为0.01-99
+      * 勾选Draw Error Circle（绘制误差圆）后可绘制绘制误差圆
+      * Scale用于设置绘制比例，设置范围为0.01-99
     
     STEP 3：点击Preview（预览）按钮，即可在地图界面查看显示效果
     
