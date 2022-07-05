@@ -169,8 +169,14 @@ Plot菜单包括下列功能：
     .. image:: ../images/menu_image/Plot/result_RotationRate.png
         :align: center
 
+
+(5) Principal Strain Rate（主轴应变率）
+
+
+
+
 (#) GNSS Time Series
-(#) Principal Strain Rate
+
 (#) Leveling Displacement Profile
 (#) Raster Data Profile
 (#) GNSS Velocity Profile
