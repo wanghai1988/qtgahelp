@@ -146,7 +146,29 @@ Plot菜单包括下列功能：
         :align: center
 
 
-(4) Ratation Rate
+(4) Ratation Rate（旋转率场）
+
+    旋转率场对话框界面如下：
+    
+    .. image:: ../images/menu_image/Plot/dailog_RotationRate.png
+        :align: center
+
+    使用步骤：
+    
+    STEP 1：选择或输入 `旋转率场数据（后缀为.ror） <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#id5>`_ 路径 
+ 
+    STEP 2：设置Angle Scale（角度比例）、Radius（半径）、Angle Unit（角度单位）
+      * Angle Scale（角度比例），设置范围为0.01-99
+      * Radius（半径），设置范围为0.01-99
+      * Angle Unit（角度单位），设置范围为0.01-99
+    
+    STEP 3：点击Preview（预览）按钮，即可在地图界面查看显示效果
+    
+    STEP 4：设置输出文件路径（文件格式为geojson），点击Export（输出）按钮即可输出结果文件，勾选Add File To Current Project（添加文件到当前工程）则会将结果文件添加到当前地图工程内。
+    
+    .. image:: ../images/menu_image/Plot/result_RotationRate.png
+        :align: center
+
 (#) GNSS Time Series
 (#) Principal Strain Rate
 (#) Leveling Displacement Profile
