@@ -170,8 +170,24 @@ Plot菜单包括下列功能：
         :align: center
 
 
-(5) Principal Strain Rate（主轴应变率）
-
+(5) Principal Strain Rate（主应变率）
+    主应变率对话框界面如下：
+    
+    .. image:: ../images/menu_image/Plot/dialog_PrincipalStrainRate .png
+        :align: center
+        
+    使用步骤：
+    
+    STEP 1：选择或输入 `旋转率场数据（后缀为.psr） <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#id4>`_ 路径 
+ 
+    STEP 2：设置Scale（比例），设置范围为0.01-99
+    
+    STEP 3：点击Preview（预览）按钮，即可在地图界面查看显示效果
+    
+    STEP 4：设置输出文件路径（文件格式为geojson），点击Export（输出）按钮即可输出结果文件，勾选Add File To Current Project（添加文件到当前工程）则会将结果文件添加到当前地图工程内。
+    
+    .. image:: ../images/menu_image/Plot/result_PrincipalStrainRate.png
+        :align: center
 
 (6) Raster Data Profile（栅格数据剖面）
 
