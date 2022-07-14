@@ -178,9 +178,9 @@ Plot菜单包括下列功能：
     
     使用步骤：
     
-    STEP 1：选择或输入 `旋转率场数据（后缀为.psr） <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#id4>`_ 路径 
+    STEP 1：选择或输入 `主应变率格式（后缀为.psr） <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#id4>`_ 路径 
  
-    STEP 2：设置Scale（比例），设置范围为0.01-99
+    STEP 2：设置Scale（比例），用于设置绘制比例，设置范围为0.01-99
     
     STEP 3：点击Preview（预览）按钮，即可在地图界面查看显示效果
     
