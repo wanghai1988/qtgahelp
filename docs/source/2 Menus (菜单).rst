@@ -173,7 +173,7 @@ Plot菜单包括下列功能：
 (5) Principal Strain Rate（主应变率）
     主应变率对话框界面如下：
     
-    .. image:: ../images/menu_image/Plot/dialog_PrincipalStrainRate .png
+    .. image:: ../images/menu_image/Plot/dialog_PrincipalStrainRate.png
         :align: center
         
     使用步骤：
