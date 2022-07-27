@@ -271,8 +271,25 @@ Plot菜单包括下列功能：
     .. image:: ../images/menu_image/Plot/reault_GNSSVelocityProfile.png
         :align: center
 
-（8）Leveling Displacement Profile（水准形变场剖面分析）
+2.2.8 Leveling Displacement Profile（水准形变场剖面分析）
 ~~~~~~~~~~~~~~~~~~
+
+
+2.2.9 L/U Curve（L/U曲线）
+~~~~~~~~~~~~~~~~~~
+    L/U曲线绘制对话框界面如下：
+    
+    .. image:: ../images/menu_image/Plot/dialog_LUCurve.png
+        :align: center
+    
+    使用步骤：
+    
+    STEP 1：选择或输入 `Trade-off数据格式（后缀为.toc）暂缺 <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#gnss>`_ 路径 
+ 
+    STEP 2：点击Plot（绘制）按钮，即可在新弹出的图表窗口中看到效果
+    
+    结果暂缺
+
 
 (#) GNSS Time Series
 
