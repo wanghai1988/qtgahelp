@@ -78,7 +78,8 @@ File菜单下包括下列功能：
 
 Plot菜单包括下列功能：
 
-(1) Focal Mechanism（震源机制）
+2.2.1 Focal Mechanism（震源机制）
+~~~~~~~~~~~~~~~~~~
 
     震源机制对话框界面如下：
     
@@ -99,7 +100,8 @@ Plot菜单包括下列功能：
         :align: center
 
 
-(2) GNSS Displacement（GNSS形变场）
+2.2.2 GNSS Displacement（GNSS形变场）
+~~~~~~~~~~~~~~~~~~
 
     GNSS形变场对话框界面如下：
     
@@ -237,9 +239,9 @@ Plot菜单包括下列功能：
     .. image:: ../images/menu_image/Plot/reault_GNSSVelocityProfile.png
         :align: center
 
+（7）Leveling Displacement Profile（水准形变场剖面分析）
 
-
-
+（7）Leveling Displacement Profile（水准形变场剖面分析）
 
 (#) GNSS Time Series
 
