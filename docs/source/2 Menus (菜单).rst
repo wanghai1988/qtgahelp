@@ -299,14 +299,14 @@ Plot菜单包括下列功能：
      .. image:: ../images/menu_image/Plot/dialog_GNSSTimeSeries.png
         :align: center   
 
-    使用步骤：
+    **使用步骤：**
 
-        STEP 1：选择或输入 `TMS数据（后缀为.tms）暂缺 <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#gnss>`_ 路径 
+    STEP 1：选择或输入 `TMS数据（后缀为.tms）暂缺 <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#gnss>`_ 路径 
  
-        STEP 2：设置Unit（单位）、Start Date（起始日期）、Axis Unit（坐标轴单位）
-            * Unit（单位），可根据数据自行设置，默认为mm
-            * Start Date（起始日期），该参数由系统从数据自动读取，用户也可手动设置
-            * Axis Unit（坐标轴单位），可设置为Day或Year，默认为Day
+    STEP 2：设置Unit（单位）、Start Date（起始日期）、Axis Unit（坐标轴单位）
+        * Unit（单位），可根据数据自行设置，默认为mm
+        * Start Date（起始日期），该参数由系统从数据自动读取，用户也可手动设置
+        * Axis Unit（坐标轴单位），可设置为Day或Year，默认为Day
     
         STEP 3：点击Plot（绘制）按钮，即可在新弹出的图表窗口中看到效果
 
