@@ -327,7 +327,7 @@ Plot菜单包括下列功能：
  
     STEP 2：设置设置Reference Ellipsoid（参考椭球）、L0（大地原点经度）、Unit（单位）
       * Reference Ellipsoid（参考椭球），可设置为WGS-84（默认）、Krassovsky Ellipsoid、International Ellipsoid 1975椭球
-      * L0（大地原点经度），设置范围为0.00-99.99(此处可能有问题)
+      * L0（大地原点经度），设置范围为0.00-360（此处可能有问题）
       * Unit（单位），可自行设置，默认为KPa/yr
     
     STEP 3：点击Plot（绘制）按钮，即可在新弹出的图表窗口中看到效果（暂缺）
