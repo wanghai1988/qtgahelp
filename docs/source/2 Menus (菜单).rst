@@ -257,7 +257,7 @@ Plot菜单包括下列功能：
  
     STEP 2：设置Reference Ellipsoid（参考椭球）、L0（大地原点经度）、Azimuth（方位角）、Original E（初值东方向）、Original N（初始北方向）、Unit（单位）、Component（构成方向）
       * Reference Ellipsoid（参考椭球），可设置为WGS-84（默认）、Krassovsky Ellipsoid、International Ellipsoid 1975椭球
-      * L0（大地原点经度），设置范围为0.00-99.99(此处可能有问题)
+      * L0（大地原点经度），设置范围为0.00-99.99，默认为87.04(此处可能有问题)
       * Azimuth（方位角）,设置范围为0.00-99.99
       * Original E（初值东方向）,设置范围为0.00-360.00
       * Original N（初始北方向）,设置范围为0.00-360.00
@@ -327,7 +327,7 @@ Plot菜单包括下列功能：
  
     STEP 2：设置设置Reference Ellipsoid（参考椭球）、L0（大地原点经度）、Unit（单位）
       * Reference Ellipsoid（参考椭球），可设置为WGS-84（默认）、Krassovsky Ellipsoid、International Ellipsoid 1975椭球
-      * L0（大地原点经度），设置范围为0.00-360（此处可能有问题）
+      * L0（大地原点经度），设置范围为0.00-360，默认为87.04（此处可能有问题）
       * Unit（单位），可自行设置，默认为KPa/yr
     
     STEP 3：点击Plot（绘制）按钮，即可在新弹出的图表窗口中看到效果（暂缺）
