@@ -11,39 +11,68 @@
 
 File菜单下包括下列功能：
 
-(1) Open Map（打开地图工程），该菜单会打开文件打开对话框，用来打开已经存在的地图工程（后缀为.qgs/.qgz/.QGS/.QGZ），界面如下：
+2.1.1 Open Map（打开地图工程）
+~~~~~~~~~~~~~~~~~~
+
+该菜单会打开文件打开对话框，用来打开已经存在的地图工程（后缀为.qgs/.qgz/.QGS/.QGZ），界面如下：
 
     .. image:: ../images/menu_image/File/dialog_openproject.png
         :align: center
     
-(2) Save（保存），该菜单用于保存当前地图工程（后缀为.qgs/.qgz/.QGS/.QGZ），如果当前为新建地图工程时，会弹出地图工程保存对话框，界面如下：
+2.1.2 Save（保存）
+~~~~~~~~~~~~~~~~~~
+
+该菜单用于保存当前地图工程（后缀为.qgs/.qgz/.QGS/.QGZ），如果当前为新建地图工程时，会弹出地图工程保存对话框，界面如下：
 
     .. image:: ../images/menu_image/File/dialog_saveproject.png
         :align: center
         
-(3) Save as（另存为），该菜单用于另存当前工程为新的地图工程（后缀为.qgs/.qgz/.QGS/.QGZ），点击后会弹出地图工程另存对话框，界面如下：
+2.1.3 Save as（另存为）
+~~~~~~~~~~~~~~~~~~
+
+该菜单用于另存当前工程为新的地图工程（后缀为.qgs/.qgz/.QGS/.QGZ），点击后会弹出地图工程另存对话框，界面如下：
 
     .. image:: ../images/menu_image/File/dialog_saveas.png
         :align: center
 
-(4) Close Map（关闭地图工程），该菜单用于关闭当前地图工程
-(5) Open Recent（最近工程），该菜单用于显示用户最近打开过的地图工程列表
-(6) Add Raster Layer（添加栅格图层），该菜单用于添加栅格类型地图数据（后缀为.tif/.img/.grd等），点击后会弹出添加栅格数据对话框，界面如下：
+2.1.4 Close Map（关闭地图工程）
+~~~~~~~~~~~~~~~~~~
+
+该菜单用于关闭当前地图工程
+
+2.1.5 Open Recent（最近工程）
+~~~~~~~~~~~~~~~~~~
+
+该菜单用于显示用户最近打开过的地图工程列表
+
+2.1.6 Add Raster Layer（添加栅格图层）
+~~~~~~~~~~~~~~~~~~
+
+该菜单用于添加栅格类型地图数据（后缀为.tif/.img/.grd等），点击后会弹出添加栅格数据对话框，界面如下：
 
     .. image:: ../images/menu_image/File/dailog_addRasterLayer.png
         :align: center
         
-(7) Add Vector Layer（添加矢量图层），该菜单用于添加矢量类型地图数据（后缀为.shp/.geojson/.kml等），点击后会弹出添加矢量数据对话框，界面如下：
+2.1.7 Add Vector Layer（添加矢量图层）
+~~~~~~~~~~~~~~~~~~
+
+该菜单用于添加矢量类型地图数据（后缀为.shp/.geojson/.kml等），点击后会弹出添加矢量数据对话框，界面如下：
 
     .. image:: ../images/menu_image/File/dailog_addVectorLayer.png
         :align: center
         
-(8) Add Online Map（添加在线地图），该菜单用于添加在线地图服务图层如天地图、谷歌地图、ERSI等在线地图服务，界面如下：
+2.1.8 Add Online Map（添加在线地图）
+~~~~~~~~~~~~~~~~~~
+
+该菜单用于添加在线地图服务图层如天地图、谷歌地图、ERSI等在线地图服务，界面如下：
 
     .. image:: ../images/menu_image/File/menu_onlineMap.png
         :align: center
         
-(9) Export（输出），该菜单用于输出当前地图视图，包含2个子菜单，界面如下：
+2.1.9 Export（输出）
+~~~~~~~~~~~~~~~~~~
+
+该菜单用于输出当前地图视图，包含2个子菜单，界面如下：
 
     .. image:: ../images/menu_image/File/menu_export.png
         :align: center
@@ -66,8 +95,8 @@ File菜单下包括下列功能：
   B. 点击Export Layout View（输出布局视图），会弹出布局操作窗口，用于编辑并保存通过布局视图美化后的地图布局效果。
     
     
-(10) Exit（退出）
-
+2.1.10 Exit（退出）
+~~~~~~~~~~~~~~~~~~
 
 2.2 Plot (绘制)
 ----------------
@@ -125,8 +154,8 @@ Plot菜单包括下列功能：
         :align: center
 
 
-(3) Leveling Displacement（水准形变场）
-
+2.2.3 Leveling Displacement（水准形变场）
+~~~~~~~~~~~~~~~~~~
     水准形变场对话框界面如下：
     
     .. image:: ../images/menu_image/Plot/dialog_LevelingDisplacement.png
@@ -148,8 +177,8 @@ Plot菜单包括下列功能：
         :align: center
 
 
-(4) Ratation Rate（旋转率场）
-
+2.2.4 Ratation Rate（旋转率场）
+~~~~~~~~~~~~~~~~~~
     旋转率场对话框界面如下：
     
     .. image:: ../images/menu_image/Plot/dailog_RotationRate.png
@@ -172,7 +201,8 @@ Plot菜单包括下列功能：
         :align: center
 
 
-(5) Principal Strain Rate（主应变率）
+2.2.5 Principal Strain Rate（主应变率）
+~~~~~~~~~~~~~~~~~~
     主应变率对话框界面如下：
     
     .. image:: ../images/menu_image/Plot/dialog_PrincipalStrainRate.png
@@ -191,7 +221,8 @@ Plot菜单包括下列功能：
     .. image:: ../images/menu_image/Plot/result_PrincipalStrainRate.png
         :align: center
 
-(6) Raster Data Profile（栅格数据剖面分析）
+2.2.6 Raster Data Profile（栅格数据剖面分析）
+~~~~~~~~~~~~~~~~~~
     点击 Raster Data Profile（栅格数据剖面分析）按钮后，主界面添加一个数据展示面板，左侧为剖面图，右侧为数据表格，效果如下：
     
     .. image:: ../images/menu_image/Plot/panel_RasterDataProfile.png
@@ -213,7 +244,8 @@ Plot菜单包括下列功能：
     .. image:: ../images/menu_image/Plot/reault_RasterDataProfile2.png
         :align: center
 
-（7）GNSS Velocity Profile（GNSS速度场剖面分析）
+2.2.7 GNSS Velocity Profile（GNSS速度场剖面分析）
+~~~~~~~~~~~~~~~~~~
     GNSS速度场剖面分析对话框界面如下：
     
     .. image:: ../images/menu_image/Plot/dialog_GNSSVelocityProfile.png
@@ -239,9 +271,8 @@ Plot菜单包括下列功能：
     .. image:: ../images/menu_image/Plot/reault_GNSSVelocityProfile.png
         :align: center
 
-（7）Leveling Displacement Profile（水准形变场剖面分析）
-
-（7）Leveling Displacement Profile（水准形变场剖面分析）
+（8）Leveling Displacement Profile（水准形变场剖面分析）
+~~~~~~~~~~~~~~~~~~
 
 (#) GNSS Time Series
 
