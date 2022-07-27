@@ -323,25 +323,29 @@ Plot菜单包括下列功能：
 
     **使用步骤：**
 
-    STEP 1：选择或输入 ` 断层应力数据（后缀为.cfsr或.cfst）暂缺 <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#gnss>`_ 路径 
+    STEP 1：选择或输入 `断层应力数据（后缀为.cfsr或.cfst）暂缺 <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#gnss>`_ 路径 
  
     STEP 2：设置设置Reference Ellipsoid（参考椭球）、L0（大地原点经度）、Unit（单位）
       * Reference Ellipsoid（参考椭球），可设置为WGS-84（默认）、Krassovsky Ellipsoid、International Ellipsoid 1975椭球
       * L0（大地原点经度），设置范围为0.00-99.99(此处可能有问题)
       * Unit（单位），可自行设置，默认为KPa/yr
     
-    STEP 3：点击Plot（绘制）按钮，即可在新弹出的图表窗口中看到效果
+    STEP 3：点击Plot（绘制）按钮，即可在新弹出的图表窗口中看到效果（暂缺）
 
     .. image:: ../images/menu_image/Plot/result_StressChangeonFault.png
         :align: center
 
+2.2.12 Slip Distribution（滑动分布）
+~~~~~~~~~~~~~~~~~~
 
-(#) 
-(#) Coseismic Slip Distribution
-(#) Interseismic Coupling Model
-(#) CFS Change on Fault Plane
-(#) Depth Profile of EQs
-(#) Temporal Variation of EQs
+2.2.13 Interseismic Coupling Model（震间耦合模型）
+~~~~~~~~~~~~~~~~~~
+
+2.2.14 Depth Profile of Earthquakes（地震深度剖面）
+~~~~~~~~~~~~~~~~~~
+
+2.2.15 Temporal Variation of Earthquakes（地震时间变化）
+~~~~~~~~~~~~~~~~~~
 
 
 2.3 Tools (工具)
