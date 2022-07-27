@@ -190,6 +190,26 @@ Plot菜单包括下列功能：
         :align: center
 
 (6) Raster Data Profile（栅格数据剖面）
+    点击 Raster Data Profile（栅格数据剖面）按钮后，主界面添加一个数据展示面板，左侧为剖面图，右侧为数据表格，效果如下：
+    
+    .. image:: ../images/menu_image/Plot/panel_RasterDataProfile.png
+        :align: center
+    
+    使用步骤：
+    
+    STEP 1：通过File（文件）菜单的Add Raster Layer（添加栅格图层）按钮，添加栅格数据
+ 
+    STEP 2：在面板中Layer（图层）下拉列表中选择需要进行剖面分析的栅格图层
+    
+    STEP 3：点击下拉列表旁的分析按钮，此时鼠标会变为十字状，即可在地图视图中的栅格数据上绘制出剖面线（鼠标左键画线，右键结束），如图所示
+    .. image:: ../images/menu_image/Plot/reault_RasterDataProfile1.png
+        :align: center
+    
+    STEP 4：当剖面线绘制结束后，系统自动绘制出剖面图和对应数据列表。
+    
+    .. image:: ../images/menu_image/Plot/reault_RasterDataProfile2.png
+        :align: center
+
 
 (#) GNSS Time Series
 
