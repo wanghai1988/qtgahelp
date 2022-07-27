@@ -261,7 +261,7 @@ Plot菜单包括下列功能：
       * Azimuth（方位角）,设置范围为0.00-99.99
       * Original E（初值东方向）,设置范围为0.00-360.00
       * Original N（初始北方向）,设置范围为0.00-360.00
-      * Unit（单位）,可根据需要自行设置，默认为mm
+      * Unit（单位）,可根据数据自行设置，默认为mm
       * Component（构成方向）,可设置为parallel（横向）、vertical（竖向）
     
     STEP 3：点击Plot（绘制）按钮，即可在新弹出的图表窗口中看到效果
@@ -274,6 +274,7 @@ Plot菜单包括下列功能：
 2.2.8 Leveling Displacement Profile（水准形变场剖面分析）
 ~~~~~~~~~~~~~~~~~~
 
+    暂缺
 
 2.2.9 L/U Curve（L/U曲线）
 ~~~~~~~~~~~~~~~~~~
@@ -291,7 +292,27 @@ Plot菜单包括下列功能：
     结果暂缺
 
 
-(#) GNSS Time Series
+2.2.10 GNSS Time Series（GNSS时间序列）
+~~~~~~~~~~~~~~~~~~
+    GNSS时间序列对话框界面如下：
+    
+     .. image:: ../images/menu_image/Plot/dialog_GNSSTimeSeries.png
+        :align: center   
+
+    使用步骤：
+    
+        STEP 1：选择或输入 `TMS数据（后缀为.tms）暂缺 <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#gnss>`_ 路径 
+ 
+        STEP 2：设置Unit（单位）、Start Date（起始日期）、Axis Unit（坐标轴单位）
+            * Unit（单位），可根据数据自行设置，默认为mm
+            * Start Date（起始日期），该参数由系统从数据自动读取，用户也可手动设置
+            * Axis Unit（坐标轴单位），可设置为Day或Year，默认为Day
+    
+        STEP 3：点击Plot（绘制）按钮，即可在新弹出的图表窗口中看到效果
+
+    .. image:: ../images/menu_image/Plot/result_GNSSTimeSeries.png
+        :align: center
+
 
 (#) Leveling Displacement Profile
 (#) Raster Data Profile
