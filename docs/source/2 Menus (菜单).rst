@@ -299,8 +299,9 @@ Plot菜单包括下列功能：
      .. image:: ../images/menu_image/Plot/dialog_GNSSTimeSeries.png
         :align: center   
 
-    使用步骤：
-    
+使用步骤：
+============
+
         STEP 1：选择或输入 `TMS数据（后缀为.tms）暂缺 <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#gnss>`_ 路径 
  
         STEP 2：设置Unit（单位）、Start Date（起始日期）、Axis Unit（坐标轴单位）
@@ -314,14 +315,11 @@ Plot菜单包括下列功能：
         :align: center
 
 
-(#) Leveling Displacement Profile
-(#) Raster Data Profile
-(#) GNSS Velocity Profile
+
 (#) 
 (#) Coseismic Slip Distribution
 (#) Interseismic Coupling Model
 (#) CFS Change on Fault Plane
-(#) L/U Curve
 (#) Depth Profile of EQs
 (#) Temporal Variation of EQs
 
