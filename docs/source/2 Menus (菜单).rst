@@ -230,9 +230,9 @@ Plot菜单包括下列功能：
       * Unit（单位）,可根据需要自行设置，默认为mm
       * Component（构成方向）,可设置为parallel（横向）、vertical（竖向）
     
-    STEP 3：点击Profile（剖面分析）按钮，即可在新弹出的图表窗口中看到效果
+    STEP 3：点击Plot（绘制）按钮，即可在新弹出的图表窗口中看到效果
     
-    STEP 4：点击Export（输出）按钮，设置输出文件路径（文件格式为gvp），即可输出结果文件。
+    STEP 4：点击Export（输出）按钮，设置输出文件路径后，即可输出结果文件（文件格式为.gvp）。
     
     .. image:: ../images/menu_image/Plot/reault_GNSSVelocityProfile.png
         :align: center
