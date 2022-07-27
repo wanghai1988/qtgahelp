@@ -201,11 +201,12 @@ Plot菜单包括下列功能：
  
     STEP 2：在面板中Layer（图层）下拉列表中选择需要进行剖面分析的栅格图层
     
-    STEP 3：点击下拉列表旁的分析按钮，此时鼠标会变为十字状，即可在地图视图中的栅格数据上绘制出剖面线（鼠标左键画线，右键结束），如图所示
+    STEP 3：点击下拉列表旁的分析按钮，此时鼠标会变为十字状，即可在地图视图中的栅格数据上绘制出剖面线（鼠标左键画线，右键结束），如图所示：
+    
     .. image:: ../images/menu_image/Plot/reault_RasterDataProfile1.png
         :align: center
     
-    STEP 4：当剖面线绘制结束后，系统自动绘制出剖面图和对应数据列表。
+    STEP 4：当剖面线绘制结束后，系统自动绘制出剖面图和对应数据列表，如图所示：
     
     .. image:: ../images/menu_image/Plot/reault_RasterDataProfile2.png
         :align: center
