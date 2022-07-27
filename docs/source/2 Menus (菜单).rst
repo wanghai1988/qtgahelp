@@ -112,8 +112,8 @@ Plot菜单包括下列功能：
  
     STEP 2：设置Draw Error Ellipse（绘制误差椭圆）、Ellipse Scale（椭圆比例）和Arrow Scale（箭头比例）
       * Draw Error Ellipse（绘制误差椭圆）用于设置是否绘制误差椭圆
-      * Ellipse Scale（椭圆比例）用于设置绘制误差椭圆的比例，设置范围为0.01-99（注：该选项仅在Draw Error Ellipse勾选时起效）
-      * Arrow Scale（箭头比例）其中Style用于设置绘制箭头的比例，设置范围为0.01-99
+      * Ellipse Scale（椭圆比例）用于设置绘制误差椭圆的比例，设置范围为0.01-99.99（注：该选项仅在Draw Error Ellipse勾选时起效）
+      * Arrow Scale（箭头比例）其中Style用于设置绘制箭头的比例，设置范围为0.01-99.99
     
     STEP 3：点击Preview（预览）按钮，即可在地图界面查看显示效果
     
@@ -136,7 +136,7 @@ Plot菜单包括下列功能：
  
     STEP 2：设置Draw Error Circle（绘制误差圆）和Scale（比例）
       * 勾选Draw Error Circle（绘制误差圆）后可绘制绘制误差圆
-      * Scale用于设置绘制比例，设置范围为0.01-99
+      * Scale用于设置绘制比例，设置范围为0.01-99.99
     
     STEP 3：点击Preview（预览）按钮，即可在地图界面查看显示效果
     
@@ -158,9 +158,9 @@ Plot菜单包括下列功能：
     STEP 1：选择或输入 `旋转率场数据（后缀为.ror） <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#id5>`_ 路径 
  
     STEP 2：设置Angle Scale（角度比例）、Radius（半径）、Angle Unit（角度单位）
-      * Angle Scale（角度比例），设置范围为0.01-99
-      * Radius（半径），设置范围为0.01-99
-      * Angle Unit（角度单位），设置范围为0.01-99
+      * Angle Scale（角度比例），设置范围为0.01-99.99
+      * Radius（半径），设置范围为0.01-99.99
+      * Angle Unit（角度单位），设置范围为0.01-99.99
     
     STEP 3：点击Preview（预览）按钮，即可在地图界面查看显示效果
     
@@ -180,7 +180,7 @@ Plot菜单包括下列功能：
     
     STEP 1：选择或输入 `主应变率格式（后缀为.psr） <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#id4>`_ 路径 
  
-    STEP 2：设置Scale（比例），用于设置绘制比例，设置范围为0.01-99
+    STEP 2：设置Scale（比例），用于设置绘制比例，设置范围为0.01-99.99
     
     STEP 3：点击Preview（预览）按钮，即可在地图界面查看显示效果
     
@@ -189,8 +189,8 @@ Plot菜单包括下列功能：
     .. image:: ../images/menu_image/Plot/result_PrincipalStrainRate.png
         :align: center
 
-(6) Raster Data Profile（栅格数据剖面）
-    点击 Raster Data Profile（栅格数据剖面）按钮后，主界面添加一个数据展示面板，左侧为剖面图，右侧为数据表格，效果如下：
+(6) Raster Data Profile（栅格数据剖面分析）
+    点击 Raster Data Profile（栅格数据剖面分析）按钮后，主界面添加一个数据展示面板，左侧为剖面图，右侧为数据表格，效果如下：
     
     .. image:: ../images/menu_image/Plot/panel_RasterDataProfile.png
         :align: center
@@ -210,6 +210,35 @@ Plot菜单包括下列功能：
     
     .. image:: ../images/menu_image/Plot/reault_RasterDataProfile2.png
         :align: center
+
+（7）GNSS Velocity Profile（GNSS速度场剖面分析）
+    GNSS速度场剖面分析对话框界面如下：
+    
+    .. image:: ../images/menu_image/Plot/dialog_GNSSVelocityProfile.png
+        :align: center
+    
+    使用步骤：
+    
+    STEP 1：选择或输入 `GNSS速度场格式（后缀为.gps） <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#gnss>`_ 路径 
+ 
+    STEP 2：设置Reference Ellipsoid（参考椭球）、L0、Azimuth（方位角）、Original E（初值东方向）、Original N（初始北方向）、Unit（单位）、Component（构成方向）
+      * Reference Ellipsoid（参考椭球），可设置为WGS-84（默认）、Krassovsky Ellipsoid、International Ellipsoid 1975椭球
+      * L0，设置范围为0.00-99.99
+      * Azimuth（方位角）,设置范围为0.00-99.99
+      * Original E（初值东方向）,设置范围为0.00-360.00
+      * Original N（初始北方向）,设置范围为0.00-360.00
+      * Unit（单位）,可根据需要自行设置，默认为mm
+      * Component（构成方向）,可设置为parallel（横向）、vertical（竖向）
+    
+    STEP 3：点击Profile（剖面分析）按钮，即可在新弹出的图表窗口中看到效果
+    
+    STEP 4：点击Export（输出）按钮，设置输出文件路径（文件格式为gvp），即可输出结果文件。
+    
+    .. image:: ../images/menu_image/Plot/reault_GNSSVelocityProfile.png
+        :align: center
+
+
+
 
 
 (#) GNSS Time Series
