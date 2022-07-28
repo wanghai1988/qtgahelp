@@ -363,12 +363,24 @@ Plot菜单包括下列功能：
 2.2.13 Interseismic Coupling Model（震间耦合模型）
 ~~~~~~~~~~~~~~~~~~
 
+    暂缺
+
 2.2.14 Depth Profile of Earthquakes（地震深度剖面）
 ~~~~~~~~~~~~~~~~~~
+
+    地震深度剖面对话框界面如下：
+    
+     .. image:: ../images/menu_image/Plot/dailog_SlipDistribution.png
+        :align: center   
+
 
 2.2.15 Temporal Variation of Earthquakes（地震时间变化）
 ~~~~~~~~~~~~~~~~~~
 
+    地震时间变化对话框界面如下：
+    
+     .. image:: ../images/menu_image/Plot/dailog_SlipDistribution.png
+        :align: center   
 
 2.3 Tools (工具)
 -----------------
