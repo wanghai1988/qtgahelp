@@ -338,6 +338,28 @@ Plot菜单包括下列功能：
 2.2.12 Slip Distribution（滑动分布）
 ~~~~~~~~~~~~~~~~~~
 
+    滑动分布对话框界面如下：
+    
+     .. image:: ../images/menu_image/Plot/dailog_SlipDistribution.png
+        :align: center   
+
+    **使用步骤：**
+
+    STEP 1：选择或输入 `位错模型数据格式（后缀为.rec或.tri）暂缺 <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#gnss>`_ 路径 
+ 
+    STEP 2：设置设置Reference Ellipsoid（参考椭球）、L0（研究区中央经线）、Scale（比例）、Draw Allow（绘制箭头）
+      * Reference Ellipsoid（参考椭球），可设置为WGS-84（默认）、Krassovsky Ellipsoid、International Ellipsoid 1975椭球
+      * L0（研究区中央经线），设置范围为0.00-360
+      * Scale用于设置绘制比例，设置范围为0.01-99.99
+      * Draw Allow（绘制箭头）用于设置是否绘制箭头
+    
+    STEP 3：点击Drwa（绘制）按钮，即可在新弹出的图表窗口中看到效果
+
+    .. image:: ../images/menu_image/Plot/result_SlipDistribution.png
+        :align: center
+
+
+
 2.2.13 Interseismic Coupling Model（震间耦合模型）
 ~~~~~~~~~~~~~~~~~~
 
