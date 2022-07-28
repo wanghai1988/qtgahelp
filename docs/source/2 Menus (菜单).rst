@@ -255,9 +255,9 @@ Plot菜单包括下列功能：
     
     STEP 1：选择或输入 `GNSS速度场格式（后缀为.gps） <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#gnss>`_ 路径 
  
-    STEP 2：设置Reference Ellipsoid（参考椭球）、L0（大地原点经度）、Azimuth（方位角）、Original E（初值东方向）、Original N（初始北方向）、Unit（单位）、Component（构成方向）
+    STEP 2：设置Reference Ellipsoid（参考椭球）、L0（研究区中央经线）、Azimuth（方位角）、Original E（初值东方向）、Original N（初始北方向）、Unit（单位）、Component（构成方向）
       * Reference Ellipsoid（参考椭球），可设置为WGS-84（默认）、Krassovsky Ellipsoid、International Ellipsoid 1975椭球
-      * L0（大地原点经度），设置范围为0.00-99.99，默认为87.04(此处可能有问题)
+      * L0（研究区中央经线），设置范围为0.00-360
       * Azimuth（方位角）,设置范围为0.00-99.99
       * Original E（初值东方向）,设置范围为0.00-360.00
       * Original N（初始北方向）,设置范围为0.00-360.00
@@ -325,9 +325,9 @@ Plot菜单包括下列功能：
 
     STEP 1：选择或输入 `断层应力数据（后缀为.cfsr或.cfst）暂缺 <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#gnss>`_ 路径 
  
-    STEP 2：设置设置Reference Ellipsoid（参考椭球）、L0（大地原点经度）、Unit（单位）
+    STEP 2：设置设置Reference Ellipsoid（参考椭球）、L0（研究区中央经线）、Unit（单位）
       * Reference Ellipsoid（参考椭球），可设置为WGS-84（默认）、Krassovsky Ellipsoid、International Ellipsoid 1975椭球
-      * L0（大地原点经度），设置范围为0.00-360，默认为87.04（此处可能有问题）
+      * L0（研究区中央经线），设置范围为0.00-360
       * Unit（单位），可自行设置，默认为KPa/yr
     
     STEP 3：点击Plot（绘制）按钮，即可在新弹出的图表窗口中看到效果（暂缺）
