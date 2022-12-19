@@ -6,7 +6,7 @@
     
 2.1 File (文件)
 ---------------
-.. image:: ../images/menu_image/File/menu_file.png
+.. image:: ../images/menu_image/File/menu_file_new.png
     :align: center  
 
 File菜单下包括下列功能：
