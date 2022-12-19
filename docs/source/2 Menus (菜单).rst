@@ -94,7 +94,7 @@ File菜单下包括下列功能：
         
   2. 点击Export Layout View（输出布局视图），会弹出布局操作窗口，用于编辑并保存通过布局视图美化后的地图布局效果。
   
-    .. image:: ../images/menu_image/File/dailog_setLayoutView.png
+    .. image:: ../images/menu_image/File/dialog_setLayoutView.png
         :align: center
     
     
