@@ -66,7 +66,7 @@ File菜单下包括下列功能：
 
 该菜单用于添加在线地图服务图层如天地图、谷歌地图、ERSI等在线地图服务，界面如下：
 
-    .. image:: ../images/menu_image/File/menu_onlineMap.png
+    .. image:: ../images/menu_image/File/menu_onlineMap_new.png
         :align: center
         
 2.1.9 Export（输出）
