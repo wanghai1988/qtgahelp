@@ -82,6 +82,7 @@ File菜单下包括下列功能：
     .. image:: ../images/menu_image/File/dailog_exportMapView.png
         :align: center
     参数说明：
+    
     * Extent（范围）通过当前地图视图自动进行确定，用户也可以通过手动输入、Calculate from Layer（由图层计算）、Map Canvas Extent（地图画布范围）或Draw on Canvas（手动绘制）自行确定输出的视图范围。
         
     * Scale（比例尺）通常由视图范围自动确定，也可以通过手动输入进行调整。
@@ -97,6 +98,18 @@ File菜单下包括下列功能：
     .. image:: ../images/menu_image/File/dialog_setLayoutView.png
         :align: center
     
+    按钮说明：
+
+    * New Layout（新建布局）按钮 |New Layout| 点击该按钮后，会弹出New Print Layout（新建打印布局）对话框，要求输入新的唯一布局标题，点击确定后即可生成新布局。
+    * Delete Layout（删除布局）按钮 |Delete Layout| 点击该按钮后，会删除当前布局。
+
+    
+    
+    
+    .. |New Layout|       image:: ../images/menu_image/File/btn_newLayout.png
+    .. |Delete Layout|    image:: ../images/menu_image/File/btn_deleteLayout.png
+
+
     
 2.1.10 Exit（退出）
 ~~~~~~~~~~~~~~~~~~
