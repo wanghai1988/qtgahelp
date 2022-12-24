@@ -98,14 +98,15 @@ File菜单下包括下列功能：
     .. image:: ../images/menu_image/File/dialog_setLayoutView.png
         :align: center
     
-    按钮说明：
+    功能说明：
 
     * Layout List（布局列表）下拉列表 |Layout List| 该下拉列表用于显示当前布局视图，点击该下拉列表后，可切换所需的布局。
     * New Layout（新建布局）按钮 |New Layout| 点击该按钮后，会弹出New Print Layout（新建打印布局）对话框，要求输入新的唯一布局标题，点击确定后即可生成新布局。
     * Delete Layout（删除布局）按钮 |Delete Layout| 点击该按钮后，可删除当前布局。
     * Save Layout（保存布局）按钮 |Save Layout| 点击该按钮后，可保存布局的当前状态。
     * Add Map（添加地图）按钮 |Add Map| 点击该按钮后，可在当前布局中添加一个新的地图框。
-
+    * Add Legend（添加图例）按钮 |Add Legend| 点击该按钮后，可在当前布局中添加一个新的图例。
+    * Add GNSS Legend（添加GNSS图例）按钮 |Add GNSS Legend| 点击该按钮后，可在当前布局中添加一个新的GNSS图例。
     
     
     .. |Layout List|      image:: ../images/menu_image/File/select_Layout.png
@@ -113,6 +114,8 @@ File菜单下包括下列功能：
     .. |Delete Layout|    image:: ../images/menu_image/File/btn_deleteLayout.png
     .. |Save Layout|      image:: ../images/menu_image/File/btn_saveLayout.png
     .. |Add Map|          image:: ../images/menu_image/File/btn_addMap.png
+    .. |Add Legend|       image:: ../images/menu_image/File/btn_addLegend.png
+    .. |Add GNSS Legend|  image:: ../images/menu_image/File/btn_addGNSSLegend.png
 
     
 2.1.10 Exit（退出）
