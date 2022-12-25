@@ -113,6 +113,13 @@ File菜单下包括下列功能：
     * |Add Color Ramp| Add Color Ramp（添加色带）按钮：点击该按钮后，可在当前布局中添加一个新的色带。
     * |Add Label| Add Label（添加标签）按钮：点击该按钮后，可在当前布局中添加一个新的文字标签。
     * |Add Scale Bar| Add Scale Bar（添加比例尺）按钮：点击该按钮后，可在当前布局中添加一个新的比例尺。
+    * |Pan| Pan（平移）按钮：点击该按钮后，可通过鼠标平移当前布局视图。
+    * |Zoom In| Zoom In（放大）按钮：点击该按钮后，可放大当前布局视图。
+    * |Zoom Out| Zoom Out（缩小）按钮：点击该按钮后，可缩小当前布局视图。
+    * |Zoom| Zoom（缩放）按钮：点击该按钮后，可通过鼠标控制缩放当前布局视图。
+    * |Zoom Actual|
+    * |Zoom All|
+    
     
     .. |Layout List|      image:: ../images/menu_image/File/select_Layout.png
     .. |New Layout|       image:: ../images/menu_image/File/btn_newLayout.png
@@ -127,6 +134,11 @@ File菜单下包括下列功能：
     .. |Add Color Ramp|   image:: ../images/menu_image/File/btn_addColorRamp.png
     .. |Add Label|        image:: ../images/menu_image/File/btn_addLabel.png
     .. |Add Scale Bar|    image:: ../images/menu_image/File/btn_addScaleBar.png
+    .. |Pan|              image:: ../images/menu_image/File/btn_pan.png
+    .. |Zoom In|          image:: ../images/menu_image/File/btn_zoomIn.png
+    .. |Zoom Out|         image:: ../images/menu_image/File/btn_zoomOut.png
+    .. |Zoom|             image:: ../images/menu_image/File/btn_zoom.png
+    
     
 2.1.10 Exit（退出）
 ~~~~~~~~~~~~~~~~~~
