@@ -110,6 +110,9 @@ File菜单下包括下列功能：
     * |Add Lev Legend| Add Lev Legend（添加水准图例）按钮：点击该按钮后，可在当前布局中添加一个新的水准图例。
     * |Add Rotation Rate Legend| Add Rotation Rate Legend（添加旋转率图例）按钮：点击该按钮后，可在当前布局中添加一个新的旋转率图例。
     * |Add Principal Strain Rate Legend| Add Principal Strain Rate Legend（添加主应变率图例）按钮：点击该按钮后，可在当前布局中添加一个新的主应变率图例。
+    * |Add Color Ramp| Add Color Ramp（添加色带）按钮：点击该按钮后，可在当前布局中添加一个新的色带。
+    * |Add Label| Add Label（添加标签）按钮：点击该按钮后，可在当前布局中添加一个新的文字标签。
+    * |Add Scale Bar| Add Scale Bar（添加比例尺）按钮：点击该按钮后，可在当前布局中添加一个新的比例尺。
     
     .. |Layout List|      image:: ../images/menu_image/File/select_Layout.png
     .. |New Layout|       image:: ../images/menu_image/File/btn_newLayout.png
@@ -121,6 +124,9 @@ File菜单下包括下列功能：
     .. |Add Lev Legend|   image:: ../images/menu_image/File/btn_addLevLegend.png
     .. |Add Rotation Rate Legend|   image:: ../images/menu_image/File/btn_addRotationRateLegend.png
     .. |Add Principal Strain Rate Legend|   image:: ../images/menu_image/File/btn_addPrincipalStrainLegend.png
+    .. |Add Color Ramp|   image:: ../images/menu_image/File/btn_addColorRamp.png
+    .. |Add Label|        image:: ../images/menu_image/File/btn_addLabel.png
+    .. |Add Scale Bar|    image:: ../images/menu_image/File/btn_addScaleBar.png
     
 2.1.10 Exit（退出）
 ~~~~~~~~~~~~~~~~~~
