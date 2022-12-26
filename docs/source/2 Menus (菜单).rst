@@ -119,6 +119,7 @@ File菜单下包括下列功能：
     * |Zoom| Zoom（缩放）按钮：点击该按钮后，可通过鼠标控制缩放当前布局视图。
     * |Zoom Actual| Zoom Actual（缩放实际）按钮：点击该按钮后，可缩放当前布局视图到实际位置。
     * |Zoom All| Zoom All（缩放全部）按钮：点击该按钮后，可缩放当前布局视图到包含全部内容。
+    * |Refresh| Refresh（刷新）按钮：点击该按钮后，可刷新当前布局视图。
     
     
     .. |Layout List|      image:: ../images/menu_image/File/select_Layout.png
@@ -140,7 +141,7 @@ File菜单下包括下列功能：
     .. |Zoom|             image:: ../images/menu_image/File/btn_zoom.png
     .. |Zoom Actual|      image:: ../images/menu_image/File/btn_zoomActual.png
     .. |Zoom All|         image:: ../images/menu_image/File/btn_zoomAll.png
-    
+    .. |Refresh|          image:: ../images/menu_image/File/btn_refresh.png
     
 2.1.10 Exit（退出）
 ~~~~~~~~~~~~~~~~~~
