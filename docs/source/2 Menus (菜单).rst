@@ -117,8 +117,8 @@ File菜单下包括下列功能：
     * |Zoom In| Zoom In（放大）按钮：点击该按钮后，可放大当前布局视图。
     * |Zoom Out| Zoom Out（缩小）按钮：点击该按钮后，可缩小当前布局视图。
     * |Zoom| Zoom（缩放）按钮：点击该按钮后，可通过鼠标控制缩放当前布局视图。
-    * |Zoom Actual|
-    * |Zoom All|
+    * |Zoom Actual| Zoom Actual（缩放实际）按钮：点击该按钮后，可缩放当前布局视图到实际位置。
+    * |Zoom All| Zoom All（缩放全部）按钮：点击该按钮后，可缩放当前布局视图到包含全部内容。
     
     
     .. |Layout List|      image:: ../images/menu_image/File/select_Layout.png
@@ -138,6 +138,8 @@ File菜单下包括下列功能：
     .. |Zoom In|          image:: ../images/menu_image/File/btn_zoomIn.png
     .. |Zoom Out|         image:: ../images/menu_image/File/btn_zoomOut.png
     .. |Zoom|             image:: ../images/menu_image/File/btn_zoom.png
+    .. |Zoom Actual|      image:: ../images/menu_image/File/btn_zoomActual.png
+    .. |Zoom All|         image:: ../images/menu_image/File/btn_zoomAll.png
     
     
 2.1.10 Exit（退出）
