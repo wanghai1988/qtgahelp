@@ -100,48 +100,6 @@ File菜单下包括下列功能：
     
     功能说明：
 
-    * |Layout List| Layout List（布局列表）下拉列表：该下拉列表用于显示当前布局视图，点击该下拉列表后，可切换所需的布局。
-    * |New Layout| New Layout（新建布局）按钮：点击该按钮后，会弹出New Print Layout（新建打印布局）对话框，要求输入新的唯一布局标题，点击确定后即可生成新布局。
-    * |Delete Layout| Delete Layout（删除布局）按钮：点击该按钮后，可删除当前布局。
-    * |Save Layout| Save Layout（保存布局）按钮：点击该按钮后，可保存布局的当前状态。
-    * |Add Map| Add Map（添加地图）按钮：点击该按钮后，可在当前布局中添加一个新的地图框。
-    * |Add Legend| Add Legend（添加图例）按钮：点击该按钮后，可在当前布局中添加一个新的图例。
-    * |Add GNSS Legend| Add GNSS Legend（添加GNSS图例）按钮：点击该按钮后，可在当前布局中添加一个新的GNSS图例。
-    * |Add Lev Legend| Add Lev Legend（添加水准图例）按钮：点击该按钮后，可在当前布局中添加一个新的水准图例。
-    * |Add Rotation Rate Legend| Add Rotation Rate Legend（添加旋转率图例）按钮：点击该按钮后，可在当前布局中添加一个新的旋转率图例。
-    * |Add Principal Strain Rate Legend| Add Principal Strain Rate Legend（添加主应变率图例）按钮：点击该按钮后，可在当前布局中添加一个新的主应变率图例。
-    * |Add Color Ramp| Add Color Ramp（添加色带）按钮：点击该按钮后，可在当前布局中添加一个新的色带。
-    * |Add Label| Add Label（添加标签）按钮：点击该按钮后，可在当前布局中添加一个新的文字标签。
-    * |Add Scale Bar| Add Scale Bar（添加比例尺）按钮：点击该按钮后，可在当前布局中添加一个新的比例尺。
-    * |Pan| Pan（平移）按钮：点击该按钮后，可通过鼠标平移当前布局视图。
-    * |Zoom In| Zoom In（放大）按钮：点击该按钮后，可放大当前布局视图。
-    * |Zoom Out| Zoom Out（缩小）按钮：点击该按钮后，可缩小当前布局视图。
-    * |Zoom| Zoom（缩放）按钮：点击该按钮后，可通过鼠标控制缩放当前布局视图。
-    * |Zoom Actual| Zoom Actual（缩放实际）按钮：点击该按钮后，可缩放当前布局视图到实际位置。
-    * |Zoom All| Zoom All（缩放全部）按钮：点击该按钮后，可缩放当前布局视图到包含全部内容。
-    * |Refresh| Refresh（刷新）按钮：点击该按钮后，可刷新当前布局视图。
-    
-    
-    .. |Layout List|      image:: ../images/menu_image/File/select_Layout.png
-    .. |New Layout|       image:: ../images/menu_image/File/btn_newLayout.png
-    .. |Delete Layout|    image:: ../images/menu_image/File/btn_deleteLayout.png
-    .. |Save Layout|      image:: ../images/menu_image/File/btn_saveLayout.png
-    .. |Add Map|          image:: ../images/menu_image/File/btn_addMap.png
-    .. |Add Legend|       image:: ../images/menu_image/File/btn_addLegend.png
-    .. |Add GNSS Legend|  image:: ../images/menu_image/File/btn_addGNSSLegend.png
-    .. |Add Lev Legend|   image:: ../images/menu_image/File/btn_addLevLegend.png
-    .. |Add Rotation Rate Legend|   image:: ../images/menu_image/File/btn_addRotationRateLegend.png
-    .. |Add Principal Strain Rate Legend|   image:: ../images/menu_image/File/btn_addPrincipalStrainLegend.png
-    .. |Add Color Ramp|   image:: ../images/menu_image/File/btn_addColorRamp.png
-    .. |Add Label|        image:: ../images/menu_image/File/btn_addLabel.png
-    .. |Add Scale Bar|    image:: ../images/menu_image/File/btn_addScaleBar.png
-    .. |Pan|              image:: ../images/menu_image/File/btn_pan.png
-    .. |Zoom In|          image:: ../images/menu_image/File/btn_zoomIn.png
-    .. |Zoom Out|         image:: ../images/menu_image/File/btn_zoomOut.png
-    .. |Zoom|             image:: ../images/menu_image/File/btn_zoom.png
-    .. |Zoom Actual|      image:: ../images/menu_image/File/btn_zoomActual.png
-    .. |Zoom All|         image:: ../images/menu_image/File/btn_zoomAll.png
-    .. |Refresh|          image:: ../images/menu_image/File/btn_refresh.png
     
 2.1.10 Exit（退出）
 ~~~~~~~~~~~~~~~~~~
@@ -558,3 +516,57 @@ Evaluate菜单包括下列功能：
 (#) After shock Duration
 (#) Assess Earthquake OccurTime
 (#) Stress Disturb Time
+
+
+2.8 Cartography (制图)
+---------------
+.. image:: ../images/menu_image/File/dialog_setLayoutView.png
+    :align: center
+
+功能说明：
+
+    * |Layout List| Layout List（布局列表）下拉列表：该下拉列表用于显示当前布局视图，点击该下拉列表后，可切换所需的布局。
+    * |New Layout| New Layout（新建布局）按钮：点击该按钮后，会弹出New Print Layout（新建打印布局）对话框，要求输入新的唯一布局标题，点击确定后即可生成新布局。
+    * |Delete Layout| Delete Layout（删除布局）按钮：点击该按钮后，可删除当前布局。
+    * |Save Layout| Save Layout（保存布局）按钮：点击该按钮后，可保存布局的当前状态。
+    * |Add Map| Add Map（添加地图）按钮：点击该按钮后，可在当前布局中添加一个新的地图框。
+    * |Add Legend| Add Legend（添加图例）按钮：点击该按钮后，可在当前布局中添加一个新的图例。
+    * |Add GNSS Legend| Add GNSS Legend（添加GNSS图例）按钮：点击该按钮后，可在当前布局中添加一个新的GNSS图例。
+    * |Add Lev Legend| Add Lev Legend（添加水准图例）按钮：点击该按钮后，可在当前布局中添加一个新的水准图例。
+    * |Add Rotation Rate Legend| Add Rotation Rate Legend（添加旋转率图例）按钮：点击该按钮后，可在当前布局中添加一个新的旋转率图例。
+    * |Add Principal Strain Rate Legend| Add Principal Strain Rate Legend（添加主应变率图例）按钮：点击该按钮后，可在当前布局中添加一个新的主应变率图例。
+    * |Add Color Ramp| Add Color Ramp（添加色带）按钮：点击该按钮后，可在当前布局中添加一个新的色带。
+    * |Add Label| Add Label（添加标签）按钮：点击该按钮后，可在当前布局中添加一个新的文字标签。
+    * |Add Scale Bar| Add Scale Bar（添加比例尺）按钮：点击该按钮后，可在当前布局中添加一个新的比例尺。
+    * |Pan| Pan（平移）按钮：点击该按钮后，可通过鼠标平移当前布局视图。
+    * |Zoom In| Zoom In（放大）按钮：点击该按钮后，可放大当前布局视图。
+    * |Zoom Out| Zoom Out（缩小）按钮：点击该按钮后，可缩小当前布局视图。
+    * |Zoom| Zoom（缩放）按钮：点击该按钮后，可通过鼠标控制缩放当前布局视图。
+    * |Zoom Actual| Zoom Actual（缩放实际）按钮：点击该按钮后，可缩放当前布局视图到实际位置。
+    * |Zoom All| Zoom All（缩放全部）按钮：点击该按钮后，可缩放当前布局视图到包含全部内容。
+    * |Refresh| Refresh（刷新）按钮：点击该按钮后，可刷新当前布局视图。
+    
+    
+    .. |Layout List|      image:: ../images/menu_image/File/select_Layout.png
+    .. |New Layout|       image:: ../images/menu_image/File/btn_newLayout.png
+    .. |Delete Layout|    image:: ../images/menu_image/File/btn_deleteLayout.png
+    .. |Save Layout|      image:: ../images/menu_image/File/btn_saveLayout.png
+    .. |Add Map|          image:: ../images/menu_image/File/btn_addMap.png
+    .. |Add Legend|       image:: ../images/menu_image/File/btn_addLegend.png
+    .. |Add GNSS Legend|  image:: ../images/menu_image/File/btn_addGNSSLegend.png
+    .. |Add Lev Legend|   image:: ../images/menu_image/File/btn_addLevLegend.png
+    .. |Add Rotation Rate Legend|   image:: ../images/menu_image/File/btn_addRotationRateLegend.png
+    .. |Add Principal Strain Rate Legend|   image:: ../images/menu_image/File/btn_addPrincipalStrainLegend.png
+    .. |Add Color Ramp|   image:: ../images/menu_image/File/btn_addColorRamp.png
+    .. |Add Label|        image:: ../images/menu_image/File/btn_addLabel.png
+    .. |Add Scale Bar|    image:: ../images/menu_image/File/btn_addScaleBar.png
+    .. |Pan|              image:: ../images/menu_image/File/btn_pan.png
+    .. |Zoom In|          image:: ../images/menu_image/File/btn_zoomIn.png
+    .. |Zoom Out|         image:: ../images/menu_image/File/btn_zoomOut.png
+    .. |Zoom|             image:: ../images/menu_image/File/btn_zoom.png
+    .. |Zoom Actual|      image:: ../images/menu_image/File/btn_zoomActual.png
+    .. |Zoom All|         image:: ../images/menu_image/File/btn_zoomAll.png
+    .. |Refresh|          image:: ../images/menu_image/File/btn_refresh.png
+
+2.8.1 Set Map（设置地图视图）
+~~~~~~~~~~~~~~~~~~
