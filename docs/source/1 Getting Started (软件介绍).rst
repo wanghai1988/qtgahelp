@@ -28,7 +28,9 @@
 ------------------------------------------------------------------------
 
 (1) 操作系统：软件目前支持Windows 7/10/11 64位操作系统
-(2) 依赖环境：软件目前运行需依赖 MATLAB R2020a，因此需要安装MATLAB R2020a软件或安装R2020a版本对应的MATLAB Runtime（:download:`下载地址 <https://ww2.mathworks.cn/products/compiler/matlab-runtime.html>`）
+(2) 依赖环境：
+    * 软件运行需依赖 MATLAB R2020a，因此需要安装MATLAB R2020a软件或安装R2020a版本对应的MATLAB Runtime（:download:`下载地址 <https://ww2.mathworks.cn/products/compiler/matlab-runtime.html>`）
+    * 软件同时依赖依赖VC++ Runtime，如果出现“找不到VCRUNTIME140_1.dll”类似错误，请参考下列解决方案：`解决方案1 <https://zhuanlan.zhihu.com/p/520529084>`_、`解决方案2 <https://www.bilibili.com/read/cv14363122/>`_
 
 1.4 Data Files (数据格式)
 ------------------------------------
