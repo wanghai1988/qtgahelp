@@ -98,7 +98,7 @@ File菜单下包括下列功能：
     .. image:: ../images/menu_image/File/dialog_setLayoutView.png
         :align: center
     
-    功能说明：
+    详细功能说明:ref:`label-name`
 
     
 2.1.10 Exit（退出）
@@ -522,7 +522,7 @@ Evaluate菜单包括下列功能：
 ---------------
 .. image:: ../images/menu_image/File/dialog_setLayoutView.png
     :align: center
-
+.._label-name:
 功能说明：
 
     * |Layout List| Layout List（布局列表）下拉列表：该下拉列表用于显示当前布局视图，点击该下拉列表后，可切换所需的布局。
