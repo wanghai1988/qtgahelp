@@ -574,3 +574,7 @@ Evaluate菜单包括下列功能：
 
 2.8.1 Grid Setting（网格设置）
 ~~~~~~~~~~~~~~~~~~
+(1) 选择地图框，激活Grid Setting（网格设置）按钮
+(#) 点击该按钮，弹出Map Item Setting对话框，如下图所示
+.. image:: ../images/menu_image/File/dialog_mapItemSetting.png
+    :align: center
