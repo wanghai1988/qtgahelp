@@ -546,7 +546,7 @@ Evaluate菜单包括下列功能：
     * |Refresh| Refresh（刷新）按钮：点击该按钮后，可刷新当前布局视图。
     * |Select/Move Item| Select/Move Item（选择/移动图面要素）按钮：点击该按钮后，可将鼠标切换至选择状态，用于选择图例或图面要素。并可按住鼠标左键拖动图例或图面要素至合适位置。
     * |Move Content| Move Content（移动内容）按钮：点击该按钮后，可操作地图框内的视图范围，移动地图框内的显示内容。
-    * |Grid Setting| Grid Setting（网格设置）按钮：该按钮用于设置地图框相关参数，具体操作步骤请参阅`2.8.1 Grid Setting（网格设置）`_。
+    * |Grid Setting| Grid Setting（网格设置）按钮：该按钮用于设置地图框相关参数，具体操作步骤请参阅 `2.8.1 Grid Setting（网格设置）`_。
     
     .. |Layout List|      image:: ../images/menu_image/File/select_Layout.png
     .. |New Layout|       image:: ../images/menu_image/File/btn_newLayout.png
