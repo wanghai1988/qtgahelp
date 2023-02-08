@@ -98,7 +98,7 @@ File菜单下包括下列功能：
     .. image:: ../images/menu_image/File/dialog_setLayoutView.png
         :align: center
     
-    详细功能说明:ref:`label-name`
+    详细功能说明 `2.8 Cartography (制图)`_
 
     
 2.1.10 Exit（退出）
@@ -522,7 +522,6 @@ Evaluate菜单包括下列功能：
 ---------------
 .. image:: ../images/menu_image/File/dialog_setLayoutView.png
     :align: center
-.._label-name:
 功能说明：
 
     * |Layout List| Layout List（布局列表）下拉列表：该下拉列表用于显示当前布局视图，点击该下拉列表后，可切换所需的布局。
@@ -545,6 +544,7 @@ Evaluate菜单包括下列功能：
     * |Zoom Actual| Zoom Actual（缩放实际）按钮：点击该按钮后，可缩放当前布局视图到实际位置。
     * |Zoom All| Zoom All（缩放全部）按钮：点击该按钮后，可缩放当前布局视图到包含全部内容。
     * |Refresh| Refresh（刷新）按钮：点击该按钮后，可刷新当前布局视图。
+    * |Select/Move Item| Select/Move Item（选择/移动图面要素）按钮：点击该按钮后，可将鼠标切换至选择状态，用于选择图例或图面要素。并可按住鼠标左键拖动图例或图面要素至合适位置。
     
     
     .. |Layout List|      image:: ../images/menu_image/File/select_Layout.png
@@ -567,6 +567,7 @@ Evaluate菜单包括下列功能：
     .. |Zoom Actual|      image:: ../images/menu_image/File/btn_zoomActual.png
     .. |Zoom All|         image:: ../images/menu_image/File/btn_zoomAll.png
     .. |Refresh|          image:: ../images/menu_image/File/btn_refresh.png
+    .. |Select/Move Item| image:: ../images/menu_image/File/btn_selectMoveItem.png
 
 2.8.1 Set Map（设置地图视图）
 ~~~~~~~~~~~~~~~~~~
