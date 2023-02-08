@@ -93,12 +93,12 @@ File菜单下包括下列功能：
         
     * 点击按钮Export（输出）后，会弹出图片保存对话框，用户可自行设置保存路径与格式。
         
-  2. 点击Export Layout View（输出布局视图），会弹出布局操作窗口，用于编辑并保存通过布局视图美化后的地图布局效果。
+  2. 点击Export Layout View（输出布局视图），会弹出布局操作窗口，用于编辑并保存通过布局视图美化后的地图布局效果,详细操作请参考 `2.8 Cartography (制图)`_。
   
     .. image:: ../images/menu_image/File/dialog_setLayoutView.png
         :align: center
     
-    详细功能说明 `2.8 Cartography (制图)`_
+    
 
     
 2.1.10 Exit（退出）
@@ -545,7 +545,7 @@ Evaluate菜单包括下列功能：
     * |Zoom All| Zoom All（缩放全部）按钮：点击该按钮后，可缩放当前布局视图到包含全部内容。
     * |Refresh| Refresh（刷新）按钮：点击该按钮后，可刷新当前布局视图。
     * |Select/Move Item| Select/Move Item（选择/移动图面要素）按钮：点击该按钮后，可将鼠标切换至选择状态，用于选择图例或图面要素。并可按住鼠标左键拖动图例或图面要素至合适位置。
-    
+    * |Move Content| Move Content（移动内容）按钮：点击该按钮后，可操作地图框内的视图范围，移动地图框内的显示内容。
     
     .. |Layout List|      image:: ../images/menu_image/File/select_Layout.png
     .. |New Layout|       image:: ../images/menu_image/File/btn_newLayout.png
@@ -568,6 +568,7 @@ Evaluate菜单包括下列功能：
     .. |Zoom All|         image:: ../images/menu_image/File/btn_zoomAll.png
     .. |Refresh|          image:: ../images/menu_image/File/btn_refresh.png
     .. |Select/Move Item| image:: ../images/menu_image/File/btn_selectMoveItem.png
+    .. |Move Content|     image:: ../images/menu_image/File/btn_moveContent.png
 
 2.8.1 Set Map（设置地图视图）
 ~~~~~~~~~~~~~~~~~~
