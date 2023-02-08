@@ -579,11 +579,14 @@ Evaluate菜单包括下列功能：
 
 .. image:: ../images/menu_image/File/dialog_mapItemSetting.png
     :align: center
-    
+
+参数说明：
       * Left Top Lng（左上经度）、Right Bottom Lng（右下经度）、Left Top Lat（左上纬度）、Right Bottom Lat（右下纬度）用于设置地图视图的经纬度范围
       * Interval X（X方向间隔）、Interval Y（Y方向间隔）用于设置坐标轴的刻度间隔
       * Font（字体）、Font Size（字号）、Format（格式）、Precision（有效位数）用于设置坐标刻度值的文字样式
       * Frame Width（边框宽度）用于设置地图框的边框宽度
       * Coordinate Visible中的Left Side、Right Side、Top Side、Bottom Side用于设置边框上下左右是否显示
-      * OverView（缩略图）只有在有多个地图框时才会激活，Linked Map（连接地图）用于指定对应的缩略图地图框，Fill Color（填充色）用于设置缩略图中对应地图范围的填充色，Frame Color（边框颜色）用于设置缩略图外边框的颜色
+      * OverView（缩略图）只有在Layout View（出图视图）内有2个及以上地图框时才会激活，Linked Map（连接地图）用于指定对应的缩略图地图框，Fill Color（填充色）和Frame Color（边框颜色）用于设置缩略图中对应地图范围的填充色和边框的颜色
       * Visible Layers（显示图层）中会列出当前地图视图中应用的图层列表
+
+(3) 根据出图需要设置完相关参数后，点击“Apply”按钮即可预览设置效果
