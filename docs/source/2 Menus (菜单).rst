@@ -546,7 +546,8 @@ Evaluate菜单包括下列功能：
     * |Refresh| Refresh（刷新）按钮：点击该按钮后，可刷新当前布局视图。
     * |Select/Move Item| Select/Move Item（选择/移动图面要素）按钮：点击该按钮后，可将鼠标切换至选择状态，用于选择图例或图面要素。并可按住鼠标左键拖动图例或图面要素至合适位置。
     * |Move Content| Move Content（移动内容）按钮：点击该按钮后，可操作地图框内的视图范围，移动地图框内的显示内容。
-    * |Grid Setting| Grid Setting（网格设置）按钮：该按钮用于设置地图框相关参数，具体操作步骤请参阅 `2.8.1 Grid Setting（网格设置）`_。
+    * |Grid Setting| Grid Setting（网格设置）按钮：该按钮用于设置地图框相关参数，具体设置参数请参阅 `2.8.1 Grid Setting（网格设置）`_。
+    * |Text Setting| Text Setting（文本设置）按钮：该按钮用于设置标签的文本属性，具体设置参数请参阅 `2.8.2 Text Setting（文本设置）`_。
     
     .. |Layout List|      image:: ../images/menu_image/File/select_Layout.png
     .. |New Layout|       image:: ../images/menu_image/File/btn_newLayout.png
@@ -571,10 +572,11 @@ Evaluate菜单包括下列功能：
     .. |Select/Move Item| image:: ../images/menu_image/File/btn_selectMoveItem.png
     .. |Move Content|     image:: ../images/menu_image/File/btn_moveContent.png
     .. |Grid Setting|     image:: ../images/menu_image/File/btn_gridSetting.png
+    .. |Text Setting|     image:: ../images/menu_image/File/btn_textSetting.png
 
 2.8.1 Grid Setting（网格设置）
 ~~~~~~~~~~~~~~~~~~
-(1) 选择地图框，激活Grid Setting（网格设置）按钮
+(1) 选择地图框，如果没有请点击|Add Map| Add Map（添加地图）按钮添加地图框，激活Grid Setting（网格设置）按钮
 (#) 点击该按钮，弹出Map Item Setting对话框，如下图所示：
 
 .. image:: ../images/menu_image/File/dialog_mapItemSetting.png
@@ -586,7 +588,22 @@ Evaluate菜单包括下列功能：
       * Font（字体）、Font Size（字号）、Format（格式）、Precision（有效位数）用于设置坐标刻度值的文字样式
       * Frame Width（边框宽度）用于设置地图框的边框宽度
       * Coordinate Visible中的Left Side、Right Side、Top Side、Bottom Side用于设置边框上下左右是否显示
-      * OverView（缩略图）只有在Layout View（出图视图）内有2个及以上地图框时才会激活，Linked Map（连接地图）用于指定对应的缩略图地图框，Fill Color（填充色）和Frame Color（边框颜色）用于设置缩略图中对应地图范围的填充色和边框的颜色
+      * OverView（缩略图）只有在Layout View（布局视图）内有2个及以上地图框时才会激活，Linked Map（连接地图）用于指定对应的缩略图地图框，Fill Color（填充色）和Frame Color（边框颜色）用于设置缩略图中对应地图范围的填充色和边框的颜色
       * Visible Layers（显示图层）中会列出当前地图视图中应用的图层列表
 
 (3) 根据出图需要设置完相关参数后，点击“Apply”按钮即可预览设置效果
+
+2.8.2 Text Setting（文本设置）
+~~~~~~~~~~~~~~~~~~
+(1) 选择一个文本标签，如果没有请点击|Add Label| Add Label（添加标签）按钮添加一个文本标签，激活Text Setting（文本设置）按钮
+(2) 点击该按钮，弹出Label Edit对话框，如下图所示：
+
+.. image:: ../images/menu_image/File/dialog_labelEdit.png
+    :align: center
+    
+参数说明：
+      * Font（字体）、Font Color（字体颜色）用于设置标签文字的字号、字体、颜色等效果
+      * Horizontal Margin（水平边距）、Vertical Margin（垂直边距）用于设置文本与标签框之间在水平方向和垂直方向上的距离
+      * Horizontal Alignment（水平对齐）、Vertical Alignment（垂直对齐）用于设置文本在标签框内的对齐方式
+      * Rotation（旋转）用于设置文本的旋转角度
+(3) 根据需要设置完相关参数后，点击“Apply”按钮即可预览设置效果
