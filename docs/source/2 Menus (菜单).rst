@@ -548,6 +548,8 @@ Evaluate菜单包括下列功能：
     * |Move Content| Move Content（移动内容）按钮：点击该按钮后，可操作地图框内的视图范围，移动地图框内的显示内容。
     * |Grid Setting| Grid Setting（网格设置）按钮：该按钮用于设置地图框相关参数，具体设置参数请参阅 `2.8.1 Grid Setting（网格设置）`_。
     * |Text Setting| Text Setting（文本设置）按钮：该按钮用于设置标签的文本属性，具体设置参数请参阅 `2.8.2 Text Setting（文本设置）`_。
+    * |Overview Setting| Overview Setting（缩略图设置）按钮：当布局视图内有2个及以上地图框时，选中一个地图框后，点击该按钮后可将该地图框地图视图设置到全图范围
+    
     
     .. |Layout List|      image:: ../images/menu_image/File/select_Layout.png
     .. |New Layout|       image:: ../images/menu_image/File/btn_newLayout.png
@@ -573,6 +575,7 @@ Evaluate菜单包括下列功能：
     .. |Move Content|     image:: ../images/menu_image/File/btn_moveContent.png
     .. |Grid Setting|     image:: ../images/menu_image/File/btn_gridSetting.png
     .. |Text Setting|     image:: ../images/menu_image/File/btn_textSetting.png
+    .. |Overview Setting|     image:: ../images/menu_image/File/btn_overviewSetting.png
 
 2.8.1 Grid Setting（网格设置）
 ~~~~~~~~~~~~~~~~~~
@@ -607,3 +610,5 @@ Evaluate菜单包括下列功能：
       * Horizontal Alignment（水平对齐）、Vertical Alignment（垂直对齐）用于设置文本在标签框内的对齐方式
       * Rotation（旋转）用于设置文本的旋转角度
 (3) 根据需要设置完相关参数后，点击“Apply”按钮即可预览设置效果
+
+2.8.3 
