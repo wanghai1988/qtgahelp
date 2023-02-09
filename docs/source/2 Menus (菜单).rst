@@ -576,7 +576,7 @@ Evaluate菜单包括下列功能：
 
 2.8.1 Grid Setting（网格设置）
 ~~~~~~~~~~~~~~~~~~
-(1) 选择地图框，如果没有请点击|Add Map| Add Map（添加地图）按钮添加地图框，激活Grid Setting（网格设置）按钮
+(1) 选择地图框，如果没有请点击 |Add Map| Add Map（添加地图）按钮添加地图框，激活Grid Setting（网格设置）按钮
 (#) 点击该按钮，弹出Map Item Setting对话框，如下图所示：
 
 .. image:: ../images/menu_image/File/dialog_mapItemSetting.png
@@ -595,7 +595,7 @@ Evaluate菜单包括下列功能：
 
 2.8.2 Text Setting（文本设置）
 ~~~~~~~~~~~~~~~~~~
-(1) 选择一个文本标签，如果没有请点击|Add Label| Add Label（添加标签）按钮添加一个文本标签，激活Text Setting（文本设置）按钮
+(1) 选择一个文本标签，如果没有请点击 |Add Label| Add Label（添加标签）按钮添加一个文本标签，激活Text Setting（文本设置）按钮
 (2) 点击该按钮，弹出Label Edit对话框，如下图所示：
 
 .. image:: ../images/menu_image/File/dialog_labelEdit.png
