@@ -546,9 +546,10 @@ Evaluate菜单包括下列功能：
     * |Refresh| Refresh（刷新）按钮：点击该按钮后，可刷新当前布局视图。
     * |Select/Move Item| Select/Move Item（选择/移动图面要素）按钮：点击该按钮后，可将鼠标切换至选择状态，用于选择图例或图面要素。并可按住鼠标左键拖动图例或图面要素至合适位置。
     * |Move Content| Move Content（移动内容）按钮：点击该按钮后，可操作地图框内的视图范围，移动地图框内的显示内容。
+    * |Overview Setting| Overview Setting（缩略图设置）按钮：当布局视图内有2个及以上地图框时，选中一个地图框后，点击该按钮后可将该地图框地图视图设置到全图范围
     * |Grid Setting| Grid Setting（网格设置）按钮：该按钮用于设置地图框相关参数，具体设置参数请参阅 `2.8.1 Grid Setting（网格设置）`_。
     * |Text Setting| Text Setting（文本设置）按钮：该按钮用于设置标签的文本属性，具体设置参数请参阅 `2.8.2 Text Setting（文本设置）`_。
-    * |Overview Setting| Overview Setting（缩略图设置）按钮：当布局视图内有2个及以上地图框时，选中一个地图框后，点击该按钮后可将该地图框地图视图设置到全图范围
+    * |Legend Setting| Legend Setting（图例设置）按钮：该按钮用于设置图例相关参数，具体设置参数请参阅 `2.8.3 Legend Setting（图例设置）`_。
     
     
     .. |Layout List|      image:: ../images/menu_image/File/select_Layout.png
@@ -576,6 +577,7 @@ Evaluate菜单包括下列功能：
     .. |Grid Setting|     image:: ../images/menu_image/File/btn_gridSetting.png
     .. |Text Setting|     image:: ../images/menu_image/File/btn_textSetting.png
     .. |Overview Setting|     image:: ../images/menu_image/File/btn_overviewSetting.png
+    .. |Legend Setting|     image:: ../images/menu_image/File/btn_legendSetting.png
 
 2.8.1 Grid Setting（网格设置）
 ~~~~~~~~~~~~~~~~~~
@@ -594,7 +596,7 @@ Evaluate菜单包括下列功能：
       * OverView（缩略图）只有在Layout View（布局视图）内有2个及以上地图框时才会激活，Linked Map（连接地图）用于指定对应的缩略图地图框，Fill Color（填充色）和Frame Color（边框颜色）用于设置缩略图中对应地图范围的填充色和边框的颜色
       * Visible Layers（显示图层）中会列出当前地图视图中应用的图层列表
 
-(3) 根据出图需要设置完相关参数后，点击“Apply”按钮即可预览设置效果
+(3) 根据出图需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
 
 2.8.2 Text Setting（文本设置）
 ~~~~~~~~~~~~~~~~~~
@@ -609,6 +611,25 @@ Evaluate菜单包括下列功能：
       * Horizontal Margin（水平边距）、Vertical Margin（垂直边距）用于设置文本与标签框之间在水平方向和垂直方向上的距离
       * Horizontal Alignment（水平对齐）、Vertical Alignment（垂直对齐）用于设置文本在标签框内的对齐方式
       * Rotation（旋转）用于设置文本的旋转角度
-(3) 根据需要设置完相关参数后，点击“Apply”按钮即可预览设置效果
+(3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
 
-2.8.3 
+2.8.3 Legend Setting（图例设置）
+~~~~~~~~~~~~~~~~~~
+(1) 选择一个图例，如果没有请点击 |Add Legend| Add Legend（添加图例）按钮添加一个图例，激活Legend Setting（图例设置）按钮
+(2) 点击该按钮，弹出Legend Setting对话框，如下图所示：
+
+.. image:: ../images/menu_image/File/dialog_legendSetting.png
+    :align: center
+    
+参数说明：
+      * 点击图层列表下方的“+”号按钮可以添加视图中未加入的图层，“-”号按钮可以删除视图中不需要的图层，编辑按钮可以编辑图层名称
+      * Legend Width（图例宽度）、Legend Height（图例高度）用于设置整个图例的宽度和高度
+      * Legend Direction（图例方向）用于设置图例中项目的排列方向为横向或纵向
+      * Legend Font（图例字体）、Font Color（字体颜色）用于设置图例中文本的字体、字号、颜色等样式
+      * Item Background（背景色）如果勾选Transparent则图例背景透明，否则为白色背景
+      * Item Columns（项目）用于设置图例中条目排列的列数
+(3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
+
+
+
+
