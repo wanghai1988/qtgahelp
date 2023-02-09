@@ -578,6 +578,10 @@ Evaluate菜单包括下列功能：
     .. |Text Setting|     image:: ../images/menu_image/File/btn_textSetting.png
     .. |Overview Setting|     image:: ../images/menu_image/File/btn_overviewSetting.png
     .. |Legend Setting|     image:: ../images/menu_image/File/btn_legendSetting.png
+    .. |Add Layer|     image:: ../images/menu_image/File/btn_add.png
+    .. |Delete Layer|     image:: ../images/menu_image/File/btn_delete.png
+    .. |Edit Layer Name|     image:: ../images/menu_image/File/btn_edit.png
+
 
 2.8.1 Grid Setting（网格设置）
 ~~~~~~~~~~~~~~~~~~
@@ -622,7 +626,7 @@ Evaluate菜单包括下列功能：
     :align: center
     
 参数说明：
-      * 点击图层列表下方的“+”号按钮可以添加视图中未加入的图层，“-”号按钮可以删除视图中不需要的图层，编辑按钮可以编辑图层名称
+      * 点击图层列表下方的 |Add Layer| “+”号按钮可以添加视图中未加入的图层， |Delete Layer| “-”号按钮可以删除视图中不需要的图层， |Edit Layer Name| 编辑按钮可以编辑图层名称
       * Legend Width（图例宽度）、Legend Height（图例高度）用于设置整个图例的宽度和高度
       * Legend Direction（图例方向）用于设置图例中项目的排列方向为横向或纵向
       * Legend Font（图例字体）、Font Color（字体颜色）用于设置图例中文本的字体、字号、颜色等样式
