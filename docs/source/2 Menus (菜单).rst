@@ -550,6 +550,7 @@ Evaluate菜单包括下列功能：
     * |Grid Setting| Grid Setting（网格设置）按钮：该按钮用于设置地图框相关参数，具体设置参数请参阅 `2.8.1 Grid Setting（网格设置）`_。
     * |Text Setting| Text Setting（文本设置）按钮：该按钮用于设置标签的文本属性，具体设置参数请参阅 `2.8.2 Text Setting（文本设置）`_。
     * |Legend Setting| Legend Setting（图例设置）按钮：该按钮用于设置图例相关参数，具体设置参数请参阅 `2.8.3 Legend Setting（图例设置）`_。
+    * |Scalebar Setting| Scalebar Setting（比例尺设置）按钮：该按钮用于设置比例尺相关参数，具体设置参数请参阅 `2.8.4 Scalebar Setting（比例尺设置）`_。
     
     
     .. |Layout List|      image:: ../images/menu_image/File/select_Layout.png
@@ -576,11 +577,12 @@ Evaluate菜单包括下列功能：
     .. |Move Content|     image:: ../images/menu_image/File/btn_moveContent.png
     .. |Grid Setting|     image:: ../images/menu_image/File/btn_gridSetting.png
     .. |Text Setting|     image:: ../images/menu_image/File/btn_textSetting.png
-    .. |Overview Setting|     image:: ../images/menu_image/File/btn_overviewSetting.png
-    .. |Legend Setting|     image:: ../images/menu_image/File/btn_legendSetting.png
-    .. |Add Layer|     image:: ../images/menu_image/File/btn_add.png
+    .. |Overview Setting| image:: ../images/menu_image/File/btn_overviewSetting.png
+    .. |Legend Setting|   image:: ../images/menu_image/File/btn_legendSetting.png
+    .. |Add Layer|        image:: ../images/menu_image/File/btn_add.png
     .. |Delete Layer|     image:: ../images/menu_image/File/btn_delete.png
-    .. |Edit Layer Name|     image:: ../images/menu_image/File/btn_edit.png
+    .. |Edit Layer Name|  image:: ../images/menu_image/File/btn_edit.png
+    .. |Scalebar Setting| image:: ../images/menu_image/File/btn_scalebarSetting.png
 
 
 2.8.1 Grid Setting（网格设置）
@@ -634,6 +636,23 @@ Evaluate菜单包括下列功能：
       * Item Columns（项目）用于设置图例中条目排列的列数
 (3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
 
+2.8.4 Scalebar Setting（比例尺设置）
+~~~~~~~~~~~~~~~~~~
+(1) 选择一个比例尺，如果没有请点击 |Add Scale Bar| Add Scale Bar（添加比例尺）按钮添加一个比例尺，激活Scalebar Setting（比例尺设置）按钮
+(2) 点击该按钮，弹出Scalebar Setting对话框，如下图所示：
+
+.. image:: ../images/menu_image/File/dialog_ScaleBarSetting.png
+    :align: center
+    
+参数说明：
+      * Scalebar Style（比例尺样式）用于设置比例尺的显示样式，可选包括Single Box（单盒式）、Double Box（双盒式）、Line Ticks Middle（中线段式）、Line Ticks Down（下线段式）、Line Ticks Up（上线段式）、Stepped Line（折线式）、Hollow（空心式）、Numeric（数字式）
+      * Scalebar Height（比例尺高度）、Scalebar Width（比例尺宽度）用于设置比例尺高宽
+      * Rotation（角度）用于设置比例尺旋转角度
+      * Frame Width（边框宽度）用于设置比例尺边框宽度
+      * Unit Label（单位标签）用于设置比例尺显示的标签单位，默认为km
+      * Label Margin（标签间距）用于设置标签与比例尺之间的距离
+      * Label Font（标签字体）用于设置比例尺标签的字体、字号、颜色等样式
+(3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
 
 
 
