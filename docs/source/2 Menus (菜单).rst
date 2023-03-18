@@ -553,6 +553,7 @@ Evaluate菜单包括下列功能：
     * |Scalebar Setting| Scalebar Setting（比例尺设置）按钮：该按钮用于设置比例尺相关参数，具体设置参数请参阅 `2.8.4 Scalebar Setting（比例尺设置）`_。
     * |GNSS Setting| GNSS Setting（GNSS图例设置）按钮：该按钮用于设置GNSS图例相关参数，具体设置参数请参阅 `2.8.5 GNSS Setting（GNSS图例设置）`_。
     * |Lev Setting| Lev Setting（水准图例设置）按钮：该按钮用于设置水准图例相关参数，具体设置参数请参阅 `2.8.6 Lev Setting（水准图例设置）`_。
+    * |Rotation Rate Setting| Rotation Rate Setting（旋转率图例设置）按钮：该按钮用于设置旋转率图例相关参数，具体设置参数请参阅 `2.8.7 Rotation Rate Setting（旋转率图例设置）`_。
     
     .. |Layout List|      image:: ../images/menu_image/File/select_Layout.png
     .. |New Layout|       image:: ../images/menu_image/File/btn_newLayout.png
@@ -586,7 +587,9 @@ Evaluate菜单包括下列功能：
     .. |Scalebar Setting| image:: ../images/menu_image/File/btn_scalebarSetting.png
     .. |GNSS Setting|     image:: ../images/menu_image/File/btn_GNSSSetting.png
     .. |Lev Setting|      image:: ../images/menu_image/File/btn_levSetting.png
-
+    .. |Rotation Rate Setting|    image:: ../images/menu_image/File/btn_RotationRateSetting.png
+    
+    
 2.8.1 Grid Setting（网格设置）
 ~~~~~~~~~~~~~~~~~~
 (1) 选择地图框，如果没有请点击 |Add Map| Add Map（添加地图）按钮添加地图框，激活Grid Setting（网格设置）按钮
@@ -688,4 +691,21 @@ Evaluate菜单包括下列功能：
       * Error Radius（误差半径）用于设置图例中Lev Error Ellipse（水准误差椭圆）的椭圆半径
       * Ellipse Scale（椭圆比例）用于设置图例中Lev Error Ellipse（水准误差椭圆）中椭圆的比例
       * Text（文字）、Font（字体）、Font Size（字号）、Font Color（颜色）用于设置图例中Lev Text（Lev文字标注）的文字内容、字体字族、字号大小和文字颜色
+(3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
+
+2.8.7 Rotation Rate Setting（旋转率图例设置）
+~~~~~~~~~~~~~~~~~~
+(1) 选择一个旋转率图例，如果没有请点击 |Add Rotation Rate Legend| Add Rotation Rate Legend（添加旋转率图例）按钮添加一个旋转率图例，激活|Rotation Rate Setting| Rotation Rate Setting（旋转率图例设置）按钮
+(2) 点击该按钮，弹出Rotation Rate Setting对话框，如下图所示：
+
+.. image:: ../images/menu_image/File/dialog_RotationRateSetting.png
+    :align: center
+    
+参数说明：
+      * Map Scale（地图比例尺）用于设置图例采用的地图比例尺，默认为布局视图中当前的地图比例尺
+      * AngleUnit（角度单位）用于设置Rotation Rate（旋转率）扇形的角度间隔（单位：弧度）
+      * Raduis（半径）用于设置Rotation Rate（旋转率）扇形的半径（单位：弧度）
+      * Rotation（旋转）用于设置Rotation Rate（旋转率）扇形的角度（单位：弧度）
+      * AngleScale（角度比例）用于设置Rotation Rate（旋转率）扇形的缩放比例
+      * Text（文字）、Font（字体）、Font Size（字号）、Font Color（颜色）用于设置图例中Rotation Rate Text（旋转率标注）的文字内容、字体字族、字号大小和文字颜色
 (3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
