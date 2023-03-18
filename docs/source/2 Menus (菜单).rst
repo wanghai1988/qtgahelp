@@ -655,7 +655,7 @@ Evaluate菜单包括下列功能：
       * Label Font（标签字体）用于设置比例尺标签的字体、字号、颜色等样式
 (3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
 
-2.8.5 GNSS Setting（比例尺设置）
+2.8.5 GNSS Setting（GNSS图例设置）
 ~~~~~~~~~~~~~~~~~~
 (1) 选择一个GNSS图例，如果没有请点击 |Add GNSS Legend| Add GNSS Legend（添加GNSS图例）按钮添加一个GNSS图例，激活GNSS Setting（GNSS图例设置）按钮
 (2) 点击该按钮，弹出GNSS Setting对话框，如下图所示：
