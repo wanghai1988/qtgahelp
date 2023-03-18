@@ -93,7 +93,7 @@ File菜单下包括下列功能：
         
     * 点击按钮Export（输出）后，会弹出图片保存对话框，用户可自行设置保存路径与格式。
         
-  2. 点击Export Layout View（输出布局视图），会弹出布局操作窗口，用于编辑并保存通过布局视图美化后的地图布局效果,详细操作请参考 `2.8 Cartography (制图)`_。
+  2. 点击Export Layout View（输出布局视图），会弹出布局操作窗口，用于编辑并保存通过布局视图美化后的地图布局效果，详细操作请参考 `2.8 Cartography (制图)`_。
   
     .. image:: ../images/menu_image/File/dialog_setLayoutView.png
         :align: center
