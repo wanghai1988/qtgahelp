@@ -552,6 +552,7 @@ Evaluate菜单包括下列功能：
     * |Legend Setting| Legend Setting（图例设置）按钮：该按钮用于设置图例相关参数，具体设置参数请参阅 `2.8.3 Legend Setting（图例设置）`_。
     * |Scalebar Setting| Scalebar Setting（比例尺设置）按钮：该按钮用于设置比例尺相关参数，具体设置参数请参阅 `2.8.4 Scalebar Setting（比例尺设置）`_。
     * |GNSS Setting| GNSS Setting（GNSS图例设置）按钮：该按钮用于设置GNSS图例相关参数，具体设置参数请参阅 `2.8.5 GNSS Setting（GNSS图例设置）`_。
+    * |Lev Setting| Lev Setting（水准图例设置）按钮：该按钮用于设置水准图例相关参数，具体设置参数请参阅 `2.8.6 Lev Setting（水准图例设置）`_。
     
     .. |Layout List|      image:: ../images/menu_image/File/select_Layout.png
     .. |New Layout|       image:: ../images/menu_image/File/btn_newLayout.png
@@ -584,7 +585,7 @@ Evaluate菜单包括下列功能：
     .. |Edit Layer Name|  image:: ../images/menu_image/File/btn_edit.png
     .. |Scalebar Setting| image:: ../images/menu_image/File/btn_scalebarSetting.png
     .. |GNSS Setting|     image:: ../images/menu_image/File/btn_GNSSSetting.png
-
+    .. |Lev Setting|      image:: ../images/menu_image/File/btn_LevSetting.png
 
 2.8.1 Grid Setting（网格设置）
 ~~~~~~~~~~~~~~~~~~
@@ -672,4 +673,19 @@ Evaluate菜单包括下列功能：
       * Text（文字）、Font（字体）、Font Size(字号)、Font Color（颜色）用于设置图例中GNSS Text（GNSS文字标注）的文字内容、字体字族、字号大小和文字颜色
 (3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
 
+2.8.6 Lev Setting（水准图例设置）
+~~~~~~~~~~~~~~~~~~
+(1) 选择一个水准图例，如果没有请点击 |Add Lev Legend| Add Lev Legend（添加水准图例）按钮添加一个水准图例，激活Lev Setting（水准图例设置）按钮
+(2) 点击该按钮，弹出Lev Setting对话框，如下图所示：
 
+.. image:: ../images/menu_image/File/dialog_LevSetting.png
+    :align: center
+    
+参数说明：
+      * Map Scale（地图比例尺）用于设置图例采用的地图比例尺，默认为布局视图中当前的地图比例尺
+      * Displacement Length（位移长度）用于设置图例中Lev Arrow（水准箭头）的位移长度尺寸
+      * Arrow Scale（箭头比例）用于设置图例中Lev Arrow（水准箭头）的箭头比例大小
+      * Error Radius（误差半径）用于设置图例中Lev Error Ellipse（水准误差椭圆）的椭圆半径
+      * Ellipse Scale（椭圆比例）用于设置图例中Lev Error Ellipse（水准误差椭圆）中椭圆的比例
+      * Text（文字）、Font（字体）、Font Size(字号)、Font Color（颜色）用于设置图例中Lev Text（Lev文字标注）的文字内容、字体字族、字号大小和文字颜色
+(3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
