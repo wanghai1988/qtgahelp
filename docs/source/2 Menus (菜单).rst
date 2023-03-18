@@ -551,7 +551,7 @@ Evaluate菜单包括下列功能：
     * |Text Setting| Text Setting（文本设置）按钮：该按钮用于设置标签的文本属性，具体设置参数请参阅 `2.8.2 Text Setting（文本设置）`_。
     * |Legend Setting| Legend Setting（图例设置）按钮：该按钮用于设置图例相关参数，具体设置参数请参阅 `2.8.3 Legend Setting（图例设置）`_。
     * |Scalebar Setting| Scalebar Setting（比例尺设置）按钮：该按钮用于设置比例尺相关参数，具体设置参数请参阅 `2.8.4 Scalebar Setting（比例尺设置）`_。
-    
+    * |GNSS Setting| GNSS Setting（GNSS图例设置）按钮：该按钮用于设置GNSS图例相关参数，具体设置参数请参阅 `2.8.5 GNSS Setting（GNSS图例设置）`_。
     
     .. |Layout List|      image:: ../images/menu_image/File/select_Layout.png
     .. |New Layout|       image:: ../images/menu_image/File/btn_newLayout.png
@@ -583,6 +583,7 @@ Evaluate菜单包括下列功能：
     .. |Delete Layer|     image:: ../images/menu_image/File/btn_delete.png
     .. |Edit Layer Name|  image:: ../images/menu_image/File/btn_edit.png
     .. |Scalebar Setting| image:: ../images/menu_image/File/btn_scalebarSetting.png
+    .. |GNSS Setting|     image:: ../images/menu_image/File/btn_GNSSSetting.png
 
 
 2.8.1 Grid Setting（网格设置）
@@ -654,5 +655,21 @@ Evaluate菜单包括下列功能：
       * Label Font（标签字体）用于设置比例尺标签的字体、字号、颜色等样式
 (3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
 
+2.8.5 GNSS Setting（比例尺设置）
+~~~~~~~~~~~~~~~~~~
+(1) 选择一个GNSS图例，如果没有请点击 |Add GNSS Legend| Add GNSS Legend（添加GNSS图例）按钮添加一个GNSS图例，激活GNSS Setting（GNSS图例设置）按钮
+(2) 点击该按钮，弹出GNSS Setting对话框，如下图所示：
+
+.. image:: ../images/menu_image/File/dialog_GNSSSetting.png
+    :align: center
+    
+参数说明：
+      * Map Scale（地图比例尺）显示布局视图中当前地图的比例尺
+      * Displacement Length（位移长度）用于设置图例中GNSS Arrow（GNSS箭头）的位移长度尺寸
+      * Arrow Scale（箭头比例）用于设置图例中GNSS Arrow（GNSS箭头）的箭头比例大小
+      * Error Radius（误差半径）用于设置图例中GNSS Error Ellipse（GNSS误差椭圆）的椭圆半径
+      * Ellipse Scale（椭圆比例）用于设置设置图例中GNSS Error Ellipse（GNSS误差椭圆）中椭圆的比例
+      * Text（文字）、Font（字体）、Font Size(字号)、Font Color（颜色）用于设置图例中GNSS Text（GNSS文字标注）的文字内容、字体字族、字号大小和文字颜色
+(3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
 
 
