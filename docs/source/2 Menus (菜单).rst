@@ -555,6 +555,7 @@ Evaluate菜单包括下列功能：
     * |Lev Setting| Lev Setting（水准图例设置）按钮：该按钮用于设置水准图例相关参数，具体设置参数请参阅 `2.8.6 Lev Setting（水准图例设置）`_。
     * |Rotation Rate Setting| Rotation Rate Setting（旋转率图例设置）按钮：该按钮用于设置旋转率图例相关参数，具体设置参数请参阅 `2.8.7 Rotation Rate Setting（旋转率图例设置）`_。
     * |Principal Strain Rate Setting| Principal Strain Rate Setting（主应变率图例设置）按钮：该按钮用于设置主应变率图例相关参数，具体设置参数请参阅 `2.8.8 Principal Strain Rate Setting（主应变率图例设置）`_。
+    * |Color Ramp Setting| Color Ramp Setting（色带设置）按钮：该按钮用于设置色带相关参数，具体设置参数请参阅 `2.8.9 Color Ramp Setting（色带设置）`_。
     
     .. |Layout List|      image:: ../images/menu_image/File/select_Layout.png
     .. |New Layout|       image:: ../images/menu_image/File/btn_newLayout.png
@@ -590,6 +591,7 @@ Evaluate菜单包括下列功能：
     .. |Lev Setting|      image:: ../images/menu_image/File/btn_levSetting.png
     .. |Rotation Rate Setting|    image:: ../images/menu_image/File/btn_RotationRateSetting.png
     .. |Principal Strain Rate Setting|    image:: ../images/menu_image/File/btn_PrincipalStrainRateSetting.png
+    .. |Color Ramp Setting|       image:: ../images/menu_image/File/btn_ColorRampSetting.png
     
     
 2.8.1 Grid Setting（网格设置）
@@ -729,3 +731,17 @@ Evaluate菜单包括下列功能：
       * Text（文字）、Font（字体）、Font Size（字号）、Font Color（颜色）用于设置图例中Principal Strain Rate（主应变率标注）的文字内容、字体字族、字号大小和文字颜色
 (3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
 
+2.8.9 Color Ramp Setting（色带设置）
+~~~~~~~~~~~~~~~~~~
+(1) 选择一个色带，如果没有请点击 |Add Color Ramp| Add Color Ramp（添加色带）按钮添加一个色带图例，激活Color Ramp Setting（色带设置）按钮
+(2) 点击该按钮，弹出Color Ramp Setting对话框，如下图所示：
+
+.. image:: ../images/menu_image/File/dialog_ColorRampSetting.png
+    :align: center
+    
+参数说明：
+      * Color Ramp（色带）用于选择当前使用的色带，在色带下拉列表中，可以选择、新建、修改、保存相应的色带参数
+      * Ramp Orientation（色带方向）用于设置色带的方向，可选Horizontal（水平）和Vertical（垂直）两种方式
+      * Min Value（最小值）和Max Value（最大值）用于设置色带旁标注的数值范围
+      * Font（字体）、Font Size（字号）、Font Color（颜色）用于设置图例中Lev Text（Lev文字标注）的字体字族、字号大小和文字颜色
+(3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
