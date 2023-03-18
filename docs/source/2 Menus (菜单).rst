@@ -556,6 +556,13 @@ Evaluate菜单包括下列功能：
     * |Rotation Rate Setting| Rotation Rate Setting（旋转率图例设置）按钮：该按钮用于设置旋转率图例相关参数，具体设置参数请参阅 `2.8.7 Rotation Rate Setting（旋转率图例设置）`_。
     * |Principal Strain Rate Setting| Principal Strain Rate Setting（主应变率图例设置）按钮：该按钮用于设置主应变率图例相关参数，具体设置参数请参阅 `2.8.8 Principal Strain Rate Setting（主应变率图例设置）`_。
     * |Color Ramp Setting| Color Ramp Setting（色带设置）按钮：该按钮用于设置色带相关参数，具体设置参数请参阅 `2.8.9 Color Ramp Setting（色带设置）`_。
+    * |Delete Item| Delete Item（删除部件）按钮：该按钮用于删除当前布局视图内被选中的图饰部件
+    * |Raise Select Items| Raise Select Items（提升选择部件）按钮：当图饰部件出现压盖时，该按钮用于提升当前布局视图内被选中的部件的图层顺序
+    * |Lower Select Items| Lower Select Items（降低选择部件）按钮：当图饰部件出现压盖时，该按钮用于降低当前布局视图内被选中的部件的图层顺序
+    * |Print| Print（打印）按钮：该按钮用于打开打印控制对话框，选择合适的打印机及其设置打印当前布局视图
+    * |Export As Image|Export As Image（导出图片）按钮：该按钮用于打开图片保存对话框将当前布局视图导出为图片格式，支持.BMP、.JPG、.PNG、.TIF、Webp等图片格式
+    * |Export As PDF|Export As PDF（导出PDF）按钮：该按钮用于打开PDF保存对话框将当前布局视图导出为PDF格式
+    
     
     .. |Layout List|      image:: ../images/menu_image/File/select_Layout.png
     .. |New Layout|       image:: ../images/menu_image/File/btn_newLayout.png
@@ -592,7 +599,12 @@ Evaluate菜单包括下列功能：
     .. |Rotation Rate Setting|    image:: ../images/menu_image/File/btn_RotationRateSetting.png
     .. |Principal Strain Rate Setting|    image:: ../images/menu_image/File/btn_PrincipalStrainRateSetting.png
     .. |Color Ramp Setting|       image:: ../images/menu_image/File/btn_ColorRampSetting.png
-    
+    .. |Delete Item|      image:: ../images/menu_image/File/btn_DeleteItem.png
+    .. |Raise Select Items|       image:: ../images/menu_image/File/btn_RaiseSelectItems.png
+    .. |Lower Select Items|       image:: ../images/menu_image/File/btn_LowerSelectItems.png
+    .. |Print|            image:: ../images/menu_image/File/btn_Print.png
+    .. |Export As Image|  image:: ../images/menu_image/File/btn_ExportAsImage.png
+    .. |Export As PDF|    image:: ../images/menu_image/File/btn_ExportAsPDF.png
     
 2.8.1 Grid Setting（网格设置）
 ~~~~~~~~~~~~~~~~~~
