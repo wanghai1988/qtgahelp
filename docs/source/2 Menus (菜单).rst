@@ -585,7 +585,7 @@ Evaluate菜单包括下列功能：
     .. |Edit Layer Name|  image:: ../images/menu_image/File/btn_edit.png
     .. |Scalebar Setting| image:: ../images/menu_image/File/btn_scalebarSetting.png
     .. |GNSS Setting|     image:: ../images/menu_image/File/btn_GNSSSetting.png
-    .. |Lev Setting|      image:: ../images/menu_image/File/btn_LevSetting.png
+    .. |Lev Setting|      image:: ../images/menu_image/File/btn_levSetting.png
 
 2.8.1 Grid Setting（网格设置）
 ~~~~~~~~~~~~~~~~~~
