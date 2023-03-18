@@ -664,7 +664,7 @@ Evaluate菜单包括下列功能：
     :align: center
     
 参数说明：
-      * Map Scale（地图比例尺）显示布局视图中当前地图的比例尺
+      * Map Scale（地图比例尺）用于设置图例采用的地图比例尺，默认为布局视图中当前的地图比例尺
       * Displacement Length（位移长度）用于设置图例中GNSS Arrow（GNSS箭头）的位移长度尺寸
       * Arrow Scale（箭头比例）用于设置图例中GNSS Arrow（GNSS箭头）的箭头比例大小
       * Error Radius（误差半径）用于设置图例中GNSS Error Ellipse（GNSS误差椭圆）的椭圆半径
