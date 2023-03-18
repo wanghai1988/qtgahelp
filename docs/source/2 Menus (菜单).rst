@@ -668,7 +668,7 @@ Evaluate菜单包括下列功能：
       * Displacement Length（位移长度）用于设置图例中GNSS Arrow（GNSS箭头）的位移长度尺寸
       * Arrow Scale（箭头比例）用于设置图例中GNSS Arrow（GNSS箭头）的箭头比例大小
       * Error Radius（误差半径）用于设置图例中GNSS Error Ellipse（GNSS误差椭圆）的椭圆半径
-      * Ellipse Scale（椭圆比例）用于设置设置图例中GNSS Error Ellipse（GNSS误差椭圆）中椭圆的比例
+      * Ellipse Scale（椭圆比例）用于设置图例中GNSS Error Ellipse（GNSS误差椭圆）中椭圆的比例
       * Text（文字）、Font（字体）、Font Size(字号)、Font Color（颜色）用于设置图例中GNSS Text（GNSS文字标注）的文字内容、字体字族、字号大小和文字颜色
 (3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
 
