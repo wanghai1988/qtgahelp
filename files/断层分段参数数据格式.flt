@@ -1,0 +1,4 @@
+    Long1(deg)    Lati1(deg)    Long2(deg)    Lati2(deg) Depth(km) Strike(deg) Width(km) TopDip(deg) BotDip(deg) Slip(m) Rake(deg) Tens(cm)      HWBlock      FWBlock
+   87.36489159   26.56198134   83.80978174   27.84850670   4.06267     292     58.0000       7.000       7.000    0.00     0.000     0.00      Unknown      Unknown
+   87.59000719   27.04039405   84.02205743   28.33249466  11.13109     292     12.0000       8.000      10.000    0.00     0.000     0.00      Unknown      Unknown
+   87.63660082   27.13881977   84.06598377   28.43209409  13.00811     292    140.0000      11.000      11.000    0.00     0.000     0.00      Unknown      Unknown
