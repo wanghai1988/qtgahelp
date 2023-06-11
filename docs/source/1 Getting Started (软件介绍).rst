@@ -160,7 +160,7 @@ GNSS形变场（或速度场）的数据结构包括站点名（Site）、经度
 1.4.8 震源机制解格式
 ~~~~~~~~~~~~~~~~~~~~
 
-震源机制解数据格式包括地震名称、震中坐标与深度、地震矩震级、两个P波初动节面的走向角、倾角和滑动角，以及发震的日期和时间，文件后缀为 .fms，格式请参考 `震源机制解数据输入格式.fms <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E9%9C%87%E6%BA%90%E6%9C%BA%E5%88%B6%E8%A7%A3%E6%95%B0%E6%8D%AE%E8%BE%93%E5%85%A5%E6%A0%BC%E5%BC%8F.fms>`_ ，下面是一个简单的示例。
+震源机制解数据格式包括地震名称（Name）、震中经度（Long）、震中纬度（Lati）、深度（Depth）、地震矩震级（Mw）、两个P波初动节面的走向角（Strike1、Strike2）、倾角（Dip1、Dip2）和滑动角（Rake1、Rake2），以及发震的日期和时间（Datetime），文件后缀为 .fms，格式请参考 `震源机制解数据输入格式.fms <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E9%9C%87%E6%BA%90%E6%9C%BA%E5%88%B6%E8%A7%A3%E6%95%B0%E6%8D%AE%E8%BE%93%E5%85%A5%E6%A0%BC%E5%BC%8F.fms>`_ ，下面是一个简单的示例。
 
 .. code-block:: go
 
@@ -172,7 +172,7 @@ GNSS形变场（或速度场）的数据结构包括站点名（Site）、经度
 1.4.9 地壳分层模型格式
 ~~~~~~~~~~~~~~~~~~~~
 
-地壳分层模型数据格式包括深度、厚度、地震矩震级、P波速度、S波速度、地壳密度和地壳粘度，文件后缀为 .lcm，格式请参考 `地壳分层模型格式输入格式.lcm <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E5%9C%B0%E5%A3%B3%E5%88%86%E5%B1%82%E6%A8%A1%E5%9E%8B.lcm>`_ ，下面是一个简单的示例。
+地壳分层模型数据格式包括深度（Depth）、厚度（Thickness）、地震矩震级（Vp）、P波速度（Vp）、S波速度（Vs）、地壳密度（Rho）、和地壳粘度（Viscosity），文件后缀为 .lcm，格式请参考 `地壳分层模型格式输入格式.lcm <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E5%9C%B0%E5%A3%B3%E5%88%86%E5%B1%82%E6%A8%A1%E5%9E%8B.lcm>`_ ，下面是一个简单的示例。
 
 .. code-block:: go
 
