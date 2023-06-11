@@ -96,7 +96,7 @@
 ~~~~~~~~~~~~~~~~~~
 
 站点数据支持.nll和.nxy两种格式。
-其中，.nll格式结构包括点位的站号、别名、经度与纬度，格式请参考 `站点数据格式.nll <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E7%AB%99%E7%82%B9%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F%E7%A4%BA%E4%BE%8B.nll>`_ ，下面是一个简单的示例。
+其中，.nll格式结构包括点位的站号（Name1）、别名（Name2）、经度（Long）与纬度（Lat），格式请参考 `站点数据格式.nll <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E7%AB%99%E7%82%B9%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F%E7%A4%BA%E4%BE%8B.nll>`_ ，下面是一个简单的示例。
 
 .. code-block:: go
 
@@ -108,7 +108,7 @@
        4      4     101.113    30.962   
        5      5     101.169    30.938
 
-其次，.nxy格式结构包括点位的站号、别名、X坐标与Y坐标，格式请参考 `站点数据格式.nxy <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E7%AB%99%E7%82%B9%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F%E7%A4%BA%E4%BE%8B.nxy>`_ ，下面是一个简单的示例。
+其次，.nxy格式结构包括点位的站号（Name1）、别名（Name2）、X坐标（X）与Y坐标（Y），其中XY为相对某点的相对坐标偏移量，格式请参考 `站点数据格式.nxy <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E7%AB%99%E7%82%B9%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F%E7%A4%BA%E4%BE%8B.nxy>`_ ，下面是一个简单的示例。
 
 .. code-block:: go
 
@@ -122,7 +122,7 @@
 1.4.5 GNSS形变数据格式
 ~~~~~~~~~~~~~~~~~~
 
-GNSS形变场（或速度场）的数据结构包括站点名、经度、纬度、高程、东方向形变、北方向形变、高程形变、东方向误差、北方向误差、高程误差、误差相关系数、以及站点的观测时间。文件后缀为 .gps格式，示例格式请参考 `GNSS形变数据格式.gps <https://github.com/wanghai1988/qtgahelp/blob/main/files/GNSS%E5%BD%A2%E5%8F%98%E6%A0%BC%E5%BC%8F%E7%A4%BA%E4%BE%8B.gps>`_。时间格式为YYYY/MM/DD-YYYY/MM/DD，下面是一个简单的示例 。
+GNSS形变场（或速度场）的数据结构包括站点名（Site）、经度（Long）、纬度（Lat）、高程（H）、东方向形变（DisE）、北方向形变（DisN）、高程形变（DisH）、东方向误差（SigE）、北方向误差（SigN）、高程误差（SigH）、误差相关系数（Corr）、以及站点的观测时间（Date）。文件后缀为 .gps格式，示例格式请参考 `GNSS形变数据格式.gps <https://github.com/wanghai1988/qtgahelp/blob/main/files/GNSS%E5%BD%A2%E5%8F%98%E6%A0%BC%E5%BC%8F%E7%A4%BA%E4%BE%8B.gps>`_。时间格式为YYYY/MM/DD-YYYY/MM/DD，下面是一个简单的示例 。
 
 .. code-block:: go
 
@@ -136,7 +136,7 @@ GNSS形变场（或速度场）的数据结构包括站点名、经度、纬度�
 1.4.6 水准形变场格式
 ~~~~~~~~~~~~~~~~~~~~
 
-水准形变场数据格式包括站点名、坐标、垂向形变、形变精度与观测时间。文件后缀为 .lev，格式请参考 `水准形变数据输入格式.lev <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E6%B0%B4%E5%87%86%E8%A7%82%E6%B5%8B%E6%95%B0%E6%8D%AE%E8%BE%93%E5%85%A5%E6%A0%BC%E5%BC%8F.lev>`_   。形变量与精度的单位不做要求，时间格式为YYYY/MM/DD-YYYY/MM/DD，下面是一个简单的示例。
+水准形变场数据格式包括站点名（Site）、经度（Long）、纬度（Lati）、高程（H）、垂向形变（Val）、形变精度（Sig）与观测时间（Date）。文件后缀为 .lev，格式请参考 `水准形变数据输入格式.lev <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E6%B0%B4%E5%87%86%E8%A7%82%E6%B5%8B%E6%95%B0%E6%8D%AE%E8%BE%93%E5%85%A5%E6%A0%BC%E5%BC%8F.lev>`_   。形变量与精度的单位不做要求，时间格式为YYYY/MM/DD-YYYY/MM/DD，下面是一个简单的示例。
 
 .. code-block:: go
 
@@ -150,7 +150,7 @@ GNSS形变场（或速度场）的数据结构包括站点名、经度、纬度�
 1.4.7 主应变率-旋转率场格式
 ~~~~~~~~~~~~~~~~~~~~
 
-主应变率-旋转率场数据格式包括格网点的经纬度、最大应变率、最大应变率中误差、最小应变率、最小应变率其误差、最小应变率中误差、方位角、方位角中误差、旋转率值域和旋转率中误差，文件后缀为 .rsr，格式请参考 `主应变率-旋转率场数据输入格式.rsr <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E4%B8%BB%E5%BA%94%E5%8F%98%E7%8E%87-%E6%97%8B%E8%BD%AC%E7%8E%87%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.rsr>`_ ，下面是一个简单的示例。
+主应变率-旋转率场数据格式包括格网点的经纬度（Long、Lati）、最大应变率（E1）、最大应变率中误差（Sig1）、最小应变率（E1）、最小应变率其误差（Sig2）、最小应变率中误差（E2）、方位角（Azi）、方位角中误差（Sig3）、旋转率值域（R）和旋转率中误差（Sig4），文件后缀为 .rsr，格式请参考 `主应变率-旋转率场数据输入格式.rsr <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E4%B8%BB%E5%BA%94%E5%8F%98%E7%8E%87-%E6%97%8B%E8%BD%AC%E7%8E%87%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.rsr>`_ ，下面是一个简单的示例。
 
 .. code-block:: go
 
