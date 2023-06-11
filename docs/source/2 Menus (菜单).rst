@@ -221,7 +221,12 @@ Plot菜单包括下列功能：
     
     STEP 1：选择或输入 `主应变率-旋转率场数据输入格式.rsr <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E4%B8%BB%E5%BA%94%E5%8F%98%E7%8E%87-%E6%97%8B%E8%BD%AC%E7%8E%87%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.rsr>`_ 路径 
  
-    STEP 2：设置Scale（比例），用于设置绘制比例，设置范围为0.01-99.99
+    STEP 2：设置Scale（比例）、Line Width（线宽）、Head Length（箭头长度）、Head Width（箭头宽度）、Fill Color（填充颜色）
+      * Scale（比例），用于设置绘制比例，设置范围为0.01-99.99
+      * Line Width（线宽）用于设置箭头后的线段长度，设置范围为0.01-99.99
+      * Head Length（箭头长度），用于设置箭头长度，设置范围为0.01-99.99
+      * Head Width（箭头宽度），用于设置箭头宽度，设置范围为0.01-99.99    
+      * Fill Color（填充颜色），用于设置箭头填充颜色，默认设置为黑色
     
     STEP 3：点击Preview（预览）按钮，即可在地图界面查看显示效果
     
