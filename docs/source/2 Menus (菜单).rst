@@ -214,12 +214,12 @@ Plot菜单包括下列功能：
 ~~~~~~~~~~~~~~~~~~
     主应变率对话框界面如下：
     
-    .. image:: ../images/menu_image/Plot/dialog_PrincipalStrainRate.png
+    .. image:: ../images/menu_image/Plot/dialog_PrincipalStrainRate2.png
         :align: center
     
     使用步骤：
     
-    STEP 1：选择或输入 `主应变率格式（后缀为.psr） <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#id4>`_ 路径 
+    STEP 1：选择或输入 `主应变率-旋转率场数据输入格式.rsr <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E4%B8%BB%E5%BA%94%E5%8F%98%E7%8E%87-%E6%97%8B%E8%BD%AC%E7%8E%87%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.rsr>`_ 路径 
  
     STEP 2：设置Scale（比例），用于设置绘制比例，设置范围为0.01-99.99
     
@@ -227,7 +227,7 @@ Plot菜单包括下列功能：
     
     STEP 4：设置输出文件路径（文件格式为geojson），点击Export（输出）按钮即可输出结果文件，勾选Add File To Current Project（添加文件到当前工程）则会将结果文件添加到当前地图工程内。
     
-    .. image:: ../images/menu_image/Plot/result_PrincipalStrainRate.png
+    .. image:: ../images/menu_image/Plot/result_PrincipalStrainRate2.png
         :align: center
 
 2.2.6 Raster Data Profile（栅格数据剖面分析）
