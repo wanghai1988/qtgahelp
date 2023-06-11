@@ -394,11 +394,12 @@ Plot菜单包括下列功能：
     STEP 1：选择或输入 `地震目录数据格式（后缀为.etc）暂缺 <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#gnss>`_ 路径 
  
     STEP 2：设置Start Time（起始时间）、End Time（结束时间）、Unit（单位）
+      * 根据数据设置对应的时间区间
       * 单位（Unit）可以设置为Hour（小时）、Day（日）、Year（年）
     
     STEP 3：点击Plot（绘制）按钮，即可在新弹出的图表窗口中看到效果
 
-    .. image:: ../images/menu_image/Plot/result_TemporVariationofEarthquakes.png
+     .. image:: ../images/menu_image/Plot/reault_TemporVariationofEarthquakes.png
         :align: center
 
 2.3 Tools (工具)
