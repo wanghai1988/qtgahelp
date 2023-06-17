@@ -414,6 +414,11 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
 
 2.3 Tools (工具)
 -----------------
+Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault Geometry（构造断层几何）、Construct Checkboard Test Model（构造棋盘测试模型）等15项绘制功能，
+
+    .. image:: ../images/menu_image/Tools/menu_tools.png
+        :align: center
+
 
 Tools菜单包括下列功能：
 
@@ -431,6 +436,8 @@ Tools菜单包括下列功能：
 
     .. image:: ../images/menu_image/Tools/CreateCheckboardTestModel.png
        :align: center
+
+
 
 (#) Construct Deep Slip Model
 (#) Extract EQs Within a Block
