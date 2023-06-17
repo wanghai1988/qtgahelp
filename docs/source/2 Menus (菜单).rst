@@ -347,7 +347,7 @@ Plot菜单包括下列功能：
     
     STEP 3：点击Plot（绘制）按钮，即可在新弹出的图表窗口中看到效果（暂缺）
 
-    .. image:: ../images/menu_image/Plot/result_StressChangeonFault.png
+    .. image:: ../images/menu_image/Plot/reault_StressChangeonFault.png
         :align: center
 
 2.2.12 Slip Distribution（滑动分布）
