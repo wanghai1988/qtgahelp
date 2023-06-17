@@ -279,7 +279,7 @@ InSAR方位向偏移量数据格式包括文件名（File_Name）、经度（Lon
 1.4.17 Trade-off曲线数据格式
 ~~~~~~~~~~~~~~~~~~~~
 
-Trade-off曲线数据格式包括S因子（S-Factor）、粗糙度（Roughness）、均方根误差（RMSE），文件后缀为 .toc ，格式请参考 `Trade-off曲线数据格式.toc <https://github.com/wanghai1988/qtgahelp/blob/main/files/Trade-off%E6%9B%B2%E7%BA%BF%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.toc>`_ ，下面是一个简单的示例。（注：第一列占40个字符）
+Trade-off曲线数据格式包括S因子（S-Factor）、粗糙度（Roughness）、均方根误差（RMSE），文件后缀为 .toc ，格式请参考 `Trade-off曲线数据格式.toc <https://github.com/wanghai1988/qtgahelp/blob/main/files/Trade-off%E6%9B%B2%E7%BA%BF%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.toc>`_ ，下面是一个简单的示例。
 
 .. code-block:: go
 
