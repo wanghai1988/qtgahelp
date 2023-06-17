@@ -106,12 +106,13 @@ File菜单下包括下列功能：
 
 2.2 Plot (绘制)
 ----------------
-.. image:: ../images/menu_image/Plot/menu_plot1.png
-    :align: center
-.. image:: ../images/menu_image/Plot/menu_plot2.png
+
+Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displacement（GNSS形变场）、Leveling Displacement（水准形变场）等15项绘制功能，如图所示：
+
+.. image:: ../images/menu_image/Plot/menu_plot.png
     :align: center
 
-Plot菜单包括下列功能：
+具体包括下列功能：
 
 2.2.1 Focal Mechanism（震源机制）
 ~~~~~~~~~~~~~~~~~~
