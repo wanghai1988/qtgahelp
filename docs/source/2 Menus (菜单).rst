@@ -338,7 +338,7 @@ Plot菜单包括下列功能：
 
     **使用步骤：**
 
-    STEP 1：选择或输入 `断层应力数据（后缀为.cfsr或.cfst）暂缺 <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#gnss>`_ 路径 
+    STEP 1：选择或输入 `断层应力变化数据格式.cfsr <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E6%96%AD%E5%B1%82%E5%BA%94%E5%8A%9B%E5%8F%98%E5%8C%96%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.cfsr>`_ 路径 
  
     STEP 2：设置Reference Ellipsoid（参考椭球）、L0（研究区中央经线）、Unit（单位）
       * Reference Ellipsoid（参考椭球），可设置为WGS-84（默认）、Krassovsky Ellipsoid、International Ellipsoid 1975椭球
