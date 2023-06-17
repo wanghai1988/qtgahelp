@@ -299,11 +299,12 @@ Plot菜单包括下列功能：
     
     使用步骤：
     
-    STEP 1：选择或输入 `Trade-off数据格式（后缀为.toc）暂缺 <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#gnss>`_ 路径 
+    STEP 1：选择或输入 `Trade-off曲线数据格式.toc <https://github.com/wanghai1988/qtgahelp/blob/main/files/Trade-off%E6%9B%B2%E7%BA%BF%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.toc>`_ 路径 
  
     STEP 2：点击Plot（绘制）按钮，即可在新弹出的图表窗口中看到效果
     
-    结果暂缺
+    .. image:: ../images/menu_image/Plot/reault_LUCurve.png
+        :align: center
 
 
 2.2.10 GNSS Time Series（GNSS时间序列）
