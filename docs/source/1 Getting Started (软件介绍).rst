@@ -279,7 +279,7 @@ InSAR方位向偏移量数据格式包括文件名（File_Name）、经度（Lon
 1.4.17 Trade-off曲线格式
 ~~~~~~~~~~~~~~~~~~~~
 
-Trade-off曲线数据格式包括S因子（S-Factor）、粗糙度（Roughness）、均方根误差（RMSE），文件后缀为 .toc ，格式请参考 `Trade-off曲线数据格式.toc <https://github.com/wanghai1988/qtgahelp/blob/main/files/Trade-off%E6%9B%B2%E7%BA%BF%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.toc>`_ ，下面是一个简单的示例。
+Trade-off曲线数据格式包括平滑因子（S-Factor）、粗糙度（Roughness）、均方根误差（RMSE），文件后缀为 .toc ，格式请参考 `Trade-off曲线数据格式.toc <https://github.com/wanghai1988/qtgahelp/blob/main/files/Trade-off%E6%9B%B2%E7%BA%BF%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.toc>`_ ，下面是一个简单的示例。
 
 .. code-block:: go
 
@@ -294,7 +294,7 @@ Trade-off曲线数据格式包括S因子（S-Factor）、粗糙度（Roughness�
 1.4.18 断层应力变化格式
 ~~~~~~~~~~~~~~~~~~~~
 
-断层应力变化数据格式包括经度（Long）、纬度（Lat）、深度（Depth）、宽度（Width）、长度（Length）、走向（Strike）、倾角（Dip）、滑移角（Rake）、库伦破裂应力（CFS）、均方根误差（RMSE）、Lambda、Mu、F，文件后缀为.cfsr ，格式请参考 `断层应力变化数据格式.cfsr <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E6%96%AD%E5%B1%82%E5%BA%94%E5%8A%9B%E5%8F%98%E5%8C%96%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.cfsr>`_ ，下面是一个简单的示例。
+断层应力变化数据格式包括经度（Long）、纬度（Lat）、深度（Depth）、断层宽度（Width）、长度（Length）、走向角（Strike）、倾角（Dip）、滑动角（Rake）、库伦破坏应力（CFS）、均方根误差（RMSE）、拉梅常数（Lambda、Mu）、摩擦系数（F），文件后缀为.cfsr ，格式请参考 `断层应力变化数据格式.cfsr <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E6%96%AD%E5%B1%82%E5%BA%94%E5%8A%9B%E5%8F%98%E5%8C%96%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.cfsr>`_ ，下面是一个简单的示例。
 
 .. code-block:: go
 
