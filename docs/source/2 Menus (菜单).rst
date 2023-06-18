@@ -414,13 +414,19 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
 
 2.3 Tools (工具)
 -----------------
-Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault Geometry（构造断层几何）、Construct Checkboard Test Model（构造棋盘测试模型）等15项绘制功能，
+Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault Geometry（构造断层几何）、Construct Checkboard Test Model（构造棋盘测试模型）等15项功能，如图所示。
 
-    .. image:: ../images/menu_image/Tools/menu_tools.png
-        :align: center
+.. image:: ../images/menu_image/Tools/menu_tools.png
+   :align: center
 
+具体包括下列功能：
 
-Tools菜单包括下列功能：
+2.3.1 Data Extract（数据提取）
+~~~~~~~~~~~~~~~~~~
+    Data Extract（数据提取）功能包括了：Extract Elevation Data（提取高程数据）、Extract Incidence/Azimuth Angle（提取入射角/方位角）、Extract Fault Segment Parameters（提取断层段参数）等8个子功能，如图所示。
+
+    .. image:: ../images/menu_image/Tools/btnMenu_DataExtract.png
+       :align: center
 
 (1) Construct Fault Geometry，该菜单包括两个子菜单，其中 With Segments Along the Strike Direction 菜单的界面如下：
 
