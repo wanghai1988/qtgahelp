@@ -423,12 +423,19 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 
 2.3.1 Data Extract（数据提取）
 ~~~~~~~~~~~~~~~~~~
-    Data Extract（数据提取）功能包括了：Extract Elevation Data（提取高程数据）、Extract Incidence/Azimuth Angle（提取入射角/方位角）、Extract Fault Segment Parameters（提取断层段参数）等8个子功能，如图所示。
+    Data Extract（数据提取）菜单包括了：Extract Elevation Data（提取高程数据）、Extract Incidence/Azimuth Angle（提取入射角/方位角）、Extract Fault Segment Parameters（提取断层段参数）等8个子菜单，如图所示。
 
     .. image:: ../images/menu_image/Tools/btnMenu_DataExtract.png
        :align: center
 
-(1) Construct Fault Geometry，该菜单包括两个子菜单，其中 With Segments Along the Strike Direction 菜单的界面如下：
+2.3.2 Construct Fault Geometry（构造断层几何）
+~~~~~~~~~~~~~~~~~~
+    Construct Fault Geometry（构造断层几何）菜单包括了：Varying Strikes（变化走向）、Varying Dips（变化倾角）2个子菜单，如图所示。
+
+    .. image:: ../images/menu_image/Tools/btnMenu_ConstructFaultGeometry.png
+       :align: center
+
+(#) With Segments Along the Strike Direction 菜单的界面如下：
 
     .. image:: ../images/menu_image/Tools/WithSegmentsAlong.png
         :align: center  
