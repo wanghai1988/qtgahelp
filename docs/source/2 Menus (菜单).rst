@@ -492,15 +492,12 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
     .. image:: ../images/menu_image/Tools/WithSegmentsDip.png
         :align: center
 
-(#) Create Checkboard Test Model，该菜单的界面如下：
-
-    .. image:: ../images/menu_image/Tools/CreateCheckboardTestModel.png
-       :align: center
-
-
 
 2.3.3 Construct Checkboard Test Model（）
 ~~~~~~~~~~~~~~~~~~
+
+    .. image:: ../images/menu_image/Tools/CreateCheckboardTestModel.png
+       :align: center
 
 2.3.4 Construct Deep Slip Model（构造深部滑移模型）
 ~~~~~~~~~~~~~~~~~~
