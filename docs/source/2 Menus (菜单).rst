@@ -502,6 +502,9 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 2.3.4 Construct Deep Slip Model（构造深部滑移模型）
 ~~~~~~~~~~~~~~~~~~
 
+    .. image:: ../images/menu_image/Tools/dialog_ConstructDeepSlipModel.png
+       :align: center
+
 2.3.5 Gauss Projection:EN2XY（高斯投影:经纬度转投影坐标）
 ~~~~~~~~~~~~~~~~~~
 
