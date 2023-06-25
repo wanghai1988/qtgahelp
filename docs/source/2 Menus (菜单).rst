@@ -433,6 +433,11 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
      .. image:: ../images/menu_image/Tools/dailog_ExtractElevationData.png
         :align: center
 
+  2. Extract Incidence/Azimuth Angle（提取入射角/方位角）
+
+     .. image:: ../images/menu_image/Tools/dailog_IncidenceAzimuthAngle.png
+        :align: center
+
 2.3.2 Construct Fault Geometry（构造断层几何）
 ~~~~~~~~~~~~~~~~~~
     Construct Fault Geometry（构造断层几何）菜单包括了：Varying Strikes（变化走向）、Varying Dips（变化倾角）2个子菜单，如图所示。
