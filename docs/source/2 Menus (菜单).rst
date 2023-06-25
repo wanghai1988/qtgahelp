@@ -429,6 +429,7 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
        :align: center
 
   1. Extract Elevation Data（提取高程数据）
+
      .. image:: ../images/menu_image/Tools/dailog_ExtractElevationData.png
         :align: center
 
