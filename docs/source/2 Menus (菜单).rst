@@ -428,6 +428,10 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
     .. image:: ../images/menu_image/Tools/btnMenu_DataExtract.png
        :align: center
 
+    #. Extract Elevation Data（提取高程数据）
+    .. image:: ../images/menu_image/Tools/dailog_ExtractElevationData.png
+       :align: center
+
 2.3.2 Construct Fault Geometry（构造断层几何）
 ~~~~~~~~~~~~~~~~~~
     Construct Fault Geometry（构造断层几何）菜单包括了：Varying Strikes（变化走向）、Varying Dips（变化倾角）2个子菜单，如图所示。
