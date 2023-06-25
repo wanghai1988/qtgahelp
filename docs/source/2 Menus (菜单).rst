@@ -428,9 +428,9 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
     .. image:: ../images/menu_image/Tools/btnMenu_DataExtract.png
        :align: center
 
-    #. Extract Elevation Data（提取高程数据）
-    .. image:: ../images/menu_image/Tools/dailog_ExtractElevationData.png
-       :align: center
+    (#) Extract Elevation Data（提取高程数据）
+        .. image:: ../images/menu_image/Tools/dailog_ExtractElevationData.png
+           :align: center
 
 2.3.2 Construct Fault Geometry（构造断层几何）
 ~~~~~~~~~~~~~~~~~~
