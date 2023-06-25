@@ -470,17 +470,24 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 
 2.3.2 Construct Fault Geometry（构造断层几何）
 ~~~~~~~~~~~~~~~~~~
-    Construct Fault Geometry（构造断层几何）菜单包括了：Varying Strikes（变化走向）、Varying Dips（变化倾角）2个子菜单，如图所示。
+    Construct Fault Geometry（构造断层几何）菜单包括了：Varying Strikes（不同走向）、Varying Dips（不同倾角）2个子菜单，如图所示。
 
     .. image:: ../images/menu_image/Tools/btnMenu_ConstructFaultGeometry.png
        :align: center
 
-(#) With Segments Along the Strike Direction 菜单的界面如下：
+(#) Construct Fault Geo Model Varying Strikes（不同走向的构造断层地质模型）菜单的界面如下：
+
+    .. image:: ../images/menu_image/Tools/dailog_ConstructFaultGeoModelVaryingStrikes.png
+       :align: center
+
 
     .. image:: ../images/menu_image/Tools/WithSegmentsAlong.png
         :align: center  
 
-    With Segments In the Dip Direction 菜单的界面如下：
+(#) Construct Fault Geo Model Varying Dips（不同倾角的构造断层地质模型）菜单的界面如下：
+
+    .. image:: ../images/menu_image/Tools/dialog_ConstructFaultGeoModelVaryingDips.png
+       :align: center
 
     .. image:: ../images/menu_image/Tools/WithSegmentsDip.png
         :align: center
