@@ -581,31 +581,26 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 2.3.12 Compress Image（图像压缩）
 ~~~~~~~~~~~~~~~~~~
 
+    .. image:: ../images/menu_image/Tools/btnMenu_CompressImage.png
+       :align: center
+
 2.3.13 Generate Fringe Pattern（生成干涉条纹）
 ~~~~~~~~~~~~~~~~~~
+
+    .. image:: ../images/menu_image/Tools/dialog_GenerateFringePattern.png
+       :align: center
 
 2.3.14 Synthesize LOS Displacement（合成LOS位移）
 ~~~~~~~~~~~~~~~~~~
 
+    .. image:: ../images/menu_image/Tools/dialog_SynthesizeLOSDisplacement.png
+       :align: center
+
 2.3.15 Correct Data（数据校正）
 ~~~~~~~~~~~~~~~~~~
 
-(#) Construct Deep Slip Model
-(#) Extract EQs Within a Block
-(#) Extract Leveling Data Within a Block
-(#) Extract GNSS Data Within a Block
-(#) Extract InSAR Data Within a Block
-(#) Extract Elevation Data
-(#) Extract Incidence/Azimuth Angle
-(#) Extract cGNSS Coseismic Displacement
-(#) Gauss Projection: EN2XY
-(#) Gauss Projection: XY2EN
-(#) Reference Frame Conversion
-(#) Data Format Conversion
-(#) Superimpose Images
-(#) Extract Fault Segment Parameters
-(#) Compress Image
-(#) Clip Images
+    .. image:: ../images/menu_image/Tools/btnMenu_CorrectData.png
+       :align: center
 
 
 2.4 Analysis (分析)
