@@ -429,16 +429,16 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
     .. image:: ../images/menu_image/Tools/btnMenu_DataExtract.png
        :align: center
 
-  #. Extract Elevation Data（提取高程数据）
+  1. Extract Elevation Data（提取高程数据）
 
-    该功能通过DEM数据和InSAR偏移量数据提取范围内的高程点
+    该功能通过DEM栅格数据和InSAR偏移量栅格数据提取范围内的高程点
 
      .. image:: ../images/menu_image/Tools/dailog_ExtractElevationData.png
         :align: center
 
     **使用步骤：**
 
-    STEP 1：选择或输入DEM数据和InSAR偏移量数据路径
+    STEP 1：选择或输入DEM栅格数据和InSAR偏移量栅格数据路径
 
      .. image:: ../images/menu_image/Tools/dialog_ExtractElevationData2.png
         :align: center
@@ -448,11 +448,25 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
      .. image:: ../images/menu_image/Tools/result_ExtractElevationData1.png
         :align: center
 
+  2. Extract Incidence/Azimuth Angle（提取入射角/方位角）
 
-  #. Extract Incidence/Azimuth Angle（提取入射角/方位角）
+    该功能通过入射角栅格数据、方位角栅格数据、数据误差、InSAR数据提取范围内的提取入射角/方位角点数据
 
      .. image:: ../images/menu_image/Tools/dailog_IncidenceAzimuthAngle.png
         :align: center
+
+    **使用步骤：**
+
+    STEP 1：选择或输入Inc Angle（入射角）栅格数据、Azi Angle（方位角）栅格数据、Data Error（数据误差）文件、InSAR数据路径以及导出文件路径
+
+     .. image:: ../images/menu_image/Tools/dialog_IncidenceAzimuthAngle2.png
+        :align: center
+
+    STEP 2：点击Extract（提取）按钮，弹出成功提示框后，即可保存结果
+
+     .. image:: ../images/menu_image/Tools/result_IncidenceAzimuthAngle.png
+        :align: center
+
 
   #. Extract Fault Segment Parameters（提取断层段参数）
 
