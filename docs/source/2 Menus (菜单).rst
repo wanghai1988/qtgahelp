@@ -500,7 +500,8 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 
 2.3.2 Construct Fault Geometry（构造断层几何）
 ~~~~~~~~~~~~~~~~~~
-    Construct Fault Geometry（构造断层几何）菜单包括了：Varying Strikes（不同走向）、Varying Dips（不同倾角）2个子菜单，如图所示。
+
+    该菜单功能根据断层分段参数数据计算矩形或三角位错模型数据，菜单包括了：Varying Strikes（不同走向）、Varying Dips（不同倾角）2个子菜单，如图所示。
 
     .. image:: ../images/menu_image/Tools/btnMenu_ConstructFaultGeometry.png
        :align: center
@@ -532,32 +533,50 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 2.3.4 Construct Deep Slip Model（构造深部滑移模型）
 ~~~~~~~~~~~~~~~~~~
 
-    .. image:: ../images/menu_image/Tools/dialog_ConstructDeepSlipModel.png
+    .. image:: ../images/menu_image/Tools/dailog_ConstructDeepSlipModel.png
        :align: center
 
 2.3.5 Gauss Projection:EN2XY（高斯投影:经纬度转投影坐标）
 ~~~~~~~~~~~~~~~~~~
 
-2.3.6 Gauss Projection:XY2EN（高斯投影:投影坐标转经纬度）
-~~~~~~~~~~~~~~~~~~
+    .. image:: ../images/menu_image/Tools/dailog_GaussProjectionEN2XY.png
+       :align: center
 
 2.3.6 Gauss Projection:XY2EN（高斯投影:投影坐标转经纬度）
 ~~~~~~~~~~~~~~~~~~
+
+    .. image:: ../images/menu_image/Tools/dailog_GaussProjectionXY2EN.png
+       :align: center
 
 2.3.7 Reference Frame Conversion（参考框架转换）
 ~~~~~~~~~~~~~~~~~~
 
+    .. image:: ../images/menu_image/Tools/dailog_ReferenceFrameConversion.png
+       :align: center
+
 2.3.8 Data Format Conversion（数据格式转换）
 ~~~~~~~~~~~~~~~~~~
+
+    .. image:: ../images/menu_image/Tools/btnMenu_DataFormatConversion.png
+       :align: center
 
 2.3.9 Clip Image（图像裁切）
 ~~~~~~~~~~~~~~~~~~
 
+    .. image:: ../images/menu_image/Tools/dialog_ClipImage.png
+       :align: center
+
 2.3.10 Superimpose Image（图像叠加）
 ~~~~~~~~~~~~~~~~~~
 
+    .. image:: ../images/menu_image/Tools/dialog_SuperimposeImage.png
+       :align: center
+
 2.3.11 Merge Image（图像合并）
 ~~~~~~~~~~~~~~~~~~
+
+    .. image:: ../images/menu_image/Tools/dialog_MergeImage.png
+       :align: center
 
 2.3.12 Compress Image（图像压缩）
 ~~~~~~~~~~~~~~~~~~
