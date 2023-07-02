@@ -423,6 +423,7 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 
 2.3.1 Data Extract（数据提取）
 ~~~~~~~~~~~~~~~~~~
+
     Data Extract（数据提取）菜单包括了：Extract Elevation Data（提取高程数据）、Extract Incidence/Azimuth Angle（提取入射角/方位角）、Extract Fault Segment Parameters（提取断层段参数）等8个子菜单，如图所示。
 
     .. image:: ../images/menu_image/Tools/btnMenu_DataExtract.png
@@ -430,8 +431,23 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 
   #. Extract Elevation Data（提取高程数据）
 
+    该功能通过DEM数据和InSAR偏移量数据提取范围内的高程点
+
      .. image:: ../images/menu_image/Tools/dailog_ExtractElevationData.png
         :align: center
+
+    **使用步骤：**
+
+    STEP 1：选择或输入DEM数据和InSAR偏移量数据路径
+
+     .. image:: ../images/menu_image/Tools/dialog_ExtractElevationData2.png
+        :align: center
+
+    STEP 2：点击Extract（提取）按钮，弹出成功提示框后，再点击Export（输出）按钮即可导出结果
+
+     .. image:: ../images/menu_image/Tools/result_ExtractElevationData1.png
+        :align: center
+
 
   #. Extract Incidence/Azimuth Angle（提取入射角/方位角）
 
