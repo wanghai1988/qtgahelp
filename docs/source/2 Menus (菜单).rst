@@ -575,7 +575,7 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 2.3.11 Merge Image（图像合并）
 ~~~~~~~~~~~~~~~~~~
 
-    .. image:: ../images/menu_image/Tools/dialog_MergeImage.png
+    .. image:: ../images/menu_image/Tools/dialog_MergeImages.png
        :align: center
 
 2.3.12 Compress Image（图像压缩）
