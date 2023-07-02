@@ -501,7 +501,7 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 2.3.2 Construct Fault Geometry（构造断层几何）
 ~~~~~~~~~~~~~~~~~~
 
-    该菜单功能根据断层分段参数数据计算矩形或三角位错模型数据，菜单包括了：Varying Strikes（不同走向）、Varying Dips（不同倾角）2个子菜单，如图所示。
+    该功能可根据断层分段参数数据计算矩形或三角位错模型数据，菜单包括了：Varying Strikes（不同走向）、Varying Dips（不同倾角）2个子菜单，如图所示。
 
     .. image:: ../images/menu_image/Tools/btnMenu_ConstructFaultGeometry.png
        :align: center
@@ -524,8 +524,10 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
         :align: center
 
 
-2.3.3 Construct Checkboard Test Model（）
+2.3.3 Construct Checkboard Test Model（构造断层网格测试）
 ~~~~~~~~~~~~~~~~~~
+
+    该功能可基于断层几何模型根据用户设定尺寸生成构造断层网格
 
     .. image:: ../images/menu_image/Tools/CreateCheckboardTestModel.png
        :align: center
