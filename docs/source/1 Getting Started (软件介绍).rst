@@ -304,8 +304,20 @@ Trade-off曲线数据格式包括平滑因子（S-Factor）、粗糙度（Roughn
   105.30172535   29.26496994  -2007.39   1000.000   1000.000  132.364334    42.0000    90.0000   9.2805E+03   0.0000E+00  3.0000E+10  3.0000E+10  0.4
   105.29656902   29.26001926  -2676.52   1000.000   1000.000  132.364334    42.0000    90.0000   7.5787E+03   0.0000E+00  3.0000E+10  3.0000E+10  0.4
 
+
+1.4.19 活动块体运动和应变参数
+~~~~~~~~~~~~~~~~~~~~
+
+断层应力变化数据格式包括名称（Name）、经度（Long）、纬度（Lati）、R_X、Sig1、R_Y、Sig2、R_Z、Sig3、S_X、Sig4、S_Y、Sig5、S_XY、Sig6，文件后缀为.blc ，格式请参考 `活动块体运动和应变参数数据格式.blc <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E6%B4%BB%E5%8A%A8%E5%9D%97%E4%BD%93%E8%BF%90%E5%8A%A8%E5%92%8C%E5%BA%94%E5%8F%98%E5%8F%82%E6%95%B0%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.blc>`_ ，下面是一个简单的示例。
+
+.. code-block:: go
+
+Name      Long(deg)    Lati(deg)  R_X(nanorad/yr)  Sig1(nanorad/yr)  R_Y(nanorad/yr)  Sig2(nanorad/yr)  R_Z(nanorad/yr)  Sig3(nanorad/yr)  S_X(nanorad/yr)  Sig4(nanorad/yr)  S_Y(nanorad/yr)  Sig5(nanorad/yr) 
+  S_XY(nanorad/yr)   Sig6(nanorad/yr)
+SichuanBasin      84.441       39.426        0        0        0        0        0        0        0        0        0        0        0        0  
+
   
-1.4.19 二进制文件
+1.4.20 二进制文件
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 二进制文件主要用于存储栅格数据，如InSAR干涉图和DEM数据等，每个二进制数据都要求有一个对应的头文件。GAMMA等 SAR软件处理获取的地面形变信息以二进制形式存储。要将形变信息在地图上显示，需要将其转换为软件支持的栅格格式。二进制文件不包含任何范围、分辨率等信息，因此在使用时需要搭配记录了必要信息的头文件。二进制数据后缀为 .bin，头文件后缀为 .rsc。头文件记录了二进制数据起始点（左上角像元）的经纬度、最大灰度值、最小灰度值、经向步长、纬向步长、像元行数、像元列数以及像元格式。像元格式包括16位整形、 32位浮点型或 64位浮点型3种，分别使用“int16”、 “float”、“double”标记。输入格式请参考 `栅格头文件输入格式.rsc <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E6%A0%85%E6%A0%BC%E5%A4%B4%E6%96%87%E4%BB%B6%E8%BE%93%E5%85%A5%E6%A0%BC%E5%BC%8F.rsc>`_ ，下面是一个简单的示例。
