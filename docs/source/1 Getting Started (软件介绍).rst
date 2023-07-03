@@ -227,7 +227,8 @@ GNSS形变场（或速度场）的数据结构包括站点名（Site）、经度
 1.4.13 InSAR LOS形变格式
 ~~~~~~~~~~~~~~~~~~~~
 
-InSAR LOS形变数据格式包括经度（Long）、纬度（Lati）、高度（H）、视线方向形变（LOS）、 方位角（Azi）、入射角（Inc）、均方根误差（RMSE），文件后缀为 .los，格式请参考 `InSAR LOS形变数据.los <https://github.com/wanghai1988/qtgahelp/blob/main/files/InSAR%20LOS%E5%BD%A2%E5%8F%98%E6%95%B0%E6%8D%AE.los>`_ ，下面是一个简单的示例。
+InSAR LOS形变数据格式包括经度（Long）、纬度（Lati）、高度（H）、视线向距离（LOS）、 方位角（Azi）、入射角（Inc）、均方根误差（RMSE），文件后缀为 .los，格式请参考 `InSAR LOS形变数据.los <https://github.com/wanghai1988/qtgahelp/blob/main/files/InSAR%20LOS%E5%BD%A2%E5%8F%98%E6%95%B0%E6%8D%AE.los>`_ ，下面是一个简单的示例。
+注：LOS（cm）数据视线向距离缩短为正值，视线向距离拉长为负值。
 
 .. code-block:: go
 
@@ -266,7 +267,7 @@ InSAR方位向偏移量数据格式包括经度（Long）、纬度（Lati）、�
 1.4.16 InSAR数据线性项改正参数格式
 ~~~~~~~~~~~~~~~~~~~~
 
-InSAR方位向偏移量数据格式包括文件名（File_Name）、经度（Long）、纬度（Lati）、大地经度参数（Param_L）、大地纬度参数（Param_B）、常量（Constant），文件后缀为 .lct ，格式请参考 `InSAR数据线性项改正参数文件.lct <https://github.com/wanghai1988/qtgahelp/blob/main/files/InSAR%E6%95%B0%E6%8D%AE%E7%BA%BF%E6%80%A7%E9%A1%B9%E6%94%B9%E6%AD%A3%E5%8F%82%E6%95%B0%E6%96%87%E4%BB%B6.lct>`_ ，下面是一个简单的示例。（注：第一列占40个字符）
+InSAR方位向偏移量数据格式包括文件名（File_Name）、经度（Long）、纬度（Lati）、大地经度参数（Param_L）、大地纬度参数（Param_B）、常量（Constant），文件后缀为 .lcp ，格式请参考 `InSAR数据线性项改正参数文件.lct <https://github.com/wanghai1988/qtgahelp/blob/main/files/InSAR%E6%95%B0%E6%8D%AE%E7%BA%BF%E6%80%A7%E9%A1%B9%E6%94%B9%E6%AD%A3%E5%8F%82%E6%95%B0%E6%96%87%E4%BB%B6.lcp>`_ ，下面是一个简单的示例。（注：第一列占40个字符）
 
 .. code-block:: go
 
