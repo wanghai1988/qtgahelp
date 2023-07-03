@@ -313,8 +313,7 @@ Trade-off曲线数据格式包括平滑因子（S-Factor）、粗糙度（Roughn
 
 .. code-block:: go
 
-     Name      Long(deg)    Lati(deg)  R_X(nanorad/yr)  Sig1(nanorad/yr)  R_Y(nanorad/yr)  Sig2(nanorad/yr)  R_Z(nanorad/yr)  Sig3(nanorad/yr)  S_X(nanorad/yr)  Sig4(nanorad/yr)  S_Y(nanorad/yr)  Sig5(nanorad/yr) 
-  S_XY(nanorad/yr)   Sig6(nanorad/yr)
+     Name      Long(deg)    Lati(deg)  R_X(nanorad/yr)  Sig1(nanorad/yr)  R_Y(nanorad/yr)  Sig2(nanorad/yr)  R_Z(nanorad/yr)  Sig3(nanorad/yr)  S_X(nanorad/yr)  Sig4(nanorad/yr)  S_Y(nanorad/yr)  Sig5(nanorad/yr)   S_XY(nanorad/yr)   Sig6(nanorad/yr)
      SichuanBasin      84.441       39.426        0        0        0        0        0        0        0        0        0        0        0        0  
 
   
