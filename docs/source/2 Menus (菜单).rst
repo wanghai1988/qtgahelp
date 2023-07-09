@@ -709,6 +709,8 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 2.3.8 Data Format Conversion（数据格式转换）
 ~~~~~~~~~~~~~~~~~~
 
+    该功能用于进行栅格或矢量格式的转换
+
     .. image:: ../images/menu_image/Tools/btnMenu_DataFormatConversion.png
        :align: center
 
@@ -725,10 +727,21 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 2.3.9 Clip Image（图像裁切）
 ~~~~~~~~~~~~~~~~~~
 
-
+    该功能基于绘制范围进行栅格图像的裁切
 
     .. image:: ../images/menu_image/Tools/dialog_ClipImage.png
        :align: center
+
+    STEP 1：先通过Map View工具栏中的Create Polygon（新建多边形）工具绘制一个多边形范围
+
+     .. image:: ../images/menu_image/Tools/tool_CreatePolygon.png
+        :align: center
+
+    STEP 2：添加栅格图像
+
+    STEP 3：添加导出图像路径
+
+    STEP 4：点击RUN（运行）进行计算，即可保存结果
 
 
 
