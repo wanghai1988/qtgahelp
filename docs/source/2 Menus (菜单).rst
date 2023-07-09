@@ -512,15 +512,33 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 
   #. Extract GNSS Data within Block（提取范围内的GNSS数据）
 
+      该功能用于提取多边形范围内的GNSS数据
+
      .. image:: ../images/menu_image/Tools/dailog_ExtractGNSSDatawithinBlock.png
         :align: center
 
+    **使用步骤：**
+
+    STEP 1：先通过Map View工具栏中的Create Polygon（新建多边形）工具绘制一个多边形范围
+
+     .. image:: ../images/menu_image/Tools/tool_CreatePolygon.png
+        :align: center
+
+    STEP 2：点击按钮打开Extract GNSS Data within Block对话框，设置待提取的基础GNSS数据（.gps）路径和提取后数据的保存路径，选择之前绘制的多边形范围，点击Extract（提取）按钮，弹出成功提示框后，即可保存结果
+
+     .. image:: ../images/menu_image/Tools/dialog_ExtractGNSSWithinBlock2.png
+        :align: center
+
   #. Extract InSAR Data within Block（提取范围内的InSar数据）
+
+      该功能用于提取多边形范围内的InSar数据
 
      .. image:: ../images/menu_image/Tools/dailog_ExtractInSARDatawithinBlock.png
         :align: center
 
   #. Extract Earthquakes within Block（提取范围内的地震数据）
+
+      该功能用于提取多边形范围内的地震数据
 
      .. image:: ../images/menu_image/Tools/dailog_ExtractEarthquakeswithinBlock.png
         :align: center
