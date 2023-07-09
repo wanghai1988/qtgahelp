@@ -690,8 +690,21 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 2.3.7 Reference Frame Conversion（参考框架转换）
 ~~~~~~~~~~~~~~~~~~
 
+    该功能用于进行数据参考框架的转换
+
     .. image:: ../images/menu_image/Tools/dailog_ReferenceFrameConversion.png
        :align: center
+
+    **使用步骤：**
+
+    STEP 1：输入或选择GNSS数据的路径
+
+    STEP 2：输入Euler Vector（欧拉向量）
+
+    STEP 3：输入Earth Radius（地球半径）、Reverse（反向）
+
+    STEP 4：点击Translation（转换）进行计算，点击Export（导出）按钮，弹出成功提示框后，即可保存结果
+
 
 2.3.8 Data Format Conversion（数据格式转换）
 ~~~~~~~~~~~~~~~~~~
@@ -699,11 +712,25 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
     .. image:: ../images/menu_image/Tools/btnMenu_DataFormatConversion.png
        :align: center
 
+1. BIN -> IMG 二进制转IMG
+2. IMG -> BIN IMG转二进制
+3. POS -> TMS POS转GNSS时序数据
+4. NLL -> SHP NLL转SHP
+5. LEV -> SHP 水准转SHP
+6. GPS -> SHP GPS转SHP
+7. ETC -> SHP 地震转SHP
+8. SAR -> SHP InSAR转SHP
+
+
 2.3.9 Clip Image（图像裁切）
 ~~~~~~~~~~~~~~~~~~
 
+
+
     .. image:: ../images/menu_image/Tools/dialog_ClipImage.png
        :align: center
+
+
 
 2.3.10 Superimpose Image（图像叠加）
 ~~~~~~~~~~~~~~~~~~
