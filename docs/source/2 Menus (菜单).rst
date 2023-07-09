@@ -584,7 +584,11 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 
     STEP 1：先输入或选择 Fault Params Files（断层参数文件）
 
-    STEP 2：根据数据依次配置Reference Ellipsoid（参考椭球体）、L0（中央子午线）、Dislocation Shape（错位形状）、Length和Width矩形错位要素的长宽尺寸
+    STEP 2：根据数据依次配置相应菜蔬
+      * Reference Ellipsoid（参考椭球体）
+      * L0（中央子午线）
+      * Dislocation Shape（错位形状）
+      * Length和Width矩形错位要素的长宽尺寸
 
     STEP 3：点击OK进行计算，点击Export（导出）按钮，弹出成功提示框后，即可保存结果
 
@@ -596,6 +600,18 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
     .. image:: ../images/menu_image/Tools/dialog_ConstructFaultGeoModelVaryingDips.png
        :align: center
 
+    **使用步骤：**
+
+    STEP 1：先输入或选择 Fault Params Files（断层参数文件）
+
+    STEP 2：根据数据依次配置相应菜蔬
+      * Reference Ellipsoid（参考椭球体）
+      * L0（中央子午线）
+      * Dislocation Shape（错位形状）
+      * Length和Width矩形错位要素的长宽尺寸
+
+    STEP 3：点击OK进行计算，点击Export（导出）按钮，弹出成功提示框后，即可保存结果
+
     .. image:: ../images/menu_image/Tools/WithSegmentsDip.png
         :align: center
 
@@ -604,6 +620,8 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 ~~~~~~~~~~~~~~~~~~
 
     该功能可基于断层几何模型根据用户设定尺寸生成构造断层网格
+
+
 
     .. image:: ../images/menu_image/Tools/CreateCheckboardTestModel.png
        :align: center
