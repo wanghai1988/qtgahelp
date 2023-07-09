@@ -267,7 +267,7 @@ InSAR方位向偏移量数据格式包括经度（Long）、纬度（Lati）、�
 1.4.16 InSAR数据线性项改正参数格式
 ~~~~~~~~~~~~~~~~~~~~
 
-InSAR方位向偏移量数据格式包括文件名（File_Name）、经度（Long）、纬度（Lati）、大地经度参数（Param_L）、大地纬度参数（Param_B）、常量（Constant），文件后缀为 .lcp ，格式请参考 `InSAR数据线性项改正参数文件.lct <https://github.com/wanghai1988/qtgahelp/blob/main/files/InSAR%E6%95%B0%E6%8D%AE%E7%BA%BF%E6%80%A7%E9%A1%B9%E6%94%B9%E6%AD%A3%E5%8F%82%E6%95%B0%E6%96%87%E4%BB%B6.lcp>`_ ，下面是一个简单的示例。（注：第一列占40个字符）
+InSAR方位向偏移量数据格式包括文件名（File_Name）、经度（Long）、纬度（Lati）、大地经度参数（Param_L）、大地纬度参数（Param_B）、常量（Constant），文件后缀为 .lcp ，格式请参考 `InSAR数据线性项改正参数文件.lcp <https://github.com/wanghai1988/qtgahelp/blob/main/files/InSAR%E6%95%B0%E6%8D%AE%E7%BA%BF%E6%80%A7%E9%A1%B9%E6%94%B9%E6%AD%A3%E5%8F%82%E6%95%B0%E6%96%87%E4%BB%B6.lcp>`_ ，下面是一个简单的示例。（注：第一列占40个字符）
 
 .. code-block:: go
 
