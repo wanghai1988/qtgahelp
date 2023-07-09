@@ -491,10 +491,8 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 
     STEP 2：点击打开Extract GNSS Coseismic Displacement对话框，设置GNSS，即可保存结果
 
-     .. image:: ../images/menu_image/Tools/result_IncidenceAzimuthAngle.png
+     .. image:: ../images/menu_image/Tools/dialog_ExtractGNSSCoseismicDisplacement2.png
         :align: center
-
-
 
   #. Extract Leveling Data within Block（提取范围内的水准数据）
 
