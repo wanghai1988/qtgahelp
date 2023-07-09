@@ -96,11 +96,11 @@
 ~~~~~~~~~~~~~~~~~~
 
 站点数据支持.nll和.nxy两种格式。
-其中，.nll格式结构包括点位的站号（Name1）、别名（Name2）、经度（Long）与纬度（Lat），格式请参考 `站点数据格式.nll <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E7%AB%99%E7%82%B9%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F%E7%A4%BA%E4%BE%8B.nll>`_ ，下面是一个简单的示例。
+其中，.nll格式结构包括点位的站号（Name1）、别名（Name2）、经度（Long）与纬度（Lati），格式请参考 `站点数据格式.nll <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E7%AB%99%E7%82%B9%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F%E7%A4%BA%E4%BE%8B.nll>`_ ，下面是一个简单的示例。
 
 .. code-block:: go
 
-     Name1  Name2  Long(deg)  Lat(deg)                                                 
+     Name1  Name2  Long(deg)  Lati(deg)                                                 
        0      0     100.735    31.304 
        1      1     100.825    31.229  
        2      2     101.130    31.100  
@@ -122,11 +122,11 @@
 1.4.5 GNSS形变数据格式
 ~~~~~~~~~~~~~~~~~~
 
-GNSS形变场（或速度场）的数据结构包括站点名（Site）、经度（Long）、纬度（Lat）、高程（H）、东方向形变（DisE）、北方向形变（DisN）、高程形变（DisH）、东方向误差（SigE）、北方向误差（SigN）、高程误差（SigH）、误差相关系数（Corr）、以及站点的观测时间（Date）。文件后缀为 .gps格式，示例格式请参考 `GNSS形变数据格式.gps <https://github.com/wanghai1988/qtgahelp/blob/main/files/GNSS%E5%BD%A2%E5%8F%98%E6%A0%BC%E5%BC%8F%E7%A4%BA%E4%BE%8B.gps>`_。时间格式为YYYY/MM/DD-YYYY/MM/DD，下面是一个简单的示例 。
+GNSS形变场（或速度场）的数据结构包括站点名（Site）、经度（Long）、纬度（Lati）、高程（H）、东方向形变（DisE）、北方向形变（DisN）、高程形变（DisH）、东方向误差（SigE）、北方向误差（SigN）、高程误差（SigH）、误差相关系数（Corr）、以及站点的观测时间（Date）。文件后缀为 .gps格式，示例格式请参考 `GNSS形变数据格式.gps <https://github.com/wanghai1988/qtgahelp/blob/main/files/GNSS%E5%BD%A2%E5%8F%98%E6%A0%BC%E5%BC%8F%E7%A4%BA%E4%BE%8B.gps>`_。时间格式为YYYY/MM/DD-YYYY/MM/DD，下面是一个简单的示例 。
 
 .. code-block:: go
 
- Site          Long(deg)      Lat(deg)       H(m)    DisE(cm)  DisN(cm)  DisH(cm)  SigE(cm) SigN(cm) SigH(cm)   Corr       Date
+ Site          Long(deg)      Lati(deg)       H(m)    DisE(cm)  DisN(cm)  DisH(cm)  SigE(cm) SigN(cm) SigH(cm)   Corr       Date
  BESI        84.38000000    28.22900000      0.000     0.170    -0.090     1.360    0.300    0.220    1.080   -0.0150     2010/04/17-2010/11/03
  BNDP        84.39510000    27.94950000      0.000     0.160    -0.050     0.320    0.300    0.230    0.770    0.0460     2010/04/17-2010/11/03
  CHLM        85.31410000    28.20720000      0.000    -0.130    -1.970     0.290    0.170    0.160    0.490   -0.0280     2010/04/17-2010/11/03
@@ -218,7 +218,7 @@ GNSS形变场（或速度场）的数据结构包括站点名（Site）、经度
 
 .. code-block:: go
 
-    Long1(deg)    Lati1(deg)        Z1(m)    Long2(deg)    Lati2(deg)        Z2(m)    Long3(deg)    Lati3(deg)        Z3(m)   U1(cm)   U2(cm)   U3(cm)  Adj1  Adj2  Adj3
+    Long1(deg)    Lati1(deg)        Z1(m)    Long2(deg)    Lati2(deg)        Z2(m)    Long3(deg)    Lati3(deg)        Z3(m)    Strike(deg)   Dip(deg)   U1(cm)   U2(cm)   U3(cm)  Adj1  Adj2  Adj3
    96.28032985   33.29127015       0.0000   96.29874568   33.28819664       0.0000   96.27967682   33.28850310   -1975.3767     2.30     1.97     0.00     0     0    49
    96.29874568   33.28819664       0.0000   96.31716005   33.28516345       0.0000   96.29806497   33.28543415   -1975.3767     0.06     2.39     0.00    49     0    50
    96.31716005   33.28516345       0.0000   96.33557420   33.28188167       0.0000   96.31645166   33.28240573   -1975.3767     0.00     3.03     0.00    50     0    51
@@ -295,11 +295,11 @@ Trade-off曲线数据格式包括平滑因子（S-Factor）、粗糙度（Roughn
 1.4.18 断层应力变化格式
 ~~~~~~~~~~~~~~~~~~~~
 
-断层应力变化数据格式包括经度（Long）、纬度（Lat）、深度（Depth）、断层宽度（Width）、长度（Length）、走向角（Strike）、倾角（Dip）、滑动角（Rake）、库伦破坏应力（CFS）、均方根误差（RMSE）、拉梅常数（Lambda、Mu）、摩擦系数（F），文件后缀为.cfsr ，格式请参考 `断层应力变化数据格式.cfsr <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E6%96%AD%E5%B1%82%E5%BA%94%E5%8A%9B%E5%8F%98%E5%8C%96%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.cfsr>`_ ，下面是一个简单的示例。
+断层应力变化数据格式包括经度（Long）、纬度（Lati）、深度（Depth）、断层宽度（Width）、长度（Length）、走向角（Strike）、倾角（Dip）、滑动角（Rake）、库伦破坏应力（CFS）、均方根误差（RMSE）、拉梅常数（Lambda、Mu）、摩擦系数（F），文件后缀为.cfsr ，格式请参考 `断层应力变化数据格式.cfsr <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E6%96%AD%E5%B1%82%E5%BA%94%E5%8A%9B%E5%8F%98%E5%8C%96%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.cfsr>`_ ，下面是一个简单的示例。
 
 .. code-block:: go
 
-     Long(deg)      Lat(deg)  Depth(m)   Width(m)  Length(m) Strike(deg)   Dip(deg)  Rake(deg)      CFS(Pa)     RMSE(Pa)      Lambda          Mu    F
+     Long(deg)      Lati(deg)  Depth(m)   Width(m)  Length(m) Strike(deg)   Dip(deg)  Rake(deg)      CFS(Pa)     RMSE(Pa)      Lambda          Mu    F
   105.31203951   29.27487069   -669.13   1000.000   1000.000  132.364334    42.0000    90.0000   1.2413E+04   0.0000E+00  3.0000E+10  3.0000E+10  0.4
   105.30688218   29.26992042  -1338.26   1000.000   1000.000  132.364334    42.0000    90.0000   9.8236E+03   0.0000E+00  3.0000E+10  3.0000E+10  0.4
   105.30172535   29.26496994  -2007.39   1000.000   1000.000  132.364334    42.0000    90.0000   9.2805E+03   0.0000E+00  3.0000E+10  3.0000E+10  0.4
