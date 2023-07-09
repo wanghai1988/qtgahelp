@@ -484,12 +484,9 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 
     **使用步骤：**
 
-    STEP 1：先通过Map View工具栏中的Create Polygon（新建多边形）工具绘制一个多边形范围
+    STEP 1：选择或输入GNSS时序数据（.tms）路径，输入合适的时间范围，DateTime1和DateTime2
 
-     .. image:: ../images/menu_image/Tools/tool_CreatePolygon.png
-        :align: center
-
-    STEP 2：点击打开Extract GNSS Coseismic Displacement对话框，设置GNSS，即可保存结果
+    STEP 2：点击OK，即可计算输出结果：N±dN、E±dE、U±dU，再点击Export即可导出计算结果
 
      .. image:: ../images/menu_image/Tools/dialog_ExtractGNSSCoseismicDisplacement2.png
         :align: center
@@ -508,7 +505,7 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
      .. image:: ../images/menu_image/Tools/tool_CreatePolygon.png
         :align: center
 
-    STEP 2：点击按钮打开Extract Leveling Data within Block对话框，设置待提取的基础水准数据路径和提取后数据的保存路径，选择之前绘制的多边形范围，点击Extract（提取）按钮，弹出成功提示框后，即可保存结果
+    STEP 2：点击按钮打开Extract Leveling Data within Block对话框，设置待提取的基础水准数据（.lev）路径和提取后数据的保存路径，选择之前绘制的多边形范围，点击Extract（提取）按钮，弹出成功提示框后，即可保存结果
 
      .. image:: ../images/menu_image/Tools/dialog_ExtractLevelingDataWithBlock2.png
         :align: center
