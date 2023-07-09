@@ -468,19 +468,51 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
         :align: center
 
 
-  #. Extract Fault Segment Parameters（提取断层段参数）
+  #. Extract Fault Segment Parameters（提取断层分段参数）
+
+    该功能通过设置提取断层分段参数
 
      .. image:: ../images/menu_image/Tools/dailog_ExtractFaultSegmentParameters.png
         :align: center
 
   #. Extract GNSS Coseismic Displacement（提取GNSS等震线位移）
 
+    该功能通过设置时间范围提取GNSS等震线位移数据
+
      .. image:: ../images/menu_image/Tools/dailog_ExtractGNSSCoseismicDisplacement.png
         :align: center
 
+    **使用步骤：**
+
+    STEP 1：先通过Map View工具栏中的Create Polygon（新建多边形）工具绘制一个多边形范围
+
+     .. image:: ../images/menu_image/Tools/tool_CreatePolygon.png
+        :align: center
+
+    STEP 2：点击打开Extract GNSS Coseismic Displacement对话框，设置GNSS，即可保存结果
+
+     .. image:: ../images/menu_image/Tools/result_IncidenceAzimuthAngle.png
+        :align: center
+
+
+
   #. Extract Leveling Data within Block（提取范围内的水准数据）
 
+     该功能用于提取多边形范围内的水准数据
+
      .. image:: ../images/menu_image/Tools/dailog_ExtractLevelingDatawithinBlock.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：先通过Map View工具栏中的Create Polygon（新建多边形）工具绘制一个多边形范围
+
+     .. image:: ../images/menu_image/Tools/tool_CreatePolygon.png
+        :align: center
+
+    STEP 2：点击按钮打开Extract Leveling Data within Block对话框，设置待提取的基础水准数据路径和提取后数据的保存路径，选择之前绘制的多边形范围，点击Extract（提取）按钮，弹出成功提示框后，即可保存结果
+
+     .. image:: ../images/menu_image/Tools/dialog_ExtractLevelingDataWithBlock2.png
         :align: center
 
   #. Extract GNSS Data within Block（提取范围内的GNSS数据）
