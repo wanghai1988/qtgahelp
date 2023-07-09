@@ -187,7 +187,7 @@ GNSS形变场（或速度场）的数据结构包括站点名（Site）、经度
 1.4.10 断层分段参数格式
 ~~~~~~~~~~~~~~~~~~~~
 
-断层分段参数数据格式包括起点经纬度（Long1、Lati1）、终点经纬度（Long2、Lati2）、深度（Depth）、走向（Strike）、宽度（Width）、顶层倾角（TopDip）、底层倾角（BotDip）、滑移（Slip）、滑移角（Rake）、张量（Tens）、HWBlock、FWBlock，文件后缀为 .flt，格式请参考 `断层分段参数数据格式.flt <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E6%96%AD%E5%B1%82%E5%88%86%E6%AE%B5%E5%8F%82%E6%95%B0%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.flt>`_ ，下面是一个简单的示例。
+断层分段参数数据格式包括起点经纬度（Long1、Lati1）、终点经纬度（Long2、Lati2）、深度（Depth）、走向（Strike）、宽度（Width）、顶层倾角（TopDip）、底层倾角（BotDip）、滑移（Slip）、滑移角（Rake）、张量（Tens）、上盘对应块体（HWBlock）、下盘对应块体（FWBlock），文件后缀为 .flt，格式请参考 `断层分段参数数据格式.flt <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E6%96%AD%E5%B1%82%E5%88%86%E6%AE%B5%E5%8F%82%E6%95%B0%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.flt>`_ ，下面是一个简单的示例。
 
 .. code-block:: go
 
