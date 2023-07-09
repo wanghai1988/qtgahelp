@@ -584,7 +584,7 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 
     STEP 1：先输入或选择 Fault Params Files（断层参数文件）
 
-    STEP 2：根据数据依次配置相应菜蔬
+    STEP 2：根据数据依次配置相应参数
       * Reference Ellipsoid（参考椭球体）
       * L0（中央子午线）
       * Dislocation Shape（错位形状）
@@ -604,7 +604,7 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 
     STEP 1：先输入或选择 Fault Params Files（断层参数文件）
 
-    STEP 2：根据数据依次配置相应菜蔬
+    STEP 2：根据数据依次配置相应参数
       * Reference Ellipsoid（参考椭球体）
       * L0（中央子午线）
       * Dislocation Shape（错位形状）
@@ -616,21 +616,43 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
         :align: center
 
 
-2.3.3 Construct Checkboard Test Model（构造断层网格测试）
+2.3.3 Construct Checkboard Test Model（构造棋盘测试模型）
 ~~~~~~~~~~~~~~~~~~
 
-    该功能可基于断层几何模型根据用户设定尺寸生成构造断层网格
-
-
+    该功能可基于断层几何模型根据用户设定尺寸生成构造棋盘测试模型
 
     .. image:: ../images/menu_image/Tools/CreateCheckboardTestModel.png
        :align: center
 
+    **使用步骤：**
+
+    STEP 1：先输入或选择 Fault Geometry Model File（断层几何模型文件）
+
+    STEP 2：根据数据依次配置相应参数
+      * Chess Size的Row和Col（象棋尺寸所占的行和列）
+      * Fault Plane Grid的Row和Col（断层屏幕格网所占行和列）
+      * Sliding Amount（浮动总数）中Strike-slip Component（走滑分量）、Tilt Component（倾斜分量）、Split Component（断裂分量）
+
+    STEP 3：点击Construct进行构建，点击Export（导出）按钮，弹出成功提示框后，即可保存结果
+
 2.3.4 Construct Deep Slip Model（构造深部滑移模型）
 ~~~~~~~~~~~~~~~~~~
 
+    该功能可基于断层几何模型生成深部滑移模型
+
     .. image:: ../images/menu_image/Tools/dailog_ConstructDeepSlipModel.png
        :align: center
+
+    **使用步骤：**
+
+    STEP 1：输入或选择 Fault Geometry Model File（断层几何模型文件）
+
+    STEP 2：输入或选择 Longterm Slip Model File（长期滑移模型文件）
+
+    STEP 3：输入或选择 Negative Slip Model File（负滑移模型文件）
+
+    STEP 4：点击Construct进行构建，点击Export（导出）按钮，弹出成功提示框后，即可保存结果
+
 
 2.3.5 Gauss Projection:EN2XY（高斯投影:经纬度转投影坐标）
 ~~~~~~~~~~~~~~~~~~
