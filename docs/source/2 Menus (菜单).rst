@@ -657,14 +657,35 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 2.3.5 Gauss Projection:EN2XY（高斯投影:经纬度转投影坐标）
 ~~~~~~~~~~~~~~~~~~
 
+    该功能用于将经纬度坐标转换为高斯投影坐标
+
+1. 模式1
+    
     .. image:: ../images/menu_image/Tools/dailog_GaussProjectionEN2XY.png
        :align: center
+
+    **使用步骤：**
+
+    STEP 1：输入Longitude（经度）、Latitude（纬度）、Zone Width（分带宽度）、Reference Ellipsoid（参考椭球体）
+
+    STEP 2：点击OK，自动计算X、Y、Zone Num（带号）结果
 
 2.3.6 Gauss Projection:XY2EN（高斯投影:投影坐标转经纬度）
 ~~~~~~~~~~~~~~~~~~
 
+    该功能用于将高斯投影坐标转换为经纬度坐标
+
+1. 模式1
+
     .. image:: ../images/menu_image/Tools/dailog_GaussProjectionXY2EN.png
        :align: center
+
+    **使用步骤：**
+
+    STEP 1：输入X、Y、Zone Num（带号）、Reference Ellipsoid（参考椭球体）
+
+    STEP 2：点击OK，自动计算Longitude（经度）、Latitude（纬度）、Zone Width（分带宽度）结果
+
 
 2.3.7 Reference Frame Conversion（参考框架转换）
 ~~~~~~~~~~~~~~~~~~
