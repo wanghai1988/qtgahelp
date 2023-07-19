@@ -317,8 +317,8 @@ Trade-off曲线数据格式包括平滑因子（S-Factor）、粗糙度（Roughn
 .. code-block:: go
 
    Name      Long(deg)    Lati(deg)  R_X(nanorad/yr)  Sig1(nanorad/yr)  R_Y(nanorad/yr)  Sig2(nanorad/yr)  R_Z(nanorad/yr)  Sig3(nanorad/yr)  S_X(nanorad/yr)  Sig4(nanorad/yr)  S_Y(nanorad/yr)  Sig5(nanorad/yr) S_XY(nanorad/yr)   Sig6(nanorad/yr)
-huanan            103.699       27.794         -0.3899     0        0.896         0       0.6872        0       -0.0788        0        0.0262        0       0.1541       0
-chuandian        101.349       27.873        -1.5409      0        2.0235       0       1.7521        0       -0.0039        0        -0.1018       0       0.2024      0   
+  huanan            103.699       27.794         -0.3899     0        0.896         0       0.6872        0       -0.0788        0        0.0262        0       0.1541       0
+  chuandian         101.349       27.873        -1.5409      0        2.0235        0       1.7521        0       -0.0039        0        -0.1018       0       0.2024       0   
 
   
 1.4.20 二进制数据说明文件
