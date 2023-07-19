@@ -311,12 +311,14 @@ Trade-off曲线数据格式包括平滑因子（S-Factor）、粗糙度（Roughn
 1.4.19 活动块体运动和应变参数
 ~~~~~~~~~~~~~~~~~~~~
 
-断层应力变化数据格式包括名称（Name）、经度（Long）、纬度（Lati）、R_X、Sig1、R_Y、Sig2、R_Z、Sig3、S_X、Sig4、S_Y、Sig5、S_XY、Sig6，文件后缀为.blc ，格式请参考 `活动块体运动和应变参数数据格式.blc <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E6%B4%BB%E5%8A%A8%E5%9D%97%E4%BD%93%E8%BF%90%E5%8A%A8%E5%92%8C%E5%BA%94%E5%8F%98%E5%8F%82%E6%95%B0%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.blc>`_ ，下面是一个简单的示例。
+
+活动块体运动和应变参数数据格式包括块体名称（Name）、块体质心经纬度（Long、Lati）、东西向旋转矢量及对应中误差（R_X、Sig1）、南北向旋转矢量及对应中误差（R_Y、Sig2）、垂直向旋转矢量及对应中误差（R_Z、Sig3）、东西向线应变率及中误差（S_X、Sig4）、南北向线应变率及中误差（S_Y、Sig5）、剪应变率及中误差（S_XY、Sig6），文件后缀为.blc ，格式请参考 `活动块体运动和应变参数数据格式.blc <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E6%B4%BB%E5%8A%A8%E5%9D%97%E4%BD%93%E8%BF%90%E5%8A%A8%E5%92%8C%E5%BA%94%E5%8F%98%E5%8F%82%E6%95%B0%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.blc>`_ ，下面是一个简单的示例。
 
 .. code-block:: go
 
-     Name      Long(deg)    Lati(deg)  R_X(nanorad/yr)  Sig1(nanorad/yr)  R_Y(nanorad/yr)  Sig2(nanorad/yr)  R_Z(nanorad/yr)  Sig3(nanorad/yr)  S_X(nanorad/yr)  Sig4(nanorad/yr)  S_Y(nanorad/yr)  Sig5(nanorad/yr)   S_XY(nanorad/yr)   Sig6(nanorad/yr)
-     SichuanBasin      84.441       39.426        0        0        0        0        0        0        0        0        0        0        0        0  
+   Name      Long(deg)    Lati(deg)  R_X(nanorad/yr)  Sig1(nanorad/yr)  R_Y(nanorad/yr)  Sig2(nanorad/yr)  R_Z(nanorad/yr)  Sig3(nanorad/yr)  S_X(nanorad/yr)  Sig4(nanorad/yr)  S_Y(nanorad/yr)  Sig5(nanorad/yr) S_XY(nanorad/yr)   Sig6(nanorad/yr)
+huanan            103.699       27.794         -0.3899     0        0.896         0       0.6872        0       -0.0788        0        0.0262        0       0.1541       0
+chuandian        101.349       27.873        -1.5409      0        2.0235       0       1.7521        0       -0.0039        0        -0.1018       0       0.2024      0   
 
   
 1.4.20 二进制数据说明文件
