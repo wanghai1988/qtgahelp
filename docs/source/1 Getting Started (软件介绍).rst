@@ -152,7 +152,7 @@ GNSS形变场（或速度场）的数据结构包括站点名（Site）、经度
 1.4.7 主应变率-旋转率场格式
 ~~~~~~~~~~~~~~~~~~~~
 
-主应变率-旋转率场数据格式包括格网点的经纬度（Long、Lati）、最大应变率（E1）、最大应变率中误差（Sig1）、最小应变率（E1）、最小应变率其误差（Sig2）、最小应变率中误差（E2）、方位角（Azi）、方位角中误差（Sig3）、旋转率值域（R）和旋转率中误差（Sig4），文件后缀为 .rsr，格式请参考 `主应变率-旋转率场数据输入格式.rsr <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E4%B8%BB%E5%BA%94%E5%8F%98%E7%8E%87-%E6%97%8B%E8%BD%AC%E7%8E%87%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.rsr>`_ ，下面是一个简单的示例。
+主应变率-旋转率场数据格式包括格网点的经纬度（Long、Lati）、最大应变率（E1）、最大应变率中误差（Sig1）、最小应变率（E2）、最小应变率中误差（Sig2）、方位角（Azi）、方位角中误差（Sig3）、旋转率值域（R）和旋转率中误差（Sig4），文件后缀为 .rsr，格式请参考 `主应变率-旋转率场数据输入格式.rsr <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E4%B8%BB%E5%BA%94%E5%8F%98%E7%8E%87-%E6%97%8B%E8%BD%AC%E7%8E%87%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.rsr>`_ ，下面是一个简单的示例。
 
 .. code-block:: go
 
@@ -202,7 +202,7 @@ GNSS形变场（或速度场）的数据结构包括站点名（Site）、经度
 1.4.11 矩形位错模型格式
 ~~~~~~~~~~~~~~~~~~~~
 
-矩形位错模型数据格式包括经度（Long）、纬度（Lati）、高度（Z）、宽度（Width）、长度（Length）、走向（Strike）、倾角（Dip）、相对走滑分量（U1）、相对倾滑分量（U2）、相对张性错动分量（U3）、邻接矩形位错元序号（Adj1左、Adj2上、Adj3右、Adj4下）、上盘对应块体（HWBlock）、下盘对应块体（FWBlock），文件后缀为 .rec，格式请参考 `矩形位错模型数据格式.rec <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E7%9F%A9%E5%BD%A2%E4%BD%8D%E9%94%99%E6%A8%A1%E5%9E%8B%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.rec>`_ ，下面是一个简单的示例。
+矩形位错模型数据格式包括位错元左下角坐标经纬度（Long、Lati）、高度（Z）、宽度（Width）、长度（Length）、走向（Strike）、倾角（Dip）、相对走滑分量（U1）、相对倾滑分量（U2）、相对张性错动分量（U3）、邻接矩形位错元序号（Adj1左、Adj2上、Adj3右、Adj4下）、上盘对应块体（HWBlock）、下盘对应块体（FWBlock），文件后缀为 .rec，格式请参考 `矩形位错模型数据格式.rec <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E7%9F%A9%E5%BD%A2%E4%BD%8D%E9%94%99%E6%A8%A1%E5%9E%8B%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.rec>`_ ，下面是一个简单的示例。
 
 .. code-block:: go
 
