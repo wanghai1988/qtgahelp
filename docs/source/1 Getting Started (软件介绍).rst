@@ -135,10 +135,10 @@ GNSS形变场（或速度场）的数据结构包括站点名（Site）、经度
  CHWN        84.38540000    27.66830000      0.000     0.040    -0.040     0.550    0.240    0.0300  0.250    0.810       2010/04/17-2010/11/03
  DMAU        84.26500000    27.97300000      0.000     0.370    -0.050     0.750    0.250    0.0330  0.220    0.740       2010/04/17-2010/11/03
 
-1.4.6 水准形变场格式
+1.4.6 水准形变数据格式
 ~~~~~~~~~~~~~~~~~~~~
 
-水准形变场数据格式包括站点名（Site）、经度（Long）、纬度（Lati）、高程（H）、垂向形变（Val）、形变精度（Sig）与观测时间（Time）。文件后缀为 .lev，格式请参考 `水准形变数据输入格式.lev <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E6%B0%B4%E5%87%86%E8%A7%82%E6%B5%8B%E6%95%B0%E6%8D%AE%E8%BE%93%E5%85%A5%E6%A0%BC%E5%BC%8F.lev>`_   。形变量与精度的单位不做要求，时间格式为YYYY/MM/DD-YYYY/MM/DD，下面是一个简单的示例。
+水准形变数据格式包括站点名（Site）、经度（Long）、纬度（Lati）、高程（H）、垂向形变（Val）、形变精度（Sig）与观测时间（Time）。文件后缀为 .lev，格式请参考 `水准形变数据输入格式.lev <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E6%B0%B4%E5%87%86%E8%A7%82%E6%B5%8B%E6%95%B0%E6%8D%AE%E8%BE%93%E5%85%A5%E6%A0%BC%E5%BC%8F.lev>`_   。形变量与精度的单位不做要求，时间格式为YYYY/MM/DD-YYYY/MM/DD，下面是一个简单的示例。
 
 .. code-block:: go
 
@@ -149,7 +149,7 @@ GNSS形变场（或速度场）的数据结构包括站点名（Site）、经度
     SITED	 96.156	 	 33.722	 	 13.845	 	 -2.884	 	 1.00	 	 2010/04/17-2010/11/03
     SITEE	 96.157	 	 33.697	 	 14.601	 	 -2.982	 	 1.00	 	 2010/04/17-2010/11/03
 
-1.4.7 主应变率-旋转率场格式
+1.4.7 主应变率-旋转率场数据格式
 ~~~~~~~~~~~~~~~~~~~~
 
 主应变率-旋转率场数据格式包括格网点的经纬度（Long、Lati）、最大应变率（E1）、最大应变率中误差（Sig1）、最小应变率（E2）、最小应变率中误差（Sig2）、方位角（Azi）、方位角中误差（Sig3）、旋转率值域（R）和旋转率中误差（Sig4），文件后缀为 .rsr，格式请参考 `主应变率-旋转率场数据输入格式.rsr <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E4%B8%BB%E5%BA%94%E5%8F%98%E7%8E%87-%E6%97%8B%E8%BD%AC%E7%8E%87%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.rsr>`_ ，下面是一个简单的示例。
@@ -159,7 +159,7 @@ GNSS形变场（或速度场）的数据结构包括站点名（Site）、经度
     Long(deg) Lati(deg) E1(nanostr/yr) Sig1(nanostr/yr) E2(nanostr/yr) Sig2(nanostr/yr) Azi(deg) Sig3(deg) R(nanorad/yr) Sig4(nanorad/yr)
     96.2403     23.7896      -2.24          0.69             16.55         0.34            99.64    1.12        22.3         0.3630
 
-1.4.8 震源机制解格式
+1.4.8 震源机制解数据格式
 ~~~~~~~~~~~~~~~~~~~~
 
 震源机制解数据格式包括地震名称（Name）、震中经度（Long）、震中纬度（Lati）、深度（Depth）、地震矩震级（Mw）、两个P波初动节面的走向角（Strike1、Strike2）、倾角（Dip1、Dip2）和滑动角（Rake1、Rake2），以及发震的日期和时间（Datetime），文件后缀为 .fms，格式请参考 `震源机制解数据输入格式.fms <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E9%9C%87%E6%BA%90%E6%9C%BA%E5%88%B6%E8%A7%A3%E6%95%B0%E6%8D%AE%E8%BE%93%E5%85%A5%E6%A0%BC%E5%BC%8F.fms>`_ ，下面是一个简单的示例。
@@ -171,7 +171,7 @@ GNSS形变场（或速度场）的数据结构包括站点名（Site）、经度
     Jinggu    100.5000   23.3000     6.0       5.9  161           74         171           253         81          16         2014-12-06T18:20:00
     Kangding  101.7000   30.3000    18.0       6.3  140           82          -9           231         81        -172         2014-11-22T00:00:00
 
-1.4.9 地壳分层模型格式
+1.4.9 地壳分层模型数据格式
 ~~~~~~~~~~~~~~~~~~~~
 
 地壳分层模型数据格式包括深度（Depth）、厚度（Thickness）、地震矩震级（Vp）、P波速度（Vp）、S波速度（Vs）、地壳密度（Rho）、和地壳粘度（Viscosity），文件后缀为 .lcm，格式请参考 `地壳分层模型格式输入格式.lcm <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E5%9C%B0%E5%A3%B3%E5%88%86%E5%B1%82%E6%A8%A1%E5%9E%8B.lcm>`_ ，下面是一个简单的示例。
@@ -186,7 +186,7 @@ GNSS形变场（或速度场）的数据结构包括站点名（Site）、经度
      31.00         10.00     6700     3800     2.900E+3       0.0E+00
      41.00         30.00     8000     4600     3.300E+3       0.0E+00
 
-1.4.10 断层分段参数格式
+1.4.10 断层分段参数数据格式
 ~~~~~~~~~~~~~~~~~~~~
 
 断层分段参数数据格式包括起点经纬度（Long1、Lati1）、终点经纬度（Long2、Lati2）、深度（Depth）、走向（Strike）、宽度（Width）、顶层倾角（TopDip）、底层倾角（BotDip）、滑移（Slip）、滑移角（Rake）、张量（Tens）、上盘对应块体（HWBlock）、下盘对应块体（FWBlock），文件后缀为 .flt，格式请参考 `断层分段参数数据格式.flt <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E6%96%AD%E5%B1%82%E5%88%86%E6%AE%B5%E5%8F%82%E6%95%B0%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.flt>`_ ，下面是一个简单的示例。
@@ -199,7 +199,7 @@ GNSS形变场（或速度场）的数据结构包括站点名（Site）、经度
    87.63660082   27.13881977   84.06598377   28.43209409  13.00811     292    140.0000      11.000      11.000    0.00     0.000     0.00      Unknown      Unknown
   
 
-1.4.11 矩形位错模型格式
+1.4.11 矩形位错模型数据格式
 ~~~~~~~~~~~~~~~~~~~~
 
 矩形位错模型数据格式包括位错元左下角坐标经纬度（Long、Lati）、高度（Z）、宽度（Width）、长度（Length）、走向（Strike）、倾角（Dip）、相对走滑分量（U1）、相对倾滑分量（U2）、相对张性错动分量（U3）、邻接矩形位错元序号（Adj1左、Adj2上、Adj3右、Adj4下）、上盘对应块体（HWBlock）、下盘对应块体（FWBlock），文件后缀为 .rec，格式请参考 `矩形位错模型数据格式.rec <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E7%9F%A9%E5%BD%A2%E4%BD%8D%E9%94%99%E6%A8%A1%E5%9E%8B%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.rec>`_ ，下面是一个简单的示例。
@@ -213,7 +213,7 @@ GNSS形变场（或速度场）的数据结构包括站点名（Site）、经度
   105.73300000   32.83800000  -2800.0000   2973.871   4007.155  219.929958  70.310744     0.00    14.00     0.00    0      0      0      0    Unknown    Unknown
   105.70000000   32.81500000  -2800.0000   2973.917   4007.743  219.904489  70.308248     0.00     6.00     0.00    0      0      0      0    Unknown    Unknown 
   
-1.4.12 三角位错模型格式
+1.4.12 三角位错模型数据格式
 ~~~~~~~~~~~~~~~~~~~~
 
 三角位错模型数据格式包括三个顶点经纬度和高度（Long1、Lati1、Z1、Long2、Lati2、Z2、Long3、Lati3、Z3）、相对走滑分量（U1）、相对倾滑分量（U2）、相对张性错动分量（U3）、邻接三角位错元序号（Adj1、Adj2、Adj3）、上盘对应块体（HWBlock）、下盘对应块体（FWBlock），，文件后缀为 .tri，格式请参考 `三角位错模型数据格式.tri <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E7%9F%A9%E5%BD%A2%E4%BD%8D%E9%94%99%E6%A8%A1%E5%9E%8B%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.rec>`_ ，下面是一个简单的示例。
@@ -226,7 +226,7 @@ GNSS形变场（或速度场）的数据结构包括站点名（Site）、经度
    96.31716005   33.28516345       0.0000   96.33557420   33.28188167       0.0000   96.31645166   33.28240573   -1975.3767    219.955457   71.592503   0.00     3.03     0.00    50     0    51    Unknown    Unknown
    96.33557420   33.28188167       0.0000   96.35399779   33.27585936       0.0000   96.33483814   33.27912848   -1975.3767    219.929958   70.310744   2.16     2.64     0.00    51     0    52    Unknown    Unknown
 
-1.4.13 InSAR LOS形变格式
+1.4.13 InSAR LOS形变数据格式
 ~~~~~~~~~~~~~~~~~~~~
 
 InSAR LOS形变数据格式包括经度（Long）、纬度（Lati）、高度（H）、视线向距离（LOS）、 方位角（Azi）、入射角（Inc）、均方根误差（RMSE），文件后缀为 .los，格式请参考 `InSAR LOS形变数据.los <https://github.com/wanghai1988/qtgahelp/blob/main/files/InSAR%20LOS%E5%BD%A2%E5%8F%98%E6%95%B0%E6%8D%AE.los>`_ ，下面是一个简单的示例。
@@ -240,10 +240,10 @@ InSAR LOS形变数据格式包括经度（Long）、纬度（Lati）、高度（
     36.91500092    39.59860992       0.00      1.063  -170.72946167    44.77532578       0.00
     37.12833405    39.59860992       0.00    -18.749  -170.59454346    43.73011398       0.00
     
-1.4.14 InSAR方位向偏移量格式
+1.4.14 InSAR方位向偏移数据格式
 ~~~~~~~~~~~~~~~~~~~~
 
-InSAR方位向偏移量数据格式包括经度（Long）、纬度（Lati）、高度（H）、视线方向形变（LOS）、 方位角（Azi）、入射角（Inc）、均方根误差（RMSE），文件后缀为 .aos ，格式请参考 `InSAR方位向偏移量数据.aos <https://github.com/wanghai1988/qtgahelp/blob/main/files/InSAR%E6%96%B9%E4%BD%8D%E5%90%91%E5%81%8F%E7%A7%BB%E9%87%8F%E6%95%B0%E6%8D%AE.aos>`_ ，下面是一个简单的示例。
+InSAR方位向偏移数据格式包括经度（Long）、纬度（Lati）、高度（H）、视线方向形变（LOS）、 方位角（Azi）、入射角（Inc）、均方根误差（RMSE），文件后缀为 .aos ，格式请参考 `InSAR方位向偏移量数据.aos <https://github.com/wanghai1988/qtgahelp/blob/main/files/InSAR%E6%96%B9%E4%BD%8D%E5%90%91%E5%81%8F%E7%A7%BB%E9%87%8F%E6%95%B0%E6%8D%AE.aos>`_ ，下面是一个简单的示例。
 
 .. code-block:: go
 
@@ -253,10 +253,10 @@ InSAR方位向偏移量数据格式包括经度（Long）、纬度（Lati）、�
     36.76694489    38.48583221       0.00      0.405    -9.51591492    43.55602646       0.00
     37.19361115    38.48583221       0.00      0.169    -9.25372314    45.49477768       0.00
     
-1.4.15 InSAR距离向偏移量格式
+1.4.15 InSAR距离向偏移数据格式
 ~~~~~~~~~~~~~~~~~~~~
 
-InSAR方位向偏移量数据格式包括经度（Long）、纬度（Lati）、高度（H）、视线方向形变（LOS）、 方位角（Azi）、入射角（Inc）、均方根误差（RMSE），文件后缀为 .ros ，格式请参考 `InSAR距离向偏移量数据.ros <https://github.com/wanghai1988/qtgahelp/blob/main/files/InSAR%E8%B7%9D%E7%A6%BB%E5%90%91%E5%81%8F%E7%A7%BB%E9%87%8F%E6%95%B0%E6%8D%AE.ros>`_ ，下面是一个简单的示例。
+InSAR方位向偏移数据格式包括经度（Long）、纬度（Lati）、高度（H）、视线方向形变（LOS）、 方位角（Azi）、入射角（Inc）、均方根误差（RMSE），文件后缀为 .ros ，格式请参考 `InSAR距离向偏移量数据.ros <https://github.com/wanghai1988/qtgahelp/blob/main/files/InSAR%E8%B7%9D%E7%A6%BB%E5%90%91%E5%81%8F%E7%A7%BB%E9%87%8F%E6%95%B0%E6%8D%AE.ros>`_ ，下面是一个简单的示例。
 
 .. code-block:: go
 
@@ -279,10 +279,10 @@ InSAR方位向偏移量数据格式包括文件名（File_Name）、经度（Lon
       aoff_20230129-20230210-Clipped-DS-AI        37.322       37.278        0.0             0.0             0.0
 
 
-1.4.17 Trade-off曲线格式
+1.4.17 折中曲线数据格式
 ~~~~~~~~~~~~~~~~~~~~
 
-Trade-off曲线数据格式包括平滑因子（S-Factor）、粗糙度（Roughness）、均方根误差（RMSE），文件后缀为 .toc ，格式请参考 `Trade-off曲线数据格式.toc <https://github.com/wanghai1988/qtgahelp/blob/main/files/Trade-off%E6%9B%B2%E7%BA%BF%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.toc>`_ ，下面是一个简单的示例。
+折中曲线数据格式包括平滑因子（S-Factor）、粗糙度（Roughness）、均方根误差（RMSE），文件后缀为 .toc ，格式请参考 `Trade-off曲线数据格式.toc <https://github.com/wanghai1988/qtgahelp/blob/main/files/Trade-off%E6%9B%B2%E7%BA%BF%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.toc>`_ ，下面是一个简单的示例。
 
 .. code-block:: go
 
