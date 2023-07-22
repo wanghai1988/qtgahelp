@@ -808,6 +808,13 @@ Analysis (分析)菜单主要包括Coseismic Surface Displacement（同震地表
 2.4.6 Interseismic Surface Displacement（震间地表位移）
 ~~~~~~~~~~~~~~~~~~
 
+
+2.4.7 Fault Stress Accumulation Rate（断层应力累积率）
+~~~~~~~~~~~~~~~~~~
+
+2.4.8 Green's Function for a Multi-layered Half-space（多层半空间的格林函数）
+~~~~~~~~~~~~~~~~~~
+
 (1) Calculate Min/Max Values，该菜单界面如下： 
 
     .. image:: ../images/menu_image/Analysis/minmax.png
