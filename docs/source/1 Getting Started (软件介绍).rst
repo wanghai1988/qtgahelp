@@ -24,7 +24,7 @@
 
 1.2 Download (软件下载)
 ------------------------------------------------------------------------
-:download:`TGA下载 <https://github.com/wanghai1988/TGA_Publish/releases/download/TGA4/QTGA.zip>`
+:download:`TGA下载 <https://github.com/wanghai1988/TGA_Publish/releases/download/TGA5/QTGA.zip >`
 
 :download:`测试数据下载 <https://github.com/wanghai1988/TGA_Data/archive/refs/tags/v1.zip>`
 
