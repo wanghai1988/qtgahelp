@@ -785,43 +785,21 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 2.4 Analysis (分析)
 ---------------------
 
-Analysis (分析)菜单主要包括Coseismic Surface Displacement（同震地表位移）、Coseismic Stress Change（同震应力变化）、Coseismic Stress Change on Fault（断层上的同震应力变化）等8项功能，如图所示。
+Analysis (分析)菜单主要包括Calculate Min/Max Values（同震地表位移）、Coseismic Stress Change（同震应力变化）、Coseismic Stress Change on Fault（断层上的同震应力变化）等8项功能，如图所示。
 
-2.4.1 Coseismic Surface Displacement（同震地表位移）
+2.4.1 Calculate Min/Max Values（计算最大最小值）
 ~~~~~~~~~~~~~~~~~~
-
-
-2.4.2 Coseismic Stress Change（同震应力变化）
-~~~~~~~~~~~~~~~~~~
-
-
-2.4.3 Coseismic Stress Change on Fault（断层上的同震应力变化）
-~~~~~~~~~~~~~~~~~~
-
-2.4.4 Postseismic Stress Change（震后应力变化）
-~~~~~~~~~~~~~~~~~~
-
-
-2.4.5 Postseismic Surface Displacement（震后地表位移）
-~~~~~~~~~~~~~~~~~~
-
-2.4.6 Interseismic Surface Displacement（震间地表位移）
-~~~~~~~~~~~~~~~~~~
-
-
-2.4.7 Fault Stress Accumulation Rate（断层应力累积率）
-~~~~~~~~~~~~~~~~~~
-
-2.4.8 Green's Function for a Multi-layered Half-space（多层半空间的格林函数）
-~~~~~~~~~~~~~~~~~~
-
-(1) Calculate Min/Max Values，该菜单界面如下： 
+Calculate Min/Max Values，该菜单界面如下： 
 
     .. image:: ../images/menu_image/Analysis/minmax.png
         :align: center  
 
-(#) Calculate Total Seismic Moment
-(#) Compare GNSS/InSAR Displacement，该菜单界面如下： 
+2.4.2 Calculate Total Seismic Moment（计算总地震力矩）
+~~~~~~~~~~~~~~~~~~
+
+2.4.3 Compare GNSS/InSAR Displacement（比较GNSS/InSAR位移）
+~~~~~~~~~~~~~~~~~~
+Compare GNSS/InSAR Displacement，该菜单界面如下： 
 
 .. image:: ../images/menu_image/Analysis/CompareGNSSInSARDisplacement.png
     :align: center  
@@ -855,6 +833,36 @@ Analysis (分析)菜单主要包括Coseismic Surface Displacement（同震地表
 
 2.5 Forward (正演)
 -------------------
+
+2.5.1 Coseismic Surface Displacement（同震地表位移）
+~~~~~~~~~~~~~~~~~~
+
+
+2.5.2 Coseismic Stress Change（同震应力变化）
+~~~~~~~~~~~~~~~~~~
+
+
+2.5.3 Coseismic Stress Change on Fault（断层上的同震应力变化）
+~~~~~~~~~~~~~~~~~~
+
+2.5.4 Postseismic Stress Change（震后应力变化）
+~~~~~~~~~~~~~~~~~~
+
+
+2.5.5 Postseismic Surface Displacement（震后地表位移）
+~~~~~~~~~~~~~~~~~~
+
+2.5.6 Interseismic Surface Displacement（震间地表位移）
+~~~~~~~~~~~~~~~~~~
+
+
+2.5.7 Fault Stress Accumulation Rate（断层应力累积率）
+~~~~~~~~~~~~~~~~~~
+
+2.5.8 Green's Function for a Multi-layered Half-space（多层半空间的格林函数）
+~~~~~~~~~~~~~~~~~~
+
+
 
 Forward菜单包括下列功能：
 
