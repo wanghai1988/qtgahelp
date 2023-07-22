@@ -871,40 +871,23 @@ Correct Postseimic GNSS Time Series，该菜单界面如下：
 ~~~~~~~~~~~~~~~~~~
 
 
-
-Forward菜单包括下列功能：
-
-(1) Forward CoGrnd displacement
-(#) Forward CoRegn Sts Change
-(#) Forward Fault Co Sts Perturb
-(#) Forward Post Ground displacement
-(#) Forward Post Regn Sts Change
-(#) Forward Fault Post Sts Perturb
-(#) Forward Post Dis Poroelastic Rebound
-(#) Forward Post Stress Poroelastic Rebound
-(#) Forward Inter Grnd Dis
-(#) Forward Inter Sts Accumulation
-(#) Forward Tectonic Loading NS
-(#) Forward Tectonic Loadind DS
-(#) Forward Lyr Grn Function
-
-
 2.6 Invert (反演)
 ------------------
 
-Invert菜单包括下列功能：
+2.6.1 Fault Geometry（断层几何形状）
+~~~~~~~~~~~~~~~~~~
 
-(1) InvertFlt
-(#) Invert CoSlip Distribution
-(#) Invert Blc Motion And Stn
-(#) Invert Reg Tec Stn
-(#) Invert Reg Tec Stn LSC
-(#) Invert Back Slip Rate
-(#) Invert Back Slip Rate 3DEM
-(#) Invert Back Slip Rate 3DVM
-(#) Invert Stressing Rate
-(#) Slip Distribution
+2.6.2 Fault Slip Distribution（断层滑动分布）
+~~~~~~~~~~~~~~~~~~
 
+2.6.4 Fault Geometry and Slip（断层几何形状与滑动）
+~~~~~~~~~~~~~~~~~~
+
+2.6.5 Crust Motion and Strain（地壳运动与应变）
+~~~~~~~~~~~~~~~~~~
+
+2.6.6 Fault Interseismic Coupling（断层震间耦合）
+~~~~~~~~~~~~~~~~~~
 
 2.7 Evaluate (评估)
 --------------------
