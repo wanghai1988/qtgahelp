@@ -785,7 +785,28 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 2.4 Analysis (分析)
 ---------------------
 
-Analysis菜单包括下列功能：
+Analysis (分析)菜单主要包括Coseismic Surface Displacement（同震地表位移）、Coseismic Stress Change（同震应力变化）、Coseismic Stress Change on Fault（断层上的同震应力变化）等8项功能，如图所示。
+
+2.4.1 Coseismic Surface Displacement（同震地表位移）
+~~~~~~~~~~~~~~~~~~
+
+
+2.4.2 Coseismic Stress Change（同震应力变化）
+~~~~~~~~~~~~~~~~~~
+
+
+2.4.3 Coseismic Stress Change on Fault（断层上的同震应力变化）
+~~~~~~~~~~~~~~~~~~
+
+2.4.4 Postseismic Stress Change（震后应力变化）
+~~~~~~~~~~~~~~~~~~
+
+
+2.4.5 Postseismic Surface Displacement（震后地表位移）
+~~~~~~~~~~~~~~~~~~
+
+2.4.6 Interseismic Surface Displacement（震间地表位移）
+~~~~~~~~~~~~~~~~~~
 
 (1) Calculate Min/Max Values，该菜单界面如下： 
 
