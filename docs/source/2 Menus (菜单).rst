@@ -804,32 +804,40 @@ Compare GNSS/InSAR Displacement，该菜单界面如下：
 .. image:: ../images/menu_image/Analysis/CompareGNSSInSARDisplacement.png
     :align: center  
 
-(#) Estimate Observation Standard Deviation
-(#) Correlation between Seismicity and Faults
-(#) Correlation between Seismicity and Stressing Rates
-(#) Correlation between Aftershocks and CFS Change
-(#) Fit Interseismic GNSS Time Series，该菜单界面如下： 
+2.4.4 Estimate Observation Standard Deviation（估计观测标准差）
+~~~~~~~~~~~~~~~~~~
+
+2.4.5 Correlation between（相关性分析）
+~~~~~~~~~~~~~~~~~~
+
+2.4.6 Fit Interseismic GNSS Time Series（震间GNSS时间序列拟合）
+~~~~~~~~~~~~~~~~~~
+Fit Interseismic GNSS Time Series，该菜单界面如下： 
 
 .. image:: ../images/menu_image/Analysis/FitInterseismicGNSSTimeSeries.png
     :align: center  
 
-(#) Correct Postseimic GNSS Time Series，该菜单界面如下： 
+2.4.7 Fit Postseimic GNSS Time Series（震间GNSS时间序列拟合）
+~~~~~~~~~~~~~~~~~~
+Fit Postseimic GNSS Time Series，该菜单界面如下：
 
-.. image:: ../images/menu_image/Analysis/CorrectPostseimicGNSSTimeSeries.png
-    :align: center  
 
-(#) Fit Postseimic GNSS Time Series，该菜单界面如下： 
-
-.. image:: ../images/menu_image/Analysis/FitInterseismicGNSSTimeSeries.png
-    :align: center  
-
-(#) Fit Temporal Distribution Of Aftershocks，该菜单界面如下：
+2.4.8 Fit Temporal Distribution Of Aftershocks （余震时间分布拟合）
+~~~~~~~~~~~~~~~~~~
+Fit Temporal Distribution Of Aftershocks，该菜单界面如下：
 
     .. image:: ../images/menu_image/Analysis/FitTemporalDistributionOfAftershocks.png
        :align: center 
 
-(#) Fit GNSS Velocities
+2.4.9 Fit GNSS Velocities（GNSS速度拟合）
+~~~~~~~~~~~~~~~~~~
 
+2.4.10 Correct Postseimic GNSS Time Series（震间GNSS时间序列修正）
+~~~~~~~~~~~~~~~~~~
+Correct Postseimic GNSS Time Series，该菜单界面如下：
+
+.. image:: ../images/menu_image/Analysis/CorrectPostseimicGNSSTimeSeries.png
+    :align: center  
 
 2.5 Forward (正演)
 -------------------
