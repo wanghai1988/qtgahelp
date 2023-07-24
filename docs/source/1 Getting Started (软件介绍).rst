@@ -203,7 +203,7 @@ GNSS形变场（或速度场）的数据结构包括站点名（Site）、经度
 1.4.11 矩形位错模型数据格式
 ~~~~~~~~~~~~~~~~~~~~
 
-矩形位错模型数据格式包括位错元左下角坐标经纬度（Long、Lati）、高度（Z）、宽度（Width）、长度（Length）、走向（Strike）、倾角（Dip）、相对走滑分量（U1）、相对倾滑分量（U2）、相对张性错动分量（U3）、邻接矩形位错元序号（Adj1左、Adj2上、Adj3右、Adj4下）、上盘对应块体（HWBlock）、下盘对应块体（FWBlock），文件后缀为 .rec，格式请参考 `矩形位错模型数据格式.rec <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E7%9F%A9%E5%BD%A2%E4%BD%8D%E9%94%99%E6%A8%A1%E5%9E%8B%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.rec>`_ ，下面是一个简单的示例。
+矩形位错模型数据格式包括位错元左下角坐标经纬度（Long、Lati）、深度（Z）、宽度（Width）、长度（Length）、走向（Strike）、倾角（Dip）、相对走滑分量（U1）、相对倾滑分量（U2）、相对张性错动分量（U3）、邻接矩形位错元序号（Adj1左、Adj2上、Adj3右、Adj4下）、上盘对应块体（HWBlock）、下盘对应块体（FWBlock），文件后缀为 .rec，格式请参考 `矩形位错模型数据格式.rec <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E7%9F%A9%E5%BD%A2%E4%BD%8D%E9%94%99%E6%A8%A1%E5%9E%8B%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.rec>`_ ，下面是一个简单的示例。
 
 .. code-block:: go
 
@@ -217,7 +217,7 @@ GNSS形变场（或速度场）的数据结构包括站点名（Site）、经度
 1.4.12 三角位错模型数据格式
 ~~~~~~~~~~~~~~~~~~~~
 
-三角位错模型数据格式包括三个顶点经纬度和高度（Long1、Lati1、Z1、Long2、Lati2、Z2、Long3、Lati3、Z3）、相对走滑分量（U1）、相对倾滑分量（U2）、相对张性错动分量（U3）、邻接三角位错元序号（Adj1、Adj2、Adj3）、上盘对应块体（HWBlock）、下盘对应块体（FWBlock），，文件后缀为 .tri，格式请参考 `三角位错模型数据格式.tri <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E7%9F%A9%E5%BD%A2%E4%BD%8D%E9%94%99%E6%A8%A1%E5%9E%8B%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.rec>`_ ，下面是一个简单的示例。
+三角位错模型数据格式包括三个顶点经纬度和深度（Long1、Lati1、Z1、Long2、Lati2、Z2、Long3、Lati3、Z3）、相对走滑分量（U1）、相对倾滑分量（U2）、相对张性错动分量（U3）、邻接三角位错元序号（Adj1、Adj2、Adj3）、上盘对应块体（HWBlock）、下盘对应块体（FWBlock），文件后缀为 .tri，格式请参考 `三角位错模型数据格式.tri <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E7%9F%A9%E5%BD%A2%E4%BD%8D%E9%94%99%E6%A8%A1%E5%9E%8B%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.rec>`_ ，下面是一个简单的示例。
 
 .. code-block:: go
 
