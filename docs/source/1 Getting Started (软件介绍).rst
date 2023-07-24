@@ -163,7 +163,7 @@ GNSS形变场（或速度场）的数据结构包括站点名（Site）、经度
 1.4.8 震源机制解数据格式
 ~~~~~~~~~~~~~~~~~~~~
 
-震源机制解数据格式包括地震名称（Name）、震中经度（Long）、震中纬度（Lati）、深度（Depth）、地震矩震级（Mw）、两个P波初动节面的走向角（Strike1、Strike2）、倾角（Dip1、Dip2）和滑动角（Rake1、Rake2），以及发震的日期和时间（Datetime），文件后缀为 .fms，格式请参考 `震源机制解数据输入格式.fms <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E9%9C%87%E6%BA%90%E6%9C%BA%E5%88%B6%E8%A7%A3%E6%95%B0%E6%8D%AE%E8%BE%93%E5%85%A5%E6%A0%BC%E5%BC%8F.fms>`_ ，下面是一个简单的示例。
+震源机制解数据格式包括地震名称（Name）、震中经度（Long）、震中纬度（Lati）、深度（Depth）、矩震级（Mw）、两个P波初动节面的走向角（Strike1、Strike2）、倾角（Dip1、Dip2）和滑动角（Rake1、Rake2），以及发震的日期和时间（Datetime），文件后缀为 .fms，格式请参考 `震源机制解数据输入格式.fms <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E9%9C%87%E6%BA%90%E6%9C%BA%E5%88%B6%E8%A7%A3%E6%95%B0%E6%8D%AE%E8%BE%93%E5%85%A5%E6%A0%BC%E5%BC%8F.fms>`_ ，下面是一个简单的示例。
 
 .. code-block:: go
 
