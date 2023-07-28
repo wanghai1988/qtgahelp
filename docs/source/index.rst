@@ -11,6 +11,6 @@ User Manual for Tectonic Geodesy Application (TGA)
 
    1 Getting Started (软件介绍)
    2 Menus (菜单)
-   3 Toolbars (工具条)
+   3 TGA GUI (窗体界面)
    4 References & Support (技术支持)
    
