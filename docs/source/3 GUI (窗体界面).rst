@@ -15,7 +15,7 @@
 ~~~~~~~~~~~~~~~~~~
 .. image:: ../images/GUI_image/img_layersToolbar.png
     :align: center  
-
+图层工具栏包括：Add Group（添加分组）、Control Layer Display（控制图层显示）、Expand All（展开全部）、Collapse All（折叠全部）、Remove Layer（移除图层）工具按钮
 
 
 3.1.2 Context Menu（右键菜单）
