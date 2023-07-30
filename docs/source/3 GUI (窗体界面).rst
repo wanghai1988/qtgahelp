@@ -33,7 +33,7 @@
 右键菜单是用户设置图层重要的控制组件，不同的图层类型所对应的右键菜单也不尽相同
     (1) 栅格数据右键菜单
 
-
+    (2) 矢量数据右键菜单
 
 3.2 Overview (缩略图)
 ---------------
@@ -49,6 +49,15 @@
 
 .. image:: ../images/GUI_image/img_toolbar.png
     :align: center
+Toolbar（工具栏）是Map View（地图视图）中重要的操作工具，包括了地图缩放、要素选择、图形绘制等功能
+
+    （1）Pan（平移）
+    （2）Zoom In（放大）
+    （3）Zoom Out（缩小）
+    （4）Zoom Full Extent（缩放到全图）
+    （5）Zoom To Layer（缩放到图层）
+    （6）Zoom To Last（缩放前一视图）
+    （7）Zoom To Next（缩放下一视图）
 
 
 
