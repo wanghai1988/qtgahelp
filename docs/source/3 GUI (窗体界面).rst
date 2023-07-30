@@ -22,7 +22,11 @@
     (2) |Control Layer Display| Control Layer Display（控制图层显示）下拉按钮：点击该按钮后会弹出一个控制菜单，包括Show All Layers（显示所有图层）、Hide All Layers（隐藏所有图层）、Show Selected Layers（显示选中图层）、Hide Selected Layers（隐藏选中图层）、Hide Deselected Layers（隐藏未选中图层），用户可以通过该菜单控制图层的显示和隐藏
 
     .. image:: ../images/GUI_image/menu_controlLayerDisplay.png
-        :align: center  
+        :align: center
+
+    (3) |Expand All| Expand All（展开全部）按钮：点击该按钮后，可以将分组折叠的图层、以及图层折叠的样式全部展开显示
+    (4) |Collapse All| Collapse All（折叠全部）按钮：点击该按钮后，可以将图层全部折叠
+    (5) |Remove Layer| Remove Layer（移除图层）按钮：点击该按钮后，可以移除当前选中的图层
 
 3.1.2 Context Menu（右键菜单）
 ~~~~~~~~~~~~~~~~~~
@@ -41,3 +45,6 @@
 
 .. |Add Group|                  image:: ../images/GUI_image/btn_addGroup.png
 .. |Control Layer Display|      image:: ../images/GUI_image/btn_controlLayerDisplay.png
+.. |Expand All|                 image:: ../images/GUI_image/btn_ExpandAll.png
+.. |Collapse All|               image:: ../images/GUI_image/btn_CollapseAll.png
+.. |Remove Layer|               image:: ../images/GUI_image/btn_RemoveLayer.png
