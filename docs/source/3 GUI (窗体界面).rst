@@ -38,14 +38,19 @@
 3.2 Overview (缩略图)
 ---------------
 
-    .. image:: ../images/GUI_image/img_overview.png
-        :align: center
+.. image:: ../images/GUI_image/img_overview.png
+    :align: center
 
 缩略图也称鹰眼图，用于显示地图的整体范围，Map View主窗体的视图范围在缩略图中以红框表示并联动。当用户在地图主窗体中调整了视图范围，缩略图的红框也随之变化，同样如果在缩略图中调整红框位置也会造成地图主窗体视图的变化。
 
 
 3.3 Toolbar (工具栏)
 ---------------
+
+.. image:: ../images/GUI_image/img_toolbar.png
+    :align: center
+
+
 
 
 .. |Add Group|                  image:: ../images/GUI_image/btn_addGroup.png
