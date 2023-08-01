@@ -19,7 +19,7 @@ from recommonmark.parser import CommonMarkParser
 # -- Project information -----------------------------------------------------
 
 project = u'TGA'
-copyright = '2021, ' + u'武汉大学测绘学院:江国焰'
+copyright = '2021-2023, ' + u'武汉大学测绘学院:江国焰'
 author = u'武汉大学测绘学院'
 
 
