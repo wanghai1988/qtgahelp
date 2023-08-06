@@ -17,23 +17,36 @@
     :align: center  
 图层工具栏包括：Add Group（添加分组）、Control Layer Display（控制图层显示）、Expand All（展开全部）、Collapse All（折叠全部）、Remove Layer（移除图层）工具按钮
 
-    (1) |Add Group| Add Group（添加分组）按钮：点击该按钮可以在图层列表中，新建一个分组文件夹，可以将图层拖拽进该分组文件夹中，方便在图层数量较多时对图层进行分组管理
+    1. |Add Group| Add Group（添加分组）按钮：点击该按钮可以在图层列表中，新建一个分组文件夹，可以将图层拖拽进该分组文件夹中，方便在图层数量较多时对图层进行分组管理
 
-    (2) |Control Layer Display| Control Layer Display（控制图层显示）下拉按钮：点击该按钮后会弹出一个控制菜单，包括Show All Layers（显示所有图层）、Hide All Layers（隐藏所有图层）、Show Selected Layers（显示选中图层）、Hide Selected Layers（隐藏选中图层）、Hide Deselected Layers（隐藏未选中图层），用户可以通过该菜单控制图层的显示和隐藏
+    2. |Control Layer Display| Control Layer Display（控制图层显示）下拉按钮：点击该按钮后会弹出一个控制菜单，包括Show All Layers（显示所有图层）、Hide All Layers（隐藏所有图层）、Show Selected Layers（显示选中图层）、Hide Selected Layers（隐藏选中图层）、Hide Deselected Layers（隐藏未选中图层），用户可以通过该菜单控制图层的显示和隐藏
 
     .. image:: ../images/GUI_image/menu_controlLayerDisplay.png
         :align: center
 
-    (3) |Expand All| Expand All（展开全部）按钮：点击该按钮后，可以将分组折叠的图层、以及图层折叠的样式全部展开显示
-    (4) |Collapse All| Collapse All（折叠全部）按钮：点击该按钮后，可以将图层全部折叠
-    (5) |Remove Layer| Remove Layer（移除图层）按钮：点击该按钮后，可以移除当前选中的图层
+    3. |Expand All| Expand All（展开全部）按钮：点击该按钮后，可以将分组折叠的图层、以及图层折叠的样式全部展开显示
+    4. |Collapse All| Collapse All（折叠全部）按钮：点击该按钮后，可以将图层全部折叠
+    5. |Remove Layer| Remove Layer（移除图层）按钮：点击该按钮后，可以移除当前选中的图层
 
 3.1.2 Context Menu（右键菜单）
 ~~~~~~~~~~~~~~~~~~
 右键菜单是用户设置图层重要的控制组件，不同的图层类型所对应的右键菜单也不尽相同
-    (1) 栅格数据右键菜单
 
-    (2) 矢量数据右键菜单
+    1. 栅格数据右键菜单
+在栅格图层列表上单击右键即可弹出栅格数据右键菜单，菜单包括Zoom to Layer（缩放到图层）、Show in OverLayer（在缩略图中显示）、Remove（移除图层）、Rename Layer（重命名图层）、Symbology Setting（符号化设置）、Duplicate Layer（复制图层副本）、Properties（属性）共7个功能。
+
+    .. image:: ../images/GUI_image/contextmenu_RasterLayer.png
+        :align: center
+
+    * Zoom to Layer（缩放到图层）,点击该功能后，地图视图会缩放到该图层范围；
+    * Show in OverLayer（在缩略图中显示），点击该功能后，可以控制该图层是否在缩略图中显示或隐藏；
+    * Remove（移除图层），点击该功能后，可以移除该图层；
+    * Rename Layer（重命名图层），点击该功能后，可以重命名该图层；
+    * Symbology Setting（符号化设置），点击该功能后，可以打开符号化设置面板，用于设置栅格图层的显示效果；
+    * Duplicate Layer（复制图层副本），点击该功能后，可以复制一个当前图层的副本；
+    * Properties（属性），点击该功能后，可以打开当前图层的属性面板。
+
+    2. 矢量数据右键菜单
 
 3.2 Overview (缩略图)
 ---------------
