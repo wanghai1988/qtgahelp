@@ -48,6 +48,14 @@
 
     2. 矢量数据右键菜单
 
+在矢量图层列表上单击右键即可弹出栅格数据右键菜单，菜单包括Zoom to Layer（缩放到图层）、Show in OverLayer（在缩略图中显示）、Remove（移除图层）、Rename Layer（重命名图层）、Show Feature Count（显示要素数量）、Layer Edit（图层编辑）、Sava Layer As（图层另存为）、Open Attribute Table（打开属性表）、Symbology Setting（符号化设置）、Label Features（标注要素）、Duplicate Layer（复制图层副本）、Properties（属性）共12个功能。
+    
+
+    .. image:: ../images/GUI_image/contextmenu_VectorLayer.png
+        :align: center
+
+
+
 3.2 Overview (缩略图)
 ---------------
 
