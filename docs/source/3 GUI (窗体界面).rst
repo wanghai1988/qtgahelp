@@ -48,13 +48,23 @@
 
     2. 矢量数据右键菜单
 
-在矢量图层列表上单击右键即可弹出栅格数据右键菜单，菜单包括Zoom to Layer（缩放到图层）、Show in OverLayer（在缩略图中显示）、Remove（移除图层）、Rename Layer（重命名图层）、Show Feature Count（显示要素数量）、Layer Edit（图层编辑）、Sava Layer As（图层另存为）、Open Attribute Table（打开属性表）、Symbology Setting（符号化设置）、Label Features（标注要素）、Duplicate Layer（复制图层副本）、Properties（属性）共12个功能。
-    
+在矢量图层列表上单击右键即可弹出栅格数据右键菜单，菜单包括Zoom to Layer（缩放到图层）、Show in OverLayer（在缩略图中显示）、Remove（移除图层）、Rename Layer（重命名图层）、Show Feature Count（显示要素数量）、Layer Edit（图层编辑）、Save Layer As（图层另存为）、Open Attribute Table（打开属性表）、Symbology Setting（符号化设置）、Label Features（标注要素）、Duplicate Layer（复制图层副本）、Properties（属性）共12个功能。
 
     .. image:: ../images/GUI_image/contextmenu_VectorLayer.png
         :align: center
 
-
+    * Zoom to Layer（缩放到图层）,点击该功能后，地图视图会缩放到该图层范围；
+    * Show in OverLayer（在缩略图中显示），点击该功能后，可以控制该图层是否在缩略图中显示或隐藏；
+    * Remove（移除图层），点击该功能后，可以移除该图层；
+    * Rename Layer（重命名图层），点击该功能后，可以重命名该图层；
+    * Show Feature Count（显示要素数量），点击该功能后，可以在图层名称的后面显示图层中要素的数量；
+    * Layer Edit（图层编辑），点击该功能后，可以开启图层编辑状态，用户可以对当前图层的要素进行编辑；
+    * Save Layer As（图层另存为），点击该功能后，可以将当前图层保存为不同的数据格式；
+    * Open Attribute Table（打开属性表），点击该功能后，可以打开当前图层的属性表窗口；
+    * Symbology Setting（符号化设置），点击该功能后，可以打开符号化设置面板，用于设置栅格图层的显示效果；
+    * Label Features（标注要素），点击该功能后，可以设置当前图层显示的标注及其样式；
+    * Duplicate Layer（复制图层副本），点击该功能后，可以复制一个当前图层的副本；
+    * Properties（属性），点击该功能后，可以打开当前图层的属性面板。
 
 3.2 Overview (缩略图)
 ---------------
@@ -72,23 +82,39 @@
     :align: center
 Toolbar（工具栏）是Map View（地图视图）中重要的操作工具，包括了地图缩放、要素选择、图形绘制等功能
 
-    （1）Pan（平移）
-
-    （2）Zoom In（放大）
-
-    （3）Zoom Out（缩小）
-
-    （4）Zoom Full Extent（缩放到全图）
-
-    （5）Zoom To Layer（缩放到图层）
-
-    （6）Zoom To Last（缩放前一视图）
-
-    （7）Zoom To Next（缩放下一视图）
-
-    （8）ReDraw（刷新视图）
-
-
+    * Pan（平移）
+    * Zoom In（放大）
+    * Zoom Out（缩小）
+    * Zoom Full Extent（缩放到全图）
+    * Zoom To Layer（缩放到图层）
+    * Zoom To Last（缩放前一视图）
+    * Zoom To Next（缩放下一视图）
+    * ReDraw（刷新视图）
+    * Measure Distance（测量距离）
+    * Measure Area（测量面积）
+    * Identify Features（查询要素）
+    * Select Features（选择要素）
+    * Select By Polygon（框选要素）
+    * Select By Radius（圆选要素）
+    * Deselect All（撤销全部选择）
+    * Select All（选择全部）
+    * Invert Selection（反选）
+    * Pan to Selected（平移到选择）
+    * Zoom to Selected（缩放到选择）
+    * Attribute Table（属性表）
+    * Vertex Tool（顶点工具）
+    * Move Feature（移动要素）
+    * Add Feature（添加要素）
+    * Delete Selected Feature（删除选中要素）
+    * Undo（撤销）
+    * Redo（重做）
+    * Save Layer Edits（保存图层编辑）
+    * Stop Edit（停止编辑）
+    * Create Marker（创建注记标记）
+    * Create Line（创建注记线）
+    * Create Polygon（创建注记面）
+    * Modify Annotation（修改注记）
+    * Save Annotation（保存注记）
 
 .. |Add Group|                  image:: ../images/GUI_image/btn_addGroup.png
 .. |Control Layer Display|      image:: ../images/GUI_image/btn_controlLayerDisplay.png
