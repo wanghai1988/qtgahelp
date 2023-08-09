@@ -2,7 +2,7 @@
 5 Training Materials (培训资料)
 =================================
 
-1. `64位地震大地测量软件介绍 <https://dx.doi.org/10.12351/ks.2307.2351>`_
+1. `64位地震大地测量软件介绍`
 .. raw::html
 <iframe src="https://www.koushare.com/video/videodetail/61885" width="100%" height="40px" frameborder="0" scrolling="no"></iframe>
 
