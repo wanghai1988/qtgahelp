@@ -817,7 +817,7 @@ Fit Interseismic GNSS Time Series，该菜单界面如下：
 .. image:: ../images/menu_image/Analysis/FitInterseismicGNSSTimeSeries.png
     :align: center  
 
-2.4.7 Fit Postseimic GNSS Time Series（震间GNSS时间序列拟合）
+2.4.7 Fit Postseimic GNSS Time Series（震后GNSS时间序列拟合）
 ~~~~~~~~~~~~~~~~~~
 Fit Postseimic GNSS Time Series，该菜单界面如下：
 
