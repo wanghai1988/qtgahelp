@@ -334,7 +334,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
 
     断层应力变化对话框界面如下：
     
-     .. image:: ../images/menu_image/Plot/dialog_StressChangeonFault.png
+     .. image:: ../images/menu_image/Plot/dailog_StressChangeonFault.png
         :align: center   
 
     **使用步骤：**
