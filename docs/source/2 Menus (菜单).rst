@@ -356,7 +356,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
 
     滑动分布对话框界面如下：
     
-     .. image:: ../images/menu_image/Plot/dailog_SlipDistribution.png
+     .. image:: ../images/menu_image/Plot/dialog_SlipDistribution.png
         :align: center   
 
     **使用步骤：**
