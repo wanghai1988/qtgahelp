@@ -199,14 +199,14 @@ GNSS形变场（或速度场）的数据结构包括站点名（Site）、经度
 1.4.10 断层分段参数数据格式
 ~~~~~~~~~~~~~~~~~~~~
 
-断层分段参数数据格式包括起点经纬度（Long1、Lati1）、终点经纬度（Long2、Lati2）、深度（Depth）、走向（Strike）、宽度（Width）、顶层倾角（TopDip）、底层倾角（BotDip）、滑移（Slip）、滑移角（Rake）、张量（Tens）、上盘对应块体（HWBlock）、下盘对应块体（FWBlock），文件后缀为 .flt，格式请参考 `断层分段参数数据格式.flt <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E6%96%AD%E5%B1%82%E5%88%86%E6%AE%B5%E5%8F%82%E6%95%B0%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.flt>`_ ，下面是一个简单的示例。
+断层分段参数数据格式包括起点经纬度（Long1、Lati1）、终点经纬度（Long2、Lati2）、深度（Depth）、走向（Strike）、宽度（Width）、倾角（Dip）、滑移（Slip）、滑移角（Rake）、张量（Tens）、上盘对应块体（HWBlock）、下盘对应块体（FWBlock），文件后缀为 .flt。请注意，每行数据表示一个断层分段格式，其中的多个宽度和倾角则表明该分段沿倾向存在变化，并且宽度和倾角必须是一一对应的。具体情况请参考 `断层分段参数数据格式.flt <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E6%96%AD%E5%B1%82%E5%88%86%E6%AE%B5%E5%8F%82%E6%95%B0%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.flt>`_ ，下面是一个简单的示例。
 
 .. code-block:: go
 
-    Long1(deg)    Lati1(deg)    Long2(deg)    Lati2(deg) Depth(km) Strike(deg) Width(km) TopDip(deg) BotDip(deg) Slip(m) Rake(deg) Tens(cm)    HWBlock      FWBlock
-   87.36489159   26.56198134   83.80978174   27.84850670   4.06267     292     58.0000       7.000       7.000    0.00     0.000     0.00      Unknown      Unknown
-   87.59000719   27.04039405   84.02205743   28.33249466  11.13109     292     12.0000       8.000      10.000    0.00     0.000     0.00      Unknown      Unknown
-   87.63660082   27.13881977   84.06598377   28.43209409  13.00811     292    140.0000      11.000      11.000    0.00     0.000     0.00      Unknown      Unknown
+    Long1(deg)    Lati1(deg)    Long2(deg)    Lati2(deg)   Depth(km)  Strike(deg)   Width(km)   Dip(deg)   Slip(m) Rake(deg) Tens(cm)   HWBlock   FWBlock
+   37.23435950   37.53685497   37.15368230   37.40391552    0.0000    205.801675   (20,30)       (30,60)    0.00    0.000     0.00      Unknown   Unknown
+   37.15368230   37.40391552   37.11368539   37.25099322    0.0000    191.810497   (20,30,80)   (30,60,80)  0.00    0.000     0.00      Unknown   Unknown
+   37.11368539   37.25099322   37.01368539   37.07778814    0.0000    210.000000   (20,40)       (30,60)    0.00    0.000     0.00      Unknown   Unknown
   
 
 1.4.11 矩形位错模型数据格式
