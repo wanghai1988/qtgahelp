@@ -32,7 +32,7 @@
 
 1.2 Download (软件下载)
 ------------------------------------------------------------------------
-:download:`TGA下载 <https://github.com/wanghai1988/TGA_Publish/releases/download/TGA5/QTGA.zip >` 更新时间：2023年7月22日
+:download:`TGA下载 <https://github.com/wanghai1988/TGA_Publish/releases/download/TGA6/TGA.rar>`  （更新时间：2023年12月1日）
 
 :download:`测试数据下载 <https://github.com/wanghai1988/TGA_Data/archive/refs/tags/v1.zip>`
 
