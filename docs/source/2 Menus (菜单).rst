@@ -468,12 +468,30 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
         :align: center
 
 
-  #. Extract Fault Segment Parameters（提取断层分段参数）
+  3. Extract Fault Segment Parameters（提取断层分段参数）
 
-    该功能通过设置提取断层分段参数
+    该功能通过设置断层分段参数，提取图层中矢量数据对应的断层迹线数据。请注意，提取断层分段参数时只能设置一个倾角和宽度，因此在后续的构建断层几何模型时，需要在输出的*.flt文件中根据需求修改每个分段的倾角和宽度数据。
 
      .. image:: ../images/menu_image/Tools/dailog_ExtractFaultSegmentParameters.png
         :align: center
+
+    **使用步骤：**
+
+    STEP 1：添加目标断层的矢量文件到图层（*.shp）
+
+     .. image:: ../images/menu_image/Tools/dialog_IncidenceAzimuthAngle2.png
+        :align: center
+
+    STEP 2：打开提取断层分段参数的窗口，选择第一步添加的矢量文件作为输入，设置相应的高斯投影和断层几何参数，并设置好输出文件的路径和文件名
+
+     .. image:: ../images/menu_image/Tools/result_IncidenceAzimuthAngle.png
+        :align: center
+
+    STEP 3：点击Extract（提取）按钮，弹出成功提示框后，即可保存结果
+
+     .. image:: ../images/menu_image/Tools/result_IncidenceAzimuthAngle.png
+        :align: center
+
 
   #. Extract GNSS Coseismic Displacement（提取GNSS等震线位移）
 
