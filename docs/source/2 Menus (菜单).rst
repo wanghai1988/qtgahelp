@@ -479,17 +479,17 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 
     STEP 1：添加目标断层的矢量文件到图层（*.shp）
 
-     .. image:: ../images/menu_image/Tools/dialog_IncidenceAzimuthAngle2.png
+     .. image:: ../images/menu_image/Tools/dailog_ExtractFaultSegmentParameters2.png
         :align: center
 
     STEP 2：打开提取断层分段参数的窗口，选择第一步添加的矢量文件作为输入，设置相应的高斯投影和断层几何参数，并设置好输出文件的路径和文件名
 
-     .. image:: ../images/menu_image/Tools/result_IncidenceAzimuthAngle.png
+     .. image:: ../images/menu_image/Tools/dailog_ExtractFaultSegmentParameters3.png
         :align: center
 
     STEP 3：点击Extract（提取）按钮，弹出成功提示框后，即可保存结果
 
-     .. image:: ../images/menu_image/Tools/result_IncidenceAzimuthAngle.png
+     .. image:: ../images/menu_image/Tools/result_ExtractFaultSegmentParameters.png
         :align: center
 
 
