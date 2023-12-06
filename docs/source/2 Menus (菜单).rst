@@ -612,25 +612,25 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 
       构建矩形网格模型的参数配置文件、模型及其输出数据格式如下：
 
-    .. image:: ../images/menu_image/Tools/dailog_ConstructRecFaultGeoModel.png
-       :align: center
+      .. image:: ../images/menu_image/Tools/dailog_ConstructRecFaultGeoModel.png
+         :align: center
 
       在较为复杂的模型构建时，矩形网格划分明显存在一些空区（gap）或者重叠区域（overlap），此时需要更进一步采用三角网格划分，来消除gap和overlap使模型衔接连续
 
-    .. image:: ../images/menu_image/Tools/result_ConstructRecFaultGeoModel.png
-        :align: center  
+      .. image:: ../images/menu_image/Tools/result_ConstructRecFaultGeoModel.png
+         :align: center  
 
 (#) 构建三角网格模型：
 
       构建矩形网格模型的参数配置文件、模型及其输出数据格式如下：
 
-    .. image:: ../images/menu_image/Tools/dailog_ConstructTriFaultGeoModel.png
-       :align: center
+      .. image:: ../images/menu_image/Tools/dailog_ConstructTriFaultGeoModel.png
+         :align: center
 
       对比矩形网格模型，很明显消除了gap和overlap
 
-    .. image:: ../images/menu_image/Tools/result_ConstructTriFaultGeoModel.png
-        :align: center
+      .. image:: ../images/menu_image/Tools/result_ConstructTriFaultGeoModel.png
+          :align: center
 
 
 2.3.3 Construct Checkboard Test Model（构造棋盘测试模型）
