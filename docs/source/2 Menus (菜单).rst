@@ -588,49 +588,48 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 2.3.2 Construct Fault Geometry（构造断层几何）
 ~~~~~~~~~~~~~~~~~~
 
-    该功能可根据断层分段参数数据计算矩形或三角位错模型数据，菜单包括了：Varying Strikes（不同走向）、Varying Dips（不同倾角）2个子菜单，如图所示。
+    该功能可根据断层分段参数数据构建矩形或三角位错模型并输出相应的模型数据文件（同时会输出一个相应的断层分段行列数文件），可以构建的模型包含变走向角、变倾角等各种复杂模型。具体参数设置如下图，主要包含输入文件、高斯投影参数、矩形网格大小、是否选用三角网格这些数据和参数设置。
 
     .. image:: ../images/menu_image/Tools/btnMenu_ConstructFaultGeometry.png
        :align: center
 
-(#) Construct Fault Geo Model Varying Strikes（不同走向的构造断层地质模型）菜单的界面如下：
-
-    .. image:: ../images/menu_image/Tools/dailog_ConstructFaultGeoModelVaryingStrikes.png
-       :align: center
-
+    
     **使用步骤：**
 
-    STEP 1：先输入或选择 Fault Params Files（断层参数文件）
+    STEP 1：选择提前准备好的断层参数文件（*.flt，通过断层参数提取并根据实际需求调整）
 
     STEP 2：根据数据依次配置相应参数
       * Reference Ellipsoid（参考椭球体）
-      * L0（中央子午线）
-      * Dislocation Shape（错位形状）
-      * Length和Width矩形错位要素的长宽尺寸
+      * L0（中央子午线，即数据经度范围的中点）
+      * Length和Hight矩形错位patch的长度和高度尺寸
+      * Triangle勾选表示采用三角网格，否则即为矩形网格
 
-    STEP 3：点击OK进行计算，点击Export（导出）按钮，弹出成功提示框后，即可保存结果
+    STEP 3：点击Construct进行模型构建，并生成模型图片
 
-    .. image:: ../images/menu_image/Tools/WithSegmentsAlong.png
+    STEP 4：点击Export（导出）按钮，选择输出文件的路径并设置文件名，然后确认即可保存结果
+
+(#) 构建矩形网格模型：
+
+      构建矩形网格模型的参数配置文件、模型及其输出数据格式如下：
+
+    .. image:: ../images/menu_image/Tools/dailog_ConstructRecFaultGeoModel.png
+       :align: center
+
+      在较为复杂的模型构建时，矩形网格划分明显存在一些空区（gap）或者重叠区域（overlap），此时需要更进一步采用三角网格划分，来消除gap和overlap使模型衔接连续
+
+    .. image:: ../images/menu_image/Tools/result_ConstructRecFaultGeoModel.png
         :align: center  
 
-(#) Construct Fault Geo Model Varying Dips（不同倾角的构造断层地质模型）菜单的界面如下：
+(#) 构建三角网格模型：
 
-    .. image:: ../images/menu_image/Tools/dialog_ConstructFaultGeoModelVaryingDips.png
+      构建矩形网格模型的参数配置文件、模型及其输出数据格式如下：
+
+    .. image:: ../images/menu_image/Tools/dailog_ConstructTriFaultGeoModel.png
        :align: center
 
-    **使用步骤：**
+      对比矩形网格模型，很明显消除了gap和overlap
 
-    STEP 1：先输入或选择 Fault Params Files（断层参数文件）
-
-    STEP 2：根据数据依次配置相应参数
-      * Reference Ellipsoid（参考椭球体）
-      * L0（中央子午线）
-      * Dislocation Shape（错位形状）
-      * Length和Width矩形错位要素的长宽尺寸
-
-    STEP 3：点击OK进行计算，点击Export（导出）按钮，弹出成功提示框后，即可保存结果
-
-    .. image:: ../images/menu_image/Tools/WithSegmentsDip.png
+    .. image:: ../images/menu_image/Tools/result_ConstructTriFaultGeoModel.png
         :align: center
 
 
