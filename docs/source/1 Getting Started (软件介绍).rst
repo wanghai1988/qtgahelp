@@ -334,11 +334,11 @@ InSAR方位向偏移量数据格式包括文件名（File_Name）、经度（Lon
 1.4.20 地震目录数据文件格式
 ~~~~~~~~~~~~~~~~~~~~
 地震目录数据格式包括发震震源的经度（Long）、纬度（Lati）、深度（Depth）、震源标度类型（M_Type）、震级（Mag）、发震日期（Datetime），文件后缀为.etc ，格式请参考 `地震目录数据.etc
-<https://github.com/wanghai1988/qtgahelp/blob/main/files/%E6%B4%BB%E5%8A%A8%E5%9D%97%E4%BD%93%E8%BF%90%E5%8A%A8%E5%92%8C%E5%BA%94%E5%8F%98%E5%8F%82%E6%95%B0%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.blc>`_ ，下面是一个简单的示例。
+<https://github.com/wanghai1988/qtgahelp/blob/main/files/%E5%9C%B0%E9%9C%87%E7%9B%AE%E5%BD%95%E6%95%B0%E6%8D%AE.etc>`_ ，下面是一个简单的示例。
 
 .. code-block:: go
 
-     Long(deg)    Lati(deg)	 Depth(km)	M_Type 	 Mag	    Datetime
+     Long(deg)    Lati(deg)	 Depth(km)	 M_Type      Mag	         Datetime
      -116.3493     37.1320	    17.6	    Mw	     5.6	    2023-08-06T02:33:59
      -116.3679     37.1689	    21.8	    Mw	     1.2	    2023-08-06T02:38:40
      -116.3846     37.1715	    18.6	    Mw	     2.0	    2023-08-06T02:39:15
