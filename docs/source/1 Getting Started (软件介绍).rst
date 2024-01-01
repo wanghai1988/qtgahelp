@@ -32,7 +32,7 @@
 
 1.2 Download (软件下载)
 ------------------------------------------------------------------------
-:download:`TGA下载 <https://github.com/wanghai1988/TGA_Publish/releases/download/TGA6/TGA.rar>`  更新时间：2023年12月1日
+:download:`TGA下载 <https://github.com/wanghai1988/TGA_Publish/releases/download/TGA7/TGA.rar>`  更新时间：2024年1月1日
 
 :download:`测试数据下载 <https://github.com/wanghai1988/TGA_Data/archive/refs/tags/v1.zip>`
 
@@ -43,6 +43,7 @@
 (2) 依赖环境：
 
     * 软件运行需依赖 MATLAB R2020a，因此需要安装MATLAB R2020a软件或安装R2020a版本对应的MATLAB Runtime（:download:`下载地址 <https://ww2.mathworks.cn/products/compiler/matlab-runtime.html>`）
+    * MATLAB R2020a软件建议全组件安装
     * 软件同时依赖VC++ Runtime，如果出现“找不到VCRUNTIME140_1.dll”类似错误，请参考下列解决方案：`解决方案1 <https://zhuanlan.zhihu.com/p/520529084>`_、`解决方案2 <https://www.bilibili.com/read/cv14363122/>`_
 
 1.4 Data Files (数据文件)
