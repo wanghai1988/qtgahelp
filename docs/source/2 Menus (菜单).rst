@@ -834,6 +834,16 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
     .. image:: ../images/menu_image/Tools/btnMenu_CompressImage.png
        :align: center
 
+1. Uniform Downsampling （均匀采样压缩）
+
+    .. image:: ../images/menu_image/Tools/dialog_UniformDownsampling.png
+       :align: center
+
+2. Uniform Downsampling （四叉树采样压缩）
+
+    .. image:: ../images/menu_image/Tools/dialog_QuadtreeDownsampling.png
+       :align: center
+
 2.3.13 Generate Fringe Pattern（生成干涉条纹）
 ~~~~~~~~~~~~~~~~~~
 
