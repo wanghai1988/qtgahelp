@@ -773,7 +773,7 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
     .. image:: ../images/menu_image/Tools/dialog_ETC2SHP.png
        :align: center
 
-8. SAR -> SHP InSAR转SHP
+8. SAR -> SHP（InSAR转SHP）
     该功能用于将InSAR数据转换为SHP格式数据，输入数据为InSAR数据，输出数据为SHP格式数据。
 
     .. image:: ../images/menu_image/Tools/dialog_SAR2SHP.png
@@ -802,15 +802,31 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 
 2.3.10 Superimpose Image（图像叠加）
 ~~~~~~~~~~~~~~~~~~
+    该功能用于将2个图像进行像元叠加运算处理
 
     .. image:: ../images/menu_image/Tools/dialog_SuperimposeImage.png
        :align: center
 
+    STEP 1：选择两幅需要叠加处理的图像
+
+    STEP 2：设置输出图像的路径
+
+    STEP 3：选择叠加方式（Plus为加运算，Minus为减运算）
+
+    STEP 4：点击OK进行计算，即可保存结果
+
 2.3.11 Merge Image（图像合并）
 ~~~~~~~~~~~~~~~~~~
+    该功能用于将多个图像进行合并处理
 
     .. image:: ../images/menu_image/Tools/dialog_MergeImages.png
        :align: center
+
+    STEP 1：通过列表添加需要合并的图形
+
+    STEP 2：设置输出图像的路径
+
+    STEP 3：点击RUN（运行）进行计算，即可保存结果
 
 2.3.12 Compress Image（图像压缩）
 ~~~~~~~~~~~~~~~~~~
