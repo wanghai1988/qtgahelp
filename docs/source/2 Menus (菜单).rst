@@ -732,12 +732,17 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
        :align: center
 
 1. BIN -> IMG 二进制转IMG
-    该功能用于进行二进制数据向IMG格式数据的转换，输入数据为二进制数据文件和对应的头文件，输出数据为IMG格式数据（注：勾选Diplopia data选项表示二进制数据为复视数据）
+    该功能用于将二进制数据转换为IMG格式数据，输入数据为二进制数据文件和对应的头文件，输出数据为IMG格式数据（注：勾选Diplopia data选项表示二进制数据为复视数据）
+
     .. image:: ../images/menu_image/Tools/dialog_BIN2IMG.png
        :align: center
     
-
 2. IMG -> BIN IMG转二进制
+    该功能用于将IMG格式数据转换为二进制数据，输入数据为IMG格式数据，输出数据为二进制数据文件和对应的头文件。
+
+    .. image:: ../images/menu_image/Tools/dialog_IMG2BIN.png
+       :align: center
+
 3. POS -> TMS POS转GNSS时序数据
 4. NLL -> SHP NLL转SHP
 5. LEV -> SHP 水准转SHP
