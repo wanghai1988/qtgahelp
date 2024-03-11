@@ -731,25 +731,53 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
     .. image:: ../images/menu_image/Tools/btnMenu_DataFormatConversion.png
        :align: center
 
-1. BIN -> IMG 二进制转IMG
+1. BIN -> IMG（二进制转IMG）
     该功能用于将二进制数据转换为IMG格式数据，输入数据为二进制数据文件和对应的头文件，输出数据为IMG格式数据（注：勾选Diplopia data选项表示二进制数据为复视数据）
 
     .. image:: ../images/menu_image/Tools/dialog_BIN2IMG.png
        :align: center
     
-2. IMG -> BIN IMG转二进制
+2. IMG -> BIN（IMG转二进制）
     该功能用于将IMG格式数据转换为二进制数据，输入数据为IMG格式数据，输出数据为二进制数据文件和对应的头文件。
 
     .. image:: ../images/menu_image/Tools/dialog_IMG2BIN.png
        :align: center
 
-3. POS -> TMS POS转GNSS时序数据
-4. NLL -> SHP NLL转SHP
-5. LEV -> SHP 水准转SHP
-6. GPS -> SHP GPS转SHP
-7. ETC -> SHP 地震转SHP
-8. SAR -> SHP InSAR转SHP
+3. POS -> TMS（POS转GNSS时序数据）
+    该功能用于将POS格式数据转换为GNSS时序数据，输入数据为POS格式数据，输出数据为GNSS时序数据。
 
+    .. image:: ../images/menu_image/Tools/dialog_POS2TMS.png
+       :align: center
+
+4. NLL -> SHP（NLL转SHP）
+    该功能用于将NLL格式数据转换为SHP格式数据，输入数据为NLL格式数据，输出数据为SHP格式数据。
+
+    .. image:: ../images/menu_image/Tools/dialog_NLL2SHP.png
+       :align: center
+
+5. LEV -> SHP（水准转SHP）
+    该功能用于将LEV水准数据转换为SHP格式数据，输入数据为LEV水准数据，输出数据为SHP格式数据。
+
+    .. image:: ../images/menu_image/Tools/dialog_LEV2SHP.png
+       :align: center
+
+6. GPS -> SHP（GPS转SHP）
+    该功能用于将GPS数据转换为SHP格式数据，输入数据为GPS数据，输出数据为SHP格式数据。
+
+    .. image:: ../images/menu_image/Tools/dialog_GPS2SHP.png
+       :align: center
+
+7. ETC -> SHP（地震转SHP）
+    该功能用于将ETC地震目录数据转换为SHP格式数据，输入数据为ETC地震目录数据，输出数据为SHP格式数据。
+
+    .. image:: ../images/menu_image/Tools/dialog_ETC2SHP.png
+       :align: center
+
+8. SAR -> SHP InSAR转SHP
+    该功能用于将InSAR数据转换为SHP格式数据，输入数据为InSAR数据，输出数据为SHP格式数据。
+
+    .. image:: ../images/menu_image/Tools/dialog_SAR2SHP.png
+       :align: center
 
 2.3.9 Clip Image（图像裁切）
 ~~~~~~~~~~~~~~~~~~
