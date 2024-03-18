@@ -863,6 +863,18 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
        :align: center
 
 
+1. Correct Raster Data （校正遥感数据）
+    该功能用于遥感数据进行校正修复
+
+    .. image:: ../images/menu_image/Tools/dialog_CorrectRasterData.png
+       :align: center
+
+2. Correct Downsampled LOS Displacement （校正降采样LOS位移数据）
+    该功能用于降采样LOS位移数据进行校正修复
+
+    .. image:: ../images/menu_image/Tools/dialog_CorrectDownsampledLOSDisplacement.png
+       :align: center
+
 2.4 Analysis (分析)
 ---------------------
 
