@@ -107,7 +107,7 @@ File菜单下包括下列功能：
 2.2 Plot (绘制)
 ----------------
 
-Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displacement（GNSS形变场）、Leveling Displacement（水准形变场）等15项绘制功能，如图所示：
+Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displacement（GNSS形变场）、Leveling Displacement（水准形变场）等12项绘制功能，如图所示：
 
 .. image:: ../images/menu_image/Plot/menu_plot.png
     :align: center
@@ -126,7 +126,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
     
     STEP 1：选择或输入 `震源机制解数据（后缀为.fms） <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#id6>`_ 路径 
  
-    STEP 2：设置Sytle（样式）和Scale（比例）。其中Style用于设置图标绘制方式，可选项为ALL（全部）、Strike Slip（走滑断层）、Thrust（冲断层）、Normal（正断层）；Scale用于设置图标比例，设置范围为0.01-99
+    STEP 2：设置Sytle（样式）和Scale（比例）。其中Style用于设置图标绘制方式，可选项为ALL（全部）、Strike Slip（走滑断层）、Thrust（逆冲断层）、Normal（正断层）；Scale用于设置图标比例，设置范围为0.01-99
     
     STEP 3：点击Preview（预览）按钮，即可在地图界面查看显示效果
     
@@ -148,14 +148,24 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
     
     STEP 1：选择或输入 `GNSS形变数据（后缀为.gps） <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#gnss>`_ 路径 
  
-    STEP 2：设置Draw Error Ellipse（绘制误差椭圆）、Ellipse Scale（椭圆比例）和Arrow Scale（箭头比例）
-      * Draw Error Ellipse（绘制误差椭圆）用于设置是否绘制误差椭圆
-      * Ellipse Scale（椭圆比例）用于设置绘制误差椭圆的比例，设置范围为0.01-99.99（注：该选项仅在Draw Error Ellipse勾选时起效）
-      * Arrow Scale（箭头比例）其中Style用于设置绘制箭头的比例，设置范围为0.01-99.99
+    STEP 2：设置Draw Arrow（绘制矢量）、Draw Error Ellipse（绘制误差椭圆），主要包含以下参数：
+      * Line Length Scale（线条长度比例尺）
+      * Line Width（线条宽度）
+      * Line Color（线条颜色）
+      * Head Type（箭头类型）用于设置矢量箭头的类型，包含三角形（triangle）和梭形（dart）
+      * Head Length（箭头长度）
+      * Head Width（箭头宽度）用于设置整个矢量箭头的宽度
+      * Head Stroke Width（箭头边框的宽度）用于设置矢量箭头边框迹线的线条宽度
+      * Head Stroke Color（箭头边框的颜色）用于设置矢量箭头边框迹线的线条颜色
+      * Head Fill Color（箭头填充色）用于设置矢量箭头内部的填充色
+      * Ellipse Scale（椭圆比例尺）
+      * Fill Color（椭圆填充色）用于设置整个椭圆内部的填充色
+      * Stroke Width（边框的宽度）用于设置椭圆边框迹线的线条宽度
+      * Stroke Color（边框的颜色）用于设置椭圆边框迹线的线条颜色
     
     STEP 3：点击Preview（预览）按钮，即可在地图界面查看显示效果
     
-    STEP 4：设置输出文件路径（文件格式为geojson），点击Export（输出）按钮即可输出结果文件，勾选Add File To Current Project（添加文件到当前工程）则会将结果文件添加到当前地图工程内。
+    STEP 4：点击Add（添加）则会将当前预览的GNSS矢量数据添加到当前地图工程内。
     
     .. image:: ../images/menu_image/Plot/result_GNSSDisplacement.png
         :align: center
@@ -172,7 +182,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
     
     STEP 1：选择或输入 `水准形变场数据（后缀为.lev） <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#id3>`_ 路径 
  
-    STEP 2：设置Draw Error Circle（绘制误差圆）和Scale（比例）
+    STEP 2：设置Draw Error Arrow（绘制误差圆）和Scale（比例）
       * 勾选Draw Error Circle（绘制误差圆）后可绘制绘制误差圆
       * Scale用于设置绘制比例，设置范围为0.01-99.99
     
@@ -585,7 +595,7 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
      .. image:: ../images/menu_image/Tools/dialog_ExtractEarthquakesWithinBlock2.png
         :align: center
 
-2.3.2 Construct Fault Geometry（构造断层几何）
+2.3.2 Construct 3D Geometry Faults（构造断层3D几何模型）
 ~~~~~~~~~~~~~~~~~~
 
     该功能可根据断层分段参数数据构建矩形或三角位错模型并输出相应的模型数据文件（同时会输出一个相应的断层分段行列数文件），可以构建的模型包含变走向角、变倾角等各种复杂模型。具体参数设置如下图，主要包含输入文件、高斯投影参数、矩形网格大小、是否选用三角网格这些数据和参数设置。
