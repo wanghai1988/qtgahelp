@@ -213,11 +213,11 @@ GNSS形变场（或速度场）的数据结构包括站点名（Site）、经度
 1.4.11 矩形位错模型数据文件格式
 ~~~~~~~~~~~~~~~~~~~~
 
-矩形位错模型数据格式包括位错元左下角坐标经纬度（Long、Lati）、深度（Z）、宽度（Width）、长度（Length）、走向（Strike）、倾角（Dip）、相对走滑分量（U1）、相对倾滑分量（U2）、相对张性错动分量（U3）、邻接矩形位错元序号（Adj1左、Adj2上、Adj3右、Adj4下）、上盘对应块体（HWBlock）、下盘对应块体（FWBlock），文件后缀为 .rec，格式请参考 `矩形位错模型数据格式.rec <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E7%9F%A9%E5%BD%A2%E4%BD%8D%E9%94%99%E6%A8%A1%E5%9E%8B%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.rec>`_ ，下面是一个简单的示例。
+矩形位错模型数据格式包括位错元左下角坐标经纬度（Long、Lati）、深度（H）、宽度（Width）、长度（Length）、走向（Strike）、倾角（Dip）、相对走滑分量（U1）、相对倾滑分量（U2）、相对张性错动分量（U3）、邻接矩形位错元序号（Adj1左、Adj2上、Adj3右、Adj4下）、上盘对应块体（HWBlock）、下盘对应块体（FWBlock），文件后缀为 .rec，格式请参考 `矩形位错模型数据格式.rec <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E7%9F%A9%E5%BD%A2%E4%BD%8D%E9%94%99%E6%A8%A1%E5%9E%8B%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.rec>`_ ，下面是一个简单的示例。
 
 .. code-block:: go
 
-     Long(deg)     Lati(deg)        Z(m)   Width(m)  Length(m) Strike(deg)   Dip(deg)   U1(cm)   U2(cm)   U3(cm)   Adj1   Adj2   Adj3   Adj4  HWBlock    FWBlock
+     Long(deg)     Lati(deg)        H(m)   Width(m)  Length(m) Strike(deg)   Dip(deg)   U1(cm)   U2(cm)   U3(cm)   Adj1   Adj2   Adj3   Adj4  HWBlock    FWBlock
   105.83200000   32.90600000  -2800.0000   2973.734   4005.421  220.006210  70.318103     0.00     0.00     0.00    0      0      0      0    Unknown    Unknown
   105.79900000   32.88300000  -2800.0000   2973.781   3936.298  218.735962  70.315615     0.00     9.00     0.00    0      0      0      0    Unknown    Unknown
   105.76600000   32.86000000  -2800.0000   2950.988   4006.567  219.955457  71.592503     0.00    27.00     0.00    0      0      0      0    Unknown    Unknown
@@ -227,11 +227,11 @@ GNSS形变场（或速度场）的数据结构包括站点名（Site）、经度
 1.4.12 三角位错模型数据文件格式
 ~~~~~~~~~~~~~~~~~~~~
 
-三角位错模型数据格式包括三个顶点经纬度和深度（Long1、Lati1、Z1、Long2、Lati2、Z2、Long3、Lati3、Z3）、相对走滑分量（U1）、相对倾滑分量（U2）、相对张性错动分量（U3）、邻接三角位错元序号（Adj1、Adj2、Adj3）、上盘对应块体（HWBlock）、下盘对应块体（FWBlock），文件后缀为 .tri，格式请参考 `三角位错模型数据格式.tri <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E7%9F%A9%E5%BD%A2%E4%BD%8D%E9%94%99%E6%A8%A1%E5%9E%8B%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.rec>`_ ，下面是一个简单的示例。
+三角位错模型数据格式包括三个顶点经纬度和深度（Long1、Lati1、H1、Long2、Lati2、H2、Long3、Lati3、H3）、相对走滑分量（U1）、相对倾滑分量（U2）、相对张性错动分量（U3）、邻接三角位错元序号（Adj1、Adj2、Adj3）、上盘对应块体（HWBlock）、下盘对应块体（FWBlock），文件后缀为 .tri，格式请参考 `三角位错模型数据格式.tri <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E7%9F%A9%E5%BD%A2%E4%BD%8D%E9%94%99%E6%A8%A1%E5%9E%8B%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.rec>`_ ，下面是一个简单的示例。
 
 .. code-block:: go
 
-    Long1(deg)    Lati1(deg)        Z1(m)    Long2(deg)    Lati2(deg)        Z2(m)    Long3(deg)    Lati3(deg)        Z3(m)    Strike(deg)   Dip(deg)   U1(cm)   U2(cm)   U3(cm)  Adj1  Adj2  Adj3  HWBlock    FWBlock
+    Long1(deg)    Lati1(deg)        H1(m)    Long2(deg)    Lati2(deg)        H2(m)    Long3(deg)    Lati3(deg)        H3(m)    Strike(deg)   Dip(deg)   U1(cm)   U2(cm)   U3(cm)  Adj1  Adj2  Adj3  HWBlock    FWBlock
    96.28032985   33.29127015       0.0000   96.29874568   33.28819664       0.0000   96.27967682   33.28850310   -1975.3767    220.006210   70.318103   2.30     1.97     0.00     0     0    49    Unknown    Unknown
    96.29874568   33.28819664       0.0000   96.31716005   33.28516345       0.0000   96.29806497   33.28543415   -1975.3767    218.735962   70.315615   0.06     2.39     0.00    49     0    50    Unknown    Unknown
    96.31716005   33.28516345       0.0000   96.33557420   33.28188167       0.0000   96.31645166   33.28240573   -1975.3767    219.955457   71.592503   0.00     3.03     0.00    50     0    51    Unknown    Unknown
@@ -340,10 +340,10 @@ InSAR方位向偏移量数据格式包括文件名（File_Name）、经度（Lon
 .. code-block:: go
 
      Long(deg)    Lati(deg)	 Depth(km)	 M_Type      Mag	         Datetime
-     -116.3493     37.1320	    17.6	    Mw	     5.6	    2023-08-06T02:33:59
-     -116.3679     37.1689	    21.8	    Mw	     1.2	    2023-08-06T02:38:40
-     -116.3846     37.1715	    18.6	    Mw	     2.0	    2023-08-06T02:39:15
-     -116.3778     37.1613	     9.0	    Mw	     2.1	    2023-08-06T02:40:59
+     -116.3493     37.1320	    -17.6	    Mw	     5.6	    2023-08-06T02:33:59
+     -116.3679     37.1689	    -21.8	    Mw	     1.2	    2023-08-06T02:38:40
+     -116.3846     37.1715	    -18.6	    Mw	     2.0	    2023-08-06T02:39:15
+     -116.3778     37.1613	     -9.0	    Mw	     2.1	    2023-08-06T02:40:59
 
 
 1.4.21 二进制数据说明文件
