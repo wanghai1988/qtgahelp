@@ -135,7 +135,7 @@
 1.4.5 GNSS形变数据文件格式
 ~~~~~~~~~~~~~~~~~~
 
-GNSS形变场（或速度场）的数据结构包括站点名（Site）、经度（Long）、纬度（Lati）、高程（H）、东方向形变（DisE）、北方向形变（DisN）、高程形变（DisH）、东方向误差（SigE）、北方向误差（SigN）、高程误差（SigH）、误差相关系数（Corr）、以及站点的观测时间（Time）。文件后缀为 .gps格式，示例格式请参考 `GNSS形变数据格式.gps <https://github.com/wanghai1988/qtgahelp/blob/main/files/GNSS%E5%BD%A2%E5%8F%98%E6%A0%BC%E5%BC%8F%E7%A4%BA%E4%BE%8B.gps>`_。时间格式为YYYY/MM/DD-YYYY/MM/DD，下面是一个简单的示例 。
+GNSS形变场（或速度场）的数据结构包括站点名（Site）、经度（Long）、纬度（Lati）、高程（H）、东方向形变（DisE）、北方向形变（DisN）、垂直向形变（DisH）、东方向标准差（SigE）、北方向标准差（SigN）、相关性系数（Corr）、垂直向误差（SigH）、以及站点的观测时间（Time）。文件后缀为 .gps格式，示例格式请参考 `GNSS形变数据格式.gnss <https://github.com/wanghai1988/qtgahelp/blob/main/files/GNSS%E5%BD%A2%E5%8F%98%E6%A0%BC%E5%BC%8F%E7%A4%BA%E4%BE%8B.gps>`_。时间格式为YYYY/MM/DD-YYYY/MM/DD，下面是一个简单的示例 。
 
 .. code-block:: go
 
@@ -149,7 +149,7 @@ GNSS形变场（或速度场）的数据结构包括站点名（Site）、经度
 1.4.6 水准形变数据文件格式
 ~~~~~~~~~~~~~~~~~~~~
 
-水准形变数据格式包括站点名（Site）、经度（Long）、纬度（Lati）、高程（H）、垂向形变（Val）、形变精度（Sig）与观测时间（Time）。文件后缀为 .lev，格式请参考 `水准形变数据输入格式.lev <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E6%B0%B4%E5%87%86%E8%A7%82%E6%B5%8B%E6%95%B0%E6%8D%AE%E8%BE%93%E5%85%A5%E6%A0%BC%E5%BC%8F.lev>`_   。形变量与精度的单位不做要求，时间格式为YYYY/MM/DD-YYYY/MM/DD，下面是一个简单的示例。
+水准形变数据格式包括站点名（Site）、经度（Long）、纬度（Lati）、高程（H）、垂向形变（Val）、标准差（Sig）与观测时间（Time）。文件后缀为 .lev，格式请参考 `水准形变数据输入格式.lev <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E6%B0%B4%E5%87%86%E8%A7%82%E6%B5%8B%E6%95%B0%E6%8D%AE%E8%BE%93%E5%85%A5%E6%A0%BC%E5%BC%8F.lev>`_   。形变量与精度的单位不做要求，时间格式为YYYY/MM/DD-YYYY/MM/DD，下面是一个简单的示例。
 
 .. code-block:: go
 
@@ -163,7 +163,7 @@ GNSS形变场（或速度场）的数据结构包括站点名（Site）、经度
 1.4.7 主应变率-旋转率场数据文件格式
 ~~~~~~~~~~~~~~~~~~~~
 
-主应变率-旋转率场数据格式包括格网点的经纬度（Long、Lati）、最大应变率（E1）、最大应变率中误差（Sig1）、最小应变率（E2）、最小应变率中误差（Sig2）、方位角（Azi）、方位角中误差（Sig3）、旋转率值域（R）和旋转率中误差（Sig4），文件后缀为 .rsr，格式请参考 `主应变率-旋转率场数据输入格式.rsr <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E4%B8%BB%E5%BA%94%E5%8F%98%E7%8E%87-%E6%97%8B%E8%BD%AC%E7%8E%87%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.rsr>`_ ，下面是一个简单的示例。
+主应变率-旋转率场数据格式包括格网点的经纬度（Long、Lati）、最大应变率（E1）、最大应变率标准差（Sig1）、最小应变率（E2）、最小应变率标准差（Sig2）、方位角（Azi）、方位角标准差（Sig3）、旋转率值域（R）和旋转率标准差（Sig4），文件后缀为 .rsr，格式请参考 `主应变率-旋转率场数据输入格式.rsr <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E4%B8%BB%E5%BA%94%E5%8F%98%E7%8E%87-%E6%97%8B%E8%BD%AC%E7%8E%87%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.rsr>`_ ，下面是一个简单的示例。
 
 .. code-block:: go
 
@@ -240,12 +240,12 @@ GNSS形变场（或速度场）的数据结构包括站点名（Site）、经度
 1.4.13 InSAR LOS形变数据文件格式
 ~~~~~~~~~~~~~~~~~~~~
 
-InSAR LOS形变数据格式包括经度（Long）、纬度（Lati）、高度（H）、视线向距离（LOS）、 方位角（Azi）、入射角（Inc）、均方根误差（RMSE），文件后缀为 .los，格式请参考 `InSAR LOS形变数据.los <https://github.com/wanghai1988/qtgahelp/blob/main/files/InSAR%20LOS%E5%BD%A2%E5%8F%98%E6%95%B0%E6%8D%AE.los>`_ ，下面是一个简单的示例。
+InSAR LOS形变数据格式包括经度（Long）、纬度（Lati）、高程（H）、视线向距离（LOS）、 方位角（Azi）、入射角（Inc）、标准差（Sig），文件后缀为 .los，格式请参考 `InSAR LOS形变数据.los <https://github.com/wanghai1988/qtgahelp/blob/main/files/InSAR%20LOS%E5%BD%A2%E5%8F%98%E6%95%B0%E6%8D%AE.los>`_ ，下面是一个简单的示例。
 注：LOS（cm）数据视线向距离缩短为正值，视线向距离拉长为负值。
 
 .. code-block:: go
 
-      Long(deg)      Lati(deg)       H(m)    LOS(cm)      Azi(deg)       Inc(deg)     RMSE(cm)
+      Long(deg)      Lati(deg)       H(m)    LOS(cm)      Azi(deg)       Inc(deg)      Sig(cm)
     36.16833496    39.70527649       0.00    -19.727  -171.21905518    48.28219604       0.00
     36.59500122    39.70527649       0.00    -12.799  -170.94995117    46.37073517       0.00
     36.91500092    39.59860992       0.00      1.063  -170.72946167    44.77532578       0.00
@@ -254,11 +254,11 @@ InSAR LOS形变数据格式包括经度（Long）、纬度（Lati）、高度（
 1.4.14 InSAR方位向偏移数据文件格式
 ~~~~~~~~~~~~~~~~~~~~
 
-InSAR方位向偏移数据格式包括经度（Long）、纬度（Lati）、高度（H）、视线方向形变（LOS）、 方位角（Azi）、入射角（Inc）、均方根误差（RMSE），文件后缀为 .aos ，格式请参考 `InSAR方位向偏移量数据.aos <https://github.com/wanghai1988/qtgahelp/blob/main/files/InSAR%E6%96%B9%E4%BD%8D%E5%90%91%E5%81%8F%E7%A7%BB%E9%87%8F%E6%95%B0%E6%8D%AE.aos>`_ ，下面是一个简单的示例。
+InSAR方位向偏移数据格式包括经度（Long）、纬度（Lati）、高程（H）、视线方向形变（LOS）、 方位角（Azi）、入射角（Inc）、标准差（Sig），文件后缀为 .aos ，格式请参考 `InSAR方位向偏移量数据.aos <https://github.com/wanghai1988/qtgahelp/blob/main/files/InSAR%E6%96%B9%E4%BD%8D%E5%90%91%E5%81%8F%E7%A7%BB%E9%87%8F%E6%95%B0%E6%8D%AE.aos>`_ ，下面是一个简单的示例。
 
 .. code-block:: go
 
-      Long(deg)      Lati(deg)       H(m)    LOS(cm)      Azi(deg)       Inc(deg)     RMSE(cm)
+      Long(deg)      Lati(deg)       H(m)    LOS(cm)      Azi(deg)       Inc(deg)      Sig(cm)
     35.91361237    38.48583221       0.00      0.224   -10.04328918    39.39117432       0.00
     36.34027863    38.48583221       0.00      0.389    -9.77897644    41.53480530       0.00
     36.76694489    38.48583221       0.00      0.405    -9.51591492    43.55602646       0.00
@@ -267,11 +267,11 @@ InSAR方位向偏移数据格式包括经度（Long）、纬度（Lati）、高�
 1.4.15 InSAR距离向偏移数据文件格式
 ~~~~~~~~~~~~~~~~~~~~
 
-InSAR方位向偏移数据格式包括经度（Long）、纬度（Lati）、高度（H）、视线方向形变（LOS）、 方位角（Azi）、入射角（Inc）、均方根误差（RMSE），文件后缀为 .ros ，格式请参考 `InSAR距离向偏移量数据.ros <https://github.com/wanghai1988/qtgahelp/blob/main/files/InSAR%E8%B7%9D%E7%A6%BB%E5%90%91%E5%81%8F%E7%A7%BB%E9%87%8F%E6%95%B0%E6%8D%AE.ros>`_ ，下面是一个简单的示例。
+InSAR方位向偏移数据格式包括经度（Long）、纬度（Lati）、高程（H）、视线方向形变（LOS）、 方位角（Azi）、入射角（Inc）、标准差（Sig），文件后缀为 .ros ，格式请参考 `InSAR距离向偏移量数据.ros <https://github.com/wanghai1988/qtgahelp/blob/main/files/InSAR%E8%B7%9D%E7%A6%BB%E5%90%91%E5%81%8F%E7%A7%BB%E9%87%8F%E6%95%B0%E6%8D%AE.ros>`_ ，下面是一个简单的示例。
 
 .. code-block:: go
 
-      Long(deg)      Lati(deg)       H(m)    LOS(cm)      Azi(deg)       Inc(deg)     RMSE(cm)
+      Long(deg)      Lati(deg)       H(m)    LOS(cm)      Azi(deg)       Inc(deg)      Sig(cm)
     35.91361237    38.48583221       0.00     -0.050   -10.04328918    39.39117432       0.00
     36.34027863    38.48583221       0.00     -0.101    -9.77897644    41.53480530       0.00
     36.76694489    38.48583221       0.00     -0.182    -9.51591492    43.55602646       0.00
@@ -308,11 +308,11 @@ InSAR方位向偏移量数据格式包括文件名（File_Name）、经度（Lon
 1.4.18 断层应力变化数据文件格式
 ~~~~~~~~~~~~~~~~~~~~
 
-断层应力变化数据格式包括经度（Long）、纬度（Lati）、深度（Depth）、断层宽度（Width）、长度（Length）、走向角（Strike）、倾角（Dip）、滑动角（Rake）、库伦破坏应力（CFS）、均方根误差（RMSE）、拉梅常数（Lambda、Mu）、摩擦系数（F），文件后缀为.cfsr ，格式请参考 `断层应力变化数据格式.cfsr <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E6%96%AD%E5%B1%82%E5%BA%94%E5%8A%9B%E5%8F%98%E5%8C%96%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.cfsr>`_ ，下面是一个简单的示例。
+断层应力变化数据格式包括经度（Long）、纬度（Lati）、深度（Depth）、断层宽度（Width）、长度（Length）、走向角（Strike）、倾角（Dip）、滑动角（Rake）、库伦破坏应力（CFS）、标准差（Sig）、拉梅常数（Lambda、Mu）、摩擦系数（F），文件后缀为.cfsr ，格式请参考 `断层应力变化数据格式.cfsr <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E6%96%AD%E5%B1%82%E5%BA%94%E5%8A%9B%E5%8F%98%E5%8C%96%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.cfsr>`_ ，下面是一个简单的示例。
 
 .. code-block:: go
 
-     Long(deg)      Lati(deg)  Depth(m)   Width(m)  Length(m) Strike(deg)   Dip(deg)  Rake(deg)      CFS(Pa)     RMSE(Pa)      Lambda          Mu    F
+     Long(deg)      Lati(deg)  Depth(m)   Width(m)  Length(m) Strike(deg)   Dip(deg)  Rake(deg)      CFS(Pa)     Sig(Pa)      Lambda          Mu    F
   105.31203951   29.27487069   -669.13   1000.000   1000.000  132.364334    42.0000    90.0000   1.2413E+04   0.0000E+00  3.0000E+10  3.0000E+10  0.4
   105.30688218   29.26992042  -1338.26   1000.000   1000.000  132.364334    42.0000    90.0000   9.8236E+03   0.0000E+00  3.0000E+10  3.0000E+10  0.4
   105.30172535   29.26496994  -2007.39   1000.000   1000.000  132.364334    42.0000    90.0000   9.2805E+03   0.0000E+00  3.0000E+10  3.0000E+10  0.4
@@ -323,7 +323,7 @@ InSAR方位向偏移量数据格式包括文件名（File_Name）、经度（Lon
 ~~~~~~~~~~~~~~~~~~~~
 
 
-活动块体运动和应变参数数据格式包括块体名称（Name）、块体质心经纬度（Long、Lati）、东西向旋转矢量及对应中误差（R_X、Sig1）、南北向旋转矢量及对应中误差（R_Y、Sig2）、垂直向旋转矢量及对应中误差（R_Z、Sig3）、东西向线应变率及中误差（S_X、Sig4）、南北向线应变率及中误差（S_Y、Sig5）、剪应变率及中误差（S_XY、Sig6），文件后缀为.blc ，格式请参考 `活动块体运动和应变参数数据格式.blc <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E6%B4%BB%E5%8A%A8%E5%9D%97%E4%BD%93%E8%BF%90%E5%8A%A8%E5%92%8C%E5%BA%94%E5%8F%98%E5%8F%82%E6%95%B0%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.blc>`_ ，下面是一个简单的示例。
+活动块体运动和应变参数数据格式包括块体名称（Name）、块体质心经纬度（Long、Lati）、东西向旋转矢量及对应标准差（R_X、Sig1）、南北向旋转矢量及对应标准差（R_Y、Sig2）、垂直向旋转矢量及对应标准差（R_Z、Sig3）、东西向线应变率及标准差（S_X、Sig4）、南北向线应变率及标准差（S_Y、Sig5）、剪应变率及标准差（S_XY、Sig6），文件后缀为.blc ，格式请参考 `活动块体运动和应变参数数据格式.blc <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E6%B4%BB%E5%8A%A8%E5%9D%97%E4%BD%93%E8%BF%90%E5%8A%A8%E5%92%8C%E5%BA%94%E5%8F%98%E5%8F%82%E6%95%B0%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.blc>`_ ，下面是一个简单的示例。
 
 .. code-block:: go
 
