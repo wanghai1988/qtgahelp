@@ -135,7 +135,7 @@
 1.4.5 GNSS形变数据文件格式
 ~~~~~~~~~~~~~~~~~~
 
-GNSS形变场（或速度场）的数据结构包括站点名（Site）、经度（Long）、纬度（Lati）、高程（H）、东方向形变（DisE）、北方向形变（DisN）、垂直向形变（DisH）、东方向标准差（SigE）、北方向标准差（SigN）、相关性系数（Corr）、垂直向误差（SigH）、以及站点的观测时间（Time）。文件后缀为 .gps格式，示例格式请参考 `GNSS形变数据格式.gnss <https://github.com/wanghai1988/qtgahelp/blob/main/files/GNSS%E5%BD%A2%E5%8F%98%E6%A0%BC%E5%BC%8F%E7%A4%BA%E4%BE%8B.gnss>`_。时间格式为YYYY/MM/DD-YYYY/MM/DD，下面是一个简单的示例 。
+GNSS形变场（或速度场）的数据结构包括站点名（Site）、经度（Long）、纬度（Lati）、高程（H）、东方向形变（DisE）、北方向形变（DisN）、垂直向形变（DisH）、东方向标准差（SigE）、北方向标准差（SigN）、相关性系数（Corr）、垂直向误差（SigH）、以及站点的观测时间（Time）。文件后缀为 .gnss格式，示例格式请参考 `GNSS形变数据格式.gnss <https://github.com/wanghai1988/qtgahelp/edit/main/files/GNSS%E5%BD%A2%E5%8F%98%E6%A0%BC%E5%BC%8F%E7%A4%BA%E4%BE%8B.gnss>`_。时间格式为YYYY/MM/DD-YYYY/MM/DD，下面是一个简单的示例 。
 
 .. code-block:: go
 
