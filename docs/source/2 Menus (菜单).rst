@@ -598,7 +598,7 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 2.3.2 Construct 3D Geometry Faults（构造断层3D几何模型）
 ~~~~~~~~~~~~~~~~~~
 
-    该功能可根据断层分段参数数据构建矩形或三角位错模型并输出相应的模型数据文件（同时会输出一个相应的断层分段行列数文件），可以构建的模型包含变走向角、变倾角等各种复杂模型。具体参数设置如下图，主要包含输入文件、高斯投影参数、矩形网格大小、是否选用三角网格这些数据和参数设置。
+    该功能可根据断层分段参数数据构建矩形或三角位错模型并输出相应的模型数据文件（同时会输出一个相应的断层分段行列数文件），可以构建的模型包含变走向角、变倾角、多个分支断层等各种复杂模型。具体参数设置如下图，主要包含输入文件、高斯投影参数、矩形网格大小、是否选用三角网格这些数据和参数设置。
 
     .. image:: ../images/menu_image/Tools/btnMenu_ConstructFaultGeometry.png
        :align: center
@@ -640,6 +640,17 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
       对比矩形网格模型，很明显消除了gap和overlap
 
       .. image:: ../images/menu_image/Tools/result_ConstructTriFaultGeoModel.png
+          :align: center
+
+(#) 构建多个分支断层模型：
+
+      构建多个分支断层三角网格模型的参数配置文件、模型及其输出数据格式如下：
+
+      .. image:: ../images/menu_image/Tools/dailog_ConstructMultiBranchFaultGeoModel.png
+         :align: center
+
+
+      .. image:: ../images/menu_image/Tools/result_ConstructMultiBranchFaultGeoModel.png
           :align: center
 
 
