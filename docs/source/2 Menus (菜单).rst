@@ -299,7 +299,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
 2.2.8 Leveling Displacement Profile（水准形变场剖面分析）
 ~~~~~~~~~~~~~~~~~~
 
-    暂缺
+    目前暂缺
 
 2.2.9 L/U Curve（L/U曲线）
 ~~~~~~~~~~~~~~~~~~
