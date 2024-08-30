@@ -32,9 +32,9 @@
 
 1.2 Download (软件下载)
 ------------------------------------------------------------------------
-:download:`TGA下载 <https://github.com/LongxiangSun/TGA/releases/download/TGAv1.1/TGA.V1.1.rar>`  更新时间：2024年8月19日
+:download:`TGA下载 <https://github.com/LongxiangSun/TGA/releases/download/TGA1.1/TGA1.1.rar>`  更新时间：2024年8月30日
 
-:download:`测试数据下载 <https://github.com/wanghai1988/TGA_Data/releases/download/v2/test_data.zip>`  上传时间：2024年8月26日
+:download:`测试数据下载 <https://github.com/wanghai1988/TGA_Data/releases/download/v2/test_data.zip>`  上传时间：2024年8月30日
 
 1.3 Runtime Environment (运行环境)
 ------------------------------------------------------------------------
@@ -389,7 +389,7 @@ InSAR方位向偏移量数据格式包括文件名（File_Name）、经度（Lon
 ==========  ==============  ====== 
  v1.0        2024年1月1日   1. 格林函数计算功能 
                             2. 复杂断层建模功能
- v1.1        2024年8月19日  1. 添加同震正/反演功能 
+ v1.1        2024年8月30日  1. 添加同震正/反演功能 
                             2. 添加震间3D块体模型正/反演功能
                             3. 添加GNSS数据剖面分析功能
 ==========  ==============  ======
