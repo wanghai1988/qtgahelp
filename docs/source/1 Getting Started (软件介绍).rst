@@ -185,7 +185,7 @@ GNSS形变场（或速度场）的数据结构包括站点名（Site）、经度
 1.4.9 地壳分层模型数据文件格式
 ~~~~~~~~~~~~~~~~~~~~
 
-地壳分层模型数据格式包括深度（Depth）、厚度（Thickness）、地震矩震级（Vp）、P波速度（Vp）、S波速度（Vs）、地壳密度（Rho）、和地壳粘度（Viscosity），文件后缀为 .lcm，格式请参考 `地壳分层模型格式输入格式.lcm <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E5%9C%B0%E5%A3%B3%E5%88%86%E5%B1%82%E6%A8%A1%E5%9E%8B.lcm>`_ ，下面是一个简单的示例。
+地壳分层模型数据格式包括深度（Depth）、厚度（Thickness）、P波速度（Vp）、S波速度（Vs）、地壳密度（Rho）、和地壳粘度（Viscosity），文件后缀为 .lcm，格式请参考 `地壳分层模型格式输入格式.lcm <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E5%9C%B0%E5%A3%B3%E5%88%86%E5%B1%82%E6%A8%A1%E5%9E%8B.lcm>`_ ，下面是一个简单的示例。
 
 .. code-block:: go
 
