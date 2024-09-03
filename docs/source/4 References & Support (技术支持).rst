@@ -21,7 +21,7 @@ QQ群：252716902（备注：姓名-单位）
 
 4.2.3  软件功能定制
 
-如果您有功能定制需求，请通过邮件联系`江国焰 <http://gyjiang.users.sgg.whu.edu.cn/>`_老师。
+如果您有功能定制需求，请通过邮件联系 `江国焰 <http://gyjiang.users.sgg.whu.edu.cn/>`_ 老师。
 
 4.3 Release Notes (版本说明)
 -----------------
