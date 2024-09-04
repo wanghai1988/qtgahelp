@@ -5,13 +5,13 @@
 .. image:: ../images/GUI_image/img_gui.png
     :align: center  
     
-3.1 Layers (图层列表)
+2.1 Layers (图层列表)
 ---------------
 .. image:: ../images/GUI_image/img_layers.png
     :align: center
 图层列表是加载数据的关键控件，用户添加的栅格数据、矢量数据、在线数据都会列在图层列表中，用户可以通过右键菜单对图层进行控制。
 
-3.1.1 Layers Toolbar（图层工具栏）
+2.1.1 Layers Toolbar（图层工具栏）
 ~~~~~~~~~~~~~~~~~~
 .. image:: ../images/GUI_image/img_layersToolbar.png
     :align: center  
@@ -28,7 +28,7 @@
     4. |Collapse All| Collapse All（折叠全部）按钮：点击该按钮后，可以将图层全部折叠
     5. |Remove Layer| Remove Layer（移除图层）按钮：点击该按钮后，可以移除当前选中的图层
 
-3.1.2 Context Menu（右键菜单）
+2.1.2 Context Menu（右键菜单）
 ~~~~~~~~~~~~~~~~~~
 右键菜单是用户设置图层重要的控制组件，不同的图层类型所对应的右键菜单也不尽相同
 
@@ -66,7 +66,7 @@
     * Duplicate Layer（复制图层副本），点击该功能后，可以复制一个当前图层的副本；
     * Properties（属性），点击该功能后，可以打开当前图层的属性面板。
 
-3.2 Overview (缩略图)
+2.2 Overview (缩略图)
 ---------------
 
 .. image:: ../images/GUI_image/img_overview.png
@@ -75,7 +75,7 @@
 缩略图也称鹰眼图，用于显示地图的整体范围，Map View主窗体的视图范围在缩略图中以红框表示并联动。当用户在地图主窗体中调整了视图范围，缩略图的红框也随之变化，同样如果在缩略图中调整红框位置也会造成地图主窗体视图的变化。
 
 
-3.3 Toolbar (工具栏)
+2.3 Toolbar (工具栏)
 ---------------
 
 .. image:: ../images/GUI_image/img_toolbar.png
