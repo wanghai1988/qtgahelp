@@ -51,7 +51,7 @@
 
 .. image:: ../images/Poster20240904.png
     :height: 600px
-    :align: center
+    :align: left
 
 ==========  ==============  =========
  版本号      更新时间        更新内容 
