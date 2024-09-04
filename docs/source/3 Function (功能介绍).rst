@@ -745,7 +745,7 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 
     相关知识：Coordinate Systems (坐标系统)
 
-    软件使用的地理坐标系统（Geographic Coordinate System）为World Geodetic System 1984（简称WGS84）,其EPSG编码为4326。软件使用的投影坐标系统（Projected Coordinate System）为高斯克吕格投影（Gauss-Kruger projection）。在加载数据时，如果数据本身带有坐标系统，软件会采用动态投影自动转换至当前坐标系统下，也可采用系统提供的坐标转换工具进行转换，如：`Gauss Projection:EN2XY（高斯投影:经纬度转投影坐标） <https://qtgahelpdoc.readthedocs.io/en/latest/2%20Menus%20%28%E8%8F%9C%E5%8D%95%29.html#gauss-projection-en2xy>`_、`Gauss Projection:XY2EN（高斯投影:投影坐标转经纬度） <https://qtgahelpdoc.readthedocs.io/en/latest/2%20Menus%20%28%E8%8F%9C%E5%8D%95%29.html#gauss-projection-xy2en>`_ 和 `Reference Frame Conversion（参考框架转换） <https://qtgahelpdoc.readthedocs.io/en/latest/2%20Menus%20%28%E8%8F%9C%E5%8D%95%29.html#reference-frame-conversion>`_。
+    软件使用的地理坐标系统（Geographic Coordinate System）为World Geodetic System 1984（简称WGS84）,其EPSG编码为4326。软件使用的投影坐标系统（Projected Coordinate System）为高斯克吕格投影（Gauss-Kruger projection）。在加载数据时，如果数据本身带有坐标系统，软件会采用动态投影自动转换至当前坐标系统下，也可采用系统提供的坐标转换工具进行转换，如：`Gauss Projection:EN2XY（高斯投影:经纬度转投影坐标） <https://qtgahelpdoc.readthedocs.io/en/latest/3%20Function%20%28%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D%29.html#gauss-projection-en2xy>`_、`Gauss Projection:XY2EN（高斯投影:投影坐标转经纬度） <https://qtgahelpdoc.readthedocs.io/en/latest/3%20Function%20%28%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D%29.html#gauss-projection-xy2en>`_ 和 `Reference Frame Conversion（参考框架转换） <https://qtgahelpdoc.readthedocs.io/en/latest/3%20Function%20%28%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D%29.html#reference-frame-conversion>`_。
 
 3.3.8 Data Format Conversion（数据格式转换）
 ~~~~~~~~~~~~~~~~~~
