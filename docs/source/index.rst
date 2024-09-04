@@ -13,7 +13,7 @@ User Manual for Tectonic Geodesy Application (TGA)
    2 GUI (软件界面)
    3 Function (功能介绍)
    4 File Format (文件格式)
-   5 DEMO 案例展示
+   5 DEMO (案例展示)
    6 References & Support (技术支持)
    7 Copyright Notice (版权声明)
    
