@@ -4,14 +4,14 @@
 
 
     
-2.1 File (文件)
+3.1 File (文件)
 ---------------
 .. image:: ../images/menu_image/File/menu_file_new.png
     :align: center  
 
 File菜单下包括下列功能：
 
-2.1.1 Open Map（打开地图工程）
+3.1.1 Open Map（打开地图工程）
 ~~~~~~~~~~~~~~~~~~
 
 该菜单会打开文件打开对话框，用来打开已经存在的地图工程（后缀为.qgs/.qgz/.QGS/.QGZ），界面如下：
@@ -19,7 +19,7 @@ File菜单下包括下列功能：
     .. image:: ../images/menu_image/File/dialog_openproject.png
         :align: center
     
-2.1.2 Save（保存）
+3.1.2 Save（保存）
 ~~~~~~~~~~~~~~~~~~
 
 该菜单用于保存当前地图工程（后缀为.qgs/.qgz/.QGS/.QGZ），如果当前为新建地图工程时，会弹出地图工程保存对话框，界面如下：
@@ -27,7 +27,7 @@ File菜单下包括下列功能：
     .. image:: ../images/menu_image/File/dialog_saveproject.png
         :align: center
         
-2.1.3 Save as（另存为）
+3.1.3 Save as（另存为）
 ~~~~~~~~~~~~~~~~~~
 
 该菜单用于另存当前工程为新的地图工程（后缀为.qgs/.qgz/.QGS/.QGZ），点击后会弹出地图工程另存对话框，界面如下：
@@ -35,17 +35,17 @@ File菜单下包括下列功能：
     .. image:: ../images/menu_image/File/dialog_saveas.png
         :align: center
 
-2.1.4 Close Map（关闭地图工程）
+3.1.4 Close Map（关闭地图工程）
 ~~~~~~~~~~~~~~~~~~
 
 该菜单用于关闭当前地图工程
 
-2.1.5 Open Recent（最近工程）
+3.1.5 Open Recent（最近工程）
 ~~~~~~~~~~~~~~~~~~
 
 该菜单用于显示用户最近打开过的地图工程列表
 
-2.1.6 Add Raster Layer（添加栅格图层）
+3.1.6 Add Raster Layer（添加栅格图层）
 ~~~~~~~~~~~~~~~~~~
 
 该菜单用于添加栅格类型地图数据（后缀为.tif/.img/.grd等），点击后会弹出添加栅格数据对话框，界面如下：
@@ -53,7 +53,7 @@ File菜单下包括下列功能：
     .. image:: ../images/menu_image/File/dailog_addRasterLayer.png
         :align: center
         
-2.1.7 Add Vector Layer（添加矢量图层）
+3.1.7 Add Vector Layer（添加矢量图层）
 ~~~~~~~~~~~~~~~~~~
 
 该菜单用于添加矢量类型地图数据（后缀为.shp/.geojson/.kml等），点击后会弹出添加矢量数据对话框，界面如下：
@@ -61,7 +61,7 @@ File菜单下包括下列功能：
     .. image:: ../images/menu_image/File/dailog_addVectorLayer.png
         :align: center
         
-2.1.8 Add Online Map（添加在线地图）
+3.1.8 Add Online Map（添加在线地图）
 ~~~~~~~~~~~~~~~~~~
 
 该菜单用于添加在线地图服务图层如天地图、谷歌地图、ERSI等在线地图服务，界面如下：
@@ -69,7 +69,7 @@ File菜单下包括下列功能：
     .. image:: ../images/menu_image/File/menu_onlineMap_new.png
         :align: center
         
-2.1.9 Export（输出）
+3.1.9 Export（输出）
 ~~~~~~~~~~~~~~~~~~
 
 该菜单用于输出当前地图视图，包含2个子菜单，界面如下：
@@ -101,10 +101,10 @@ File菜单下包括下列功能：
     
 
     
-2.1.10 Exit（退出）
+3.1.10 Exit（退出）
 ~~~~~~~~~~~~~~~~~~
 
-2.2 Plot (绘制)
+3.2 Plot (绘制)
 ----------------
 
 Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displacement（GNSS形变场）、Leveling Displacement（水准形变场）等12项绘制功能，如图所示：
@@ -114,7 +114,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
 
 具体包括下列功能：
 
-2.2.1 Focal Mechanism（震源机制）
+3.2.1 Focal Mechanism（震源机制）
 ~~~~~~~~~~~~~~~~~~
 
     震源机制对话框界面如下：
@@ -136,7 +136,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
         :align: center
 
 
-2.2.2 GNSS Displacement（GNSS形变场）
+3.2.2 GNSS Displacement（GNSS形变场）
 ~~~~~~~~~~~~~~~~~~
 
     GNSS形变场对话框界面如下：
@@ -171,7 +171,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
         :align: center
 
 
-2.2.3 Leveling Displacement（水准形变场）
+3.2.3 Leveling Displacement（水准形变场）
 ~~~~~~~~~~~~~~~~~~
     水准形变场对话框界面如下：
     
@@ -194,7 +194,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
         :align: center
 
 
-2.2.4 Ratation Rate（旋转率场）
+3.2.4 Ratation Rate（旋转率场）
 ~~~~~~~~~~~~~~~~~~
     旋转率场对话框界面如下：
     
@@ -221,7 +221,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
         :align: center
 
 
-2.2.5 Principal Strain Rate（主应变率）
+3.2.5 Principal Strain Rate（主应变率）
 ~~~~~~~~~~~~~~~~~~
     主应变率对话框界面如下：
     
@@ -246,7 +246,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
     .. image:: ../images/menu_image/Plot/result_PrincipalStrainRate2.png
         :align: center
 
-2.2.6 Raster Data Profile（栅格数据剖面分析）
+3.2.6 Raster Data Profile（栅格数据剖面分析）
 ~~~~~~~~~~~~~~~~~~
     点击 Raster Data Profile（栅格数据剖面分析）按钮后，主界面添加一个数据展示面板，左侧为剖面图，右侧为数据表格，效果如下：
     
@@ -269,7 +269,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
     .. image:: ../images/menu_image/Plot/reault_RasterDataProfile2.png
         :align: center
 
-2.2.7 GNSS Velocity Profile（GNSS速度场剖面分析）
+3.2.7 GNSS Velocity Profile（GNSS速度场剖面分析）
 ~~~~~~~~~~~~~~~~~~
     GNSS速度场剖面分析对话框界面如下：
     
@@ -296,12 +296,12 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
     .. image:: ../images/menu_image/Plot/reault_GNSSVelocityProfile.png
         :align: center
 
-2.2.8 Leveling Displacement Profile（水准形变场剖面分析）
+3.2.8 Leveling Displacement Profile（水准形变场剖面分析）
 ~~~~~~~~~~~~~~~~~~
 
     目前暂缺
 
-2.2.9 L/U Curve（L/U曲线）
+3.2.9 L/U Curve（L/U曲线）
 ~~~~~~~~~~~~~~~~~~
     L/U曲线绘制对话框界面如下：
     
@@ -318,7 +318,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
         :align: center
 
 
-2.2.10 GNSS Time Series（GNSS时间序列）
+3.2.10 GNSS Time Series（GNSS时间序列）
 ~~~~~~~~~~~~~~~~~~
     GNSS时间序列对话框界面如下：
     
@@ -339,7 +339,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
     .. image:: ../images/menu_image/Plot/result_GNSSTimeSeries.png
         :align: center
 
-2.2.11 Stress Change on Fault（断层应力变化）
+3.2.11 Stress Change on Fault（断层应力变化）
 ~~~~~~~~~~~~~~~~~~
 
     断层应力变化对话框界面如下：
@@ -361,7 +361,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
     .. image:: ../images/menu_image/Plot/reault_StressChangeonFault.png
         :align: center
 
-2.2.12 Slip Distribution（滑动分布）
+3.2.12 Slip Distribution（滑动分布）
 ~~~~~~~~~~~~~~~~~~
 
     滑动分布对话框界面如下：
@@ -386,12 +386,12 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
 
 
 
-2.2.13 Interseismic Coupling Model（震间耦合模型）
+3.2.13 Interseismic Coupling Model（震间耦合模型）
 ~~~~~~~~~~~~~~~~~~
 
     暂缺
 
-2.2.14 Depth Profile of Earthquakes（地震深度剖面）
+3.2.14 Depth Profile of Earthquakes（地震深度剖面）
 ~~~~~~~~~~~~~~~~~~
 
     地震深度剖面对话框界面如下：
@@ -400,7 +400,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
         :align: center   
 
 
-2.2.15 Temporal Variation of Earthquakes（地震时间变化）
+3.2.15 Temporal Variation of Earthquakes（地震时间变化）
 ~~~~~~~~~~~~~~~~~~
 
     地震时间变化对话框界面如下：
@@ -422,7 +422,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
      .. image:: ../images/menu_image/Plot/reault_TemporVariationofEarthquakes.png
         :align: center
 
-2.3 Tools (工具)
+3.3 Tools (工具)
 -----------------
 Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault Geometry（构造断层几何）、Construct Checkboard Test Model（构造棋盘测试模型）等15项功能，如图所示。
 
@@ -431,7 +431,7 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 
 具体包括下列功能：
 
-2.3.1 Data Extract（数据提取）
+3.3.1 Data Extract（数据提取）
 ~~~~~~~~~~~~~~~~~~
 
     Data Extract（数据提取）菜单包括了：Extract Elevation Data（提取高程数据）、Extract Incidence/Azimuth Angle（提取入射角/方位角）、Extract Fault Segment Parameters（提取断层段参数）等8个子菜单，如图所示。
@@ -595,7 +595,7 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
      .. image:: ../images/menu_image/Tools/dialog_ExtractEarthquakesWithinBlock2.png
         :align: center
 
-2.3.2 Construct 3D Geometry Faults（构造断层3D几何模型）
+3.3.2 Construct 3D Geometry Faults（构造断层3D几何模型）
 ~~~~~~~~~~~~~~~~~~
 
     该功能可根据断层分段参数数据构建矩形或三角位错模型并输出相应的模型数据文件（同时会输出一个相应的断层分段行列数文件），可以构建的模型包含变走向角、变倾角、多个分支断层等各种复杂模型。具体参数设置如下图，主要包含输入文件、高斯投影参数、矩形网格大小、是否选用三角网格这些数据和参数设置。
@@ -654,7 +654,7 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
           :align: center
 
 
-2.3.3 Construct Checkboard Test Model（构造棋盘测试模型）
+3.3.3 Construct Checkboard Test Model（构造棋盘测试模型）
 ~~~~~~~~~~~~~~~~~~
 
     该功能可基于断层几何模型根据用户设定尺寸生成构造棋盘测试模型
@@ -673,7 +673,7 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 
     STEP 3：点击Construct进行构建，点击Export（导出）按钮，弹出成功提示框后，即可保存结果
 
-2.3.4 Construct Deep Slip Model（构造深部滑移模型）
+3.3.4 Construct Deep Slip Model（构造深部滑移模型）
 ~~~~~~~~~~~~~~~~~~
 
     该功能可基于断层几何模型生成深部滑移模型
@@ -692,7 +692,7 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
     STEP 4：点击Construct进行构建，点击Export（导出）按钮，弹出成功提示框后，即可保存结果
 
 
-2.3.5 Gauss Projection:EN2XY（高斯投影:经纬度转投影坐标）
+3.3.5 Gauss Projection:EN2XY（高斯投影:经纬度转投影坐标）
 ~~~~~~~~~~~~~~~~~~
 
     该功能用于将经纬度坐标转换为高斯投影坐标
@@ -708,7 +708,7 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 
     STEP 2：点击OK，自动计算X、Y、Zone Num（带号）结果
 
-2.3.6 Gauss Projection:XY2EN（高斯投影:投影坐标转经纬度）
+3.3.6 Gauss Projection:XY2EN（高斯投影:投影坐标转经纬度）
 ~~~~~~~~~~~~~~~~~~
 
     该功能用于将高斯投影坐标转换为经纬度坐标
@@ -725,7 +725,7 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
     STEP 2：点击OK，自动计算Longitude（经度）、Latitude（纬度）、Zone Width（分带宽度）结果
 
 
-2.3.7 Reference Frame Conversion（参考框架转换）
+3.3.7 Reference Frame Conversion（参考框架转换）
 ~~~~~~~~~~~~~~~~~~
 
     该功能用于进行数据参考框架的转换
@@ -744,7 +744,7 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
     STEP 4：点击Translation（转换）进行计算，点击Export（导出）按钮，弹出成功提示框后，即可保存结果
 
 
-2.3.8 Data Format Conversion（数据格式转换）
+3.3.8 Data Format Conversion（数据格式转换）
 ~~~~~~~~~~~~~~~~~~
 
     该功能用于进行栅格或矢量格式的转换
@@ -800,7 +800,7 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
     .. image:: ../images/menu_image/Tools/dialog_SAR2SHP.png
        :align: center
 
-2.3.9 Clip Image（图像裁切）
+3.3.9 Clip Image（图像裁切）
 ~~~~~~~~~~~~~~~~~~
 
     该功能基于绘制范围进行栅格图像的裁切
@@ -821,7 +821,7 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 
 
 
-2.3.10 Superimpose Image（图像叠加）
+3.3.10 Superimpose Image（图像叠加）
 ~~~~~~~~~~~~~~~~~~
     该功能用于将2个图像进行像元叠加运算处理
 
@@ -836,7 +836,7 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 
     STEP 4：点击OK进行计算，即可保存结果
 
-2.3.11 Merge Image（图像合并）
+3.3.11 Merge Image（图像合并）
 ~~~~~~~~~~~~~~~~~~
     该功能用于将多个图像进行合并处理
 
@@ -849,7 +849,7 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 
     STEP 3：点击RUN（运行）进行计算，即可保存结果
 
-2.3.12 Compress Image（图像压缩）
+3.3.12 Compress Image（图像压缩）
 ~~~~~~~~~~~~~~~~~~
 
     .. image:: ../images/menu_image/Tools/btnMenu_CompressImage.png
@@ -865,19 +865,19 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
     .. image:: ../images/menu_image/Tools/dialog_QuadtreeDownsampling.png
        :align: center
 
-2.3.13 Generate Fringe Pattern（生成干涉条纹）
+3.3.13 Generate Fringe Pattern（生成干涉条纹）
 ~~~~~~~~~~~~~~~~~~
 
     .. image:: ../images/menu_image/Tools/dialog_GenerateFringePattern.png
        :align: center
 
-2.3.14 Synthesize LOS Displacement（合成LOS位移）
+3.3.14 Synthesize LOS Displacement（合成LOS位移）
 ~~~~~~~~~~~~~~~~~~
 
     .. image:: ../images/menu_image/Tools/dialog_SynthesizeLOSDisplacement.png
        :align: center
 
-2.3.15 Correct Data（数据校正）
+3.3.15 Correct Data（数据校正）
 ~~~~~~~~~~~~~~~~~~
 
     .. image:: ../images/menu_image/Tools/btnMenu_CorrectData.png
@@ -896,114 +896,114 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
     .. image:: ../images/menu_image/Tools/dialog_CorrectDownsampledLOSDisplacement.png
        :align: center
 
-2.4 Analysis (分析)
+3.4 Analysis (分析)
 ---------------------
 
 Analysis (分析)菜单主要包括Calculate Min/Max Values（同震地表位移）、Coseismic Stress Change（同震应力变化）、Coseismic Stress Change on Fault（断层上的同震应力变化）等8项功能，如图所示。
 
-2.4.1 Calculate Min/Max Values（计算最大最小值）
+3.4.1 Calculate Min/Max Values（计算最大最小值）
 ~~~~~~~~~~~~~~~~~~
 Calculate Min/Max Values，该菜单界面如下： 
 
     .. image:: ../images/menu_image/Analysis/minmax.png
         :align: center  
 
-2.4.2 Calculate Total Seismic Moment（计算总地震力矩）
+3.4.2 Calculate Total Seismic Moment（计算总地震力矩）
 ~~~~~~~~~~~~~~~~~~
 
-2.4.3 Compare GNSS/InSAR Displacement（比较GNSS/InSAR位移）
+3.4.3 Compare GNSS/InSAR Displacement（比较GNSS/InSAR位移）
 ~~~~~~~~~~~~~~~~~~
 Compare GNSS/InSAR Displacement，该菜单界面如下： 
 
 .. image:: ../images/menu_image/Analysis/CompareGNSSInSARDisplacement.png
     :align: center  
 
-2.4.4 Estimate Observation Standard Deviation（估计观测标准差）
+3.4.4 Estimate Observation Standard Deviation（估计观测标准差）
 ~~~~~~~~~~~~~~~~~~
 
-2.4.5 Correlation between（相关性分析）
+3.4.5 Correlation between（相关性分析）
 ~~~~~~~~~~~~~~~~~~
 
-2.4.6 Fit Interseismic GNSS Time Series（震间GNSS时间序列拟合）
+3.4.6 Fit Interseismic GNSS Time Series（震间GNSS时间序列拟合）
 ~~~~~~~~~~~~~~~~~~
 Fit Interseismic GNSS Time Series，该菜单界面如下： 
 
 .. image:: ../images/menu_image/Analysis/FitInterseismicGNSSTimeSeries.png
     :align: center  
 
-2.4.7 Fit Postseimic GNSS Time Series（震后GNSS时间序列拟合）
+3.4.7 Fit Postseimic GNSS Time Series（震后GNSS时间序列拟合）
 ~~~~~~~~~~~~~~~~~~
 Fit Postseimic GNSS Time Series，该菜单界面如下：
 
 
-2.4.8 Fit Temporal Distribution Of Aftershocks （余震时间分布拟合）
+3.4.8 Fit Temporal Distribution Of Aftershocks （余震时间分布拟合）
 ~~~~~~~~~~~~~~~~~~
 Fit Temporal Distribution Of Aftershocks，该菜单界面如下：
 
     .. image:: ../images/menu_image/Analysis/FitTemporalDistributionOfAftershocks.png
        :align: center 
 
-2.4.9 Fit GNSS Velocities（GNSS速度拟合）
+3.4.9 Fit GNSS Velocities（GNSS速度拟合）
 ~~~~~~~~~~~~~~~~~~
 
-2.4.10 Correct Postseimic GNSS Time Series（震间GNSS时间序列修正）
+3.4.10 Correct Postseimic GNSS Time Series（震间GNSS时间序列修正）
 ~~~~~~~~~~~~~~~~~~
 Correct Postseimic GNSS Time Series，该菜单界面如下：
 
 .. image:: ../images/menu_image/Analysis/CorrectPostseimicGNSSTimeSeries.png
     :align: center  
 
-2.5 Forward (正演)
+3.5 Forward (正演)
 -------------------
 
-2.5.1 Coseismic Surface Displacement（同震地表位移）
+3.5.1 Coseismic Surface Displacement（同震地表位移）
 ~~~~~~~~~~~~~~~~~~
 
 
-2.5.2 Coseismic Stress Change（同震应力变化）
+3.5.2 Coseismic Stress Change（同震应力变化）
 ~~~~~~~~~~~~~~~~~~
 
 
-2.5.3 Coseismic Stress Change on Fault（断层上的同震应力变化）
+3.5.3 Coseismic Stress Change on Fault（断层上的同震应力变化）
 ~~~~~~~~~~~~~~~~~~
 
-2.5.4 Postseismic Stress Change（震后应力变化）
-~~~~~~~~~~~~~~~~~~
-
-
-2.5.5 Postseismic Surface Displacement（震后地表位移）
-~~~~~~~~~~~~~~~~~~
-
-2.5.6 Interseismic Surface Displacement（震间地表位移）
+3.5.4 Postseismic Stress Change（震后应力变化）
 ~~~~~~~~~~~~~~~~~~
 
 
-2.5.7 Fault Stress Accumulation Rate（断层应力累积率）
+3.5.5 Postseismic Surface Displacement（震后地表位移）
 ~~~~~~~~~~~~~~~~~~
 
-2.5.8 Green's Function for a Multi-layered Half-space（多层半空间的格林函数）
+3.5.6 Interseismic Surface Displacement（震间地表位移）
 ~~~~~~~~~~~~~~~~~~
 
 
-2.6 Invert (反演)
+3.5.7 Fault Stress Accumulation Rate（断层应力累积率）
+~~~~~~~~~~~~~~~~~~
+
+3.5.8 Green's Function for a Multi-layered Half-space（多层半空间的格林函数）
+~~~~~~~~~~~~~~~~~~
+
+
+3.6 Invert (反演)
 ------------------
 
-2.6.1 Fault Geometry（断层几何形状）
+3.6.1 Fault Geometry（断层几何形状）
 ~~~~~~~~~~~~~~~~~~
 
-2.6.2 Fault Slip Distribution（断层滑动分布）
+3.6.2 Fault Slip Distribution（断层滑动分布）
 ~~~~~~~~~~~~~~~~~~
 
-2.6.4 Fault Geometry and Slip（断层几何形状与滑动）
+3.6.4 Fault Geometry and Slip（断层几何形状与滑动）
 ~~~~~~~~~~~~~~~~~~
 
-2.6.5 Crust Motion and Strain（地壳运动与应变）
+3.6.5 Crust Motion and Strain（地壳运动与应变）
 ~~~~~~~~~~~~~~~~~~
 
-2.6.6 Fault Interseismic Coupling（断层震间耦合）
+3.6.6 Fault Interseismic Coupling（断层震间耦合）
 ~~~~~~~~~~~~~~~~~~
 
-2.7 Evaluate (评估)
+3.7 Evaluate (评估)
 --------------------
 
 Evaluate菜单包括下列功能：
@@ -1015,7 +1015,7 @@ Evaluate菜单包括下列功能：
 (#) Stress Disturb Time
 
 
-2.8 Cartography (制图)
+3.8 Cartography (制图)
 ---------------
 .. image:: ../images/menu_image/File/dialog_setLayoutView.png
     :align: center
@@ -1044,15 +1044,15 @@ Evaluate菜单包括下列功能：
     * |Select/Move Item| Select/Move Item（选择/移动图面要素）按钮：点击该按钮后，可将鼠标切换至选择状态，用于选择图例或图面要素。并可按住鼠标左键拖动图例或图面要素至合适位置。
     * |Move Content| Move Content（移动内容）按钮：点击该按钮后，可操作地图框内的视图范围，移动地图框内的显示内容。
     * |Overview Setting| Overview Setting（缩略图设置）按钮：当布局视图内有2个及以上地图框时，选中一个地图框后，点击该按钮后可将该地图框地图视图设置到全图范围
-    * |Grid Setting| Grid Setting（网格设置）按钮：该按钮用于设置地图框相关参数，具体设置参数请参阅 `2.8.1 Grid Setting（网格设置）`_。
-    * |Text Setting| Text Setting（文本设置）按钮：该按钮用于设置标签的文本属性，具体设置参数请参阅 `2.8.2 Text Setting（文本设置）`_。
-    * |Legend Setting| Legend Setting（图例设置）按钮：该按钮用于设置图例相关参数，具体设置参数请参阅 `2.8.3 Legend Setting（图例设置）`_。
-    * |Scalebar Setting| Scalebar Setting（比例尺设置）按钮：该按钮用于设置比例尺相关参数，具体设置参数请参阅 `2.8.4 Scalebar Setting（比例尺设置）`_。
-    * |GNSS Setting| GNSS Setting（GNSS图例设置）按钮：该按钮用于设置GNSS图例相关参数，具体设置参数请参阅 `2.8.5 GNSS Setting（GNSS图例设置）`_。
-    * |Lev Setting| Lev Setting（水准图例设置）按钮：该按钮用于设置水准图例相关参数，具体设置参数请参阅 `2.8.6 Lev Setting（水准图例设置）`_。
-    * |Rotation Rate Setting| Rotation Rate Setting（旋转率图例设置）按钮：该按钮用于设置旋转率图例相关参数，具体设置参数请参阅 `2.8.7 Rotation Rate Setting（旋转率图例设置）`_。
-    * |Principal Strain Rate Setting| Principal Strain Rate Setting（主应变率图例设置）按钮：该按钮用于设置主应变率图例相关参数，具体设置参数请参阅 `2.8.8 Principal Strain Rate Setting（主应变率图例设置）`_。
-    * |Color Ramp Setting| Color Ramp Setting（色带设置）按钮：该按钮用于设置色带相关参数，具体设置参数请参阅 `2.8.9 Color Ramp Setting（色带设置）`_。
+    * |Grid Setting| Grid Setting（网格设置）按钮：该按钮用于设置地图框相关参数，具体设置参数请参阅 `3.8.1 Grid Setting（网格设置）`_。
+    * |Text Setting| Text Setting（文本设置）按钮：该按钮用于设置标签的文本属性，具体设置参数请参阅 `3.8.2 Text Setting（文本设置）`_。
+    * |Legend Setting| Legend Setting（图例设置）按钮：该按钮用于设置图例相关参数，具体设置参数请参阅 `3.8.3 Legend Setting（图例设置）`_。
+    * |Scalebar Setting| Scalebar Setting（比例尺设置）按钮：该按钮用于设置比例尺相关参数，具体设置参数请参阅 `3.8.4 Scalebar Setting（比例尺设置）`_。
+    * |GNSS Setting| GNSS Setting（GNSS图例设置）按钮：该按钮用于设置GNSS图例相关参数，具体设置参数请参阅 `3.8.5 GNSS Setting（GNSS图例设置）`_。
+    * |Lev Setting| Lev Setting（水准图例设置）按钮：该按钮用于设置水准图例相关参数，具体设置参数请参阅 `3.8.6 Lev Setting（水准图例设置）`_。
+    * |Rotation Rate Setting| Rotation Rate Setting（旋转率图例设置）按钮：该按钮用于设置旋转率图例相关参数，具体设置参数请参阅 `3.8.7 Rotation Rate Setting（旋转率图例设置）`_。
+    * |Principal Strain Rate Setting| Principal Strain Rate Setting（主应变率图例设置）按钮：该按钮用于设置主应变率图例相关参数，具体设置参数请参阅 `3.8.8 Principal Strain Rate Setting（主应变率图例设置）`_。
+    * |Color Ramp Setting| Color Ramp Setting（色带设置）按钮：该按钮用于设置色带相关参数，具体设置参数请参阅 `3.8.9 Color Ramp Setting（色带设置）`_。
     * |Delete Item| Delete Item（删除部件）按钮：该按钮用于删除当前布局视图内被选中的图饰部件
     * |Raise Select Items| Raise Select Items（提升选择部件）按钮：当图饰部件出现压盖时，该按钮用于提升当前布局视图内被选中的部件的图层顺序
     * |Lower Select Items| Lower Select Items（降低选择部件）按钮：当图饰部件出现压盖时，该按钮用于降低当前布局视图内被选中的部件的图层顺序
@@ -1103,7 +1103,7 @@ Evaluate菜单包括下列功能：
     .. |Export As Image|  image:: ../images/menu_image/File/btn_ExportAsImage.png
     .. |Export As PDF|    image:: ../images/menu_image/File/btn_ExportAsPDF.png
     
-2.8.1 Grid Setting（网格设置）
+3.8.1 Grid Setting（网格设置）
 ~~~~~~~~~~~~~~~~~~
 (1) 选择地图框，如果没有请点击 |Add Map| Add Map（添加地图）按钮添加地图框，激活Grid Setting（网格设置）按钮
 (#) 点击该按钮，弹出Map Item Setting对话框，如下图所示：
@@ -1122,7 +1122,7 @@ Evaluate菜单包括下列功能：
 
 (3) 根据出图需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
 
-2.8.2 Text Setting（文本设置）
+3.8.2 Text Setting（文本设置）
 ~~~~~~~~~~~~~~~~~~
 (1) 选择一个文本标签，如果没有请点击 |Add Label| Add Label（添加标签）按钮添加一个文本标签，激活Text Setting（文本设置）按钮
 (2) 点击该按钮，弹出Label Edit对话框，如下图所示：
@@ -1137,7 +1137,7 @@ Evaluate菜单包括下列功能：
       * Rotation（旋转）用于设置文本的旋转角度
 (3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
 
-2.8.3 Legend Setting（图例设置）
+3.8.3 Legend Setting（图例设置）
 ~~~~~~~~~~~~~~~~~~
 (1) 选择一个图例，如果没有请点击 |Add Legend| Add Legend（添加图例）按钮添加一个图例，激活Legend Setting（图例设置）按钮
 (2) 点击该按钮，弹出Legend Setting对话框，如下图所示：
@@ -1154,7 +1154,7 @@ Evaluate菜单包括下列功能：
       * Item Columns（项目）用于设置图例中条目排列的列数
 (3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
 
-2.8.4 Scalebar Setting（比例尺设置）
+3.8.4 Scalebar Setting（比例尺设置）
 ~~~~~~~~~~~~~~~~~~
 (1) 选择一个比例尺，如果没有请点击 |Add Scale Bar| Add Scale Bar（添加比例尺）按钮添加一个比例尺，激活Scalebar Setting（比例尺设置）按钮
 (2) 点击该按钮，弹出Scalebar Setting对话框，如下图所示：
@@ -1172,7 +1172,7 @@ Evaluate菜单包括下列功能：
       * Label Font（标签字体）用于设置比例尺标签的字体、字号、颜色等样式
 (3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
 
-2.8.5 GNSS Setting（GNSS图例设置）
+3.8.5 GNSS Setting（GNSS图例设置）
 ~~~~~~~~~~~~~~~~~~
 (1) 选择一个GNSS图例，如果没有请点击 |Add GNSS Legend| Add GNSS Legend（添加GNSS图例）按钮添加一个GNSS图例，激活GNSS Setting（GNSS图例设置）按钮
 (2) 点击该按钮，弹出GNSS Setting对话框，如下图所示：
@@ -1189,7 +1189,7 @@ Evaluate菜单包括下列功能：
       * Text（文字）、Font（字体）、Font Size（字号）、Font Color（颜色）用于设置图例中GNSS Text（GNSS文字标注）的文字内容、字体字族、字号大小和文字颜色
 (3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
 
-2.8.6 Lev Setting（水准图例设置）
+3.8.6 Lev Setting（水准图例设置）
 ~~~~~~~~~~~~~~~~~~
 (1) 选择一个水准图例，如果没有请点击 |Add Lev Legend| Add Lev Legend（添加水准图例）按钮添加一个水准图例，激活Lev Setting（水准图例设置）按钮
 (2) 点击该按钮，弹出Lev Setting对话框，如下图所示：
@@ -1206,7 +1206,7 @@ Evaluate菜单包括下列功能：
       * Text（文字）、Font（字体）、Font Size（字号）、Font Color（颜色）用于设置图例中Lev Text（Lev文字标注）的文字内容、字体字族、字号大小和文字颜色
 (3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
 
-2.8.7 Rotation Rate Setting（旋转率图例设置）
+3.8.7 Rotation Rate Setting（旋转率图例设置）
 ~~~~~~~~~~~~~~~~~~
 (1) 选择一个旋转率图例，如果没有请点击 |Add Rotation Rate Legend| Add Rotation Rate Legend（添加旋转率图例）按钮添加一个旋转率图例，激活|Rotation Rate Setting| Rotation Rate Setting（旋转率图例设置）按钮
 (2) 点击该按钮，弹出Rotation Rate Setting对话框，如下图所示：
@@ -1223,7 +1223,7 @@ Evaluate菜单包括下列功能：
       * Text（文字）、Font（字体）、Font Size（字号）、Font Color（颜色）用于设置图例中Rotation Rate Text（旋转率标注）的文字内容、字体字族、字号大小和文字颜色
 (3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
 
-2.8.8 Principal Strain Rate Setting（主应变率图例设置）
+3.8.8 Principal Strain Rate Setting（主应变率图例设置）
 ~~~~~~~~~~~~~~~~~~
 (1) 选择一个主应变率图例，如果没有请点击 |Add Principal Strain Rate Legend| Add Principal Strain Rate Legend（添加主应变率图例）按钮添加一个旋转率图例，激活|Principal Strain Rate Setting| Principal Strain Rate Setting（主应变率图例设置）按钮
 (2) 点击该按钮，弹出Principal Strain Rate Setting对话框，如下图所示：
@@ -1240,7 +1240,7 @@ Evaluate菜单包括下列功能：
       * Text（文字）、Font（字体）、Font Size（字号）、Font Color（颜色）用于设置图例中Principal Strain Rate（主应变率标注）的文字内容、字体字族、字号大小和文字颜色
 (3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
 
-2.8.9 Color Ramp Setting（色带设置）
+3.8.9 Color Ramp Setting（色带设置）
 ~~~~~~~~~~~~~~~~~~
 (1) 选择一个色带，如果没有请点击 |Add Color Ramp| Add Color Ramp（添加色带）按钮添加一个色带图例，激活Color Ramp Setting（色带设置）按钮
 (2) 点击该按钮，弹出Color Ramp Setting对话框，如下图所示：
