@@ -1,5 +1,5 @@
 =================================
-6 References & Support (技术支持)
+6 Technical Support (技术支持)
 =================================
 
 6.1 Training Materials (培训资料)
