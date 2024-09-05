@@ -14,8 +14,8 @@
 6.2 User Community (用户社区)
 -------------------
 
-QQ群：252716902（入群请备注：姓名-单位）
-
+1. QQ群：252716902（入群请备注：姓名-单位）
+2. `GitHub参与讨论 <https://github.com/LongxiangSun/TGA_Publish/discussions>`_
 
 6.3 Customization Service (软件功能定制)
 -------------------
