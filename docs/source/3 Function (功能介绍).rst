@@ -146,7 +146,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
     
     使用步骤：
     
-    STEP 1：选择或输入 `GNSS形变数据（后缀为.gps） <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#gnss>`_ 路径 
+    STEP 1：选择或输入 `GNSS形变数据（后缀为.gnss） <https://qtgahelpdoc.readthedocs.io/en/latest/4%20File%20Format%20%28%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%29.html#gnss>`_ 路径 
  
     STEP 2：设置Draw Arrow（绘制矢量）、Draw Error Ellipse（绘制误差椭圆），主要包含以下参数：
       * Line Length Scale（线条长度比例尺）
@@ -180,7 +180,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
 
     使用步骤：
     
-    STEP 1：选择或输入 `水准形变场数据（后缀为.lev） <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#id3>`_ 路径 
+    STEP 1：选择或输入 `水准形变数据（后缀为.lev） <https://qtgahelpdoc.readthedocs.io/en/latest/4%20File%20Format%20%28%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%29.html#id3>`_ 路径 
  
     STEP 2：设置Draw Error Arrow（绘制误差圆）和Scale（比例）
       * 勾选Draw Error Circle（绘制误差圆）后可绘制绘制误差圆
@@ -203,7 +203,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
 
     使用步骤：
     
-    STEP 1：选择或输入 `主应变率-旋转率场数据输入格式.rsr <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E4%B8%BB%E5%BA%94%E5%8F%98%E7%8E%87-%E6%97%8B%E8%BD%AC%E7%8E%87%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.rsr>`_ 路径 
+    STEP 1：选择或输入 `主应变率-旋转率场数据输入格式.rsr <https://qtgahelpdoc.readthedocs.io/en/latest/4%20File%20Format%20%28%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%29.html#id4>`_ 路径 
  
     STEP 2：设置Radius（半径）、Radius Scale（半径比例）、Angle Unit（角度单位）、Stroke Color（划线颜色）、Fill Color（填充颜色）
       * Angle Scale（角度比例），设置范围为0.01-99.99
@@ -230,7 +230,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
     
     使用步骤：
     
-    STEP 1：选择或输入 `主应变率-旋转率场数据输入格式.rsr <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E4%B8%BB%E5%BA%94%E5%8F%98%E7%8E%87-%E6%97%8B%E8%BD%AC%E7%8E%87%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.rsr>`_ 路径 
+    STEP 1：选择或输入 `主应变率-旋转率场数据输入格式.rsr <https://qtgahelpdoc.readthedocs.io/en/latest/4%20File%20Format%20%28%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%29.html#id4>`_ 路径 
  
     STEP 2：设置Scale（比例）、Line Width（线宽）、Head Length（箭头长度）、Head Width（箭头宽度）、Fill Color（填充颜色）
       * Scale（比例），用于设置绘制比例，设置范围为0.01-99.99
@@ -278,7 +278,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
     
     使用步骤：
     
-    STEP 1：选择或输入 `GNSS速度场格式（后缀为.gps） <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#gnss>`_ 路径 
+    STEP 1：选择或输入 `GNSS速度场格式（后缀为.gnss） <https://qtgahelpdoc.readthedocs.io/en/latest/4%20File%20Format%20%28%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%29.html#gnss>`_ 路径 
  
     STEP 2：设置Reference Ellipsoid（参考椭球）、L0（研究区中央经线）、Azimuth（方位角）、Original E（初值东方向）、Original N（初始北方向）、Unit（单位）、Component（构成方向）
       * Reference Ellipsoid（参考椭球），可设置为WGS-84（默认）、Krassovsky Ellipsoid、International Ellipsoid 1975椭球
@@ -310,7 +310,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
     
     使用步骤：
     
-    STEP 1：选择或输入 `Trade-off曲线数据格式.toc <https://github.com/wanghai1988/qtgahelp/blob/main/files/Trade-off%E6%9B%B2%E7%BA%BF%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.toc>`_ 路径 
+    STEP 1：选择或输入 `折中曲线数据格式（后缀为.toc） <https://qtgahelpdoc.readthedocs.io/en/latest/4%20File%20Format%20%28%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%29.html#id12>`_ 路径 
  
     STEP 2：点击Plot（绘制）按钮，即可在新弹出的图表窗口中看到效果
     
