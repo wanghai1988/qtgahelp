@@ -296,12 +296,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
     .. image:: ../images/menu_image/Plot/reault_GNSSVelocityProfile.png
         :align: center
 
-3.2.8 Leveling Displacement Profile（水准形变场剖面分析）
-~~~~~~~~~~~~~~~~~~
-
-    目前暂缺
-
-3.2.9 L/U Curve（L/U曲线）
+3.2.8 L/U Curve（L/U曲线）
 ~~~~~~~~~~~~~~~~~~
     L/U曲线绘制对话框界面如下：
     
@@ -318,7 +313,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
         :align: center
 
 
-3.2.10 GNSS Time Series（GNSS时间序列）
+3.2.9 GNSS Time Series（GNSS时间序列）
 ~~~~~~~~~~~~~~~~~~
     GNSS时间序列对话框界面如下：
     
@@ -339,7 +334,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
     .. image:: ../images/menu_image/Plot/result_GNSSTimeSeries.png
         :align: center
 
-3.2.11 Stress Change on Fault（断层应力变化）
+3.2.10 Stress Change on Fault（断层应力变化）
 ~~~~~~~~~~~~~~~~~~
 
     断层应力变化对话框界面如下：
@@ -361,7 +356,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
     .. image:: ../images/menu_image/Plot/reault_StressChangeonFault.png
         :align: center
 
-3.2.12 Slip Distribution（滑动分布）
+3.2.11 Slip Distribution（滑动分布）
 ~~~~~~~~~~~~~~~~~~
 
     滑动分布对话框界面如下：
@@ -385,22 +380,16 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
         :align: center
 
 
-
-3.2.13 Interseismic Coupling Model（震间耦合模型）
-~~~~~~~~~~~~~~~~~~
-
-    暂缺
-
-3.2.14 Depth Profile of Earthquakes（地震深度剖面）
+3.2.12 Depth Profile of Earthquakes（地震深度剖面）
 ~~~~~~~~~~~~~~~~~~
 
     地震深度剖面对话框界面如下：
     
-     .. image:: ../images/menu_image/Plot/dailog_SlipDistribution.png
+     .. image:: ../images/menu_image/Plot/dialog_SlipDistribution.png
         :align: center   
 
 
-3.2.15 Temporal Variation of Earthquakes（地震时间变化）
+3.2.13 Temporal Variation of Earthquakes（地震时间变化）
 ~~~~~~~~~~~~~~~~~~
 
     地震时间变化对话框界面如下：
