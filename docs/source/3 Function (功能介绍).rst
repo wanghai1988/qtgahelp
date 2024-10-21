@@ -920,7 +920,7 @@ Analysis (分析)菜单主要包括Calculate Min/Max Values（同震地表位移
 
     STEP 3：点击Calculate（计算）按钮即可得到总地震力矩结果
 
-     .. image:: ../images/menu_image/Tools/tool_CreatePolygon.png
+     .. image:: ../images/menu_image/Analysis/result_CalculateTotalSeismicMoment.png
         :align: center
 
 3.4.3 Compare GNSS/InSAR Displacement（比较GNSS/InSAR位移）
