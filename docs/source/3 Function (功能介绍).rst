@@ -901,6 +901,17 @@ Analysis (分析)菜单主要包括Calculate Min/Max Values（同震地表位移
 ~~~~~~~~~~~~~~~~~~
 该功能用于统计库伦应力数据、GNSS数据、SAR数据的最大最小值 
 
+    .. image:: ../images/menu_image/Analysis/dialog_CalculateMinMaxValues.png
+        :align: center  
+
+    STEP 1：先输入统计分析文件包括：Coulomb Stress Data（库伦应力数据.cfs）、GNSS Data（GNSS数据.gps）、SAR Data（SAR数据.sar）
+
+    STEP 2：设置Statistic After Abs（取绝对值后统计）、Setting for Plot（绘图设置）等
+        * Bin numbers 保留精度
+        * Unit 单位
+
+    STEP 3：点击Plot（绘图）按钮即可生成统计结果并绘图
+
     .. image:: ../images/menu_image/Analysis/minmax.png
         :align: center  
 
@@ -916,7 +927,7 @@ Analysis (分析)菜单主要包括Calculate Min/Max Values（同震地表位移
     STEP 2：设置Reference Ellipsoid（参考椭球）、L0（研究区中央经线）、Current Time（当前时间）
       * Reference Ellipsoid（参考椭球），可设置为WGS-84（默认）、Krassovsky Ellipsoid、International Ellipsoid 1975椭球
       * L0（研究区中央经线），设置范围为0.00-360
-      * Current Time（当前时间），设计研究对应时间
+      * Current Time（当前时间），设置研究对应时间
 
     STEP 3：点击Calculate（计算）按钮即可得到总地震力矩结果
 
