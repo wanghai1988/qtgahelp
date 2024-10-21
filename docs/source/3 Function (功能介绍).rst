@@ -899,13 +899,29 @@ Analysis (分析)菜单主要包括Calculate Min/Max Values（同震地表位移
 
 3.4.1 Calculate Min/Max Values（计算最大最小值）
 ~~~~~~~~~~~~~~~~~~
-Calculate Min/Max Values，该菜单界面如下： 
+该功能用于统计库伦应力数据、GNSS数据、SAR数据的最大最小值 
 
     .. image:: ../images/menu_image/Analysis/minmax.png
         :align: center  
 
 3.4.2 Calculate Total Seismic Moment（计算总地震力矩）
 ~~~~~~~~~~~~~~~~~~
+该功能用于总地震力矩
+
+    .. image:: ../images/menu_image/Analysis/dialog_CalculateTotalSeismicMoment.png
+        :align: center  
+
+    STEP 1：先输入Fault geometry model File（断层几何模型文件.tri .rec .flt）和Earthquake recurrence interval File（地震重复间隔文件.eri）
+
+    STEP 2：设置Reference Ellipsoid（参考椭球）、L0（研究区中央经线）、Current Time（当前时间）
+      * Reference Ellipsoid（参考椭球），可设置为WGS-84（默认）、Krassovsky Ellipsoid、International Ellipsoid 1975椭球
+      * L0（研究区中央经线），设置范围为0.00-360
+      * Current Time（当前时间），设计研究对应时间
+
+    STEP 3：点击Calculate（计算）按钮即可得到总地震力矩结果
+
+     .. image:: ../images/menu_image/Tools/tool_CreatePolygon.png
+        :align: center
 
 3.4.3 Compare GNSS/InSAR Displacement（比较GNSS/InSAR位移）
 ~~~~~~~~~~~~~~~~~~
