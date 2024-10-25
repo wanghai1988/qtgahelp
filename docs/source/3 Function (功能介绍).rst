@@ -948,6 +948,16 @@ Analysis (分析)菜单主要包括Calculate Min/Max Values（同震地表位移
 
 3.4.4 Estimate Observation Standard Deviation（估计观测标准差）
 ~~~~~~~~~~~~~~~~~~
+该功能用于估计观测标准差 
+
+.. image:: ../images/menu_image/Analysis/dialog_EstimateObservationStandardDeviation.png
+    :align: center 
+
+设置相关数据及参数，点击Calculate（计算）按钮即可得到估计结果：
+
+.. image:: ../images/menu_image/Analysis/result_EstimateObservationStandardDeviation.png
+    :align: center  
+
 
 3.4.5 Correlation between（相关性分析）
 ~~~~~~~~~~~~~~~~~~
