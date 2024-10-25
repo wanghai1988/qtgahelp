@@ -917,7 +917,7 @@ Analysis (分析)菜单主要包括Calculate Min/Max Values（同震地表位移
 
 3.4.2 Calculate Total Seismic Moment（计算总地震力矩）
 ~~~~~~~~~~~~~~~~~~
-该功能用于总地震力矩
+该功能用于计算总地震力矩
 
     .. image:: ../images/menu_image/Analysis/dialog_CalculateTotalSeismicMoment.png
         :align: center  
@@ -929,14 +929,19 @@ Analysis (分析)菜单主要包括Calculate Min/Max Values（同震地表位移
       * L0（研究区中央经线），设置范围为0.00-360
       * Current Time（当前时间），设置研究对应时间
 
-    STEP 3：点击Calculate（计算）按钮即可得到总地震力矩结果
+    STEP 3：点击Calculate（计算）按钮即可得到总地震力矩结果：
 
      .. image:: ../images/menu_image/Analysis/result_CalculateTotalSeismicMoment.png
         :align: center
 
 3.4.3 Compare GNSS/InSAR Displacement（比较GNSS/InSAR位移）
 ~~~~~~~~~~~~~~~~~~
-Compare GNSS/InSAR Displacement，该菜单界面如下： 
+该功能用于比较GNSS/InSAR位移 
+
+.. image:: ../images/menu_image/Analysis/dialog_CompareGNSSInSARDisplacement.png
+    :align: center  
+
+设置相关数据及参数，点击Compare（比较）按钮即可得到比较结果：
 
 .. image:: ../images/menu_image/Analysis/CompareGNSSInSARDisplacement.png
     :align: center  
