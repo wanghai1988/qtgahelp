@@ -912,7 +912,7 @@ Analysis (分析)菜单主要包括Calculate Min/Max Values（同震地表位移
 
     STEP 3：点击Plot（绘图）按钮即可生成统计结果并绘图
 
-    .. image:: ../images/menu_image/Analysis/minmax.png
+    .. image:: ../images/menu_image/Analysis/result_CalculateMinMaxValues.png
         :align: center  
 
 3.4.2 Calculate Total Seismic Moment（计算总地震力矩）
