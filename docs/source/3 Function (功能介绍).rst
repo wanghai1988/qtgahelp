@@ -1012,7 +1012,7 @@ Fit Temporal Distribution Of Aftershocks，该菜单界面如下：
 ~~~~~~~~~~~~~~~~~~
 该功能用于修正震间GNSS时间序列
 
-.. image:: ../images/menu_image/Analysis/dialog_CorrectDownsampledLOSDisplacement.png
+.. image:: ../images/menu_image/Analysis/dialog_CorrectPostseismicGNSSTimeSeries.png
     :align: center  
 
 设置相关数据及参数，点击OK（确定）按钮即可得到修正结果：
