@@ -961,6 +961,17 @@ Analysis (分析)菜单主要包括Calculate Min/Max Values（同震地表位移
 
 3.4.5 Correlation between（相关性分析）
 ~~~~~~~~~~~~~~~~~~
+1. Calculate Stressing Rate And Seismicity（计算应力变化速率和地震活动性）
+该功能用于计算应力变化速率和地震活动性
+
+.. image:: ../images/menu_image/Analysis/dialog_CalculateStressingRateAndSeismicity.png
+    :align: center 
+
+2. Correlation between Aftershocks and CFS Change（余震与库仑应力分布的相关性分析）
+该功能用于分析余震与库仑应力分布的相关性
+
+.. image:: ../images/menu_image/Analysis/dialog_CorrelationBetweenAftershocksAndCFSChange.png
+    :align: center 
 
 3.4.6 Fit Interseismic GNSS Time Series（震间GNSS时间序列拟合）
 ~~~~~~~~~~~~~~~~~~
