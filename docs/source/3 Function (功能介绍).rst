@@ -980,7 +980,7 @@ Analysis (分析)菜单主要包括Calculate Min/Max Values（同震地表位移
 .. image:: ../images/menu_image/Analysis/dialog_FitInterseismicGNSSTimeSeries.png
     :align: center  
 
-设置相关数据及参数，点击OK（确定）按钮即可得到估计结果：
+设置相关数据及参数，点击OK（确定）按钮即可得到结果：
 
 .. image:: ../images/menu_image/Analysis/result_FitInterseismicGNSSTimeSeries.png
     :align: center  
@@ -992,7 +992,7 @@ Analysis (分析)菜单主要包括Calculate Min/Max Values（同震地表位移
 .. image:: ../images/menu_image/Analysis/dialog_FitPostseismicGNSSTimeSeries.png
     :align: center  
 
-设置相关数据及参数，点击OK（确定）按钮即可得到估计结果：
+设置相关数据及参数，点击OK（确定）按钮即可得到结果：
 
 .. image:: ../images/menu_image/Analysis/result_FitPostseismicGNSSTimeSeries.png
     :align: center 
@@ -1010,10 +1010,16 @@ Fit Temporal Distribution Of Aftershocks，该菜单界面如下：
 
 3.4.10 Correct Postseimic GNSS Time Series（震间GNSS时间序列修正）
 ~~~~~~~~~~~~~~~~~~
-Correct Postseimic GNSS Time Series，该菜单界面如下：
+该功能用于修正震间GNSS时间序列
 
-.. image:: ../images/menu_image/Analysis/CorrectPostseimicGNSSTimeSeries.png
+.. image:: ../images/menu_image/Analysis/dialog_CorrectDownsampledLOSDisplacement.png
     :align: center  
+
+设置相关数据及参数，点击OK（确定）按钮即可得到修正结果：
+
+.. image:: ../images/menu_image/Analysis/result_CorrectPostseismicGNSSTimeSeries.png
+    :align: center 
+
 
 3.5 Forward (正演)
 -------------------
