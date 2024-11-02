@@ -964,9 +964,14 @@ Analysis (分析)菜单主要包括Calculate Min/Max Values（同震地表位移
 
 3.4.6 Fit Interseismic GNSS Time Series（震间GNSS时间序列拟合）
 ~~~~~~~~~~~~~~~~~~
-Fit Interseismic GNSS Time Series，该菜单界面如下： 
+该功能用于拟合震间GNSS时间序列 
 
-.. image:: ../images/menu_image/Analysis/FitInterseismicGNSSTimeSeries.png
+.. image:: ../images/menu_image/Analysis/dialog_FitPostseismicGNSSTimeSeries.png
+    :align: center  
+
+设置相关数据及参数，点击OK（确定）按钮即可得到估计结果：
+
+.. image:: ../images/menu_image/Analysis/result_FitPostseismicGNSSTimeSeries.png
     :align: center  
 
 3.4.7 Fit Postseimic GNSS Time Series（震后GNSS时间序列拟合）
