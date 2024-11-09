@@ -126,16 +126,16 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
 
     使用步骤：
     
-    STEP 1：选择或输入 `震源机制解数据（后缀为.fms） <https://qtgahelpdoc.readthedocs.io/en/latest/4%20File%20Format%20%28%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%29.html#id5>`_ 路径 
+        STEP 1：选择或输入 `震源机制解数据（后缀为.fms） <https://qtgahelpdoc.readthedocs.io/en/latest/4%20File%20Format%20%28%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%29.html#id5>`_ 路径 
  
-    STEP 2：设置Sytle（样式）和Scale（比例）。其中Style用于设置图标绘制方式，可选项为ALL（全部）、Strike Slip（走滑断层）、Thrust（逆冲断层）、Normal（正断层）；Scale用于设置图标比例，设置范围为0.01-99
+        STEP 2：设置Sytle（样式）和Scale（比例）。其中Style用于设置图标绘制方式，可选项为ALL（全部）、Strike Slip（走滑断层）、Thrust（逆冲断层）、Normal（正断层）；Scale用于设置图标比例，设置范围为0.01-99
     
-    STEP 3：点击Preview（预览）按钮，即可在地图界面查看显示效果
+        STEP 3：点击Preview（预览）按钮，即可在地图界面查看显示效果
     
-    STEP 4：设置输出文件路径（文件格式为geojson），点击Export（输出）按钮即可输出结果文件，勾选Add File To Current Project（添加文件到当前工程）则会将结果文件添加到当前地图工程内。
+        STEP 4：设置输出文件路径（文件格式为geojson），点击Export（输出）按钮即可输出结果文件，勾选Add File To Current Project（添加文件到当前工程）则会将结果文件添加到当前地图工程内。
     
-    .. image:: ../images/menu_image/Plot/result_FocalMechanism.png
-        :align: center
+        .. image:: ../images/menu_image/Plot/result_FocalMechanism.png
+            :align: center
 
 
 3.2.2 GNSS Displacement（GNSS形变场）
