@@ -207,6 +207,8 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
     .. image:: ../images/menu_image/Plot/dialog_RotationRate.png
         :align: center
 
+    示例数据： `旋转率示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/testdata/Plot/RotationRate/%E6%97%8B%E8%BD%AC%E7%8E%87%E7%A4%BA%E4%BE%8B%E6%95%B0%E6%8D%AE.rsr>`_
+
     使用步骤：
     
     STEP 1：选择或输入 `主应变率-旋转率场数据输入格式.rsr <https://qtgahelpdoc.readthedocs.io/en/latest/4%20File%20Format%20%28%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%29.html#id4>`_ 路径 
