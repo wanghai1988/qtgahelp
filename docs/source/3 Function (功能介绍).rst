@@ -182,6 +182,8 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
     .. image:: ../images/menu_image/Plot/dialog_LevelingDisplacement.png
         :align: center
 
+    示例数据： `水准形变示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/testdata/Plot/LevelingDisplacement/%E6%B0%B4%E5%87%86%E5%BD%A2%E5%8F%98%E7%A4%BA%E4%BE%8B%E6%95%B0%E6%8D%AE.lev>`_
+
     使用步骤：
     
     STEP 1：选择或输入 `水准形变数据（后缀为.lev） <https://qtgahelpdoc.readthedocs.io/en/latest/4%20File%20Format%20%28%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%29.html#id3>`_ 路径 
