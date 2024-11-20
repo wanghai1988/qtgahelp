@@ -204,7 +204,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
 ~~~~~~~~~~~~~~~~~~
     旋转率场对话框界面如下：
     
-    .. image:: ../images/menu_image/Plot/dialog_RotationRate2.png
+    .. image:: ../images/menu_image/Plot/dialog_RotationRate.png
         :align: center
 
     使用步骤：
@@ -223,7 +223,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
     
     STEP 4：设置输出文件路径（文件格式为geojson），点击Export（输出）按钮即可输出结果文件，勾选Add File To Current Project（添加文件到当前工程）则会将结果文件添加到当前地图工程内。
     
-    .. image:: ../images/menu_image/Plot/result_RotationRate2.png
+    .. image:: ../images/menu_image/Plot/result_RotationRate.png
         :align: center
 
 
