@@ -262,7 +262,9 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
     
     .. image:: ../images/menu_image/Plot/panel_RasterDataProfile.png
         :align: center
-    
+
+    示例数据： `主应变率示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/testdata/Plot/RasterDataProfile/栅格数据剖面分析示例数据.zip>`_
+
     使用步骤：
     
     STEP 1：通过File（文件）菜单的Add Raster Layer（添加栅格图层）按钮，添加栅格数据
