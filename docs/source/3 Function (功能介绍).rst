@@ -410,6 +410,8 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
      .. image:: ../images/menu_image/Plot/dialog_SlipDistribution.png
         :align: center   
 
+    示例数据： `地震深度剖面示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/testdata/Plot/DepthProfileOfEarthquakes/地震深度剖面示例数据.rec>`_
+
 
 3.2.13 Temporal Variation of Earthquakes（地震时间变化）
 ~~~~~~~~~~~~~~~~~~
@@ -418,7 +420,8 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
     
      .. image:: ../images/menu_image/Plot/dialog_TemporVariationofEarthquakes.png
         :align: center
-        
+
+    示例数据： `地震时间变化示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/testdata/Plot/TemporalVariationOfEarthquakes/地震时间变化示例数据.rec>`_ 
 
     **使用步骤：**
 
@@ -449,6 +452,8 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 
     .. image:: ../images/menu_image/Tools/btnMenu_DataExtract.png
        :align: center
+
+    示例数据： `数据提取示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/testdata/Plot/GNSSVelocityProfile/数据提取示例数据.zip>`_
 
   1. Extract Elevation Data（提取高程数据）
 
@@ -614,6 +619,7 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
     .. image:: ../images/menu_image/Tools/btnMenu_ConstructFaultGeometry.png
        :align: center
 
+    示例数据： `构造断层3D几何模型示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/testdata/Plot/GNSSVelocityProfile/构造断层3D几何模型示例数据.zip>`_
     
     **使用步骤：**
 
@@ -673,6 +679,8 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
     .. image:: ../images/menu_image/Tools/CreateCheckboardTestModel.png
        :align: center
 
+    示例数据： `构造棋盘测试模型示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/testdata/Plot/ConstructCheckboardTestModel/构造棋盘测试模型示例数据.zip>`_
+
     **使用步骤：**
 
     STEP 1：先输入或选择 Fault Geometry Model File（断层几何模型文件）
@@ -691,6 +699,8 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 
     .. image:: ../images/menu_image/Tools/dailog_ConstructDeepSlipModel.png
        :align: center
+
+    示例数据： `构造深部滑移模型示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/testdata/Plot/ConstructDeepSlipModel/构造深部滑移模型示例数据.zip>`_
 
     **使用步骤：**
 
@@ -743,6 +753,8 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
 
     .. image:: ../images/menu_image/Tools/dailog_ReferenceFrameConversion.png
        :align: center
+
+    示例数据： `GNSS示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/testdata/Plot/ReferenceFrameConversion/GNSS示例数据.gnss>`_
 
     **使用步骤：**
 
