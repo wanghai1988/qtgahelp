@@ -134,7 +134,9 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
 
     STEP 3：点击【Preview（预览）】按钮，即可在地图界面查看显示效果
 
-    STEP 4：设置输出文件路径（文件格式为geojson），点击【Export（输出）】按钮即可输出结果文件。勾选【Add To Current Project（添加文件到当前工程）】则会将结果文件添加到当前工程内。示例数据绘制结果如下图所示
+    STEP 4：点击【Add（添加）】按钮，则会将当前预览的数据添加到当前地图工程内。
+
+    STEP 5：设置输出文件路径（文件格式为geojson），点击【Export（输出）】按钮即可输出结果文件到磁盘，并将结果文件添加到当前工程内。示例数据绘制结果如下图所示：
 
         .. image:: ../images/menu_image/Plot/result_FocalMechanism.png
             :align: center
