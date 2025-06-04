@@ -154,27 +154,27 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
 
     **使用步骤：**
     
-    STEP 1：选择或输入 `GNSS形变数据（后缀为.gnss） <https://qtgahelpdoc.readthedocs.io/en/latest/4%20File%20Format%20%28%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%29.html#gnss>`_ 路径 
+    STEP 1：选择或输入 GNSS形变数据（后缀为.gnss） 路径，示例数据参见： `GNSS形变数据文件格式 <https://qtgahelpdoc.readthedocs.io/en/latest/4%20File%20Format%20%28%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%29.html#gnss>`_ 路径 
  
-    STEP 2：设置Draw Arrow（绘制矢量）、Draw Error Ellipse（绘制误差椭圆），主要包含以下参数：
-      * Line Length Scale（线条长度比例尺）
-      * Line Width（线条宽度）
-      * Line Color（线条颜色）
-      * Head Type（箭头类型）用于设置矢量箭头的类型，包含三角形（triangle）和梭形（dart）
+    STEP 2：设置GNSS形变Arrow（箭头）、Error Ellipse（误差椭圆），主要包含以下参数：
+      * Line Length Scale（线长比例）
+      * Line Width（线宽）
+      * Line Color（线颜色）
+      * Head Type（箭头形状）用于设置矢量箭头的类型，选项包括三角形（Triangle）和箭头型（Dart）
       * Head Length（箭头长度）
       * Head Width（箭头宽度）用于设置整个矢量箭头的宽度
-      * Head Stroke Width（箭头边框的宽度）用于设置矢量箭头边框迹线的线条宽度
-      * Head Stroke Color（箭头边框的颜色）用于设置矢量箭头边框迹线的线条颜色
-      * Head Fill Color（箭头填充色）用于设置矢量箭头内部的填充色
-      * Ellipse Scale（椭圆比例尺）
-      * Fill Color（椭圆填充色）用于设置整个椭圆内部的填充色
-      * Stroke Width（边框的宽度）用于设置椭圆边框迹线的线条宽度
-      * Stroke Color（边框的颜色）用于设置椭圆边框迹线的线条颜色
-    
-    STEP 3：点击Preview（预览）按钮，即可在地图界面查看显示效果
-    
-    STEP 4：点击Add（添加）则会将当前预览的GNSS矢量数据添加到当前地图工程内。
-    
+      * Head Stroke Width（箭头描边宽度）用于设置矢量箭头边框的线条宽度
+      * Head Stroke Color（箭头描边颜色）用于设置矢量箭头边框的线条颜色
+      * Head Fill Color（箭头填充颜色）用于设置矢量箭头内部的填充色
+      * Ellipse Scale（椭圆比例）
+      * Fill Color（填充颜色）用于设置整个椭圆内部的填充色
+      * Stroke Width（描边宽度）用于设置椭圆边框的线条宽度
+      * Stroke Color（描边颜色）用于设置椭圆边框的线条颜色
+ 
+    STEP 3：点击【Preview（预览）】按钮，即可在地图界面查看显示效果
+
+    STEP 4：点击【Add（添加）】按钮则会将当前预览的GNSS形变数据添加到当前地图工程内。示例数据绘制结果如下图所示
+
     .. image:: ../images/menu_image/Plot/result_GNSSDisplacement.png
         :align: center
 
