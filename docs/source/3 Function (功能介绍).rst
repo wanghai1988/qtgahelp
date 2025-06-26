@@ -150,11 +150,11 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
     .. image:: ../images/menu_image/Plot/dialog_GNSSDisplacement.png
         :align: center
 
-    示例数据： `GNSS形变示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/testdata/Plot/GNSSDisplacement/GNSS%E5%BD%A2%E5%8F%98%E7%A4%BA%E4%BE%8B%E6%95%B0%E6%8D%AE.gnss>`_
+    .. (可删)示例数据： `GNSS形变示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/testdata/Plot/GNSSDisplacement/GNSS%E5%BD%A2%E5%8F%98%E7%A4%BA%E4%BE%8B%E6%95%B0%E6%8D%AE.gnss>`_
 
     **使用步骤：**
     
-    STEP 1：选择或输入 GNSS形变数据（后缀为.gnss） 路径，示例数据参见： `GNSS形变数据文件格式 <https://qtgahelpdoc.readthedocs.io/en/latest/4%20File%20Format%20%28%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%29.html#gnss>`_ 路径 
+    STEP 1：选择或输入 GNSS形变数据（后缀为.gnss） 路径，示例数据参见： `GNSS形变数据文件格式 <https://qtgahelpdoc.readthedocs.io/en/latest/4%20File%20Format%20%28%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%29.html#gnss>`_  
  
     STEP 2：设置GNSS形变Arrow（箭头）、Error Ellipse（误差椭圆），主要包含以下参数：
       * Line Length Scale（线长比例）
@@ -186,7 +186,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
     .. image:: ../images/menu_image/Plot/dialog_LevelingDisplacement.png
         :align: center
 
-    示例数据： `水准形变示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/testdata/Plot/LevelingDisplacement/%E6%B0%B4%E5%87%86%E5%BD%A2%E5%8F%98%E7%A4%BA%E4%BE%8B%E6%95%B0%E6%8D%AE.lev>`_
+    .. (可删)示例数据： `水准形变示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/testdata/Plot/LevelingDisplacement/%E6%B0%B4%E5%87%86%E5%BD%A2%E5%8F%98%E7%A4%BA%E4%BE%8B%E6%95%B0%E6%8D%AE.lev>`_
 
     **使用步骤：**
     
@@ -200,6 +200,26 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
     
     STEP 4：设置输出文件路径（文件格式为geojson），点击Export（输出）按钮即可输出结果文件，勾选Add File To Current Project（添加文件到当前工程）则会将结果文件添加到当前地图工程内。
     
+
+
+    STEP 1：选择或输入 水准形变数据（后缀为.lev） 路径，示例数据参见： `水准形变数据文件格式 <https://qtgahelpdoc.readthedocs.io/en/latest/4%20File%20Format%20%28%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%29.html#id3>`_。
+
+    STEP 2：设置Arrow Setting（箭头设置）、Error Bar Setting（误差棒设置），主要包含以下参数：
+      * Line Length Scale（线长比例）
+      * Line Width（线宽）
+      * Line Color（线颜色）
+      * Head Length（箭头长度）
+      * Head Width（箭头宽度）用于设置整个矢量箭头的宽度
+      * Fill Color（填充颜色）用于设置整个矢量箭头的填充色
+      * Error Bar Scale（误差棒比例）用于设置误差棒的比例
+      * Error Bar Color（误差棒颜色）用于设置误差棒的填充颜色
+      * Error Bar Line Width（误差棒线条宽度）用于设置误差棒上/下边界线和中间连接线三条线的线宽
+      * Error Bar Width（误差棒宽度）用于设置误差棒上下边界线的长度
+
+    STEP 3：点击【Preview（预览）】按钮，即可在地图界面查看显示效果
+
+    STEP 4：点击【Add（添加）】按钮则会将当前预览的水准形变数据添加到当前地图工程内。示例数据绘制结果如下图所示
+
     .. image:: ../images/menu_image/Plot/result_LevelingDisplacement.png
         :align: center
 
