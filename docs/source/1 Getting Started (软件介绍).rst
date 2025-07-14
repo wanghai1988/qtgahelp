@@ -36,6 +36,10 @@
 
 :download:`测试数据下载 <https://github.com/wanghai1988/TGA_Data/releases/download/v1/test_data.rar>`  上传时间：2024年9月1日
 
+:download:`同震正反演测试数据下载 <https://github.com/wanghai1988/TGA_Data/releases/download/v3/test_data_Coseismic.zip>`  上传时间：2025年7月14日
+
+:download:`Mogi模型正反演测试数据下载 <https://github.com/wanghai1988/TGA_Data/releases/download/v3/test_data_Mogi.zip>`  上传时间：2025年7月14日
+
 1.3 Runtime Environment (运行环境)
 ------------------------------------------------------------------------
 
