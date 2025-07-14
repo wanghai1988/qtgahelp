@@ -30,15 +30,17 @@
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 基于平台：WMware
+
 提供文件：WMware 17.6.3 安装包，下载地址：https://pan.baidu.com/s/1IlcgbhRsDcgI_A7aer6GUQ?pwd=irqq 提取码: irqq
 
 linux 安装 WMware 教程：
+
 1.将VMware安装包复制到指定目录
-sudo cp VMware-Workstation-*.bundle /download/vmware
-1. 为安装包添加执行权限
-sudo chmod +x VMware-Workstation-Full-16.1.0-17198959.x86_64.bundle
-1. 运行安装包
-sudo ./VMware-Workstation-Full-16.1.0-17198959.x86_64.bundle
+``sudo cp VMware-Workstation-*.bundle /download/vmware``
+2. 为安装包添加执行权限
+``sudo chmod +x VMware-Workstation-Full-16.1.0-17198959.x86_64.bundle``
+3. 运行安装包
+``sudo ./VMware-Workstation-Full-16.1.0-17198959.x86_64.bundle``
 
 WMware 安装 Windows 11 教程：
 https://blog.csdn.net/xiaogengtongxu/article/details/136523373
@@ -52,11 +54,13 @@ Windows 11 pro 版激活码：VK7JG-NPHTM-C97JM-9MPGT-3V66T
 
 
 可能遇到的问题：
+
 打开Windows虚拟机时报错：
 Unable to change virtual machine power state: VMware Workstation cannot run on hosts with 5-level paging enabled. Failed to start the virtual machine.
 
 
 解决方案：
+
 编辑 /etc/default/grub ⽂件，⽐如 sudo vim /etc/default/grub ，找到GRUB_CMDLINE_LINUX_DEFAULT="quiet splash" 这⼀⾏，在末尾加上 no5lvl ，即
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash no5lvl" ，保存后运⾏ sudo update-grub ，重启系统后修改⽣效。
 
@@ -65,6 +69,7 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet splash no5lvl" ，保存后运⾏ sudo update-
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 基于平台：WMware Fusion
+
 提供文件：WMware Fusion 13.6.3 安装包，下载地址：https://pan.baidu.com/s/1xGaJ0bK_BhqZLpeOjuKO2Q?pwd=adcf 提取码: adcf
 
 Mac 安装 WMware 和 Windows 11 教程：
