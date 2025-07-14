@@ -31,7 +31,7 @@
 
 基于平台：WMware
 
-提供文件：WMware 17.6.3 安装包， `下载地址<https://github.com/wanghai1988/qtgahelp/releases/download/untagged-99e8f86a979ae1d46ae2/Linux-Windows.zip>`_、 `百度网盘下载地址<https://pan.baidu.com/s/1IlcgbhRsDcgI_A7aer6GUQ?pwd=irqq>`_
+提供文件：WMware 17.6.3 安装包， `下载地址 <https://github.com/wanghai1988/qtgahelp/releases/download/untagged-99e8f86a979ae1d46ae2/Linux-Windows.zip>`_、 `百度网盘下载地址 <https://pan.baidu.com/s/1IlcgbhRsDcgI_A7aer6GUQ?pwd=irqq>`_
 
 linux 安装 WMware 教程：
 
@@ -75,7 +75,7 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet splash no5lvl" ，保存后运⾏ sudo update-
 
 基于平台：WMware Fusion
 
-提供文件：WMware Fusion 13.6.3 安装包， `下载地址<https://github.com/wanghai1988/qtgahelp/releases/download/untagged-99e8f86a979ae1d46ae2/Mac-Windows.zip>`_、 `百度网盘下载地址<https://pan.baidu.com/s/1xGaJ0bK_BhqZLpeOjuKO2Q?pwd=adcf>`_
+提供文件：WMware Fusion 13.6.3 安装包， `下载地址 <https://github.com/wanghai1988/qtgahelp/releases/download/untagged-99e8f86a979ae1d46ae2/Mac-Windows.zip>`_、 `百度网盘下载地址 <https://pan.baidu.com/s/1xGaJ0bK_BhqZLpeOjuKO2Q?pwd=adcf>`_
 
 Mac 安装 WMware 和 Windows 11 教程：
 https://blog.csdn.net/qq_57356551/article/details/135654951?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522f1c33e3e920f38b3b4aacae11e07ae86%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=f1c33e3e920f38b3b4aacae11e07ae86&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_click~default-2-135654951-null-null.142^v102^pc_search_result_base6&utm_term=mac%E5%AE%89%E8%A3%85windows%E8%99%9A%E6%8B%9F%E6%9C%BA&spm=1018.2226.3001.4187
