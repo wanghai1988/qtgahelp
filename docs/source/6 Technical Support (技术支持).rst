@@ -36,12 +36,15 @@
 linux 安装 WMware 教程：
 
 1.将VMware安装包复制到指定目录
+
 ``sudo cp VMware-Workstation-*.bundle /download/vmware``
 
 2. 为安装包添加执行权限
+
 ``sudo chmod +x VMware-Workstation-Full-16.1.0-17198959.x86_64.bundle``
 
 3. 运行安装包
+
 ``sudo ./VMware-Workstation-Full-16.1.0-17198959.x86_64.bundle``
 
 WMware 安装 Windows 11 教程：
