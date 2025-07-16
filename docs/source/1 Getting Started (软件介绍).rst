@@ -32,13 +32,13 @@
 
 1.2 Download (软件下载)
 ------------------------------------------------------------------------
-:download:`TGA下载 <https://github.com/wanghai1988/TGA_Publish/releases/download/TGA8/Release.zip>`  更新时间：2025年7月14日
+:download:`TGA下载 <https://github.com/wanghai1988/TGA_Publish/releases/download/TGA8.1/Release.rar>`  更新时间：2025年7月16日
 
 :download:`测试数据下载 <https://github.com/wanghai1988/TGA_Data/releases/download/v1/test_data.rar>`  上传时间：2024年9月1日
 
 :download:`同震正反演测试数据下载 <https://github.com/wanghai1988/TGA_Data/releases/download/v3/test_data_Coseismic.zip>`  上传时间：2025年7月14日
 
-:download:`Mogi模型正反演测试数据下载 <https://github.com/wanghai1988/TGA_Data/releases/download/v3/test_data_Mogi.zip>`  上传时间：2025年7月14日
+:download:`Mogi模型正反演测试数据下载 <https://github.com/wanghai1988/TGA_Data/releases/download/v3.1/test_data_Mogi.zip>`  上传时间：2025年7月16日
 
 1.3 Runtime Environment (运行环境)
 ------------------------------------------------------------------------
