@@ -13,6 +13,10 @@
 
 4. `2024年全国地壳形变资料分析与预报应用培训资料 <https://github.com/wanghai1988/qtgahelp/releases/download/2024Documents/2024.zip>`_
 
+5. `2025年第二届InSAR理论与实践暑期课程培训资料 <https://github.com/wanghai1988/qtgahelp/releases/download/2025Documents/2rdInSARDocument.rar>`_ 
+
+
+
 6.2 User Community (用户社区)
 -------------------
 
