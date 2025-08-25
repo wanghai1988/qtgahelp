@@ -227,9 +227,8 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
  
     STEP 2：设置旋转率场相关参数，主要包含以下参数：
       * Radius（半径）
-      * Radius Scale（半径比例）
-      * Angle Unit（角度单位）
-      * Stroke Color（描边颜色），默认设置为黑色
+      * Scaling Factor（缩放比例）
+      * Line Color（线条颜色），默认设置为黑色
       * Fill Color（填充颜色），默认设置为透明
     
     STEP 3：点击【Preview（预览）】按钮，即可在地图界面查看显示效果
