@@ -394,7 +394,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
      .. image:: ../images/menu_image/Plot/dialog_SlipDistribution.png
         :align: center   
     
-    示例数据： `滑动分布示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/testdata/Plot/GNSSVelocityProfile/滑动分布示例数据.rec>`_
+    示例数据： `滑动分布示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E7%9F%A9%E5%BD%A2%E4%BD%8D%E9%94%99%E6%A8%A1%E5%9E%8B%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.rec>`_
 
     **使用步骤：**
 
