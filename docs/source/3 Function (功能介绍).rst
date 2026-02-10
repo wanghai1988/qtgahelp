@@ -150,7 +150,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
     .. image:: ../images/menu_image/Plot/dialog_GNSSDisplacement.png
         :align: center
 
-    .. (可删)示例数据： `GNSS形变示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/testdata/Plot/GNSSDisplacement/GNSS%E5%BD%A2%E5%8F%98%E7%A4%BA%E4%BE%8B%E6%95%B0%E6%8D%AE.gnss>`_
+    .. (可删)示例数据： `GNSS形变示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/GNSSDisplacement/GNSS%E5%BD%A2%E5%8F%98%E7%A4%BA%E4%BE%8B%E6%95%B0%E6%8D%AE.gnss>`_
 
     **使用步骤：**
     
@@ -186,7 +186,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
     .. image:: ../images/menu_image/Plot/dialog_LevelingDisplacement.png
         :align: center
 
-    .. (可删)示例数据： `水准形变示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/testdata/Plot/LevelingDisplacement/%E6%B0%B4%E5%87%86%E5%BD%A2%E5%8F%98%E7%A4%BA%E4%BE%8B%E6%95%B0%E6%8D%AE.lev>`_
+    .. (可删)示例数据： `水准形变示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/LevelingDisplacement/%E6%B0%B4%E5%87%86%E5%BD%A2%E5%8F%98%E7%A4%BA%E4%BE%8B%E6%95%B0%E6%8D%AE.lev>`_
 
     **使用步骤：**
     
@@ -219,7 +219,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
     .. image:: ../images/menu_image/Plot/dialog_RotationRate.png
         :align: center
 
-    .. (可删)示例数据： `旋转率示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/testdata/Plot/RotationRate/%E6%97%8B%E8%BD%AC%E7%8E%87%E7%A4%BA%E4%BE%8B%E6%95%B0%E6%8D%AE.rsr>`_
+    .. (可删)示例数据： `旋转率示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/RotationRate/%E6%97%8B%E8%BD%AC%E7%8E%87%E7%A4%BA%E4%BE%8B%E6%95%B0%E6%8D%AE.rsr>`_
 
     **使用步骤：**
     
@@ -246,7 +246,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
     .. image:: ../images/menu_image/Plot/dialog_PrincipalStrainRate.png
         :align: center
     
-    示例数据： `主应变率示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/testdata/Plot/RotationRate/%E6%97%8B%E8%BD%AC%E7%8E%87%E7%A4%BA%E4%BE%8B%E6%95%B0%E6%8D%AE.rsr>`_
+    示例数据： `主应变率示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/RotationRate/%E6%97%8B%E8%BD%AC%E7%8E%87%E7%A4%BA%E4%BE%8B%E6%95%B0%E6%8D%AE.rsr>`_
 
     **使用步骤：**
     
@@ -273,7 +273,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
     .. image:: ../images/menu_image/Plot/panel_RasterDataProfile.png
         :align: center
 
-    示例数据： `栅格数据剖面分析示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/testdata/Plot/RasterDataProfile/栅格数据剖面分析示例数据.zip>`_
+    示例数据： `栅格数据剖面分析示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/RasterDataProfile/栅格数据剖面分析示例数据.zip>`_
 
     **使用步骤：**
     
@@ -298,7 +298,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
     .. image:: ../images/menu_image/Plot/dialog_GNSSVelocityProfile.png
         :align: center
     
-    示例数据： `GNSS速度场剖面分析示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/testdata/Plot/GNSSVelocityProfile/GNSS%E9%80%9F%E5%BA%A6%E5%9C%BA%E5%89%96%E9%9D%A2%E5%88%86%E6%9E%90%E7%A4%BA%E4%BE%8B%E6%95%B0%E6%8D%AE.gnss>`_
+    示例数据： `GNSS速度场剖面分析示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/GNSSVelocityProfile/GNSS%E9%80%9F%E5%BA%A6%E5%9C%BA%E5%89%96%E9%9D%A2%E5%88%86%E6%9E%90%E7%A4%BA%E4%BE%8B%E6%95%B0%E6%8D%AE.gnss>`_
 
     **使用步骤：**
     
@@ -327,7 +327,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
     .. image:: ../images/menu_image/Plot/dialog_LUCurve.png
         :align: center
     
-    示例数据： `L/U曲线示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/testdata/Plot/GNSSVelocityProfile/GNSS%E9%80%9F%E5%BA%A6%E5%9C%BA%E5%89%96%E9%9D%A2%E5%88%86%E6%9E%90%E7%A4%BA%E4%BE%8B%E6%95%B0%E6%8D%AE.gnss>`_
+    示例数据： `L/U曲线示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/GNSSVelocityProfile/GNSS%E9%80%9F%E5%BA%A6%E5%9C%BA%E5%89%96%E9%9D%A2%E5%88%86%E6%9E%90%E7%A4%BA%E4%BE%8B%E6%95%B0%E6%8D%AE.gnss>`_
     
     **使用步骤：**
     
@@ -346,7 +346,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
      .. image:: ../images/menu_image/Plot/dialog_GNSSTimeSeries.png
         :align: center   
 
-    示例数据： `GNSS时间序列示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/testdata/Plot/GNSSVelocityProfile/GNSS时间序列.tms>`_
+    示例数据： `GNSS时间序列示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/GNSSVelocityProfile/GNSS时间序列.tms>`_
 
     **使用步骤：**
 
@@ -370,7 +370,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
      .. image:: ../images/menu_image/Plot/dailog_StressChangeonFault.png
         :align: center   
 
-    示例数据： `断层应力变化示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/testdata/Plot/GNSSVelocityProfile/断层应力变化示例数据.cfsr>`_
+    示例数据： `断层应力变化示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/GNSSVelocityProfile/断层应力变化示例数据.cfsr>`_
 
     **使用步骤：**
 
@@ -394,7 +394,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
      .. image:: ../images/menu_image/Plot/dialog_SlipDistribution.png
         :align: center   
     
-    示例数据： `滑动分布示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/testdata/Plot/GNSSVelocityProfile/滑动分布示例数据.rec>`_
+    示例数据： `滑动分布示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E7%9F%A9%E5%BD%A2%E4%BD%8D%E9%94%99%E6%A8%A1%E5%9E%8B%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.rec>`_
 
     **使用步骤：**
 
@@ -420,7 +420,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
      .. image:: ../images/menu_image/Plot/dialog_SlipDistribution.png
         :align: center   
 
-    示例数据： `地震深度剖面示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/testdata/Plot/DepthProfileOfEarthquakes/地震深度剖面示例数据.rec>`_
+    示例数据： `地震深度剖面示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/DepthProfileOfEarthquakes/地震深度剖面示例数据.rec>`_
 
 
 3.2.13 Temporal Variation of Earthquakes（地震时间变化）
@@ -431,7 +431,7 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
      .. image:: ../images/menu_image/Plot/dialog_TemporVariationofEarthquakes.png
         :align: center
 
-    示例数据： `地震时间变化示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/testdata/Plot/TemporalVariationOfEarthquakes/地震时间变化示例数据.rec>`_ 
+    示例数据： `地震时间变化示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/TemporalVariationOfEarthquakes/地震时间变化示例数据.rec>`_ 
 
     **使用步骤：**
 
@@ -463,7 +463,7 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
     .. image:: ../images/menu_image/Tools/btnMenu_DataExtract.png
        :align: center
 
-    示例数据： `数据提取示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/testdata/Plot/GNSSVelocityProfile/数据提取示例数据.zip>`_
+    示例数据： `数据提取示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/GNSSVelocityProfile/数据提取示例数据.zip>`_
 
   1. Extract Elevation Data（提取高程数据）
 
@@ -629,7 +629,7 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
     .. image:: ../images/menu_image/Tools/btnMenu_ConstructFaultGeometry.png
        :align: center
 
-    示例数据： `构造断层3D几何模型示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/testdata/Plot/GNSSVelocityProfile/构造断层3D几何模型示例数据.zip>`_
+    示例数据： `构造断层3D几何模型示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/GNSSVelocityProfile/构造断层3D几何模型示例数据.zip>`_
     
     **使用步骤：**
 
@@ -689,7 +689,7 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
     .. image:: ../images/menu_image/Tools/CreateCheckboardTestModel.png
        :align: center
 
-    示例数据： `构造棋盘测试模型示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/testdata/Plot/ConstructCheckboardTestModel/构造棋盘测试模型示例数据.zip>`_
+    示例数据： `构造棋盘测试模型示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/ConstructCheckboardTestModel/构造棋盘测试模型示例数据.zip>`_
 
     **使用步骤：**
 
@@ -710,7 +710,7 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
     .. image:: ../images/menu_image/Tools/dailog_ConstructDeepSlipModel.png
        :align: center
 
-    示例数据： `构造深部滑移模型示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/testdata/Plot/ConstructDeepSlipModel/构造深部滑移模型示例数据.zip>`_
+    示例数据： `构造深部滑移模型示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/ConstructDeepSlipModel/构造深部滑移模型示例数据.zip>`_
 
     **使用步骤：**
 
@@ -764,7 +764,7 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
     .. image:: ../images/menu_image/Tools/dailog_ReferenceFrameConversion.png
        :align: center
 
-    示例数据： `GNSS示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/testdata/Plot/ReferenceFrameConversion/GNSS示例数据.gnss>`_
+    示例数据： `GNSS示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/ReferenceFrameConversion/GNSS示例数据.gnss>`_
 
     **使用步骤：**
 
