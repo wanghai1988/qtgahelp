@@ -32,7 +32,7 @@
 
 1.2 Download (软件下载)
 ------------------------------------------------------------------------
-:download:`TGA软件下载（GitHub） <https://github.com/wanghai1988/TGA_Publish/releases/download/TGA0.9/QTGA_Release_v0.9.zip>`  :download:`TGA软件下载（百度网盘） <https://pan.baidu.com/s/13mYbQgY3QC1ob3fYZKIjsg?pwd=4fud>`  更新时间：2026年7月31日
+:download:`TGA软件下载（GitHub） <https://github.com/wanghai1988/TGA_Publish/releases/download/TGA1.3/QTGA_Release_v1.3.zip>`  :download:`TGA软件下载（百度网盘） <https://pan.baidu.com/s/13mYbQgY3QC1ob3fYZKIjsg?pwd=4fud>`  更新时间：2026年7月31日
 
 :download:`测试数据下载 <https://github.com/wanghai1988/TGA_Data/releases/download/v1/test_data.rar>`  上传时间：2024年9月1日
 
@@ -44,15 +44,13 @@
 ------------------------------------------------------------------------
 
 (1) 操作系统：软件目前支持Windows 7/10/11 64位操作系统
-(2) 依赖环境：
-    
-    * 软件运行需依赖 MATLAB R2020a，因此需要安装MATLAB R2020a软件或安装R2020a版本对应的MATLAB Runtime（:download:`下载地址 <https://ww2.mathworks.cn/products/compiler/matlab-runtime.html>`）
-    * MATLAB R2020a软件建议全组件安装
+(2) 运行依赖：
+
+    * 软件发布包已内置 Qt、QGIS、GDAL、PROJ、Python 等核心依赖库，无需用户单独安装。但软件运行需要系统具备 **Microsoft Visual C++ Runtime（VC++ 2015-2022 运行库）**。
     * 软件同时依赖VC++ Runtime，如果出现“找不到VCRUNTIME140_1.dll”类似错误，请参考下列解决方案：`解决方案1 <https://zhuanlan.zhihu.com/p/520529084>`_、`解决方案2 <https://www.bilibili.com/read/cv14363122/>`_
 
 (3) 软件运行注意事项
     
-    * 请务必安装上述版本的 Matlab 环境，否则相关功能将无法正常运行
     * 请将TGA软件安装在纯英文目录下，同时确保待加载的相关数据文件路径中，不包含空格、中文字符或其他特殊符号
 
 1.4 Version Update History (版本更新历史)
@@ -65,11 +63,14 @@
 ==========  ==============  =========
  版本号      更新时间        更新内容 
 ==========  ==============  =========
- v1.0        2024年1月1日   1. 格林函数计算功能 
-                            1. 复杂断层建模功能
- v1.1        2024年8月30日  1. 添加同震正/反演功能 
-                            1. 添加震间3D块体模型正/反演功能
-                            2. 添加GNSS数据剖面分析功能
+ v1.0        2024年1月1日   1. 格林函数计算功能
+                            2. 复杂断层建模功能
+ v1.1        2024年8月30日  1. 添加同震正/反演功能
+                            2. 添加震间3D块体模型正/反演功能
+                            3. 添加GNSS数据剖面分析功能
+ v1.3        2026年7月31日  1. 去除软件对Matlab的依赖，降低安装使用难度
+                            2. 优化三维形变场分解功能
+                            3. 全面优化同震形变正反演工作流，完善数据转换、影像裁剪、四叉树降采样、断层几何反演和滑动分布反演功能，提升数据处理效率与流程衔接能力。
 ==========  ==============  =========
 
 
