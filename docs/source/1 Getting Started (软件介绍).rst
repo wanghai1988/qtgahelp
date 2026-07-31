@@ -45,10 +45,15 @@
 
 (1) 操作系统：软件目前支持Windows 7/10/11 64位操作系统
 (2) 依赖环境：
-
+    
     * 软件运行需依赖 MATLAB R2020a，因此需要安装MATLAB R2020a软件或安装R2020a版本对应的MATLAB Runtime（:download:`下载地址 <https://ww2.mathworks.cn/products/compiler/matlab-runtime.html>`）
     * MATLAB R2020a软件建议全组件安装
     * 软件同时依赖VC++ Runtime，如果出现“找不到VCRUNTIME140_1.dll”类似错误，请参考下列解决方案：`解决方案1 <https://zhuanlan.zhihu.com/p/520529084>`_、`解决方案2 <https://www.bilibili.com/read/cv14363122/>`_
+
+(3) 软件运行注意事项
+    
+    * 请务必安装上述版本的 Matlab 环境，否则相关功能将无法正常运行
+    * 请将TGA软件安装在纯英文目录下，同时确保待加载的相关数据文件路径中，不包含空格、中文字符或其他特殊符号
 
 1.4 Version Update History (版本更新历史)
 ------------------------------------
