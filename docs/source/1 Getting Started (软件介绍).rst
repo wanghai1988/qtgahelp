@@ -32,11 +32,11 @@
 
 1.2 Download (软件下载)
 ------------------------------------------------------------------------
-:download:`TGA下载 <https://github.com/wanghai1988/TGA_Publish/releases/download/TGA8.2/Release.rar>`  更新时间：2025年7月16日
+:download:`TGA软件下载（GitHub） <https://github.com/wanghai1988/TGA_Publish/releases/download/TGA0.9/QTGA_Release_v0.9.zip>`  :download:`TGA软件下载（百度网盘） <https://pan.baidu.com/s/13mYbQgY3QC1ob3fYZKIjsg?pwd=4fud>`  更新时间：2026年7月31日
 
 :download:`测试数据下载 <https://github.com/wanghai1988/TGA_Data/releases/download/v1/test_data.rar>`  上传时间：2024年9月1日
 
-:download:`同震正反演测试数据下载 <https://github.com/wanghai1988/TGA_Data/releases/download/v3/test_data_Coseismic.zip>`  上传时间：2025年7月14日
+:download:`同震正反演测试数据下载 <https://github.com/wanghai1988/TGA_Data/releases/download/v3.2/TGA_Test_Date_Coseismic.zip>`  上传时间：2026年7月31日
 
 :download:`Mogi模型正反演测试数据下载 <https://github.com/wanghai1988/TGA_Data/releases/download/v3.1/test_data_Mogi.zip>`  上传时间：2025年7月16日
 
@@ -61,10 +61,10 @@
  版本号      更新时间        更新内容 
 ==========  ==============  =========
  v1.0        2024年1月1日   1. 格林函数计算功能 
-                            2. 复杂断层建模功能
+                            1. 复杂断层建模功能
  v1.1        2024年8月30日  1. 添加同震正/反演功能 
-                            2. 添加震间3D块体模型正/反演功能
-                            3. 添加GNSS数据剖面分析功能
+                            1. 添加震间3D块体模型正/反演功能
+                            2. 添加GNSS数据剖面分析功能
 ==========  ==============  =========
 
 

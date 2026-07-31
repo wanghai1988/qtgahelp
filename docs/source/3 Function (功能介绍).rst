@@ -3,7 +3,6 @@
 ======================
 
 
-    
 3.1 File (文件)
 ---------------
 .. image:: ../images/menu_image/File/menu_file_new.png
@@ -18,7 +17,7 @@ File菜单下包括下列功能：
 
     .. image:: ../images/menu_image/File/dialog_openproject.png
         :align: center
-    
+
 3.1.2 Save（保存）
 ~~~~~~~~~~~~~~~~~~
 
@@ -26,7 +25,7 @@ File菜单下包括下列功能：
 
     .. image:: ../images/menu_image/File/dialog_saveproject.png
         :align: center
-        
+
 3.1.3 Save as（另存为）
 ~~~~~~~~~~~~~~~~~~
 
@@ -52,7 +51,7 @@ File菜单下包括下列功能：
 
     .. image:: ../images/menu_image/File/dailog_addRasterLayer.png
         :align: center
-        
+
 3.1.7 Add Vector Layer（添加矢量图层）
 ~~~~~~~~~~~~~~~~~~
 
@@ -60,136 +59,88 @@ File菜单下包括下列功能：
 
     .. image:: ../images/menu_image/File/dailog_addVectorLayer.png
         :align: center
-        
-3.1.8 Add Online Map（添加在线地图）
+
+3.1.8 Add File Geodatabase（添加文件地理数据库）
+~~~~~~~~~~~~~~~~~~
+
+该菜单用于添加Esri文件地理数据库（File Geodatabase，后缀为.gdb）中的矢量数据。
+
+    .. image:: ../images/menu_image/File/dialog_addFileGDB.png
+        :align: center
+
+3.1.9 Add Online Map（添加在线地图）
 ~~~~~~~~~~~~~~~~~~
 
 该菜单用于添加在线地图服务图层如天地图、谷歌地图、ERSI等在线地图服务，界面如下：
 
     .. image:: ../images/menu_image/File/menu_onlineMap_new.png
         :align: center
-        
-3.1.9 Export（输出）
+
+3.1.10 3D Map（3D地图）
+~~~~~~~~~~~~~~~~~~
+
+该菜单用于将当前地图视图切换为3D视图模式，以三维方式查看地图数据。
+
+    .. image:: ../images/menu_image/File/dialog_3DMap.png
+        :align: center
+
+3.1.11 Export（输出）
 ~~~~~~~~~~~~~~~~~~
 
 该菜单用于输出当前地图视图，包含2个子菜单，界面如下：
 
     .. image:: ../images/menu_image/File/menu_export.png
         :align: center
-    
+
   1. 点击Export Map View（输出地图视图），会弹出输出地图视图对话框，用于保存并输出当前地图视图的屏幕效果。
-    
+
     .. image:: ../images/menu_image/File/dailog_exportMapView.png
         :align: center
     参数说明：
-    
+
     * Extent（范围）通过当前地图视图自动进行确定，用户也可以通过手动输入、Calculate from Layer（由图层计算）、Map Canvas Extent（地图画布范围）或Draw on Canvas（手动绘制）自行确定输出的视图范围。
-        
+
     * Scale（比例尺）通常由视图范围自动确定，也可以通过手动输入进行调整。
-        
+
     * Resolution（分辨率）默认为96dpi，用户也可根据自身需要进行调整。
-        
+
     * Output Width（输出宽度）和Output Height（输出高度）用来确定输出图片的尺寸。
-        
+
     * 点击按钮Export（输出）后，会弹出图片保存对话框，用户可自行设置保存路径与格式。
-        
-  2. 点击Export Layout View（输出布局视图），会弹出布局操作窗口，用于编辑并保存通过布局视图美化后的地图布局效果，详细操作请参考 `2.8 Cartography (制图)`_。
-  
+
+  2. 点击Export Layout View（输出布局视图），会弹出布局操作窗口，用于编辑并保存通过布局视图美化后的地图布局效果，详细操作请参考 `3.3 Cartography (制图)`_。
+
     .. image:: ../images/menu_image/File/dialog_setLayoutView.png
         :align: center
-    
-    
 
-    
-3.1.10 Exit（退出）
+
+
+3.1.12 Exit（退出）
 ~~~~~~~~~~~~~~~~~~
+
 
 3.2 Plot (绘制)
 ----------------
 
-Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displacement（GNSS形变场）、Leveling Displacement（水准形变场）等12项绘制功能，如图所示：
+Plot (绘制)菜单按功能分组包括Displacement（形变）、Earthquake（地震）、Rate（率）、Profile（剖面）、Fault（断层）、Other（其他）等6组共13项绘制功能，如图所示：
 
 .. image:: ../images/menu_image/Plot/menu_plot.png
     :align: center
 
 具体包括下列功能：
 
-3.2.1 Focal Mechanism（震源机制）
+3.2.1 Leveling（水准形变场）
 ~~~~~~~~~~~~~~~~~~
 
-    震源机制对话框界面如下：
-    
-    .. image:: ../images/menu_image/Plot/dialog_FocalMechanism.png
-        :align: center
-    
-    .. (可删)示例数据： `震源机制解示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/FocalMechanism/example_FocalMechanism.fms>`_
-
-    **使用步骤：**
-
-    STEP 1：选择或输入 震源机制解数据文件（后缀为.fms） 路径，示例数据参见： `震源机制解数据文件格式 <https://qtgahelpdoc.readthedocs.io/en/latest/4%20File%20Format%20%28%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%29.html#id5>`_。
-
-    STEP 2：设置参数：
-      * Sytle（样式），用于设置图标绘制方式，可选项为ALL（全部）、Strike-slip（走滑）、Thrust-slip（逆冲）、Normal-slip（正断）
-      * Scale（比例），用于设置图标比例
-
-    STEP 3：点击【Preview（预览）】按钮，即可在地图界面查看显示效果
-
-    STEP 4：点击【Add（添加）】按钮，则会将当前预览的数据添加到当前地图工程内。
-
-    STEP 5：设置输出文件路径（文件格式为geojson），点击【Export（输出）】按钮即可输出结果文件到磁盘。示例数据绘制结果如下图所示：
-
-        .. image:: ../images/menu_image/Plot/result_FocalMechanism.png
-            :align: center
-
-
-3.2.2 GNSS Displacement（GNSS形变场）
-~~~~~~~~~~~~~~~~~~
-
-    GNSS形变场对话框界面如下：
-    
-    .. image:: ../images/menu_image/Plot/dialog_GNSSDisplacement.png
-        :align: center
-
-    .. (可删)示例数据： `GNSS形变示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/GNSSDisplacement/GNSS%E5%BD%A2%E5%8F%98%E7%A4%BA%E4%BE%8B%E6%95%B0%E6%8D%AE.gnss>`_
-
-    **使用步骤：**
-    
-    STEP 1：选择或输入 GNSS形变数据（后缀为.gnss） 路径，示例数据参见： `GNSS形变数据文件格式 <https://qtgahelpdoc.readthedocs.io/en/latest/4%20File%20Format%20%28%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%29.html#gnss>`_  
- 
-    STEP 2：设置GNSS形变Arrow（箭头）、Error Ellipse（误差椭圆），主要包含以下参数：
-      * Line Length Scale（线长比例）
-      * Line Width（线宽）
-      * Line Color（线颜色）
-      * Head Type（箭头形状）用于设置矢量箭头的类型，选项包括三角形（Triangle）和箭头型（Dart）
-      * Head Length（箭头长度）
-      * Head Width（箭头宽度）用于设置整个矢量箭头的宽度
-      * Head Stroke Width（箭头描边宽度）用于设置矢量箭头边框的线条宽度
-      * Head Stroke Color（箭头描边颜色）用于设置矢量箭头边框的线条颜色
-      * Head Fill Color（箭头填充颜色）用于设置矢量箭头内部的填充色
-      * Ellipse Scale（椭圆比例）
-      * Fill Color（填充颜色）用于设置整个椭圆内部的填充色
-      * Stroke Width（描边宽度）用于设置椭圆边框的线条宽度
-      * Stroke Color（描边颜色）用于设置椭圆边框的线条颜色
- 
-    STEP 3：点击【Preview（预览）】按钮，即可在地图界面查看显示效果
-
-    STEP 4：点击【Add（添加）】按钮则会将当前预览的GNSS形变数据添加到当前地图工程内。示例数据绘制结果如下图所示
-
-    .. image:: ../images/menu_image/Plot/result_GNSSDisplacement.png
-        :align: center
-
-
-3.2.3 Leveling Displacement（水准形变场）
-~~~~~~~~~~~~~~~~~~
     水准形变场对话框界面如下：
-    
+
     .. image:: ../images/menu_image/Plot/dialog_LevelingDisplacement.png
         :align: center
 
     .. (可删)示例数据： `水准形变示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/LevelingDisplacement/%E6%B0%B4%E5%87%86%E5%BD%A2%E5%8F%98%E7%A4%BA%E4%BE%8B%E6%95%B0%E6%8D%AE.lev>`_
 
     **使用步骤：**
-    
+
     STEP 1：选择或输入 水准形变数据（后缀为.lev） 路径，示例数据参见： `水准形变数据文件格式 <https://qtgahelpdoc.readthedocs.io/en/latest/4%20File%20Format%20%28%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%29.html#id3>`_。
 
     STEP 2：设置Arrow Setting（箭头设置）、Error Bar Setting（误差棒设置），主要包含以下参数：
@@ -212,98 +163,237 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
         :align: center
 
 
-3.2.4 Rotation Rate（旋转率场）
+3.2.2 GNSS（GNSS形变场）
+~~~~~~~~~~~~~~~~~~
+
+    GNSS形变场对话框界面如下：
+
+    .. image:: ../images/menu_image/Plot/dialog_GNSSDisplacement.png
+        :align: center
+
+    .. (可删)示例数据： `GNSS形变示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/GNSSDisplacement/GNSS%E5%BD%A2%E5%8F%98%E7%A4%BA%E4%BE%8B%E6%95%B0%E6%8D%AE.gnss>`_
+
+    **使用步骤：**
+
+    STEP 1：选择或输入 GNSS形变数据（后缀为.gnss） 路径，示例数据参见： `GNSS形变数据文件格式 <https://qtgahelpdoc.readthedocs.io/en/latest/4%20File%20Format%20%28%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%29.html#gnss>`_
+
+    STEP 2：设置GNSS形变Arrow（箭头）、Error Ellipse（误差椭圆），主要包含以下参数：
+      * Line Length Scale（线长比例）
+      * Line Width（线宽）
+      * Line Color（线颜色）
+      * Head Type（箭头形状）用于设置矢量箭头的类型，选项包括三角形（Triangle）和箭头型（Dart）
+      * Head Length（箭头长度）
+      * Head Width（箭头宽度）用于设置整个矢量箭头的宽度
+      * Head Stroke Width（箭头描边宽度）用于设置矢量箭头边框的线条宽度
+      * Head Stroke Color（箭头描边颜色）用于设置矢量箭头边框的线条颜色
+      * Head Fill Color（箭头填充颜色）用于设置矢量箭头内部的填充色
+      * Ellipse Scale（椭圆比例）
+      * Fill Color（填充颜色）用于设置整个椭圆内部的填充色
+      * Stroke Width（描边宽度）用于设置椭圆边框的线条宽度
+      * Stroke Color（描边颜色）用于设置椭圆边框的线条颜色
+
+    STEP 3：点击【Preview（预览）】按钮，即可在地图界面查看显示效果
+
+    STEP 4：点击【Add（添加）】按钮则会将当前预览的GNSS形变数据添加到当前地图工程内。示例数据绘制结果如下图所示
+
+    .. image:: ../images/menu_image/Plot/result_GNSSDisplacement.png
+        :align: center
+
+
+3.2.3 GNSS Time Series（GNSS时间序列）
+~~~~~~~~~~~~~~~~~~
+    GNSS时间序列对话框界面如下：
+
+     .. image:: ../images/menu_image/Plot/dialog_GNSSTimeSeries.png
+        :align: center
+
+    示例数据： `GNSS时间序列示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/GNSSVelocityProfile/GNSS时间序列.tms>`_
+
+    **使用步骤：**
+
+    STEP 1：选择或输入 `TMS数据（后缀为.tms）暂缺 <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#gnss>`_ 路径
+
+    STEP 2：设置Unit（单位）、Start Date（起始日期）、Axis Unit（坐标轴单位）
+        * Unit（单位），可根据数据自行设置，默认为mm
+        * Start Date（起始日期），该参数由系统从数据自动读取，用户也可手动设置
+        * Axis Unit（坐标轴单位），可设置为Day或Year，默认为Day
+
+        STEP 3：点击Plot（绘制）按钮，即可在新弹出的图表窗口中看到效果
+
+    .. image:: ../images/menu_image/Plot/result_GNSSTimeSeries.png
+        :align: center
+
+
+3.2.4 Focal Mechanism（震源机制）
+~~~~~~~~~~~~~~~~~~
+
+    震源机制对话框界面如下：
+
+    .. image:: ../images/menu_image/Plot/dialog_FocalMechanism.png
+        :align: center
+
+    .. (可删)示例数据： `震源机制解示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/FocalMechanism/example_FocalMechanism.fms>`_
+
+    **使用步骤：**
+
+    STEP 1：选择或输入 震源机制解数据文件（后缀为.fms） 路径，示例数据参见： `震源机制解数据文件格式 <https://qtgahelpdoc.readthedocs.io/en/latest/4%20File%20Format%20%28%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%29.html#id5>`_。
+
+    STEP 2：设置参数：
+      * Sytle（样式），用于设置图标绘制方式，可选项为ALL（全部）、Strike-slip（走滑）、Thrust-slip（逆冲）、Normal-slip（正断）
+      * Scale（比例），用于设置图标比例
+
+    STEP 3：点击【Preview（预览）】按钮，即可在地图界面查看显示效果
+
+    STEP 4：点击【Add（添加）】按钮，则会将当前预览的数据添加到当前地图工程内。
+
+    STEP 5：设置输出文件路径（文件格式为geojson），点击【Export（输出）】按钮即可输出结果文件到磁盘。示例数据绘制结果如下图所示：
+
+        .. image:: ../images/menu_image/Plot/result_FocalMechanism.png
+            :align: center
+
+
+3.2.5 Depth Profile（地震深度剖面）
+~~~~~~~~~~~~~~~~~~
+
+    地震深度剖面对话框界面如下：
+
+     .. image:: ../images/menu_image/Plot/dialog_SlipDistribution.png
+        :align: center
+
+    示例数据： `地震深度剖面示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/DepthProfileOfEarthquakes/地震深度剖面示例数据.rec>`_
+
+    **使用步骤：**
+
+    STEP 1：设置 Input（输入）
+      * Earthquake Catalog File（地震目录文件.etc）
+      * Fault Track Layer（断层迹线图层，从当前地图工程图层列表中选择）
+
+    STEP 2：设置 Parameters for Gauss Projection（高斯投影参数），包括 Reference Ellipsoid（参考椭球）和 L0（中央子午线）
+
+    STEP 3：设置 Parameter Setting（参数设置）
+      * Time Unit（时间单位），可设置为 Hour（小时）、Day（日）、Year（年）
+      * Time Range（时间范围），设置起始和结束时间
+
+    STEP 4：点击 Plot（绘制）按钮，即可在新弹出的图表窗口中看到效果
+
+
+3.2.6 Temporal Variation（地震时间变化）
+~~~~~~~~~~~~~~~~~~
+
+    地震时间变化对话框界面如下：
+
+     .. image:: ../images/menu_image/Plot/dialog_TemporVariationofEarthquakes.png
+        :align: center
+
+    示例数据： `地震时间变化示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/TemporalVariationOfEarthquakes/地震时间变化示例数据.rec>`_
+
+    **使用步骤：**
+
+    STEP 1：选择或输入 `地震目录数据格式（后缀为.etc）暂缺 <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#gnss>`_ 路径
+
+    STEP 2：设置Start Time（起始时间）、End Time（结束时间）、Unit（单位）
+      * 根据数据设置对应的时间区间
+      * 单位（Unit）可以设置为Hour（小时）、Day（日）、Year（年）
+
+    STEP 3：点击Plot（绘制）按钮，即可在新弹出的图表窗口中看到效果
+
+     .. image:: ../images/menu_image/Plot/reault_TemporVariationofEarthquakes.png
+        :align: center
+
+
+3.2.7 Rotation Rate（旋转率场）
 ~~~~~~~~~~~~~~~~~~
     旋转率场对话框界面如下：
-    
+
     .. image:: ../images/menu_image/Plot/dialog_RotationRate.png
         :align: center
 
     .. (可删)示例数据： `旋转率示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/RotationRate/%E6%97%8B%E8%BD%AC%E7%8E%87%E7%A4%BA%E4%BE%8B%E6%95%B0%E6%8D%AE.rsr>`_
 
     **使用步骤：**
-    
+
     STEP 1：选择或输入 旋转率场数据（后缀为.rsr） 路径，示例数据参见： `主应变率-旋转率场数据文件格式 <https://qtgahelpdoc.readthedocs.io/en/latest/4%20File%20Format%20%28%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%29.html#id4>`_。
- 
+
     STEP 2：设置旋转率场相关参数，主要包含以下参数：
       * Radius（半径）
       * Scaling Factor（缩放比例）
       * Line Color（线条颜色），默认设置为黑色
       * Fill Color（填充颜色），默认设置为透明
-    
+
     STEP 3：点击【Preview（预览）】按钮，即可在地图界面查看显示效果
 
     STEP 4：点击【Add（添加）】按钮则会将当前预览的旋转率场数据添加到当前地图工程内。示例数据绘制结果如下图所示
-    
+
     .. image:: ../images/menu_image/Plot/result_RotationRate.png
         :align: center
 
 
-3.2.5 Principal Strain Rate（主应变率）
+3.2.8 Principal Strain Rate（主应变率）
 ~~~~~~~~~~~~~~~~~~
     主应变率对话框界面如下：
-    
+
     .. image:: ../images/menu_image/Plot/dialog_PrincipalStrainRate.png
         :align: center
-    
+
     示例数据： `主应变率示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/RotationRate/%E6%97%8B%E8%BD%AC%E7%8E%87%E7%A4%BA%E4%BE%8B%E6%95%B0%E6%8D%AE.rsr>`_
 
     **使用步骤：**
-    
-    STEP 1：选择或输入 `主应变率-旋转率场数据输入格式.rsr <https://qtgahelpdoc.readthedocs.io/en/latest/4%20File%20Format%20%28%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%29.html#id4>`_ 路径 
- 
+
+    STEP 1：选择或输入 `主应变率-旋转率场数据输入格式.rsr <https://qtgahelpdoc.readthedocs.io/en/latest/4%20File%20Format%20%28%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%29.html#id4>`_ 路径
+
     STEP 2：设置Scale（比例）、Line Width（线宽）、Head Length（箭头长度）、Head Width（箭头宽度）、Fill Color（填充颜色）
       * Scale（比例），用于设置绘制比例，设置范围为0.01-99.99
       * Line Width（线宽）用于设置箭头后的线段长度，设置范围为0.01-99.99
       * Head Length（箭头长度），用于设置箭头长度，设置范围为0.01-99.99
-      * Head Width（箭头宽度），用于设置箭头宽度，设置范围为0.01-99.99    
+      * Head Width（箭头宽度），用于设置箭头宽度，设置范围为0.01-99.99
       * Fill Color（填充颜色），用于设置箭头填充颜色，默认设置为黑色
-    
+
     STEP 3：点击Preview（预览）按钮，即可在地图界面查看显示效果
-    
+
     STEP 4：设置输出文件路径（文件格式为geojson），点击Export（输出）按钮即可输出结果文件，勾选Add File To Current Project（添加文件到当前工程）则会将结果文件添加到当前地图工程内。
-    
+
     .. image:: ../images/menu_image/Plot/result_PrincipalStrainRate.png
         :align: center
 
-3.2.6 Raster Data Profile（栅格数据剖面分析）
+
+3.2.9 Raster Data（栅格数据剖面分析）
 ~~~~~~~~~~~~~~~~~~
-    点击 Raster Data Profile（栅格数据剖面分析）按钮后，主界面添加一个数据展示面板，左侧为剖面图，右侧为数据表格，效果如下：
-    
+    点击 Raster Data（栅格数据剖面分析）按钮后，主界面添加一个数据展示面板，左侧为剖面图，右侧为数据表格，效果如下：
+
     .. image:: ../images/menu_image/Plot/panel_RasterDataProfile.png
         :align: center
 
     示例数据： `栅格数据剖面分析示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/RasterDataProfile/栅格数据剖面分析示例数据.zip>`_
 
     **使用步骤：**
-    
+
     STEP 1：通过File（文件）菜单的Add Raster Layer（添加栅格图层）按钮，添加栅格数据
- 
+
     STEP 2：在面板中Layer（图层）下拉列表中选择需要进行剖面分析的栅格图层
-    
+
     STEP 3：点击下拉列表旁的分析按钮，此时鼠标会变为十字状，即可在地图视图中的栅格数据上绘制出剖面线（鼠标左键画线，右键结束），如图所示：
-    
+
     .. image:: ../images/menu_image/Plot/reault_RasterDataProfile1.png
         :align: center
-    
+
     STEP 4：当剖面线绘制结束后，系统自动绘制出剖面图和对应数据列表，如图所示：
-    
+
     .. image:: ../images/menu_image/Plot/reault_RasterDataProfile2.png
         :align: center
 
-3.2.7 GNSS Velocity Profile（GNSS速度场剖面分析）
+3.2.10 GNSS Displacement（GNSS速度场剖面分析）
 ~~~~~~~~~~~~~~~~~~
     GNSS速度场剖面分析对话框界面如下：
-    
+
     .. image:: ../images/menu_image/Plot/dialog_GNSSVelocityProfile.png
         :align: center
-    
+
     示例数据： `GNSS速度场剖面分析示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/GNSSVelocityProfile/GNSS%E9%80%9F%E5%BA%A6%E5%9C%BA%E5%89%96%E9%9D%A2%E5%88%86%E6%9E%90%E7%A4%BA%E4%BE%8B%E6%95%B0%E6%8D%AE.gnss>`_
 
     **使用步骤：**
-    
-    STEP 1：选择或输入 `GNSS速度场格式（后缀为.gnss） <https://qtgahelpdoc.readthedocs.io/en/latest/4%20File%20Format%20%28%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%29.html#gnss>`_ 路径 
- 
+
+    STEP 1：选择或输入 `GNSS速度场格式（后缀为.gnss） <https://qtgahelpdoc.readthedocs.io/en/latest/4%20File%20Format%20%28%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%29.html#gnss>`_ 路径
+
     STEP 2：设置Reference Ellipsoid（参考椭球）、L0（研究区中央经线）、Azimuth（方位角）、Original E（初值东方向）、Original N（初始北方向）、Unit（单位）、Component（构成方向）
       * Reference Ellipsoid（参考椭球），可设置为WGS-84（默认）、Krassovsky Ellipsoid、International Ellipsoid 1975椭球
       * L0（研究区中央经线），设置范围为0.00-360
@@ -312,153 +402,1078 @@ Plot (绘制)菜单主要包括Focal Mechanism（震源机制）、 GNSS Displac
       * Original N（初始北方向）,设置范围为0.00-360.00
       * Unit（单位）,可根据数据自行设置，默认为mm
       * Component（构成方向）,可设置为parallel（横向）、vertical（竖向）
-    
+
     STEP 3：点击Plot（绘制）按钮，即可在新弹出的图表窗口中看到效果
-    
+
     STEP 4：点击Export（输出）按钮，设置输出文件路径后，即可输出结果文件（文件格式为.gvp）。
-    
+
     .. image:: ../images/menu_image/Plot/reault_GNSSVelocityProfile.png
         :align: center
 
-3.2.8 L/U Curve（L/U曲线）
-~~~~~~~~~~~~~~~~~~
-    L/U曲线绘制对话框界面如下：
-    
-    .. image:: ../images/menu_image/Plot/dialog_LUCurve.png
-        :align: center
-    
-    示例数据： `L/U曲线示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/GNSSVelocityProfile/GNSS%E9%80%9F%E5%BA%A6%E5%9C%BA%E5%89%96%E9%9D%A2%E5%88%86%E6%9E%90%E7%A4%BA%E4%BE%8B%E6%95%B0%E6%8D%AE.gnss>`_
-    
-    **使用步骤：**
-    
-    STEP 1：选择或输入 `折中曲线数据格式（后缀为.toc） <https://qtgahelpdoc.readthedocs.io/en/latest/4%20File%20Format%20%28%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%29.html#id12>`_ 路径 
- 
-    STEP 2：点击Plot（绘制）按钮，即可在新弹出的图表窗口中看到效果
-    
-    .. image:: ../images/menu_image/Plot/reault_LUCurve.png
-        :align: center
-
-
-3.2.9 GNSS Time Series（GNSS时间序列）
-~~~~~~~~~~~~~~~~~~
-    GNSS时间序列对话框界面如下：
-    
-     .. image:: ../images/menu_image/Plot/dialog_GNSSTimeSeries.png
-        :align: center   
-
-    示例数据： `GNSS时间序列示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/GNSSVelocityProfile/GNSS时间序列.tms>`_
-
-    **使用步骤：**
-
-    STEP 1：选择或输入 `TMS数据（后缀为.tms）暂缺 <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#gnss>`_ 路径 
- 
-    STEP 2：设置Unit（单位）、Start Date（起始日期）、Axis Unit（坐标轴单位）
-        * Unit（单位），可根据数据自行设置，默认为mm
-        * Start Date（起始日期），该参数由系统从数据自动读取，用户也可手动设置
-        * Axis Unit（坐标轴单位），可设置为Day或Year，默认为Day
-    
-        STEP 3：点击Plot（绘制）按钮，即可在新弹出的图表窗口中看到效果
-
-    .. image:: ../images/menu_image/Plot/result_GNSSTimeSeries.png
-        :align: center
-
-3.2.10 Stress Change on Fault（断层应力变化）
-~~~~~~~~~~~~~~~~~~
-
-    断层应力变化对话框界面如下：
-    
-     .. image:: ../images/menu_image/Plot/dailog_StressChangeonFault.png
-        :align: center   
-
-    示例数据： `断层应力变化示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/GNSSVelocityProfile/断层应力变化示例数据.cfsr>`_
-
-    **使用步骤：**
-
-    STEP 1：选择或输入 `断层应力变化数据格式.cfsr <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E6%96%AD%E5%B1%82%E5%BA%94%E5%8A%9B%E5%8F%98%E5%8C%96%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.cfsr>`_ 路径 
- 
-    STEP 2：设置Reference Ellipsoid（参考椭球）、L0（研究区中央经线）、Unit（单位）
-      * Reference Ellipsoid（参考椭球），可设置为WGS-84（默认）、Krassovsky Ellipsoid、International Ellipsoid 1975椭球
-      * L0（研究区中央经线），设置范围为0.00-360
-      * Unit（单位），可自行设置，默认为KPa/yr
-    
-    STEP 3：点击Plot（绘制）按钮，即可在新弹出的图表窗口中看到效果
-
-    .. image:: ../images/menu_image/Plot/reault_StressChangeonFault.png
-        :align: center
 
 3.2.11 Slip Distribution（滑动分布）
 ~~~~~~~~~~~~~~~~~~
 
     滑动分布对话框界面如下：
-    
+
      .. image:: ../images/menu_image/Plot/dialog_SlipDistribution.png
-        :align: center   
-    
+        :align: center
+
     示例数据： `滑动分布示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E7%9F%A9%E5%BD%A2%E4%BD%8D%E9%94%99%E6%A8%A1%E5%9E%8B%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.rec>`_
 
     **使用步骤：**
 
-    STEP 1：选择或输入 `位错模型数据格式（后缀为.rec或.tri） <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#gnss>`_ 路径 
- 
+    STEP 1：选择或输入 `位错模型数据格式（后缀为.rec或.tri） <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#gnss>`_ 路径
+
     STEP 2：设置Reference Ellipsoid（参考椭球）、L0（研究区中央经线）、Scale（比例）、Draw Allow（绘制箭头）
       * Reference Ellipsoid（参考椭球），可设置为WGS-84（默认）、Krassovsky Ellipsoid、International Ellipsoid 1975椭球
       * L0（研究区中央经线），设置范围为0.00-360
       * Scale用于设置绘制比例，设置范围为0.01-99.99
       * Draw Allow（绘制箭头）用于设置是否绘制箭头
-    
+
     STEP 3：点击Draw（绘制）按钮，即可在新弹出的图表窗口中看到效果
 
     .. image:: ../images/menu_image/Plot/result_SlipDistribution.png
         :align: center
 
 
-3.2.12 Depth Profile of Earthquakes（地震深度剖面）
+3.2.12 Stress Change（断层应力变化）
 ~~~~~~~~~~~~~~~~~~
 
-    地震深度剖面对话框界面如下：
-    
-     .. image:: ../images/menu_image/Plot/dialog_SlipDistribution.png
-        :align: center   
+    断层应力变化对话框界面如下：
 
-    示例数据： `地震深度剖面示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/DepthProfileOfEarthquakes/地震深度剖面示例数据.rec>`_
-
-
-3.2.13 Temporal Variation of Earthquakes（地震时间变化）
-~~~~~~~~~~~~~~~~~~
-
-    地震时间变化对话框界面如下：
-    
-     .. image:: ../images/menu_image/Plot/dialog_TemporVariationofEarthquakes.png
+     .. image:: ../images/menu_image/Plot/dailog_StressChangeonFault.png
         :align: center
 
-    示例数据： `地震时间变化示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/TemporalVariationOfEarthquakes/地震时间变化示例数据.rec>`_ 
+    示例数据： `断层应力变化示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/GNSSVelocityProfile/断层应力变化示例数据.cfsr>`_
 
     **使用步骤：**
 
-    STEP 1：选择或输入 `地震目录数据格式（后缀为.etc）暂缺 <https://qtgahelpdoc.readthedocs.io/en/latest/1%20Getting%20Started%20%28%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D%29.html#gnss>`_ 路径 
- 
-    STEP 2：设置Start Time（起始时间）、End Time（结束时间）、Unit（单位）
-      * 根据数据设置对应的时间区间
-      * 单位（Unit）可以设置为Hour（小时）、Day（日）、Year（年）
-    
+    STEP 1：选择或输入 `断层应力变化数据格式.cfsr <https://github.com/wanghai1988/qtgahelp/blob/main/files/%E6%96%AD%E5%B1%82%E5%BA%94%E5%8A%9B%E5%8F%98%E5%8C%96%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F.cfsr>`_ 路径
+
+    STEP 2：设置Reference Ellipsoid（参考椭球）、L0（研究区中央经线）、Unit（单位）
+      * Reference Ellipsoid（参考椭球），可设置为WGS-84（默认）、Krassovsky Ellipsoid、International Ellipsoid 1975椭球
+      * L0（研究区中央经线），设置范围为0.00-360
+      * Unit（单位），可自行设置，默认为KPa/yr
+
     STEP 3：点击Plot（绘制）按钮，即可在新弹出的图表窗口中看到效果
 
-     .. image:: ../images/menu_image/Plot/reault_TemporVariationofEarthquakes.png
+    .. image:: ../images/menu_image/Plot/reault_StressChangeonFault.png
         :align: center
 
-3.3 Tools (工具)
+
+3.2.13 L/U Curve（L/U曲线）
+~~~~~~~~~~~~~~~~~~
+    L/U曲线绘制对话框界面如下：
+
+    .. image:: ../images/menu_image/Plot/dialog_LUCurve.png
+        :align: center
+
+    示例数据： `L/U曲线示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/GNSSVelocityProfile/GNSS%E9%80%9F%E5%BA%A6%E5%9C%BA%E5%89%96%E9%9D%A2%E5%88%86%E6%9E%90%E7%A4%BA%E4%BE%8B%E6%95%B0%E6%8D%AE.gnss>`_
+
+    **使用步骤：**
+
+    STEP 1：选择或输入 `折中曲线数据格式（后缀为.toc） <https://qtgahelpdoc.readthedocs.io/en/latest/4%20File%20Format%20%28%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%29.html#id12>`_ 路径
+
+    STEP 2：点击Plot（绘制）按钮，即可在新弹出的图表窗口中看到效果
+
+    .. image:: ../images/menu_image/Plot/reault_LUCurve.png
+        :align: center
+
+
+3.3 Cartography (制图)
+--------------------
+.. image:: ../images/menu_image/File/dialog_setLayoutView.png
+    :align: center
+功能说明：
+
+    * |Layout List| Layout List（布局列表）下拉列表：该下拉列表用于显示当前布局视图，点击该下拉列表后，可切换所需的布局。
+    * |New Layout| New Layout（新建布局）按钮：点击该按钮后，会弹出New Print Layout（新建打印布局）对话框，要求输入新的唯一布局标题，点击确定后即可生成新布局。
+    * |Delete Layout| Delete Layout（删除布局）按钮：点击该按钮后，可删除当前布局。
+    * |Save Layout| Save Layout（保存布局）按钮：点击该按钮后，可保存布局的当前状态。
+    * |Add Map| Add Map（添加地图）按钮：点击该按钮后，可在当前布局中添加一个新的地图框。
+    * |Add Legend| Add Legend（添加图例）按钮：点击该按钮后，可在当前布局中添加一个新的图例。
+    * |Add GNSS Legend| Add GNSS Legend（添加GNSS图例）按钮：点击该按钮后，可在当前布局中添加一个新的GNSS图例。
+    * |Add Lev Legend| Add Lev Legend（添加水准图例）按钮：点击该按钮后，可在当前布局中添加一个新的水准图例。
+    * |Add Rotation Rate Legend| Add Rotation Rate Legend（添加旋转率图例）按钮：点击该按钮后，可在当前布局中添加一个新的旋转率图例。
+    * |Add Principal Strain Rate Legend| Add Principal Strain Rate Legend（添加主应变率图例）按钮：点击该按钮后，可在当前布局中添加一个新的主应变率图例。
+    * |Add Color Ramp| Add Color Ramp（添加色带）按钮：点击该按钮后，可在当前布局中添加一个新的色带。
+    * |Add Label| Add Label（添加标签）按钮：点击该按钮后，可在当前布局中添加一个新的文字标签。
+    * |Add Scale Bar| Add Scale Bar（添加比例尺）按钮：点击该按钮后，可在当前布局中添加一个新的比例尺。
+    * |Pan| Pan（平移）按钮：点击该按钮后，可通过鼠标平移当前布局视图。
+    * |Zoom In| Zoom In（放大）按钮：点击该按钮后，可放大当前布局视图。
+    * |Zoom Out| Zoom Out（缩小）按钮：点击该按钮后，可缩小当前布局视图。
+    * |Zoom| Zoom（缩放）按钮：点击该按钮后，可通过鼠标控制缩放当前布局视图。
+    * |Zoom Actual| Zoom Actual（缩放实际）按钮：点击该按钮后，可缩放当前布局视图到实际位置。
+    * |Zoom All| Zoom All（缩放全部）按钮：点击该按钮后，可缩放当前布局视图到包含全部内容。
+    * |Refresh| Refresh（刷新）按钮：点击该按钮后，可刷新当前布局视图。
+    * |Select/Move Item| Select/Move Item（选择/移动图面要素）按钮：点击该按钮后，可将鼠标切换至选择状态，用于选择图例或图面要素。并可按住鼠标左键拖动图例或图面要素至合适位置。
+    * |Move Content| Move Content（移动内容）按钮：点击该按钮后，可操作地图框内的视图范围，移动地图框内的显示内容。
+    * |Overview Setting| Overview Setting（缩略图设置）按钮：当布局视图内有2个及以上地图框时，选中一个地图框后，点击该按钮后可将该地图框地图视图设置到全图范围
+    * |Grid Setting| Grid Setting（网格设置）按钮：该按钮用于设置地图框相关参数，具体设置参数请参阅 `3.3.1 Grid Setting（网格设置）`_。
+    * |Text Setting| Text Setting（文本设置）按钮：该按钮用于设置标签的文本属性，具体设置参数请参阅 `3.3.2 Text Setting（文本设置）`_。
+    * |Legend Setting| Legend Setting（图例设置）按钮：该按钮用于设置图例相关参数，具体设置参数请参阅 `3.3.3 Legend Setting（图例设置）`_。
+    * |Scalebar Setting| Scalebar Setting（比例尺设置）按钮：该按钮用于设置比例尺相关参数，具体设置参数请参阅 `3.3.4 Scalebar Setting（比例尺设置）`_。
+    * |GNSS Setting| GNSS Setting（GNSS图例设置）按钮：该按钮用于设置GNSS图例相关参数，具体设置参数请参阅 `3.3.5 GNSS Setting（GNSS图例设置）`_。
+    * |Lev Setting| Lev Setting（水准图例设置）按钮：该按钮用于设置水准图例相关参数，具体设置参数请参阅 `3.3.6 Lev Setting（水准图例设置）`_。
+    * |Rotation Rate Setting| Rotation Rate Setting（旋转率图例设置）按钮：该按钮用于设置旋转率图例相关参数，具体设置参数请参阅 `3.3.7 Rotation Rate Setting（旋转率图例设置）`_。
+    * |Principal Strain Rate Setting| Principal Strain Rate Setting（主应变率图例设置）按钮：该按钮用于设置主应变率图例相关参数，具体设置参数请参阅 `3.3.8 Principal Strain Rate Setting（主应变率图例设置）`_。
+    * |Color Ramp Setting| Color Ramp Setting（色带设置）按钮：该按钮用于设置色带相关参数，具体设置参数请参阅 `3.3.9 Color Ramp Setting（色带设置）`_。
+    * |Delete Item| Delete Item（删除部件）按钮：该按钮用于删除当前布局视图内被选中的图饰部件
+    * |Raise Select Items| Raise Select Items（提升选择部件）按钮：当图饰部件出现压盖时，该按钮用于提升当前布局视图内被选中的部件的图层顺序
+    * |Lower Select Items| Lower Select Items（降低选择部件）按钮：当图饰部件出现压盖时，该按钮用于降低当前布局视图内被选中的部件的图层顺序
+    * |Print| Print（打印）按钮：该按钮用于打开打印控制对话框，选择合适的打印机及其设置打印当前布局视图
+    * |Export As Image| Export As Image（导出图片）按钮：该按钮用于打开图片保存对话框将当前布局视图导出为图片格式，支持.BMP、.JPG、.PNG、.TIF、Webp等图片格式
+    * |Export As PDF| Export As PDF（导出PDF）按钮：该按钮用于打开PDF保存对话框将当前布局视图导出为PDF格式
+
+
+    .. |Layout List|      image:: ../images/menu_image/File/select_Layout.png
+    .. |New Layout|       image:: ../images/menu_image/File/btn_newLayout.png
+    .. |Delete Layout|    image:: ../images/menu_image/File/btn_deleteLayout.png
+    .. |Save Layout|      image:: ../images/menu_image/File/btn_saveLayout.png
+    .. |Add Map|          image:: ../images/menu_image/File/btn_addMap.png
+    .. |Add Legend|       image:: ../images/menu_image/File/btn_addLegend.png
+    .. |Add GNSS Legend|  image:: ../images/menu_image/File/btn_addGNSSLegend.png
+    .. |Add Lev Legend|   image:: ../images/menu_image/File/btn_addLevLegend.png
+    .. |Add Rotation Rate Legend|   image:: ../images/menu_image/File/btn_addRotationRateLegend.png
+    .. |Add Principal Strain Rate Legend|   image:: ../images/menu_image/File/btn_addPrincipalStrainLegend.png
+    .. |Add Color Ramp|   image:: ../images/menu_image/File/btn_addColorRamp.png
+    .. |Add Label|        image:: ../images/menu_image/File/btn_addLabel.png
+    .. |Add Scale Bar|    image:: ../images/menu_image/File/btn_addScaleBar.png
+    .. |Pan|              image:: ../images/menu_image/File/btn_pan.png
+    .. |Zoom In|          image:: ../images/menu_image/File/btn_zoomIn.png
+    .. |Zoom Out|         image:: ../images/menu_image/File/btn_zoomOut.png
+    .. |Zoom|             image:: ../images/menu_image/File/btn_zoom.png
+    .. |Zoom Actual|      image:: ../images/menu_image/File/btn_zoomActual.png
+    .. |Zoom All|         image:: ../images/menu_image/File/btn_zoomAll.png
+    .. |Refresh|          image:: ../images/menu_image/File/btn_refresh.png
+    .. |Select/Move Item| image:: ../images/menu_image/File/btn_selectMoveItem.png
+    .. |Move Content|     image:: ../images/menu_image/File/btn_moveContent.png
+    .. |Grid Setting|     image:: ../images/menu_image/File/btn_gridSetting.png
+    .. |Text Setting|     image:: ../images/menu_image/File/btn_textSetting.png
+    .. |Overview Setting| image:: ../images/menu_image/File/btn_overviewSetting.png
+    .. |Legend Setting|   image:: ../images/menu_image/File/btn_legendSetting.png
+    .. |Add Layer|        image:: ../images/menu_image/File/btn_add.png
+    .. |Delete Layer|     image:: ../images/menu_image/File/btn_delete.png
+    .. |Edit Layer Name|  image:: ../images/menu_image/File/btn_edit.png
+    .. |Scalebar Setting| image:: ../images/menu_image/File/btn_scalebarSetting.png
+    .. |GNSS Setting|     image:: ../images/menu_image/File/btn_GNSSSetting.png
+    .. |Lev Setting|      image:: ../images/menu_image/File/btn_levSetting.png
+    .. |Rotation Rate Setting|    image:: ../images/menu_image/File/btn_RotationRateSetting.png
+    .. |Principal Strain Rate Setting|    image:: ../images/menu_image/File/btn_PrincipalStrainRateSetting.png
+    .. |Color Ramp Setting|       image:: ../images/menu_image/File/btn_ColorRampSetting.png
+    .. |Delete Item|      image:: ../images/menu_image/File/btn_DeleteItem.png
+    .. |Raise Select Items|       image:: ../images/menu_image/File/btn_RaiseSelectItems.png
+    .. |Lower Select Items|       image:: ../images/menu_image/File/btn_LowerSelectItems.png
+    .. |Print|            image:: ../images/menu_image/File/btn_Print.png
+    .. |Export As Image|  image:: ../images/menu_image/File/btn_ExportAsImage.png
+    .. |Export As PDF|    image:: ../images/menu_image/File/btn_ExportAsPDF.png
+
+3.3.1 Grid Setting（网格设置）
+~~~~~~~~~~~~~~~~~~
+(1) 选择地图框，如果没有请点击 |Add Map| Add Map（添加地图）按钮添加地图框，激活Grid Setting（网格设置）按钮
+(#) 点击该按钮，弹出Map Item Settings对话框，如下图所示：
+
+.. image:: ../images/menu_image/File/dialog_mapItemSetting.png
+    :align: center
+
+参数说明：
+      * Left Top Lng（左上经度）、Right Bottom Lng（右下经度）、Left Top Lat（左上纬度）、Right Bottom Lat（右下纬度）用于设置地图视图的经纬度范围
+      * Interval X（X方向间隔）、Interval Y（Y方向间隔）用于设置坐标轴的刻度间隔
+      * Font（字体）、Font Size（字号）、Format（格式）、Precision（有效位数）用于设置坐标刻度值的文字样式
+      * Frame Width（边框宽度）用于设置地图框的边框宽度
+      * Coordinate Visible中的Left Side、Right Side、Top Side、Bottom Side用于设置边框上下左右是否显示
+      * OverView（缩略图）只有在Layout View（布局视图）内有2个及以上地图框时才会激活，Linked Map（连接地图）用于指定对应的缩略图地图框，Fill Color（填充色）和Frame Color（边框颜色）用于设置缩略图中对应地图范围的填充色和边框的颜色
+      * Visible Layers（显示图层）中会列出当前地图视图中应用的图层列表
+
+(3) 根据出图需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
+
+3.3.2 Text Setting（文本设置）
+~~~~~~~~~~~~~~~~~~
+(1) 选择一个文本标签，如果没有请点击 |Add Label| Add Label（添加标签）按钮添加一个文本标签，激活Text Setting（文本设置）按钮
+(2) 点击该按钮，弹出Label Edit对话框，如下图所示：
+
+.. image:: ../images/menu_image/File/dialog_labelEdit.png
+    :align: center
+
+参数说明：
+      * Font（字体）、Font Color（字体颜色）用于设置标签文字的字号、字体、颜色等效果
+      * Horizontal Margin（水平边距）、Vertical Margin（垂直边距）用于设置文本与标签框之间在水平方向和垂直方向上的距离
+      * Horizontal Alignment（水平对齐）、Vertical Alignment（垂直对齐）用于设置文本在标签框内的对齐方式
+      * Rotation（旋转）用于设置文本的旋转角度
+(3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
+
+3.3.3 Legend Setting（图例设置）
+~~~~~~~~~~~~~~~~~~
+(1) 选择一个图例，如果没有请点击 |Add Legend| Add Legend（添加图例）按钮添加一个图例，激活Legend Setting（图例设置）按钮
+(2) 点击该按钮，弹出Legend Setting对话框，如下图所示：
+
+.. image:: ../images/menu_image/File/dialog_legendSetting.png
+    :align: center
+
+参数说明：
+      * 点击图层列表下方的 |Add Layer| “+”号按钮可以添加视图中未加入的图层， |Delete Layer| “-”号按钮可以删除视图中不需要的图层， |Edit Layer Name| 编辑按钮可以编辑图层名称
+      * Legend Width（图例宽度）、Legend Height（图例高度）用于设置整个图例的宽度和高度
+      * Legend Direction（图例方向）用于设置图例中项目的排列方向为横向或纵向
+      * Legend Font（图例字体）、Font Color（字体颜色）用于设置图例中文本的字体、字号、颜色等样式
+      * Item Background（背景色）如果勾选Transparent则图例背景透明，否则为白色背景
+      * Item Columns（项目）用于设置图例中条目排列的列数
+(3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
+
+3.3.4 Scalebar Setting（比例尺设置）
+~~~~~~~~~~~~~~~~~~
+(1) 选择一个比例尺，如果没有请点击 |Add Scale Bar| Add Scale Bar（添加比例尺）按钮添加一个比例尺，激活Scalebar Setting（比例尺设置）按钮
+(2) 点击该按钮，弹出Scalebar Setting对话框，如下图所示：
+
+.. image:: ../images/menu_image/File/dialog_ScaleBarSetting.png
+    :align: center
+
+参数说明：
+      * Scalebar Style（比例尺样式）用于设置比例尺的显示样式，可选包括Single Box（单盒式）、Double Box（双盒式）、Line Ticks Middle（中线段式）、Line Ticks Down（下线段式）、Line Ticks Up（上线段式）、Stepped Line（折线式）、Hollow（空心式）、Numeric（数字式）
+      * Scalebar Height（比例尺高度）、Scalebar Width（比例尺宽度）用于设置比例尺高宽
+      * Rotation（角度）用于设置比例尺旋转角度
+      * Frame Width（边框宽度）用于设置比例尺边框宽度
+      * Unit Label（单位标签）用于设置比例尺显示的标签单位，默认为km
+      * Label Margin（标签间距）用于设置标签与比例尺之间的距离
+      * Label Font（标签字体）用于设置比例尺标签的字体、字号、颜色等样式
+(3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
+
+3.3.5 GNSS Setting（GNSS图例设置）
+~~~~~~~~~~~~~~~~~~
+(1) 选择一个GNSS图例，如果没有请点击 |Add GNSS Legend| Add GNSS Legend（添加GNSS图例）按钮添加一个GNSS图例，激活GNSS Setting（GNSS图例设置）按钮
+(2) 点击该按钮，弹出GNSS Setting对话框，如下图所示：
+
+.. image:: ../images/menu_image/File/dialog_GNSSSetting.png
+    :align: center
+
+参数说明：
+      * Map Scale（地图比例尺）用于设置图例采用的地图比例尺，默认为布局视图中当前的地图比例尺
+      * Displacement length（位移长度）用于设置图例中GNSS Arrow（GNSS箭头）的位移长度尺寸
+      * Arrow Scale（箭头比例）用于设置图例中GNSS Arrow（GNSS箭头）的箭头比例大小
+      * Error Radius（误差半径）用于设置图例中GNSS Error Ellipse（GNSS误差椭圆）的椭圆半径
+      * Ellipse Scale（椭圆比例）用于设置图例中GNSS Error Ellipse（GNSS误差椭圆）中椭圆的比例
+      * Text（文字）、Font（字体）、Font Size（字号）、Font Color（颜色）用于设置图例中GNSS Text（GNSS文字标注）的文字内容、字体字族、字号大小和文字颜色
+(3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
+
+3.3.6 Lev Setting（水准图例设置）
+~~~~~~~~~~~~~~~~~~
+(1) 选择一个水准图例，如果没有请点击 |Add Lev Legend| Add Lev Legend（添加水准图例）按钮添加一个水准图例，激活Lev Setting（水准图例设置）按钮
+(2) 点击该按钮，弹出Lev Setting对话框，如下图所示：
+
+.. image:: ../images/menu_image/File/dialog_LevSetting.png
+    :align: center
+
+参数说明：
+      * Map Scale（地图比例尺）用于设置图例采用的地图比例尺，默认为布局视图中当前的地图比例尺
+      * Displacement length（位移长度）用于设置图例中Lev Arrow（水准箭头）的位移长度尺寸
+      * Arrow Scale（箭头比例）用于设置图例中Lev Arrow（水准箭头）的箭头比例大小
+      * Error Radius（误差半径）用于设置图例中Lev Error Ellipse（水准误差椭圆）的椭圆半径
+      * Ellipse Scale（椭圆比例）用于设置图例中Lev Error Ellipse（水准误差椭圆）中椭圆的比例
+      * Text（文字）、Font（字体）、Font Size（字号）、Font Color（颜色）用于设置图例中Lev Text（Lev文字标注）的文字内容、字体字族、字号大小和文字颜色
+(3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
+
+3.3.7 Rotation Rate Setting（旋转率图例设置）
+~~~~~~~~~~~~~~~~~~
+(1) 选择一个旋转率图例，如果没有请点击 |Add Rotation Rate Legend| Add Rotation Rate Legend（添加旋转率图例）按钮添加一个旋转率图例，激活|Rotation Rate Setting| Rotation Rate Setting（旋转率图例设置）按钮
+(2) 点击该按钮，弹出Rotation Rate Setting对话框，如下图所示：
+
+.. image:: ../images/menu_image/File/dialog_RotationRateSetting.png
+    :align: center
+
+参数说明：
+      * Map Scale（地图比例尺）用于设置图例采用的地图比例尺，默认为布局视图中当前的地图比例尺
+      * AngleUnit（角度单位）用于设置Rotation Rate（旋转率）扇形的角度间隔（单位：弧度）
+      * Raduis（半径）用于设置Rotation Rate（旋转率）扇形的半径（单位：弧度）
+      * Rotation（旋转）用于设置Rotation Rate（旋转率）扇形的角度（单位：弧度）
+      * AngleScale（角度比例）用于设置Rotation Rate（旋转率）扇形的缩放比例
+      * Text（文字）、Font（字体）、Font Size（字号）、Font Color（颜色）用于设置图例中Rotation Rate Text（旋转率标注）的文字内容、字体字族、字号大小和文字颜色
+(3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
+
+3.3.8 Principal Strain Rate Setting（主应变率图例设置）
+~~~~~~~~~~~~~~~~~~
+(1) 选择一个主应变率图例，如果没有请点击 |Add Principal Strain Rate Legend| Add Principal Strain Rate Legend（添加主应变率图例）按钮添加一个旋转率图例，激活|Principal Strain Rate Setting| Principal Strain Rate Setting（主应变率图例设置）按钮
+(2) 点击该按钮，弹出Principal Strain Rate Setting对话框，如下图所示：
+
+.. image:: ../images/menu_image/File/dialog_PrincipalStrainRateSetting.png
+    :align: center
+
+参数说明：
+      * Map Scale（地图比例尺）用于设置图例采用的地图比例尺，默认为布局视图中当前的地图比例尺
+      * E1用于设置Principal Strain Rate（主应变率）图例中的最大主应变方向的尺寸
+      * E2用于设置Principal Strain Rate（主应变率）图例中的最小主应变方向的尺寸
+      * Azi用于设置Principal Strain Rate（主应变率）图例中主应变方向的角度
+      * Scale用于设置Principal Strain Rate（主应变率）图例的比例
+      * Text（文字）、Font（字体）、Font Size（字号）、Font Color（颜色）用于设置图例中Principal Strain Rate（主应变率标注）的文字内容、字体字族、字号大小和文字颜色
+(3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
+
+3.3.9 Color Ramp Setting（色带设置）
+~~~~~~~~~~~~~~~~~~
+(1) 选择一个色带，如果没有请点击 |Add Color Ramp| Add Color Ramp（添加色带）按钮添加一个色带图例，激活Color Ramp Setting（色带设置）按钮
+(2) 点击该按钮，弹出Color Ramp Setting对话框，如下图所示：
+
+.. image:: ../images/menu_image/File/dialog_ColorRampSetting.png
+    :align: center
+
+参数说明：
+      * Color Ramp（色带）用于选择当前使用的色带，在色带下拉列表中，可以选择、新建、修改、保存相应的色带参数
+      * Ramp Orientation（色带方向）用于设置色带的方向，可选Horizontal（水平）和Vertical（垂直）两种方式
+      * Min Value（最小值）和Max Value（最大值）用于设置色带旁标注的数值范围
+      * Font（字体）、Font Size（字号）、Font Color（颜色）用于设置图例中Lev Text（Lev文字标注）的字体字族、字号大小和文字颜色
+(3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
+
+
+3.4 Process (处理)
+-------------------
+
+Process (处理)菜单按功能分组包括GNSS Displacement（GNSS形变）、InSAR Image（InSAR影像）等2组功能，如图所示：
+
+.. image:: ../images/menu_image/Process/menu_process.png
+    :align: center
+
+具体包括下列功能：
+
+3.4.1 Reference Frame Conversion（参考框架转换）
+~~~~~~~~~~~~~~~~~~
+
+    该功能用于进行GNSS数据参考框架的转换
+
+    .. image:: ../images/menu_image/Tools/dailog_ReferenceFrameConversion.png
+       :align: center
+
+    示例数据： `GNSS示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/ReferenceFrameConversion/GNSS示例数据.gnss>`_
+
+    **使用步骤：**
+
+    STEP 1：输入或选择GNSS数据的路径
+
+    STEP 2：输入Euler Vector（欧拉向量）
+
+    STEP 3：输入Earth Radius（地球半径）、Reverse（反向）
+
+    STEP 4：点击Translation（转换）进行计算，点击Export（导出）按钮，弹出成功提示框后，即可保存结果
+
+    **相关知识：Coordinate Systems (坐标系统)**
+
+    软件使用的地理坐标系统（Geographic Coordinate System）为World Geodetic System 1984（简称WGS84），其EPSG编码为4326。
+
+    软件使用的投影坐标系统（Projected Coordinate System）为高斯克吕格投影（Gauss-Kruger projection）。
+
+    在加载数据时，如果数据本身带有坐标系统，软件会采用动态投影自动转换至当前坐标系统下，也可采用系统提供的坐标转换工具进行转换，如：`Gauss Projection:EN2XY（高斯投影:经纬度转投影坐标） <https://qtgahelpdoc.readthedocs.io/en/latest/3%20Function%20%28%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D%29.html#gauss-projection-en2xy>`_、`Gauss Projection:XY2EN（高斯投影:投影坐标转经纬度） <https://qtgahelpdoc.readthedocs.io/en/latest/3%20Function%20%28%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D%29.html#gauss-projection-xy2en>`_ 和 `Reference Frame Conversion（参考框架转换） <https://qtgahelpdoc.readthedocs.io/en/latest/3%20Function%20%28%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D%29.html#reference-frame-conversion>`_。
+
+
+3.4.2 Correct GNSS Time Series（修正GNSS时间序列）
+~~~~~~~~~~~~~~~~~~
+
+    该功能用于修正GNSS时间序列数据，去除地震前的形变趋势
+
+    .. image:: ../images/menu_image/Analysis/dialog_CorrectPostseismicGNSSTimeSeries.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：设置 Input（输入），选择 Displacement Time Series Data File（位移时间序列数据.tms）
+
+    STEP 2：设置 Deformation trend before earthquakes（震前形变趋势参数）
+      * Ke（东向趋势系数）
+      * Kn（北向趋势系数）
+      * Ku（垂直向趋势系数）
+
+    STEP 3：设置 Unit（单位），可设置为 cm 或 mm
+
+    STEP 4：点击 Plot（绘制）按钮查看修正效果，点击 Export（输出）按钮保存结果（.tms）
+
+    .. image:: ../images/menu_image/Analysis/result_CorrectPostseismicGNSSTimeSeries.png
+        :align: center
+
+
+3.4.3 Clip（裁切）
+~~~~~~~~~~~~~~~~~~
+
+    该功能基于用户绘制的多边形范围进行栅格图像裁切
+
+    .. image:: ../images/menu_image/Tools/dialog_ClipImage.png
+       :align: center
+
+    **使用步骤：**
+
+    STEP 1：先通过Map View工具栏中的Create Polygon（新建多边形）工具绘制一个多边形范围
+
+     .. image:: ../images/menu_image/Tools/tool_CreatePolygon.png
+        :align: center
+
+    STEP 2：设置 Input（输入），在 Input Image（输入图像）下拉列表中选择当前工程中需要裁切的栅格图层，在 Region boundary（区域边界）下拉列表中选择之前绘制的多边形范围
+
+    STEP 3：设置 Output（输出），选择 Output Image（输出图像）保存路径，文件格式支持 .img 或 .tif
+
+    STEP 4：点击 Run（运行）按钮进行裁切，完成后会提示是否将结果添加到当前工程
+
+
+3.4.4 Superimpose（叠加）
+~~~~~~~~~~~~~~~~~~
+    该功能用于将2个栅格图像进行像元叠加运算处理（加、减运算）
+
+    .. image:: ../images/menu_image/Tools/dialog_SuperimposeImage.png
+       :align: center
+
+    **使用步骤：**
+
+    STEP 1：设置 Input（输入），选择参与运算的两幅图像
+      * First Raster Data File（第一幅栅格数据文件.img/.tif）
+      * Second Raster Data File（第二幅栅格数据文件.img/.tif）
+
+    STEP 2：设置 Operation Type（运算类型）
+      * Plus（加运算）
+      * Minus（减运算）
+
+    STEP 3：设置 Output（输出），选择 Export File（输出文件）保存路径（.img或.tif）
+
+    STEP 4：点击 OK 按钮进行计算，即可保存结果
+
+
+3.4.5 Merge（合并）
+~~~~~~~~~~~~~~~~~~
+    该功能用于将多个栅格图像进行合并处理
+
+    .. image:: ../images/menu_image/Tools/dialog_MergeImages.png
+       :align: center
+
+    **使用步骤：**
+
+    STEP 1：设置 Input（输入），通过列表添加需要合并的多个栅格图像文件
+
+    STEP 2：设置 Output（输出），选择 Out File（输出文件）保存路径（.tif）
+
+    STEP 3：点击 Run（运行）按钮进行计算，即可保存结果
+
+
+3.4.6 Compress（压缩）
+~~~~~~~~~~~~~~~~~~
+
+    该功能用于对栅格图像进行降采样压缩处理，包含2种方式：
+
+    .. image:: ../images/menu_image/Tools/btnMenu_CompressImage.png
+       :align: center
+
+1. Uniform Downsampling（均匀采样压缩）
+
+    该功能按固定压缩比对栅格图像进行均匀降采样压缩。
+
+    .. image:: ../images/menu_image/Tools/dialog_UniformDownsampling.png
+       :align: center
+
+    **使用步骤：**
+
+    STEP 1：设置 Input（输入），选择 Image File（图像文件.img）
+
+    STEP 2：设置 Output（输出）
+      * Image File（输出图像文件.img）
+      * Point file（输出点文件，可选格式为.los/.aos/.ros）
+
+    STEP 3：设置 Compress Ratio（压缩比），可选项为 4:1、9:1、16:1、25:1、36:1、100:1
+
+    STEP 4：点击 Compress（压缩）按钮进行压缩处理
+
+2. Quadtree Downsampling（四叉树采样压缩）
+
+    该功能采用四叉树算法对栅格图像进行自适应降采样压缩，可分别设置形变区域和非形变区域的压缩参数。
+
+    .. image:: ../images/menu_image/Tools/dialog_QuadtreeDownsampling.png
+       :align: center
+
+    **使用步骤：**
+
+    STEP 1：设置 Input（输入），选择 Image（图像文件.img）
+
+    STEP 2：设置 Parameter Setting（参数设置）
+      * Range of Deformation Region（形变区域范围，从图层选择多边形）
+      * New Pixels Values（新像素值计算方式），可设置为 Mean（均值）、Median（中值）、Center Pixel（中心像素）
+      * Minimum Sampling Window（最小采样窗口）
+      * Maximum Sampling Window（最大采样窗口）
+      * Minimum Ratio of Pixels with Values（有值像素的最小占比）
+      * Maximum Deviation（最大偏差）
+      * Minimum Average Value（最小均值）
+
+    STEP 3：设置 Deformation Region（形变区域参数）
+      * Min Block Size（最小块尺寸），可选项为 2×2 至 128×128
+      * Max Block Size（最大块尺寸），可选项为 4×4 至 256×256
+      * Min Ratio（最小像素占比），默认为0.5
+
+    STEP 4：设置 No-deformation Region（非形变区域参数）
+      * Min Block Size（最小块尺寸），可选项为 4×4 至 256×256
+      * Max Block Size（最大块尺寸），可选项为 8×8 至 512×512
+      * Min Ratio（最小像素占比），默认为0.5
+
+    STEP 5：设置 Output（输出）
+      * Image File（输出图像文件.img）
+      * SAR File（输出SAR文件.sar）
+
+    STEP 6：点击 Compress（压缩）按钮进行压缩处理
+
+
+3.4.7 Correct（校正）
+~~~~~~~~~~~~~~~~~~
+
+    该功能用于对栅格图像数据进行运算校正（加、乘、平方运算）
+
+    .. image:: ../images/menu_image/Tools/dialog_CorrectRasterData.png
+       :align: center
+
+    **使用步骤：**
+
+    STEP 1：设置 Input（输入），选择 Image Data（图像数据文件.img/.tif）
+
+    STEP 2：设置 Output（输出），选择输出图像保存路径（.img/.tif）
+
+    STEP 3：设置 Operation Setting（运算设置）
+      * Operation Type（运算类型），可设置为 Plus（加）、Multiply（乘）、Squares（平方）
+      * Operation value（运算值），设置范围为-100000到100000
+
+    STEP 4：点击 Generate（生成）按钮进行计算，结果将保存到指定输出路径
+
+
+3.4.8 Generate Fringe Map（生成干涉条纹图）
+~~~~~~~~~~~~~~~~~~
+
+    该功能用于根据InSAR形变数据生成干涉条纹图
+
+    .. image:: ../images/menu_image/Tools/dialog_GenerateFringePattern.png
+       :align: center
+
+    **使用步骤：**
+
+    STEP 1：设置 Input（输入），选择 Image File（图像数据文件.img/.tif），支持多选
+
+    STEP 2：设置 Output（输出），选择 Export File To（输出文件路径.img/.tif）
+
+    STEP 3：设置 Parameter Setting（参数设置）
+      * wavelength(cm)（波长，单位cm）
+
+    STEP 4：点击 Generate（生成）按钮进行计算，结果将保存到指定输出路径
+
+
+3.4.9 Synthesize LOS Displacement（合成LOS位移）
+~~~~~~~~~~~~~~~~~~
+
+    该功能用于将三分量（X、Y、Z方向）位移数据合成为LOS向位移
+
+    .. image:: ../images/menu_image/Tools/dialog_SynthesizeLOSDisplacement.png
+       :align: center
+
+    **使用步骤：**
+
+    STEP 1：设置输入数据文件
+      * Azimuth Data File（方位角数据.img/.tif）
+      * Incident Angle Data（入射角数据.img/.tif）
+      * X Direction Deformation（X方向形变.img/.tif）
+      * Y Direction Deformation（Y方向形变.img/.tif）
+      * Z Direction Deformation（Z方向形变.img/.tif）
+      * Linear term correction（线性项改正.img/.tif）
+
+    STEP 2：点击 Merge（合并）按钮进行计算
+
+    STEP 3：点击 Export（输出）按钮保存结果（.img/.tif）
+
+
+3.4.10 3D Displacement Decomposition（三维位移分解）
+~~~~~~~~~~~~~~~~~~
+
+    该功能用于对降采样LOS位移数据进行三维位移分解，通过参考点形变进行校正
+
+    .. image:: ../images/menu_image/Tools/dialog_3DDisplacementDecomposition.png
+       :align: center
+
+    **使用步骤：**
+
+    STEP 1：设置 Input（输入），选择 InSAR Data File（InSAR数据文件.sar），支持多选
+
+    STEP 2：设置 Reference Point Deformation（参考点形变，单位cm）
+      * Longitudinal Section（经向分量）
+      * Latitudinal Section（纬向分量）
+
+    STEP 3：点击 Correct（校正）按钮进行计算
+
+    STEP 4：点击 Export（输出）按钮保存结果（.sar）
+
+
+3.5 Analysis (分析)
+---------------------
+
+Analysis (分析)菜单按功能分组包括GNSS Displacement（GNSS形变）、InSAR Displacement（InSAR形变）、Earthquake Catalog（地震目录）、Fit（拟合）等4组功能，如图所示。
+
+.. image:: ../images/menu_image/Analysis/menu_analysis.png
+    :align: center
+
+具体包括下列功能：
+
+3.5.1 Observation Error（观测误差）
+~~~~~~~~~~~~~~~~~~
+该功能用于估计GNSS观测误差
+
+    .. image:: ../images/menu_image/Analysis/dialog_EstimateObservationStandardDeviation.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：选择 GNSS 数据文件（.gnss）
+
+    STEP 2：设置统计参数，如观测时段、采样间隔等
+
+    STEP 3：点击 Calculate（计算）按钮即可得到估计结果
+
+    .. image:: ../images/menu_image/Analysis/result_EstimateObservationStandardDeviation.png
+        :align: center
+
+
+3.5.2 Estimate Coseismic Displacement（估计同震位移）
+~~~~~~~~~~~~~~~~~~
+该功能用于通过GNSS时序数据估计同震位移
+
+    .. image:: ../images/menu_image/Analysis/dialog_EstimateCoseismicDisplacement.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：设置 Input（输入），选择 Displacement time series Data（位移时间序列数据.tms）
+
+    STEP 2：设置 Parameters Setting（参数设置），包括 DateTime1（起始时间）和 DateTime2（结束时间）
+
+    STEP 3：设置 Output（输出），选择 InSar File（输出文件路径.tms）
+
+    STEP 4：点击 Calculate（计算）按钮进行计算，结果将显示在 Out Result（输出结果）区域，包括 N±dN、E±dE、U±dU（三个方向的位移及误差）
+
+    STEP 5：点击 Export（输出）按钮保存结果
+
+    .. image:: ../images/menu_image/Analysis/result_EstimateCoseismicDisplacement.png
+        :align: center
+
+
+3.5.3 Standard Deviation（标准差）
+~~~~~~~~~~~~~~~~~~
+该功能用于估计InSAR形变影像数据的标准差。通过选取形变区域范围，对非形变区域内的像素值进行统计计算标准差，从而评估InSAR数据的观测噪声水平。
+
+    .. image:: ../images/menu_image/Analysis/dialog_StandardDeviation.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：设置 Input（输入），选择 Image Data（影像数据文件.img）
+
+    STEP 2：设置 Parameters Setting（参数设置），在 Range of deformation region（形变区域范围）下拉列表中选择之前绘制的多边形注记范围（用于排除形变区域，仅统计非形变区域的像素）
+
+    STEP 3：点击 Calculate（计算）按钮，结果将显示在 Result（结果）区域的 Standard deviation（标准差）文本框中
+
+    .. image:: ../images/menu_image/Analysis/result_StandardDeviation.png
+        :align: center
+
+
+3.5.4 Surface Rupture（地表破裂）
+~~~~~~~~~~~~~~~~~~
+该功能用于计算InSAR数据的地表破裂范围
+
+    .. image:: ../images/menu_image/Analysis/dialog_SurfaceRupture.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：选择 InSAR LOS 数据文件（.los）
+
+    STEP 2：设置阈值等参数
+
+    STEP 3：点击 Calculate（计算）按钮即可得到破裂范围结果
+
+    .. image:: ../images/menu_image/Analysis/result_SurfaceRupture.png
+        :align: center
+
+
+3.5.5 Deformation Zone Width（形变带宽度）
+~~~~~~~~~~~~~~~~~~
+该功能用于计算InSAR数据的形变带宽度
+
+    .. image:: ../images/menu_image/Analysis/dialog_DeformationZoneWidth.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：选择 InSAR LOS 数据文件（.los）
+
+    STEP 2：设置阈值等参数
+
+    STEP 3：点击 Calculate（计算）按钮即可得到形变带宽度结果
+
+    .. image:: ../images/menu_image/Analysis/result_DeformationZoneWidth.png
+        :align: center
+
+
+3.5.6 Calculate Min/Max Values（计算最大最小值）
+~~~~~~~~~~~~~~~~~~
+该功能用于对库伦应力数据、GNSS数据、SAR数据进行统计分析，计算最大值、最小值、平均值，并绘制直方图。
+
+    对话框界面如下：
+
+    .. image:: ../images/menu_image/Analysis/dialog_CalculateMinMaxValues.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：设置 Input（输入），选择 Statistic Analysis Data（统计分析数据文件），支持多选，文件类型包括：
+      * Coulomb Stress Data（库伦应力数据.cfs）
+      * GPS Data（GNSS数据.gps）
+      * Sar Data（SAR数据.sar）
+
+    STEP 2：设置 Settings for Statistic（统计设置）
+      * Statistic After Abs（取绝对值后统计），勾选后对所有数据取绝对值再进行统计
+
+    STEP 3：设置 Setting for Plot（绘图设置）
+      * Bin numbers（分箱数），设置范围为1-10000，默认值为10
+      * Unit（单位），默认为cm/yr
+
+    STEP 4：点击 Plot（绘制）按钮，系统将计算结果并绘制直方图，统计结果显示在 Statistic Results（统计结果）区域：
+      * Max（最大值）
+      * Min（最小值）
+      * Average（平均值）
+
+    .. image:: ../images/menu_image/Analysis/result_CalculateMinMaxValues.png
+        :align: center
+
+
+3.5.7 Cumulative Seismic Moment（累积地震力矩）
+~~~~~~~~~~~~~~~~~~
+该功能用于计算累积地震力矩
+
+    .. image:: ../images/menu_image/Analysis/dialog_CalculateTotalSeismicMoment.png
+        :align: center
+
+    STEP 1：先输入Fault geometry model File（断层几何模型文件.tri .rec .flt）和Earthquake recurrence interval File（地震重复间隔文件.eri）
+
+    STEP 2：设置Reference Ellipsoid（参考椭球）、L0（研究区中央经线）、Current Time（当前时间）
+      * Reference Ellipsoid（参考椭球），可设置为WGS-84（默认）、Krassovsky Ellipsoid、International Ellipsoid 1975椭球
+      * L0（研究区中央经线），设置范围为0.00-360
+      * Current Time（当前时间），设置研究对应时间
+
+    STEP 3：点击Calculate（计算）按钮即可得到累积地震力矩结果：
+
+     .. image:: ../images/menu_image/Analysis/result_CalculateTotalSeismicMoment.png
+        :align: center
+
+
+3.5.8 Temporal Decay of Aftershocks（余震时间衰减）
+~~~~~~~~~~~~~~~~~~
+该功能用于拟合余震的时间衰减规律
+
+    .. image:: ../images/menu_image/Analysis/dialog_TemporalDecayOfAftershocks.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：选择 Earthquake Catalog Data（地震目录数据.etc）
+
+    STEP 2：设置 Parameters Setting（参数设置）
+      * Model Type（模型类型），可设置为 Omori model（Omori模型）或 Perfinite model（Perfinite模型）
+      * Statistic Interval（统计间隔），可设置为 Half day（半天）、Day（日）、Month（月）、Year（年）
+      * Earthquake occurence date（地震发生日期）
+
+    STEP 3：点击 Calculate（计算）按钮进行拟合，结果将显示在 Export Params（输出参数）区域，包括 K、C、P、R0、TR、D 等参数
+
+    .. image:: ../images/menu_image/Analysis/result_TemporalDecayOfAftershocks.png
+        :align: center
+
+
+3.5.9 Spatial Distribution of Aftershocks（余震空间分布）
+~~~~~~~~~~~~~~~~~~
+该功能用于分析余震空间分布与库伦应力变化（CFS）的相关性。通过统计余震落在库伦应力增加区域的数量占比，定量评估库伦应力变化对余震空间分布的控制作用。
+
+    对话框界面如下：
+
+    .. image:: ../images/menu_image/Analysis/dialog_SpatialDistributionOfAftershocks.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：设置 Input（输入），主要包含以下参数：
+      * Input Earthquake catalog File（地震目录数据文件.etc）
+      * Input CFS Data File（库伦应力变化数据文件.img或.tif）
+
+    STEP 2：点击 Statistic（统计）按钮，系统将统计落在CFS正值区域的余震数量并计算相关度
+
+    STEP 3：统计结果将显示在 OutPut（输出）区域的 Correlation degree（%）文本框中，表示落在CFS增加区域的余震数占总余震数的百分比
+
+    .. image:: ../images/menu_image/Analysis/result_SpatialDistributionOfAftershocks.png
+        :align: center
+
+
+3.5.10 Focal Mechanism and Depth（震源机制与深度）
+~~~~~~~~~~~~~~~~~~
+该功能用于分析震源机制解（.fms）随深度的分布规律。按照用户设定的深度间隔，将地震按Rake角分类为走滑（Strike-slip）、正断（Normal）、逆冲（Reverse）三种类型，并统计各深度区间内不同类型地震的数量，以柱状图形式展示震源机制类型随深度的变化。
+
+    对话框界面如下：
+
+    .. image:: ../images/menu_image/Analysis/dialog_FocalMechanismAndDepth.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：设置 Input File（输入文件）
+      * Focal Mechanism Layer（震源机制解数据文件.fms）
+
+    STEP 2：设置 Depth interval（深度间隔，单位km），用于划分深度区间进行统计
+
+    STEP 3：点击 Calculation（计算）按钮，系统将按Rake角对震源机制解进行分类统计，并在右侧 Plot（绘图）区域显示柱状图
+
+    .. image:: ../images/menu_image/Analysis/result_FocalMechanismAndDepth.png
+        :align: center
+
+
+3.5.11 Earthquake Occurrence Probability（地震发生概率）
+~~~~~~~~~~~~~~~~~~
+该功能基于Brownian Passage Time（BPT，布朗运动通过时间）模型估算地震发生概率。给定地震复发周期、已过时间、预测时段和变异系数，计算在未来预测时段内发生地震的概率。
+
+    对话框界面如下：
+
+    .. image:: ../images/menu_image/Analysis/dialog_EarthquakeOccurrenceProbability.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：设置 Input Parameters（输入参数），主要包含以下参数：
+      * Recurrence Interval（复发周期，单位year），设置范围为0-1000000
+      * Elapsed Time（已过时间），设置范围为0-1000000
+      * Forecast Period（预测时段），设置范围为0-1000000
+      * Coefficient Variations（变异系数），用于表征地震复发周期的离散程度
+
+    STEP 2：点击 Calculation（计算）按钮进行概率估算
+
+    STEP 3：计算结果将显示在 OutPut（输出）区域的 Earthquake probability（地震发生概率）标签后
+
+    .. image:: ../images/menu_image/Analysis/result_EarthquakeOccurrenceProbability.png
+        :align: center
+
+
+3.5.12 Fit Interseismic GNSS Time Series（震间GNSS时间序列拟合）
+~~~~~~~~~~~~~~~~~~
+该功能用于拟合震间GNSS时间序列
+
+.. image:: ../images/menu_image/Analysis/dialog_FitInterseismicGNSSTimeSeries.png
+    :align: center
+
+    **使用步骤：**
+
+    STEP 1：选择 GNSS Time Series（GNSS时间序列数据.tms）
+
+    STEP 2：设置拟合参数，包括拟合模型类型、起止时间等
+
+    STEP 3：点击 OK（确定）按钮即可得到拟合结果
+
+.. image:: ../images/menu_image/Analysis/result_FitInterseismicGNSSTimeSeries.png
+    :align: center
+
+
+3.5.13 Fit Postseismic GNSS Time Series（震后GNSS时间序列拟合）
+~~~~~~~~~~~~~~~~~~
+该功能用于拟合震后GNSS时间序列
+
+.. image:: ../images/menu_image/Analysis/dialog_FitPostseismicGNSSTimeSeries.png
+    :align: center
+
+    **使用步骤：**
+
+    STEP 1：选择 GNSS Time Series（GNSS时间序列数据.tms）
+
+    STEP 2：设置拟合参数，包括拟合模型类型（如对数衰减、指数衰减等）、起止时间等
+
+    STEP 3：点击 OK（确定）按钮即可得到拟合结果
+
+.. image:: ../images/menu_image/Analysis/result_FitPostseismicGNSSTimeSeries.png
+    :align: center
+
+
+3.5.14 Fit GNSS Velocities（GNSS速度拟合）
+~~~~~~~~~~~~~~~~~~
+该功能用于拟合GNSS速度场，包含2种方法：
+
+    .. image:: ../images/menu_image/Analysis/dialog_FitGNSSVelocities.png
+        :align: center
+
+1. Least Square Collocation（最小二乘配置法）
+
+    该方法基于最小二乘配置理论拟合GNSS速度场。
+
+    .. image:: ../images/menu_image/Analysis/dialog_LeastSquareCollocation.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：设置 Input（输入）
+      * Input GNSS Data File（输入GNSS数据文件.gnss）
+      * Input Coordinates File of the station to be estimated（待估计站点坐标文件.gnss）
+
+    STEP 2：设置 Params Setting（参数设置）
+      * Reference Ellipsoid（参考椭球），可设置为WGS-84（默认）、Krassovsky Ellipsoid、International Ellipsoid 1975
+      * L0(°)（研究区中央经线）
+      * Covariance Function Model（协方差函数模型），可设置为 Hiervinian formula、Gaussian function（默认）、Exponential function
+      * Statistic Interval（统计间隔）
+
+    STEP 3：设置 Euler Vector（欧拉向量，单位：°/a），包括 ωx、ωy、ωz 三个分量
+
+    STEP 4：点击 Calculate（计算）按钮进行拟合，点击 Export（输出）按钮保存结果
+
+2. Tension Spline Interpolation（张力样条插值法）
+
+    该方法基于张力样条插值理论拟合GNSS速度场。
+
+    .. image:: ../images/menu_image/Analysis/dialog_TensionSplineInterpolation.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：设置输入GNSS数据文件（.gnss）
+
+    STEP 2：设置张力样条插值相关参数
+
+    STEP 3：点击 Calculate（计算）按钮进行拟合，点击 Export（输出）按钮保存结果
+
+
+3.6 Tools (工具)
 -----------------
-Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault Geometry（构造断层几何）、Construct Checkboard Test Model（构造棋盘测试模型）等15项功能，如图所示。
+Tools (工具)菜单按功能分组包括Fault Geometry（断层几何）、Extract（提取）、Reference（参考）、Compare（比较）、Conversion（转换）等5组功能，如图所示。
 
 .. image:: ../images/menu_image/Tools/menu_tools.png
    :align: center
 
 具体包括下列功能：
 
-3.3.1 Data Extract（数据提取）
+3.6.1 Extract Fault Segment Parameters（提取断层分段参数）
 ~~~~~~~~~~~~~~~~~~
 
-    Data Extract（数据提取）菜单包括了：Extract Elevation Data（提取高程数据）、Extract Incidence/Azimuth Angle（提取入射角/方位角）、Extract Fault Segment Parameters（提取断层段参数）等8个子菜单，如图所示。
+    该功能通过设置断层分段参数，提取图层中矢量数据对应的断层迹线数据。请注意，提取断层分段参数时只能设置一个倾角和宽度，因此在后续的构建断层几何模型时，需要在输出的*.flt文件中根据需求修改每个分段的倾角和宽度数据。
+
+     .. image:: ../images/menu_image/Tools/dailog_ExtractFaultSegmentParameters.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：添加目标断层的矢量文件到图层（*.shp）
+
+     .. image:: ../images/menu_image/Tools/dailog_ExtractFaultSegmentParameters2.png
+        :align: center
+
+    STEP 2：打开提取断层分段参数的窗口，选择第一步添加的矢量文件作为输入，设置相应的高斯投影和断层几何参数，并设置好输出文件的路径和文件名
+
+     .. image:: ../images/menu_image/Tools/dailog_ExtractFaultSegmentParameters3.png
+        :align: center
+
+    STEP 3：点击Extract（提取）按钮，弹出成功提示框后，即可保存结果
+
+     .. image:: ../images/menu_image/Tools/result_ExtractFaultSegmentParameters.png
+        :align: center
+
+
+3.6.2 Calculate Bottom Coordinates of Fault Plane（计算断层面底部坐标）
+~~~~~~~~~~~~~~~~~~
+
+    该功能用于根据断层分段参数文件计算断层面的底部坐标
+
+    .. image:: ../images/menu_image/Tools/dialog_CalculateBottomCoordOfFaultPlane.png
+       :align: center
+
+    **使用步骤：**
+
+    STEP 1：选择 Fault Segment Parameters（断层分段参数文件.flt）
+
+    STEP 2：设置 Parameters for Gauss Projection（高斯投影参数）
+      * Reference Ellipsoid（参考椭球），可设置为WGS-84（默认）、Krasovsky Ellipsoid、International Ellipsoid 1975
+      * L0（研究区中央经线），设置范围为-180到360
+
+    STEP 3：点击 Construct（构造）按钮进行计算
+
+    STEP 4：点击 Export（输出）按钮保存结果
+
+
+3.6.3 Construct Fault Geometry Model（构造断层几何模型）
+~~~~~~~~~~~~~~~~~~
+
+    该功能可根据断层分段参数数据构建矩形或三角位错模型并输出相应的模型数据文件（同时会输出一个相应的断层分段行列数文件），可以构建的模型包含变走向角、变倾角、多个分支断层等各种复杂模型。具体参数设置如下图，主要包含输入文件、高斯投影参数、矩形网格大小、是否选用三角网格这些数据和参数设置。
+
+    .. image:: ../images/menu_image/Tools/btnMenu_ConstructFaultGeometry.png
+       :align: center
+
+    示例数据： `构造断层3D几何模型示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/GNSSVelocityProfile/构造断层3D几何模型示例数据.zip>`_
+
+    **使用步骤：**
+
+    STEP 1：选择提前准备好的断层参数文件（*.flt，通过断层参数提取并根据实际需求调整）
+
+    STEP 2：根据数据依次配置相应参数
+      * Reference Ellipsoid（参考椭球体）
+      * L0（中央子午线，即数据经度范围的中点）
+      * Length和Hight矩形错位patch的长度和高度尺寸
+      * Triangle勾选表示采用三角网格，否则即为矩形网格
+
+    STEP 3：点击Construct进行模型构建，并生成模型图片
+
+    STEP 4：点击Export（导出）按钮，选择输出文件的路径并设置文件名，然后确认即可保存结果
+
+(#) 构建矩形网格模型：
+
+      构建矩形网格模型的参数配置文件、模型及其输出数据格式如下：
+
+      .. image:: ../images/menu_image/Tools/dailog_ConstructRecFaultGeoModel.png
+         :align: center
+
+      在较为复杂的模型构建时，矩形网格划分明显存在一些空区（gap）或者重叠区域（overlap），此时需要更进一步采用三角网格划分，来消除gap和overlap使模型衔接连续
+
+      .. image:: ../images/menu_image/Tools/result_ConstructRecFaultGeoModel.png
+         :align: center
+
+(#) 构建三角网格模型：
+
+      构建矩形网格模型的参数配置文件、模型及其输出数据格式如下：
+
+      .. image:: ../images/menu_image/Tools/dailog_ConstructTriFaultGeoModel.png
+         :align: center
+
+      对比矩形网格模型，很明显消除了gap和overlap
+
+      .. image:: ../images/menu_image/Tools/result_ConstructTriFaultGeoModel.png
+          :align: center
+
+(#) 构建多个分支断层模型：
+
+      构建多个分支断层三角网格模型的参数配置文件、模型及其输出数据格式如下：
+
+      .. image:: ../images/menu_image/Tools/dailog_ConstructMultiBranchFaultGeoModel.png
+         :align: center
+
+
+      .. image:: ../images/menu_image/Tools/result_ConstructMultiBranchFaultGeoModel.png
+          :align: center
+
+
+3.6.4 Construct Checkboard Test Model（构造棋盘测试模型）
+~~~~~~~~~~~~~~~~~~
+
+    该功能可基于断层几何模型根据用户设定尺寸生成构造棋盘测试模型
+
+    .. image:: ../images/menu_image/Tools/CreateCheckboardTestModel.png
+       :align: center
+
+    示例数据： `构造棋盘测试模型示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/ConstructCheckboardTestModel/构造棋盘测试模型示例数据.zip>`_
+
+    **使用步骤：**
+
+    STEP 1：先输入或选择 Fault Geometry Model File（断层几何模型文件）
+
+    STEP 2：根据数据依次配置相应参数
+      * Chess Size的Row和Col（象棋尺寸所占的行和列）
+      * Fault Plane Grid的Row和Col（断层屏幕格网所占行和列）
+      * Sliding Amount（浮动总数）中Strike-slip Component（走滑分量）、Tilt Component（倾斜分量）、Split Component（断裂分量）
+
+    STEP 3：点击Construct进行构建，点击Export（导出）按钮，弹出成功提示框后，即可保存结果
+
+
+3.6.5 Data Extract（数据提取）
+~~~~~~~~~~~~~~~~~~
+
+    Data Extract（数据提取）菜单包括了：Extract Elevation Data（提取高程数据）、Extract Incidence/Azimuth Angle（提取入射角/方位角）、Extract Fault Segment Parameters（提取断层段参数）等6个子菜单，如图所示。
 
     .. image:: ../images/menu_image/Tools/btnMenu_DataExtract.png
        :align: center
@@ -504,48 +1519,7 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
         :align: center
 
 
-  3. Extract Fault Segment Parameters（提取断层分段参数）
-
-    该功能通过设置断层分段参数，提取图层中矢量数据对应的断层迹线数据。请注意，提取断层分段参数时只能设置一个倾角和宽度，因此在后续的构建断层几何模型时，需要在输出的*.flt文件中根据需求修改每个分段的倾角和宽度数据。
-
-     .. image:: ../images/menu_image/Tools/dailog_ExtractFaultSegmentParameters.png
-        :align: center
-
-    **使用步骤：**
-
-    STEP 1：添加目标断层的矢量文件到图层（*.shp）
-
-     .. image:: ../images/menu_image/Tools/dailog_ExtractFaultSegmentParameters2.png
-        :align: center
-
-    STEP 2：打开提取断层分段参数的窗口，选择第一步添加的矢量文件作为输入，设置相应的高斯投影和断层几何参数，并设置好输出文件的路径和文件名
-
-     .. image:: ../images/menu_image/Tools/dailog_ExtractFaultSegmentParameters3.png
-        :align: center
-
-    STEP 3：点击Extract（提取）按钮，弹出成功提示框后，即可保存结果
-
-     .. image:: ../images/menu_image/Tools/result_ExtractFaultSegmentParameters.png
-        :align: center
-
-
-  #. Extract GNSS Coseismic Displacement（提取GNSS等震线位移）
-
-    该功能通过设置时间范围提取GNSS等震线位移数据
-
-     .. image:: ../images/menu_image/Tools/dailog_ExtractGNSSCoseismicDisplacement.png
-        :align: center
-
-    **使用步骤：**
-
-    STEP 1：选择或输入GNSS时序数据（.tms）路径，输入合适的时间范围，DateTime1和DateTime2
-
-    STEP 2：点击OK，即可计算输出结果：N±dN、E±dE、U±dU，再点击Export即可导出计算结果
-
-     .. image:: ../images/menu_image/Tools/dialog_ExtractGNSSCoseismicDisplacement2.png
-        :align: center
-
-  #. Extract Leveling Data within Block（提取范围内的水准数据）
+  3. Extract Leveling Data within Block（提取范围内的水准数据）
 
      该功能用于提取多边形范围内的水准数据
 
@@ -564,7 +1538,7 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
      .. image:: ../images/menu_image/Tools/dialog_ExtractLevelingDataWithBlock2.png
         :align: center
 
-  #. Extract GNSS Data within Block（提取范围内的GNSS数据）
+  4. Extract GNSS Data within Block（提取范围内的GNSS数据）
 
       该功能用于提取多边形范围内的GNSS数据
 
@@ -583,7 +1557,7 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
      .. image:: ../images/menu_image/Tools/dialog_ExtractGNSSWithinBlock2.png
         :align: center
 
-  #. Extract InSAR Data within Block（提取范围内的InSar数据）
+  5. Extract InSAR Data within Block（提取范围内的InSar数据）
 
       该功能用于提取多边形范围内的InSar数据
 
@@ -602,7 +1576,7 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
      .. image:: ../images/menu_image/Tools/dialog_ExtractInSARDataWithinBlock2.png
         :align: center
 
-  #. Extract Earthquakes within Block（提取范围内的地震数据）
+  6. Extract Earthquakes within Block（提取范围内的地震数据）
 
       该功能用于提取多边形范围内的地震数据
 
@@ -621,748 +1595,816 @@ Tools (工具)菜单主要包括Data Extract（数据提取）、Construct Fault
      .. image:: ../images/menu_image/Tools/dialog_ExtractEarthquakesWithinBlock2.png
         :align: center
 
-3.3.2 Construct 3D Geometry Faults（构造断层3D几何模型）
+
+3.6.6 Gauss Projection: EN2XY（高斯投影:经纬度转投影坐标）
 ~~~~~~~~~~~~~~~~~~
 
-    该功能可根据断层分段参数数据构建矩形或三角位错模型并输出相应的模型数据文件（同时会输出一个相应的断层分段行列数文件），可以构建的模型包含变走向角、变倾角、多个分支断层等各种复杂模型。具体参数设置如下图，主要包含输入文件、高斯投影参数、矩形网格大小、是否选用三角网格这些数据和参数设置。
+    该功能用于将经纬度坐标（B, L）转换为高斯投影坐标（X, Y）。对话框提供3种转换模式：单点按分带、单点按中央子午线、批量转换。
 
-    .. image:: ../images/menu_image/Tools/btnMenu_ConstructFaultGeometry.png
-       :align: center
+1. Pattern One（模式1：按分带转换）
 
-    示例数据： `构造断层3D几何模型示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/GNSSVelocityProfile/构造断层3D几何模型示例数据.zip>`_
-    
-    **使用步骤：**
-
-    STEP 1：选择提前准备好的断层参数文件（*.flt，通过断层参数提取并根据实际需求调整）
-
-    STEP 2：根据数据依次配置相应参数
-      * Reference Ellipsoid（参考椭球体）
-      * L0（中央子午线，即数据经度范围的中点）
-      * Length和Hight矩形错位patch的长度和高度尺寸
-      * Triangle勾选表示采用三角网格，否则即为矩形网格
-
-    STEP 3：点击Construct进行模型构建，并生成模型图片
-
-    STEP 4：点击Export（导出）按钮，选择输出文件的路径并设置文件名，然后确认即可保存结果
-
-(#) 构建矩形网格模型：
-
-      构建矩形网格模型的参数配置文件、模型及其输出数据格式如下：
-
-      .. image:: ../images/menu_image/Tools/dailog_ConstructRecFaultGeoModel.png
-         :align: center
-
-      在较为复杂的模型构建时，矩形网格划分明显存在一些空区（gap）或者重叠区域（overlap），此时需要更进一步采用三角网格划分，来消除gap和overlap使模型衔接连续
-
-      .. image:: ../images/menu_image/Tools/result_ConstructRecFaultGeoModel.png
-         :align: center  
-
-(#) 构建三角网格模型：
-
-      构建矩形网格模型的参数配置文件、模型及其输出数据格式如下：
-
-      .. image:: ../images/menu_image/Tools/dailog_ConstructTriFaultGeoModel.png
-         :align: center
-
-      对比矩形网格模型，很明显消除了gap和overlap
-
-      .. image:: ../images/menu_image/Tools/result_ConstructTriFaultGeoModel.png
-          :align: center
-
-(#) 构建多个分支断层模型：
-
-      构建多个分支断层三角网格模型的参数配置文件、模型及其输出数据格式如下：
-
-      .. image:: ../images/menu_image/Tools/dailog_ConstructMultiBranchFaultGeoModel.png
-         :align: center
-
-
-      .. image:: ../images/menu_image/Tools/result_ConstructMultiBranchFaultGeoModel.png
-          :align: center
-
-
-3.3.3 Construct Checkboard Test Model（构造棋盘测试模型）
-~~~~~~~~~~~~~~~~~~
-
-    该功能可基于断层几何模型根据用户设定尺寸生成构造棋盘测试模型
-
-    .. image:: ../images/menu_image/Tools/CreateCheckboardTestModel.png
-       :align: center
-
-    示例数据： `构造棋盘测试模型示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/ConstructCheckboardTestModel/构造棋盘测试模型示例数据.zip>`_
-
-    **使用步骤：**
-
-    STEP 1：先输入或选择 Fault Geometry Model File（断层几何模型文件）
-
-    STEP 2：根据数据依次配置相应参数
-      * Chess Size的Row和Col（象棋尺寸所占的行和列）
-      * Fault Plane Grid的Row和Col（断层屏幕格网所占行和列）
-      * Sliding Amount（浮动总数）中Strike-slip Component（走滑分量）、Tilt Component（倾斜分量）、Split Component（断裂分量）
-
-    STEP 3：点击Construct进行构建，点击Export（导出）按钮，弹出成功提示框后，即可保存结果
-
-3.3.4 Construct Deep Slip Model（构造深部滑移模型）
-~~~~~~~~~~~~~~~~~~
-
-    该功能可基于断层几何模型生成深部滑移模型
-
-    .. image:: ../images/menu_image/Tools/dailog_ConstructDeepSlipModel.png
-       :align: center
-
-    示例数据： `构造深部滑移模型示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/ConstructDeepSlipModel/构造深部滑移模型示例数据.zip>`_
-
-    **使用步骤：**
-
-    STEP 1：输入或选择 Fault Geometry Model File（断层几何模型文件）
-
-    STEP 2：输入或选择 Longterm Slip Model File（长期滑移模型文件）
-
-    STEP 3：输入或选择 Negative Slip Model File（负滑移模型文件）
-
-    STEP 4：点击Construct进行构建，点击Export（导出）按钮，弹出成功提示框后，即可保存结果
-
-
-3.3.5 Gauss Projection:EN2XY（高斯投影:经纬度转投影坐标）
-~~~~~~~~~~~~~~~~~~
-
-    该功能用于将经纬度坐标转换为高斯投影坐标
-
-1. 模式1
-    
     .. image:: ../images/menu_image/Tools/dailog_GaussProjectionEN2XY.png
        :align: center
 
     **使用步骤：**
 
-    STEP 1：输入Longitude（经度）、Latitude（纬度）、Zone Width（分带宽度）、Reference Ellipsoid（参考椭球体）
+    STEP 1：输入 Input（输入参数）
+      * Longitude（经度）
+      * Latitude（纬度）
+      * Zone Width（分带宽度），可设置为6度或3度
 
-    STEP 2：点击OK，自动计算X、Y、Zone Num（带号）结果
+    STEP 2：设置 Reference Ellipsoid（参考椭球体），可设置为 Krassovsky Ellipsoid、International Ellipsoid 1975 或 WGS-84（默认）
 
-3.3.6 Gauss Projection:XY2EN（高斯投影:投影坐标转经纬度）
+    STEP 3：点击 Convert（转换）按钮，自动计算 Output（输出结果）
+      * X（X坐标）
+      * Y（Y坐标）
+      * Zone Num（带号）
+
+2. Pattern Two（模式2：按中央子午线转换）
+
+    STEP 1：输入 Input（输入参数）
+      * Longitude（经度）
+      * Latitude（纬度）
+      * L0（中央子午线），设置范围为-360到360
+
+    STEP 2：设置 Reference Ellipsoid（参考椭球体）
+
+    STEP 3：点击 Convert（转换）按钮，自动计算 Output（输出结果）
+      * X（X坐标）
+      * Y（Y坐标）
+
+3. Batch Conversion（模式3：批量转换）
+
+    STEP 1：设置 Input（输入），选择 Add Point File（点文件，后缀为.nll或.etc）
+
+    STEP 2：设置 Save File to（输出文件路径，后缀为.nxy）和 L0（中央子午线）
+
+    STEP 3：设置 Reference Ellipsoid（参考椭球体），点击 Convert（转换）按钮进行批量转换
+
+
+3.6.7 Gauss Projection: XY2EN（高斯投影:投影坐标转经纬度）
 ~~~~~~~~~~~~~~~~~~
 
-    该功能用于将高斯投影坐标转换为经纬度坐标
+    该功能用于将高斯投影坐标（X, Y）转换为经纬度坐标（B, L）。对话框提供3种转换模式：单点按分带、单点按中央子午线、批量转换。
 
-1. 模式1
+1. Pattern One（模式1：按分带转换）
 
     .. image:: ../images/menu_image/Tools/dailog_GaussProjectionXY2EN.png
        :align: center
 
     **使用步骤：**
 
-    STEP 1：输入X、Y、Zone Num（带号）、Reference Ellipsoid（参考椭球体）
+    STEP 1：输入 Input（输入参数）
+      * X（X坐标）
+      * Y（Y坐标）
+      * Zone Width（分带宽度），可设置为6度或3度
 
-    STEP 2：点击OK，自动计算Longitude（经度）、Latitude（纬度）、Zone Width（分带宽度）结果
+    STEP 2：设置 Reference Ellipsoid（参考椭球体），可设置为 Krassovsky Ellipsoid、International Ellipsoid 1975 或 WGS-84（默认）
+
+    STEP 3：点击 Convert（转换）按钮，自动计算 Output（输出结果）
+      * Longitude（经度）
+      * Latitude（纬度）
+      * Zone Num（带号）
+
+2. Pattern Two（模式2：按中央子午线转换）
+
+    STEP 1：输入 Input（输入参数）
+      * X（X坐标）
+      * Y（Y坐标）
+      * L0（中央子午线），设置范围为-360到360
+
+    STEP 2：设置 Reference Ellipsoid（参考椭球体）
+
+    STEP 3：点击 Convert（转换）按钮，自动计算 Output（输出结果）
+      * Longitude（经度）
+      * Latitude（纬度）
+
+3. Batch Conversion（模式3：批量转换）
+
+    STEP 1：设置 Input（输入），选择 Add Point File（点文件，后缀为.nxy）
+
+    STEP 2：设置 Save File to（输出文件路径，后缀为.nll）和 L0（中央子午线）
+
+    STEP 3：设置 Reference Ellipsoid（参考椭球体），点击 Convert（转换）按钮进行批量转换
 
 
-3.3.7 Reference Frame Conversion（参考框架转换）
+3.6.8 Compare GNSS/InSAR Displacement（比较GNSS/InSAR位移）
 ~~~~~~~~~~~~~~~~~~
+该功能用于比较GNSS观测位移与InSAR LOS向位移的一致性。通过将GNSS三分量位移投影到InSAR视线向（LOS），与对应位置处的InSAR格网数据进行对比，并按指定块大小统计二者之间的误差，从而评估GNSS与InSAR观测结果的精度与差异。
 
-    该功能用于进行数据参考框架的转换
+    对话框界面如下：
 
-    .. image:: ../images/menu_image/Tools/dailog_ReferenceFrameConversion.png
-       :align: center
-
-    示例数据： `GNSS示例数据 <https://github.com/wanghai1988/qtgahelp/blob/main/examples/Plot/ReferenceFrameConversion/GNSS示例数据.gnss>`_
+    .. image:: ../images/menu_image/Analysis/dialog_CompareGNSSInSARDisplacement.png
+        :align: center
 
     **使用步骤：**
 
-    STEP 1：输入或选择GNSS数据的路径
+    STEP 1：设置 Input（输入数据），主要包含以下参数：
+      * Input GNSS Data（GNSS数据文件，后缀为.gnss）
+      * Input InSAR Data（InSAR数据文件，后缀为.img或.tif）
+      * Input Incident Angle Data（入射角数据文件，后缀为.img或.tif）
+      * Input Azimuth Data File（方位角数据文件，后缀为.img或.tif）
 
-    STEP 2：输入Euler Vector（欧拉向量）
+    STEP 2：设置 Parameters Setting（参数设置），主要包含以下参数：
+      * Block Size（块大小），用于设置统计GNSS与InSAR误差的格网块尺寸，可选项为16×16、32×32、64×64、128×128
 
-    STEP 3：输入Earth Radius（地球半径）、Reverse（反向）
+    STEP 3：点击 Compare（比较）按钮，系统会按所选块大小在GNSS站点周围提取InSAR像素并投影至LOS向进行对比，统计结果输出至 Error statistics（误差统计）区域：
+      * GNSS：GNSS投影至LOS向的误差统计值
+      * InSAR：InSAR格网数据的误差统计值
 
-    STEP 4：点击Translation（转换）进行计算，点击Export（导出）按钮，弹出成功提示框后，即可保存结果
+    .. image:: ../images/menu_image/Analysis/CompareGNSSInSARDisplacement.png
+        :align: center
 
-    **相关知识：Coordinate Systems (坐标系统)**
 
-    软件使用的地理坐标系统（Geographic Coordinate System）为World Geodetic System 1984（简称WGS84），其EPSG编码为4326。
-
-    软件使用的投影坐标系统（Projected Coordinate System）为高斯克吕格投影（Gauss-Kruger projection）。
-
-    在加载数据时，如果数据本身带有坐标系统，软件会采用动态投影自动转换至当前坐标系统下，也可采用系统提供的坐标转换工具进行转换，如：`Gauss Projection:EN2XY（高斯投影:经纬度转投影坐标） <https://qtgahelpdoc.readthedocs.io/en/latest/3%20Function%20%28%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D%29.html#gauss-projection-en2xy>`_、`Gauss Projection:XY2EN（高斯投影:投影坐标转经纬度） <https://qtgahelpdoc.readthedocs.io/en/latest/3%20Function%20%28%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D%29.html#gauss-projection-xy2en>`_ 和 `Reference Frame Conversion（参考框架转换） <https://qtgahelpdoc.readthedocs.io/en/latest/3%20Function%20%28%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D%29.html#reference-frame-conversion>`_。
-
-3.3.8 Data Format Conversion（数据格式转换）
+3.6.9 Data Format Conversion（数据格式转换）
 ~~~~~~~~~~~~~~~~~~
 
-    该功能用于进行栅格或矢量格式的转换
+    该功能用于进行栅格或矢量格式的转换，包含13种转换类型。所有转换对话框结构相似：设置 Input（输入文件）→ Output（输出文件）→ 点击 Convert（转换）按钮。
 
     .. image:: ../images/menu_image/Tools/btnMenu_DataFormatConversion.png
        :align: center
 
-1. BIN -> IMG（二进制转IMG）
-    该功能用于将二进制数据转换为IMG格式数据，输入数据为二进制数据文件和对应的头文件，输出数据为IMG格式数据（注：勾选Diplopia data选项表示二进制数据为复视数据）
+1. TIF -> IMG
+    该功能用于将TIF格式数据转换为IMG格式数据。
+
+    **使用步骤：**
+
+    STEP 1：设置 Input（输入），选择 Tif Data File（TIF数据文件.tif）
+
+    STEP 2：设置 Output（输出），选择 Image File（IMG数据文件.img）保存路径
+
+    STEP 3：点击 Convert（转换）按钮进行转换
+
+    .. image:: ../images/menu_image/Tools/dialog_TIF2IMG.png
+       :align: center
+
+2. GRD -> IMG
+    该功能用于将GRD格式数据转换为IMG格式数据。
+
+    **使用步骤：**
+
+    STEP 1：设置 Input（输入），选择 Grd Data File（GRD数据文件.grd）
+
+    STEP 2：设置 Output（输出），选择 Image File（IMG数据文件.img）保存路径
+
+    STEP 3：点击 Convert（转换）按钮进行转换
+
+    .. image:: ../images/menu_image/Tools/dialog_GRD2IMG.png
+       :align: center
+
+3. BIN -> IMG（二进制转IMG）
+    该功能用于将二进制数据转换为IMG格式数据。输入数据为二进制数据文件（.bin）和对应的头文件（.rsc），输出数据为IMG格式数据。勾选 Diplopia data 选项表示二进制数据为复视数据。
+
+    **使用步骤：**
+
+    STEP 1：设置 Input（输入），选择 Binary Data File（二进制数据文件.bin）和 Header File（头文件.rsc）
+
+    STEP 2：设置 Output（输出），选择 Image File（IMG数据文件.img）保存路径
+
+    STEP 3：如需要，勾选 Diplopia data（复视数据）选项
+
+    STEP 4：点击 Convert（转换）按钮进行转换
 
     .. image:: ../images/menu_image/Tools/dialog_BIN2IMG.png
        :align: center
-    
-2. IMG -> BIN（IMG转二进制）
-    该功能用于将IMG格式数据转换为二进制数据，输入数据为IMG格式数据，输出数据为二进制数据文件和对应的头文件。
+
+4. IMG -> BIN（IMG转二进制）
+    该功能用于将IMG格式数据转换为二进制数据。输入数据为IMG格式数据（.img或.tif），输出数据为二进制数据文件（.bin）和对应的头文件（.rsc）。
+
+    **使用步骤：**
+
+    STEP 1：设置 Input（输入），选择 Image File（IMG数据文件.img或.tif）和 Rsc File（头文件.rsc）
+
+    STEP 2：设置 Output（输出），选择 Bin File（二进制数据文件.bin）保存路径
+
+    STEP 3：点击 Convert（转换）按钮进行转换
 
     .. image:: ../images/menu_image/Tools/dialog_IMG2BIN.png
        :align: center
 
-3. POS -> TMS（POS转GNSS时序数据）
-    该功能用于将POS格式数据转换为GNSS时序数据，输入数据为POS格式数据，输出数据为GNSS时序数据。
+5. POS -> TMS（POS转GNSS时序数据）
+    该功能用于将POS格式数据转换为GNSS时序数据（TMS）。输入数据为POS格式数据（.pos）和参考POS文件（.pos），输出数据为GNSS时序数据（.tms）。
+
+    **使用步骤：**
+
+    STEP 1：设置 Input（输入），选择 Pos File（POS数据文件.pos）和 Reference Pos File（参考POS文件.pos）
+
+    STEP 2：设置 Output（输出），选择 TMS File（GNSS时序数据文件.tms）保存路径
+
+    STEP 3：点击 Convert（转换）按钮进行转换
 
     .. image:: ../images/menu_image/Tools/dialog_POS2TMS.png
        :align: center
 
-4. NLL -> SHP（NLL转SHP）
-    该功能用于将NLL格式数据转换为SHP格式数据，输入数据为NLL格式数据，输出数据为SHP格式数据。
+6. NLL -> SHP（NLL转SHP）
+    该功能用于将NLL格式数据转换为SHP格式数据。输入数据为NLL格式数据（.nll），输出数据为SHP格式数据。
+
+    **使用步骤：**
+
+    STEP 1：设置 Input（输入），选择 NLL File（NLL数据文件.nll）
+
+    STEP 2：设置 Output（输出），选择 SHP 文件保存路径
+
+    STEP 3：点击 Convert（转换）按钮进行转换
 
     .. image:: ../images/menu_image/Tools/dialog_NLL2SHP.png
        :align: center
 
-5. LEV -> SHP（水准转SHP）
-    该功能用于将LEV水准数据转换为SHP格式数据，输入数据为LEV水准数据，输出数据为SHP格式数据。
+7. LEV -> SHP（水准转SHP）
+    该功能用于将LEV水准数据转换为SHP格式数据。输入数据为LEV水准数据（.lev），输出数据为SHP格式数据。
+
+    **使用步骤：**
+
+    STEP 1：设置 Input（输入），选择 Lev File（水准数据文件.lev）
+
+    STEP 2：设置 Output（输出），选择 SHP 文件保存路径
+
+    STEP 3：点击 Convert（转换）按钮进行转换
 
     .. image:: ../images/menu_image/Tools/dialog_LEV2SHP.png
        :align: center
 
-6. GPS -> SHP（GPS转SHP）
-    该功能用于将GPS数据转换为SHP格式数据，输入数据为GPS数据，输出数据为SHP格式数据。
+8. GNSS -> SHP（GNSS转SHP）
+    该功能用于将GNSS数据转换为SHP格式数据。输入数据为GNSS数据（.gnss），输出数据为SHP格式数据。
+
+    **使用步骤：**
+
+    STEP 1：设置 Input（输入），选择 GNSS File（GNSS数据文件.gnss）
+
+    STEP 2：设置 Output（输出），选择 SHP 文件保存路径
+
+    STEP 3：点击 Convert（转换）按钮进行转换
 
     .. image:: ../images/menu_image/Tools/dialog_GPS2SHP.png
        :align: center
 
-7. ETC -> SHP（地震转SHP）
-    该功能用于将ETC地震目录数据转换为SHP格式数据，输入数据为ETC地震目录数据，输出数据为SHP格式数据。
+9. ETC -> SHP（地震转SHP）
+    该功能用于将ETC地震目录数据转换为SHP格式数据。输入数据为ETC地震目录数据（.etc），输出数据为SHP格式数据。
+
+    **使用步骤：**
+
+    STEP 1：设置 Input（输入），选择 Etc File（地震目录数据文件.etc）
+
+    STEP 2：设置 Output（输出），选择 SHP 文件保存路径
+
+    STEP 3：点击 Convert（转换）按钮进行转换
 
     .. image:: ../images/menu_image/Tools/dialog_ETC2SHP.png
        :align: center
 
-8. SAR -> SHP（InSAR转SHP）
-    该功能用于将InSAR数据转换为SHP格式数据，输入数据为InSAR数据，输出数据为SHP格式数据。
+10. SAR -> SHP（InSAR转SHP）
+    该功能用于将InSAR数据转换为SHP格式数据。输入数据为InSAR数据（.sar或.los），输出数据为SHP格式数据。
+
+    **使用步骤：**
+
+    STEP 1：设置 Input（输入），选择 SAR File（InSAR数据文件.sar或.los）
+
+    STEP 2：设置 Output（输出），选择 SHP 文件保存路径
+
+    STEP 3：点击 Convert（转换）按钮进行转换
 
     .. image:: ../images/menu_image/Tools/dialog_SAR2SHP.png
        :align: center
 
-3.3.9 Clip Image（图像裁切）
-~~~~~~~~~~~~~~~~~~
+11. REC -> SHP
+    该功能用于将REC格式位错模型数据转换为SHP格式数据。输入数据为REC格式位错模型数据（.rec），输出数据为SHP格式数据。
 
-    该功能基于绘制范围进行栅格图像的裁切
+    **使用步骤：**
 
-    .. image:: ../images/menu_image/Tools/dialog_ClipImage.png
+    STEP 1：设置 Input（输入），选择 REC File（REC位错模型数据文件.rec）
+
+    STEP 2：设置 Output（输出），选择 SHP 文件保存路径
+
+    STEP 3：点击 Convert（转换）按钮进行转换
+
+    .. image:: ../images/menu_image/Tools/dialog_REC2SHP.png
        :align: center
 
-    STEP 1：先通过Map View工具栏中的Create Polygon（新建多边形）工具绘制一个多边形范围
+12. TRI -> SHP
+    该功能用于将TRI格式位错模型数据转换为SHP格式数据。输入数据为TRI格式位错模型数据（.tri），输出数据为SHP格式数据。
 
-     .. image:: ../images/menu_image/Tools/tool_CreatePolygon.png
-        :align: center
+    **使用步骤：**
 
-    STEP 2：添加栅格图像
+    STEP 1：设置 Input（输入），选择 TRI File（TRI位错模型数据文件.tri）
 
-    STEP 3：添加导出图像路径
+    STEP 2：设置 Output（输出），选择 SHP 文件保存路径
 
-    STEP 4：点击RUN（运行）进行计算，即可保存结果
+    STEP 3：点击 Convert（转换）按钮进行转换
 
-
-
-3.3.10 Superimpose Image（图像叠加）
-~~~~~~~~~~~~~~~~~~
-    该功能用于将2个图像进行像元叠加运算处理
-
-    .. image:: ../images/menu_image/Tools/dialog_SuperimposeImage.png
+    .. image:: ../images/menu_image/Tools/dialog_TRI2SHP.png
        :align: center
 
-    STEP 1：选择两幅需要叠加处理的图像
+13. GMT -> SHP
+    该功能用于将GMT格式数据转换为SHP格式数据。输入数据为GMT格式数据（.dat），输出数据为SHP格式数据。
 
-    STEP 2：设置输出图像的路径
+    **使用步骤：**
 
-    STEP 3：选择叠加方式（Plus为加运算，Minus为减运算）
+    STEP 1：设置 Input（输入），选择 GMT File（GMT数据文件.dat）
 
-    STEP 4：点击OK进行计算，即可保存结果
+    STEP 2：设置 Output（输出），选择 SHP 文件保存路径
 
-3.3.11 Merge Image（图像合并）
-~~~~~~~~~~~~~~~~~~
-    该功能用于将多个图像进行合并处理
+    STEP 3：点击 Convert（转换）按钮进行转换
 
-    .. image:: ../images/menu_image/Tools/dialog_MergeImages.png
-       :align: center
-
-    STEP 1：通过列表添加需要合并的图形
-
-    STEP 2：设置输出图像的路径
-
-    STEP 3：点击RUN（运行）进行计算，即可保存结果
-
-3.3.12 Compress Image（图像压缩）
-~~~~~~~~~~~~~~~~~~
-
-    .. image:: ../images/menu_image/Tools/btnMenu_CompressImage.png
-       :align: center
-
-1. Uniform Downsampling （均匀采样压缩）
-
-    .. image:: ../images/menu_image/Tools/dialog_UniformDownsampling.png
-       :align: center
-
-2. Uniform Downsampling （四叉树采样压缩）
-
-    .. image:: ../images/menu_image/Tools/dialog_QuadtreeDownsampling.png
-       :align: center
-
-3.3.13 Generate Fringe Pattern（生成干涉条纹）
-~~~~~~~~~~~~~~~~~~
-
-    .. image:: ../images/menu_image/Tools/dialog_GenerateFringePattern.png
-       :align: center
-
-3.3.14 Synthesize LOS Displacement（合成LOS位移）
-~~~~~~~~~~~~~~~~~~
-
-    .. image:: ../images/menu_image/Tools/dialog_SynthesizeLOSDisplacement.png
-       :align: center
-
-3.3.15 Correct Data（数据校正）
-~~~~~~~~~~~~~~~~~~
-
-    .. image:: ../images/menu_image/Tools/btnMenu_CorrectData.png
+    .. image:: ../images/menu_image/Tools/dialog_GMT2SHP.png
        :align: center
 
 
-1. Correct Raster Data （校正遥感数据）
-    该功能用于遥感数据进行校正修复
-
-    .. image:: ../images/menu_image/Tools/dialog_CorrectRasterData.png
-       :align: center
-
-2. Correct Downsampled LOS Displacement （校正降采样LOS位移数据）
-    该功能用于降采样LOS位移数据进行校正修复
-
-    .. image:: ../images/menu_image/Tools/dialog_CorrectDownsampledLOSDisplacement.png
-       :align: center
-
-3.4 Analysis (分析)
----------------------
-
-Analysis (分析)菜单主要包括Calculate Min/Max Values（同震地表位移）、Coseismic Stress Change（同震应力变化）、Coseismic Stress Change on Fault（断层上的同震应力变化）等8项功能，如图所示。
-
-3.4.1 Calculate Min/Max Values（计算最大最小值）
-~~~~~~~~~~~~~~~~~~
-该功能用于统计库伦应力数据、GNSS数据、SAR数据的最大最小值 
-
-    .. image:: ../images/menu_image/Analysis/dialog_CalculateMinMaxValues.png
-        :align: center  
-
-    STEP 1：先输入统计分析文件包括：Coulomb Stress Data（库伦应力数据.cfs）、GNSS Data（GNSS数据.gps）、SAR Data（SAR数据.sar）
-
-    STEP 2：设置Statistic After Abs（取绝对值后统计）、Setting for Plot（绘图设置）等
-        * Bin numbers 保留精度
-        * Unit 单位
-
-    STEP 3：点击Plot（绘图）按钮即可生成统计结果并绘图
-
-    .. image:: ../images/menu_image/Analysis/result_CalculateMinMaxValues.png
-        :align: center  
-
-3.4.2 Calculate Total Seismic Moment（计算总地震力矩）
-~~~~~~~~~~~~~~~~~~
-该功能用于计算总地震力矩
-
-    .. image:: ../images/menu_image/Analysis/dialog_CalculateTotalSeismicMoment.png
-        :align: center  
-
-    STEP 1：先输入Fault geometry model File（断层几何模型文件.tri .rec .flt）和Earthquake recurrence interval File（地震重复间隔文件.eri）
-
-    STEP 2：设置Reference Ellipsoid（参考椭球）、L0（研究区中央经线）、Current Time（当前时间）
-      * Reference Ellipsoid（参考椭球），可设置为WGS-84（默认）、Krassovsky Ellipsoid、International Ellipsoid 1975椭球
-      * L0（研究区中央经线），设置范围为0.00-360
-      * Current Time（当前时间），设置研究对应时间
-
-    STEP 3：点击Calculate（计算）按钮即可得到总地震力矩结果：
-
-     .. image:: ../images/menu_image/Analysis/result_CalculateTotalSeismicMoment.png
-        :align: center
-
-3.4.3 Compare GNSS/InSAR Displacement（比较GNSS/InSAR位移）
-~~~~~~~~~~~~~~~~~~
-该功能用于比较GNSS/InSAR位移 
-
-.. image:: ../images/menu_image/Analysis/dialog_CompareGNSSInSARDisplacement.png
-    :align: center  
-
-设置相关数据及参数，点击Compare（比较）按钮即可得到比较结果：
-
-.. image:: ../images/menu_image/Analysis/CompareGNSSInSARDisplacement.png
-    :align: center  
-
-3.4.4 Estimate Observation Standard Deviation（估计观测标准差）
-~~~~~~~~~~~~~~~~~~
-该功能用于估计观测标准差 
-
-.. image:: ../images/menu_image/Analysis/dialog_EstimateObservationStandardDeviation.png
-    :align: center 
-
-设置相关数据及参数，点击Calculate（计算）按钮即可得到估计结果：
-
-.. image:: ../images/menu_image/Analysis/result_EstimateObservationStandardDeviation.png
-    :align: center  
-
-
-3.4.5 Correlation between（相关性分析）
-~~~~~~~~~~~~~~~~~~
-1. Calculate Stressing Rate And Seismicity（计算应力变化速率和地震活动性）
-该功能用于计算应力变化速率和地震活动性
-
-.. image:: ../images/menu_image/Analysis/dialog_CalculateStressingRateAndSeismicity.png
-    :align: center 
-
-2. Correlation between Aftershocks and CFS Change（余震与库仑应力分布的相关性分析）
-该功能用于分析余震与库仑应力分布的相关性
-
-.. image:: ../images/menu_image/Analysis/dialog_CorrelationBetweenAftershocksAndCFSChange.png
-    :align: center 
-
-3.4.6 Fit Interseismic GNSS Time Series（震间GNSS时间序列拟合）
-~~~~~~~~~~~~~~~~~~
-该功能用于拟合震间GNSS时间序列 
-
-.. image:: ../images/menu_image/Analysis/dialog_FitInterseismicGNSSTimeSeries.png
-    :align: center  
-
-设置相关数据及参数，点击OK（确定）按钮即可得到结果：
-
-.. image:: ../images/menu_image/Analysis/result_FitInterseismicGNSSTimeSeries.png
-    :align: center  
-
-3.4.7 Fit Postseimic GNSS Time Series（震后GNSS时间序列拟合）
-~~~~~~~~~~~~~~~~~~
-该功能用于拟合震后GNSS时间序列 
-
-.. image:: ../images/menu_image/Analysis/dialog_FitPostseismicGNSSTimeSeries.png
-    :align: center  
-
-设置相关数据及参数，点击OK（确定）按钮即可得到结果：
-
-.. image:: ../images/menu_image/Analysis/result_FitPostseismicGNSSTimeSeries.png
-    :align: center 
-
-
-3.4.8 Fit Temporal Distribution Of Aftershocks （余震时间分布拟合）
-~~~~~~~~~~~~~~~~~~
-Fit Temporal Distribution Of Aftershocks，该菜单界面如下：
-
-    .. image:: ../images/menu_image/Analysis/FitTemporalDistributionOfAftershocks.png
-       :align: center 
-
-3.4.9 Fit GNSS Velocities（GNSS速度拟合）
-~~~~~~~~~~~~~~~~~~
-
-3.4.10 Correct Postseimic GNSS Time Series（震间GNSS时间序列修正）
-~~~~~~~~~~~~~~~~~~
-该功能用于修正震间GNSS时间序列
-
-.. image:: ../images/menu_image/Analysis/dialog_CorrectPostseismicGNSSTimeSeries.png
-    :align: center  
-
-设置相关数据及参数，点击OK（确定）按钮即可得到修正结果：
-
-.. image:: ../images/menu_image/Analysis/result_CorrectPostseismicGNSSTimeSeries.png
-    :align: center 
-
-
-3.5 Forward (正演)
+3.7 Forward (正演)
 -------------------
 
-3.5.1 Coseismic Surface Displacement（同震地表位移）
+Forward (正演)菜单按功能分组包括Coseismic（同震）、Postseismic（震后）、Inter（震间）、Function（函数）、Mogi Model（Mogi模型）等5组共9项正演功能，如图所示：
+
+.. image:: ../images/menu_image/Forward/menu_forward.png
+    :align: center
+
+具体包括下列功能：
+
+3.7.1 Coseismic Surface Displacement（同震地表位移）
 ~~~~~~~~~~~~~~~~~~
 
+    该功能用于根据位错模型正演计算同震地表位移，支持InSAR、GNSS、水准等多种观测数据。
 
-3.5.2 Coseismic Stress Change（同震应力变化）
+    .. image:: ../images/menu_image/Forward/dialog_CoseismicSurfaceDisplacement.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：根据需要勾选 InSAR deformation（InSAR形变）、GNSS deformation（GNSS形变）、Leveling deformation（水准形变）分组，并设置对应数据路径
+      * InSAR 数据包括 RDI file（栅格数据信息文件.rsc）、DEM Data（DEM数据.img）、Azimuth Angle（方位角.img）、Incidence Angle（入射角.img）、Linear Correction（线性改正项.lcp）
+      * GNSS 数据（.gnss）
+      * 水准数据（.lev）
+
+    STEP 2：选择 Rupture Model（破裂模型）文件（.rec/.tri/.flt）
+
+    STEP 3：设置 Crust Model（地壳模型）
+      * 勾选 Homogeneous（均匀半空间）时设置 λ（GPa，拉梅常数）、μ（GPa，剪切模量）
+      * 勾选 Layered Crust（分层地壳）时选择分层地壳模型文件（.lcm）
+
+    STEP 4：设置 Parameters for Gauss Projection（高斯投影参数）
+      * Reference Ellipsoid（参考椭球），可设置为WGS-84（默认）、Krasovsky Ellipsoid、International Ellipsoid 1975
+      * L0（研究区中央经线），设置范围为0-360
+
+    STEP 5：点击 Calculate（计算）按钮进行计算，点击 Export（输出）按钮保存结果
+
+
+3.7.2 Cosismic Stress Change（同震应力变化）
 ~~~~~~~~~~~~~~~~~~
 
+    该功能用于根据位错模型正演计算同震区域应力变化。
 
-3.5.3 Coseismic Stress Change on Fault（断层上的同震应力变化）
+    .. image:: ../images/menu_image/Forward/dialog_CoseismicStressChange.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：选择 Slip Distribution Model（位错滑动分布模型）文件（.rec/.tri/.flt）
+
+    STEP 2：设置 Crust Model（地壳模型），包括 Homogeneous（均匀半空间，需设置拉梅常数 λ、μ）或 Layered Crust（分层地壳，需选择 .lcm 文件）
+
+    STEP 3：设置 Parameters for Gauss Projection（高斯投影参数），包括 Reference Ellipsoid（参考椭球）和 L0（中央子午线）
+
+    STEP 4：点击 Calculate（计算）按钮进行计算，点击 Export（输出）按钮保存结果
+
+
+3.7.3 Cosismic Stress Change on Fault（断层上的同震应力变化）
 ~~~~~~~~~~~~~~~~~~
 
-3.5.4 Postseismic Stress Change（震后应力变化）
+    该功能用于根据位错模型正演计算断层上的同震应力变化。
+
+    .. image:: ../images/menu_image/Forward/dialog_CoseismicStressChangeOnFault.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：选择 Slip Distribution Model（位错滑动分布模型）文件（.rec/.tri/.flt）
+
+    STEP 2：设置 Crust Model（地壳模型），包括 Homogeneous（均匀半空间，需设置拉梅常数 λ、μ）或 Layered Crust（分层地壳，需选择 .lcm 文件）
+
+    STEP 3：设置 Parameters for Gauss Projection（高斯投影参数），包括 Reference Ellipsoid（参考椭球）和 L0（中央子午线）
+
+    STEP 4：点击 Calculate（计算）按钮进行计算，点击 Export（输出）按钮保存结果
+
+
+3.7.4 Postseismic Stress Change（震后应力变化）
 ~~~~~~~~~~~~~~~~~~
 
+    该功能用于正演计算震后区域应力变化，包含以下3种模型：
 
-3.5.5 Postseismic Surface Displacement（震后地表位移）
+1. Postseismic Stress Change - Viscoelastic Relaxation（粘弹性松弛模型）
+
+    该模型基于粘弹性松弛理论计算震后应力变化。
+
+    .. image:: ../images/menu_image/Forward/dialog_PostseismicStressChange_VR.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：选择 Slip Distribution Model（位错滑动分布模型）文件（.rec/.tri/.flt）
+
+    STEP 2：设置 Layered Crust Model（分层地壳模型文件.lcm）和粘弹性参数
+
+    STEP 3：设置 Parameters for Gauss Projection（高斯投影参数），包括 Reference Ellipsoid（参考椭球）和 L0（中央子午线）
+
+    STEP 4：点击 Calculate（计算）按钮进行计算，点击 Export（输出）按钮保存结果
+
+2. Postseismic Stress Change on Fault - Viscoelastic Relaxation（断层上的震后应力变化-粘弹性松弛模型）
+
+    该模型基于粘弹性松弛理论计算断层上的震后应力变化。
+
+    .. image:: ../images/menu_image/Forward/dialog_PostseismicStressChangeOnFault_VR.png
+        :align: center
+
+    **使用步骤：** 同上 Postseismic Stress Change - Viscoelastic Relaxation
+
+3. Postseismic Stress Change - Poroelastic Rebound（孔隙弹性回弹模型）
+
+    该模型基于孔隙弹性回弹理论计算震后应力变化。
+
+    .. image:: ../images/menu_image/Forward/dialog_PostseismicStressChange_PR.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：选择 Slip Distribution Model（位错滑动分布模型）文件（.rec/.tri/.flt）
+
+    STEP 2：设置 Crust Model（地壳模型），包括拉梅常数 λ、μ 等参数
+
+    STEP 3：设置 Parameters for Gauss Projection（高斯投影参数），包括 Reference Ellipsoid（参考椭球）和 L0（中央子午线）
+
+    STEP 4：点击 Calculate（计算）按钮进行计算，点击 Export（输出）按钮保存结果
+
+
+3.7.5 Postseismic Surface Displacement（震后地表位移）
 ~~~~~~~~~~~~~~~~~~
 
-3.5.6 Interseismic Surface Displacement（震间地表位移）
+    该功能用于正演计算震后地表位移，包含以下2种模型：
+
+1. Postseismic Surface Displacement - Viscoelastic Relaxation（粘弹性松弛模型）
+
+    该模型基于粘弹性松弛理论计算震后地表位移。
+
+    .. image:: ../images/menu_image/Forward/dialog_PostseismicSurfaceDisplacement_VR.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：选择 Slip Distribution Model（位错滑动分布模型）文件（.rec/.tri/.flt）
+
+    STEP 2：设置 Layered Crust Model（分层地壳模型文件.lcm）和粘弹性参数
+
+    STEP 3：设置 Parameters for Gauss Projection（高斯投影参数），包括 Reference Ellipsoid（参考椭球）和 L0（中央子午线）
+
+    STEP 4：点击 Calculate（计算）按钮进行计算，点击 Export（输出）按钮保存结果
+
+2. Postseismic Surface Displacement - Poroelastic Rebound（孔隙弹性回弹模型）
+
+    该模型基于孔隙弹性回弹理论计算震后地表位移。
+
+    .. image:: ../images/menu_image/Forward/dialog_PostseismicSurfaceDisplacement_PR.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：选择 Slip Distribution Model（位错滑动分布模型）文件（.rec/.tri/.flt）
+
+    STEP 2：设置 Crust Model（地壳模型），包括拉梅常数 λ、μ 等参数
+
+    STEP 3：设置 Parameters for Gauss Projection（高斯投影参数），包括 Reference Ellipsoid（参考椭球）和 L0（中央子午线）
+
+    STEP 4：点击 Calculate（计算）按钮进行计算，点击 Export（输出）按钮保存结果
+
+
+3.7.6 Interseismic Surface Displacement（震间地表位移）
 ~~~~~~~~~~~~~~~~~~
 
+    该功能用于正演计算震间地表位移，包含以下模型：
 
-3.5.7 Fault Stress Accumulation Rate（断层应力累积率）
+1. 2D Model（2D模型）
+
+    该模型基于2D位错理论计算震间地表位移。
+
+    .. image:: ../images/menu_image/Forward/dialog_InterseismicSurfaceDisplacement_2D.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：选择 Fault Geometry Model（断层几何模型）文件和相关数据
+
+    STEP 2：设置断层滑动速率等参数
+
+    STEP 3：设置 Parameters for Gauss Projection（高斯投影参数），包括 Reference Ellipsoid（参考椭球）和 L0（中央子午线）
+
+    STEP 4：点击 Calculate（计算）按钮进行计算，点击 Export（输出）按钮保存结果
+
+2. 3D Block Model（3D块体模型），包含2个子模型：
+
+    a. 3D Elastic Model（3D弹性模型）
+
+    该模型基于3D弹性位错理论计算震间地表位移。
+
+    .. image:: ../images/menu_image/Forward/dialog_InterseismicSurfaceDisplacement_3DEM.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：选择 Fault Geometry Model（断层几何模型）文件和块体运动参数
+
+    STEP 2：设置 Layered Crust Model（分层地壳模型文件.lcm）等参数
+
+    STEP 3：设置 Parameters for Gauss Projection（高斯投影参数），包括 Reference Ellipsoid（参考椭球）和 L0（中央子午线）
+
+    STEP 4：点击 Calculate（计算）按钮进行计算，点击 Export（输出）按钮保存结果
+
+    b. 3D Viscoelastic Model（3D粘弹性模型）
+
+    该模型基于3D粘弹性位错理论计算震间地表位移。
+
+    .. image:: ../images/menu_image/Forward/dialog_InterseismicSurfaceDisplacement_3DVM.png
+        :align: center
+
+    **使用步骤：** 同上 3D Elastic Model
+
+
+3.7.7 Fault Stress Accumulation Rate（断层应力累积率）
 ~~~~~~~~~~~~~~~~~~
 
-3.5.8 Green's Function for a Multi-layered Half-space（多层半空间的格林函数）
+    该功能用于正演计算断层面上的应力累积速率。
+
+    .. image:: ../images/menu_image/Forward/dialog_FaultStressAccumulationRate.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：选择 Fault Geometry Model（断层几何模型）文件（.rec/.tri/.flt）
+
+    STEP 2：设置 Crust Model（地壳模型），包括 Homogeneous（均匀半空间，需设置拉梅常数 λ、μ）或 Layered Crust（分层地壳）
+
+    STEP 3：设置 Parameters for Gauss Projection（高斯投影参数），包括 Reference Ellipsoid（参考椭球）和 L0（中央子午线）
+
+    STEP 4：点击 Calculate（计算）按钮进行计算，点击 Export（输出）按钮保存结果
+
+
+3.7.8 Green's Function for a Multi-layered Half-space（多层半空间的格林函数）
 ~~~~~~~~~~~~~~~~~~
 
+    该功能用于计算分层半空间模型的格林函数，为后续的正演计算提供基础数据。
 
-3.6 Invert (反演)
+    .. image:: ../images/menu_image/Forward/dialog_GreensFunctionMultiLayeredHalfSpace.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：设置 Layered Crust Model（分层地壳模型）参数，包括各层厚度、密度、P波速度、S波速度等
+
+    STEP 2：设置采样参数和计算范围
+
+    STEP 3：设置 Parameters for Gauss Projection（高斯投影参数），包括 Reference Ellipsoid（参考椭球）和 L0（中央子午线）
+
+    STEP 4：点击 Calculate（计算）按钮进行计算，点击 Export（输出）按钮保存格林函数文件（.bin）
+
+
+3.7.9 Forward Mogi Model Deformation（正演Mogi模型形变）
+~~~~~~~~~~~~~~~~~~
+
+    该功能用于计算Mogi点源模型产生的地表形变，支持InSAR、GNSS、水准等多种观测数据。
+
+    .. image:: ../images/menu_image/Forward/dialog_ForwardMogiModel.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：根据需要勾选 InSAR Deformation（InSAR形变）、GNSS Deformation（GNSS形变）、Leveling Deformation（水准形变）分组，并设置对应数据路径
+      * InSAR 数据包括 RDI file（.rsc）、Azimuth Angle（方位角.img）、Incidence Angle（入射角.img）
+      * GNSS 数据（.gnss）
+      * 水准数据（.lev）
+
+    STEP 2：选择 Mogi Model Parameters（Mogi模型参数）中的 Mogi source file（Mogi源文件.mog）
+
+    STEP 3：设置 Parameters for Gauss Projection（高斯投影参数）
+      * Reference Ellipsoid（参考椭球），可设置为WGS-84（默认）、Krasovsky Ellipsoid、International Ellipsoid 1975
+      * L0（研究区中央经线），设置范围为-180到180
+
+    STEP 4：点击 Calculate（计算）按钮进行计算，点击 Export（输出）按钮保存结果
+
+
+3.8 Invert (反演)
 ------------------
 
-3.6.1 Fault Geometry（断层几何形状）
+Invert (反演)菜单按功能分组包括Fault（断层）、Crust（地壳）、Interseismic（震间）、Mogi Model（Mogi模型）等4组共6项反演功能，如图所示：
+
+.. image:: ../images/menu_image/Invert/menu_invert.png
+    :align: center
+
+具体包括下列功能：
+
+3.8.1 Fault Geometry（断层几何形状）
 ~~~~~~~~~~~~~~~~~~
 
-3.6.2 Fault Slip Distribution（断层滑动分布）
+    该功能基于自适应多起始高斯-牛顿法（Adaptive Multistart Gauss-Newton Approach，AMGNA）反演断层几何参数，支持GNSS、InSAR LOS/ROS/AOS等多种观测数据。
+
+    .. image:: ../images/menu_image/Invert/dialog_FaultGeometry.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：设置 Input（输入数据）
+      * GNSS Data（GNSS数据.gnss）
+      * InSAR LOS Data（InSAR LOS数据.los）
+      * InSAR ROS Data（InSAR距离向偏移数据.ros）
+      * InSAR AOS Data（InSAR方位向偏移数据.aos）
+      * Parameters Constraint（参数约束文件.pni）
+
+    STEP 2：设置 Parameters for Gauss Projection（高斯投影参数）
+      * Reference Ellipsoid（参考椭球），可设置为WGS-84（默认）、Krasovsky Ellipsoid、International Ellipsoid 1975
+      * L0（研究区中央经线），设置范围为0-360
+
+    STEP 3：设置 Settings for Inversion Process（反演过程参数）
+      * Adapation（自适应）：可选 Yes/No
+      * Rupture Surface（破裂面）：可选 Yes/No
+      * λ(GPa)（拉梅常数）和 μ(GPa)（剪切模量）
+
+    STEP 4：设置 Origin Parameter Space（起始参数空间），包括 Sample（采样方式：Uniform/Non-uniform）等参数
+
+    STEP 5：点击 Calculate（计算）按钮进行反演，点击 Export（输出）按钮保存结果
+
+
+3.8.2 Fault Slip Distribution（断层滑动分布）
 ~~~~~~~~~~~~~~~~~~
 
-3.6.4 Fault Geometry and Slip（断层几何形状与滑动）
+    该功能基于给定的断层几何模型反演断层滑动分布，支持水准、GNSS、InSAR LOS/ROS/AOS等多种观测数据。
+
+    .. image:: ../images/menu_image/Invert/dialog_FaultSlipDistribution.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：设置 Input（输入数据）
+      * Leveling Data（水准数据.lev）
+      * GNSS Data（GNSS数据.gnss）
+      * InSAR LOS Data（InSAR LOS数据.los/.lcp）
+      * InSAR ROS Data（InSAR距离向偏移数据.ros/.lcp）
+      * InSAR AOS Data（InSAR方位向偏移数据.aos/.lcp）
+      * 3D Fault Geometry（3D断层几何模型文件.rec/.tri）
+
+    STEP 2：设置 Crust Model（地壳模型）
+      * 勾选 Homogeneous（均匀半空间）时设置 λ（GPa，拉梅常数）、μ（GPa，剪切模量）
+      * 勾选 Layered Crust（分层地壳）时选择 Green Function（格林函数文件.bin/.rsc）
+
+    STEP 3：设置 Parameters for Gauss Projection（高斯投影参数），包括 Reference Ellipsoid（参考椭球）和 L0（中央子午线）
+
+    STEP 4：点击 Calculate（计算）按钮进行反演，点击 Export（输出）按钮保存结果
+
+
+3.8.3 Fault Geometry and Slip（断层几何形状与滑动）
 ~~~~~~~~~~~~~~~~~~
 
-3.6.5 Crust Motion and Strain（地壳运动与应变）
+    该功能联合反演断层几何形状与滑动分布参数，同时反演断层几何和滑动量。
+
+    .. image:: ../images/menu_image/Invert/dialog_FaultGeometryAndSlip.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：设置输入数据（GNSS、InSAR等观测数据）和断层模型文件
+
+    STEP 2：设置 Crust Model（地壳模型），包括 Homogeneous（均匀半空间）或 Layered Crust（分层地壳）
+
+    STEP 3：设置 Parameters for Gauss Projection（高斯投影参数），包括 Reference Ellipsoid（参考椭球）和 L0（中央子午线）
+
+    STEP 4：设置反演参数和起始参数空间
+
+    STEP 5：点击 Calculate（计算）按钮进行反演，点击 Export（输出）按钮保存结果
+
+
+3.8.4 Crust Motion and Strain（地壳运动与应变）
 ~~~~~~~~~~~~~~~~~~
 
-3.6.6 Fault Interseismic Coupling（断层震间耦合）
+    该功能用于反演区域地壳运动和应变参数。
+
+    .. image:: ../images/menu_image/Invert/dialog_CrustMotionAndStrain.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：输入 GNSS 速度场数据（.gnss）
+
+    STEP 2：设置 Parameters for Gauss Projection（高斯投影参数），包括 Reference Ellipsoid（参考椭球）和 L0（中央子午线）
+
+    STEP 3：设置反演方法相关参数
+
+    STEP 4：点击 Calculate（计算）按钮进行反演，点击 Export（输出）按钮保存结果
+
+
+3.8.5 Fault Interseismic Coupling（断层震间耦合）
 ~~~~~~~~~~~~~~~~~~
 
-3.7 Evaluate (评估)
+    该功能用于反演断层震间耦合程度，包含以下模型：
+
+1. 2D Model（2D模型）
+
+    该模型基于2D位错理论反演断层面上的滑动亏损和耦合程度。
+
+    .. image:: ../images/menu_image/Invert/dialog_FaultInterseismicCoupling_2D.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：输入 GNSS 速度场数据（.gnss）和断层几何模型文件（.rec/.tri/.flt）
+
+    STEP 2：设置 Parameters for Gauss Projection（高斯投影参数），包括 Reference Ellipsoid（参考椭球）和 L0（中央子午线）
+
+    STEP 3：设置反演参数
+
+    STEP 4：点击 Calculate（计算）按钮进行反演，点击 Export（输出）按钮保存结果
+
+2. 3D Block Model（3D块体模型），包含2个子模型：
+
+    a. 3D Elastic Model（3D弹性模型）
+
+    该模型基于3D弹性位错理论反演断层面上的滑动亏损和耦合程度。
+
+    .. image:: ../images/menu_image/Invert/dialog_FaultInterseismicCoupling_3DEM.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：输入 GNSS 速度场数据（.gnss）和断层几何模型文件
+
+    STEP 2：设置 Layered Crust Model（分层地壳模型文件.lcm）等参数
+
+    STEP 3：设置 Parameters for Gauss Projection（高斯投影参数），包括 Reference Ellipsoid（参考椭球）和 L0（中央子午线）
+
+    STEP 4：点击 Calculate（计算）按钮进行反演，点击 Export（输出）按钮保存结果
+
+    b. 3D Viscoelastic Model（3D粘弹性模型）
+
+    该模型基于3D粘弹性位错理论反演断层面上的滑动亏损和耦合程度。
+
+    .. image:: ../images/menu_image/Invert/dialog_FaultInterseismicCoupling_3DVM.png
+        :align: center
+
+    **使用步骤：** 同上 3D Elastic Model
+
+3. 3D Earthquake Cycle Model（3D地震周期模型）
+
+    该模型基于3D地震周期理论反演断层面上的滑动亏损和耦合程度。
+
+    .. image:: ../images/menu_image/Invert/dialog_FaultInterseismicCoupling_3DEQCycle.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：输入 GNSS 速度场数据（.gnss）和断层几何模型文件
+
+    STEP 2：设置 Layered Crust Model（分层地壳模型文件.lcm）和地震周期相关参数
+
+    STEP 3：设置 Parameters for Gauss Projection（高斯投影参数），包括 Reference Ellipsoid（参考椭球）和 L0（中央子午线）
+
+    STEP 4：点击 Calculate（计算）按钮进行反演，点击 Export（输出）按钮保存结果
+
+
+3.8.6 Mogi Model Deformation Inversion（Mogi模型形变反演）
+~~~~~~~~~~~~~~~~~~
+
+    该功能用于反演Mogi点源模型的形变参数，支持InSAR、GNSS、水准等多种观测数据。
+
+    .. image:: ../images/menu_image/Invert/dialog_MogiModelInversion.png
+        :align: center
+
+    **使用步骤：**
+
+    STEP 1：根据需要勾选 InSAR Deformation（InSAR形变）、GNSS Deformation（GNSS形变）、Leveling Deformation（水准形变）分组，并设置对应数据路径
+      * InSAR 数据包括 RDI file（.rsc）、Azimuth Angle（方位角.img）、Incidence Angle（入射角.img）
+      * GNSS 数据（.gnss）
+      * 水准数据（.lev）
+
+    STEP 2：设置 Mogi 模型的初始参数和反演参数
+
+    STEP 3：设置 Parameters for Gauss Projection（高斯投影参数），包括 Reference Ellipsoid（参考椭球）和 L0（中央子午线）
+
+    STEP 4：点击 Calculate（计算）按钮进行反演，点击 Export（输出）按钮保存结果
+
+
+3.9 Evaluate (评估)
 --------------------
 
-Evaluate菜单包括下列功能：
-
-(1) Count Seismic Moment
-(#) Ocurrence Possibility
-(#) After shock Duration
-(#) Assess Earthquake OccurTime
-(#) Stress Disturb Time
+Evaluate (评估)菜单当前暂无功能。
 
 
-3.8 Cartography (制图)
----------------
-.. image:: ../images/menu_image/File/dialog_setLayoutView.png
-    :align: center
-功能说明：
+3.10 Help (帮助)
+-----------------
 
-    * |Layout List| Layout List（布局列表）下拉列表：该下拉列表用于显示当前布局视图，点击该下拉列表后，可切换所需的布局。
-    * |New Layout| New Layout（新建布局）按钮：点击该按钮后，会弹出New Print Layout（新建打印布局）对话框，要求输入新的唯一布局标题，点击确定后即可生成新布局。
-    * |Delete Layout| Delete Layout（删除布局）按钮：点击该按钮后，可删除当前布局。
-    * |Save Layout| Save Layout（保存布局）按钮：点击该按钮后，可保存布局的当前状态。
-    * |Add Map| Add Map（添加地图）按钮：点击该按钮后，可在当前布局中添加一个新的地图框。
-    * |Add Legend| Add Legend（添加图例）按钮：点击该按钮后，可在当前布局中添加一个新的图例。
-    * |Add GNSS Legend| Add GNSS Legend（添加GNSS图例）按钮：点击该按钮后，可在当前布局中添加一个新的GNSS图例。
-    * |Add Lev Legend| Add Lev Legend（添加水准图例）按钮：点击该按钮后，可在当前布局中添加一个新的水准图例。
-    * |Add Rotation Rate Legend| Add Rotation Rate Legend（添加旋转率图例）按钮：点击该按钮后，可在当前布局中添加一个新的旋转率图例。
-    * |Add Principal Strain Rate Legend| Add Principal Strain Rate Legend（添加主应变率图例）按钮：点击该按钮后，可在当前布局中添加一个新的主应变率图例。
-    * |Add Color Ramp| Add Color Ramp（添加色带）按钮：点击该按钮后，可在当前布局中添加一个新的色带。
-    * |Add Label| Add Label（添加标签）按钮：点击该按钮后，可在当前布局中添加一个新的文字标签。
-    * |Add Scale Bar| Add Scale Bar（添加比例尺）按钮：点击该按钮后，可在当前布局中添加一个新的比例尺。
-    * |Pan| Pan（平移）按钮：点击该按钮后，可通过鼠标平移当前布局视图。
-    * |Zoom In| Zoom In（放大）按钮：点击该按钮后，可放大当前布局视图。
-    * |Zoom Out| Zoom Out（缩小）按钮：点击该按钮后，可缩小当前布局视图。
-    * |Zoom| Zoom（缩放）按钮：点击该按钮后，可通过鼠标控制缩放当前布局视图。
-    * |Zoom Actual| Zoom Actual（缩放实际）按钮：点击该按钮后，可缩放当前布局视图到实际位置。
-    * |Zoom All| Zoom All（缩放全部）按钮：点击该按钮后，可缩放当前布局视图到包含全部内容。
-    * |Refresh| Refresh（刷新）按钮：点击该按钮后，可刷新当前布局视图。
-    * |Select/Move Item| Select/Move Item（选择/移动图面要素）按钮：点击该按钮后，可将鼠标切换至选择状态，用于选择图例或图面要素。并可按住鼠标左键拖动图例或图面要素至合适位置。
-    * |Move Content| Move Content（移动内容）按钮：点击该按钮后，可操作地图框内的视图范围，移动地图框内的显示内容。
-    * |Overview Setting| Overview Setting（缩略图设置）按钮：当布局视图内有2个及以上地图框时，选中一个地图框后，点击该按钮后可将该地图框地图视图设置到全图范围
-    * |Grid Setting| Grid Setting（网格设置）按钮：该按钮用于设置地图框相关参数，具体设置参数请参阅 `3.8.1 Grid Setting（网格设置）`_。
-    * |Text Setting| Text Setting（文本设置）按钮：该按钮用于设置标签的文本属性，具体设置参数请参阅 `3.8.2 Text Setting（文本设置）`_。
-    * |Legend Setting| Legend Setting（图例设置）按钮：该按钮用于设置图例相关参数，具体设置参数请参阅 `3.8.3 Legend Setting（图例设置）`_。
-    * |Scalebar Setting| Scalebar Setting（比例尺设置）按钮：该按钮用于设置比例尺相关参数，具体设置参数请参阅 `3.8.4 Scalebar Setting（比例尺设置）`_。
-    * |GNSS Setting| GNSS Setting（GNSS图例设置）按钮：该按钮用于设置GNSS图例相关参数，具体设置参数请参阅 `3.8.5 GNSS Setting（GNSS图例设置）`_。
-    * |Lev Setting| Lev Setting（水准图例设置）按钮：该按钮用于设置水准图例相关参数，具体设置参数请参阅 `3.8.6 Lev Setting（水准图例设置）`_。
-    * |Rotation Rate Setting| Rotation Rate Setting（旋转率图例设置）按钮：该按钮用于设置旋转率图例相关参数，具体设置参数请参阅 `3.8.7 Rotation Rate Setting（旋转率图例设置）`_。
-    * |Principal Strain Rate Setting| Principal Strain Rate Setting（主应变率图例设置）按钮：该按钮用于设置主应变率图例相关参数，具体设置参数请参阅 `3.8.8 Principal Strain Rate Setting（主应变率图例设置）`_。
-    * |Color Ramp Setting| Color Ramp Setting（色带设置）按钮：该按钮用于设置色带相关参数，具体设置参数请参阅 `3.8.9 Color Ramp Setting（色带设置）`_。
-    * |Delete Item| Delete Item（删除部件）按钮：该按钮用于删除当前布局视图内被选中的图饰部件
-    * |Raise Select Items| Raise Select Items（提升选择部件）按钮：当图饰部件出现压盖时，该按钮用于提升当前布局视图内被选中的部件的图层顺序
-    * |Lower Select Items| Lower Select Items（降低选择部件）按钮：当图饰部件出现压盖时，该按钮用于降低当前布局视图内被选中的部件的图层顺序
-    * |Print| Print（打印）按钮：该按钮用于打开打印控制对话框，选择合适的打印机及其设置打印当前布局视图
-    * |Export As Image| Export As Image（导出图片）按钮：该按钮用于打开图片保存对话框将当前布局视图导出为图片格式，支持.BMP、.JPG、.PNG、.TIF、Webp等图片格式
-    * |Export As PDF| Export As PDF（导出PDF）按钮：该按钮用于打开PDF保存对话框将当前布局视图导出为PDF格式
-    
-    
-    .. |Layout List|      image:: ../images/menu_image/File/select_Layout.png
-    .. |New Layout|       image:: ../images/menu_image/File/btn_newLayout.png
-    .. |Delete Layout|    image:: ../images/menu_image/File/btn_deleteLayout.png
-    .. |Save Layout|      image:: ../images/menu_image/File/btn_saveLayout.png
-    .. |Add Map|          image:: ../images/menu_image/File/btn_addMap.png
-    .. |Add Legend|       image:: ../images/menu_image/File/btn_addLegend.png
-    .. |Add GNSS Legend|  image:: ../images/menu_image/File/btn_addGNSSLegend.png
-    .. |Add Lev Legend|   image:: ../images/menu_image/File/btn_addLevLegend.png
-    .. |Add Rotation Rate Legend|   image:: ../images/menu_image/File/btn_addRotationRateLegend.png
-    .. |Add Principal Strain Rate Legend|   image:: ../images/menu_image/File/btn_addPrincipalStrainLegend.png
-    .. |Add Color Ramp|   image:: ../images/menu_image/File/btn_addColorRamp.png
-    .. |Add Label|        image:: ../images/menu_image/File/btn_addLabel.png
-    .. |Add Scale Bar|    image:: ../images/menu_image/File/btn_addScaleBar.png
-    .. |Pan|              image:: ../images/menu_image/File/btn_pan.png
-    .. |Zoom In|          image:: ../images/menu_image/File/btn_zoomIn.png
-    .. |Zoom Out|         image:: ../images/menu_image/File/btn_zoomOut.png
-    .. |Zoom|             image:: ../images/menu_image/File/btn_zoom.png
-    .. |Zoom Actual|      image:: ../images/menu_image/File/btn_zoomActual.png
-    .. |Zoom All|         image:: ../images/menu_image/File/btn_zoomAll.png
-    .. |Refresh|          image:: ../images/menu_image/File/btn_refresh.png
-    .. |Select/Move Item| image:: ../images/menu_image/File/btn_selectMoveItem.png
-    .. |Move Content|     image:: ../images/menu_image/File/btn_moveContent.png
-    .. |Grid Setting|     image:: ../images/menu_image/File/btn_gridSetting.png
-    .. |Text Setting|     image:: ../images/menu_image/File/btn_textSetting.png
-    .. |Overview Setting| image:: ../images/menu_image/File/btn_overviewSetting.png
-    .. |Legend Setting|   image:: ../images/menu_image/File/btn_legendSetting.png
-    .. |Add Layer|        image:: ../images/menu_image/File/btn_add.png
-    .. |Delete Layer|     image:: ../images/menu_image/File/btn_delete.png
-    .. |Edit Layer Name|  image:: ../images/menu_image/File/btn_edit.png
-    .. |Scalebar Setting| image:: ../images/menu_image/File/btn_scalebarSetting.png
-    .. |GNSS Setting|     image:: ../images/menu_image/File/btn_GNSSSetting.png
-    .. |Lev Setting|      image:: ../images/menu_image/File/btn_levSetting.png
-    .. |Rotation Rate Setting|    image:: ../images/menu_image/File/btn_RotationRateSetting.png
-    .. |Principal Strain Rate Setting|    image:: ../images/menu_image/File/btn_PrincipalStrainRateSetting.png
-    .. |Color Ramp Setting|       image:: ../images/menu_image/File/btn_ColorRampSetting.png
-    .. |Delete Item|      image:: ../images/menu_image/File/btn_DeleteItem.png
-    .. |Raise Select Items|       image:: ../images/menu_image/File/btn_RaiseSelectItems.png
-    .. |Lower Select Items|       image:: ../images/menu_image/File/btn_LowerSelectItems.png
-    .. |Print|            image:: ../images/menu_image/File/btn_Print.png
-    .. |Export As Image|  image:: ../images/menu_image/File/btn_ExportAsImage.png
-    .. |Export As PDF|    image:: ../images/menu_image/File/btn_ExportAsPDF.png
-    
-3.8.1 Grid Setting（网格设置）
+Help (帮助)菜单包括以下功能：
+
+3.10.1 Help Document（帮助文档）
 ~~~~~~~~~~~~~~~~~~
-(1) 选择地图框，如果没有请点击 |Add Map| Add Map（添加地图）按钮添加地图框，激活Grid Setting（网格设置）按钮
-(#) 点击该按钮，弹出Map Item Setting对话框，如下图所示：
 
-.. image:: ../images/menu_image/File/dialog_mapItemSetting.png
-    :align: center
+    点击该按钮会打开QTGA软件的在线帮助文档。
 
-参数说明：
-      * Left Top Lng（左上经度）、Right Bottom Lng（右下经度）、Left Top Lat（左上纬度）、Right Bottom Lat（右下纬度）用于设置地图视图的经纬度范围
-      * Interval X（X方向间隔）、Interval Y（Y方向间隔）用于设置坐标轴的刻度间隔
-      * Font（字体）、Font Size（字号）、Format（格式）、Precision（有效位数）用于设置坐标刻度值的文字样式
-      * Frame Width（边框宽度）用于设置地图框的边框宽度
-      * Coordinate Visible中的Left Side、Right Side、Top Side、Bottom Side用于设置边框上下左右是否显示
-      * OverView（缩略图）只有在Layout View（布局视图）内有2个及以上地图框时才会激活，Linked Map（连接地图）用于指定对应的缩略图地图框，Fill Color（填充色）和Frame Color（边框颜色）用于设置缩略图中对应地图范围的填充色和边框的颜色
-      * Visible Layers（显示图层）中会列出当前地图视图中应用的图层列表
-
-(3) 根据出图需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
-
-3.8.2 Text Setting（文本设置）
+3.10.2 About QTGA（关于QTGA）
 ~~~~~~~~~~~~~~~~~~
-(1) 选择一个文本标签，如果没有请点击 |Add Label| Add Label（添加标签）按钮添加一个文本标签，激活Text Setting（文本设置）按钮
-(2) 点击该按钮，弹出Label Edit对话框，如下图所示：
 
-.. image:: ../images/menu_image/File/dialog_labelEdit.png
-    :align: center
-    
-参数说明：
-      * Font（字体）、Font Color（字体颜色）用于设置标签文字的字号、字体、颜色等效果
-      * Horizontal Margin（水平边距）、Vertical Margin（垂直边距）用于设置文本与标签框之间在水平方向和垂直方向上的距离
-      * Horizontal Alignment（水平对齐）、Vertical Alignment（垂直对齐）用于设置文本在标签框内的对齐方式
-      * Rotation（旋转）用于设置文本的旋转角度
-(3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
+    点击该按钮会显示QTGA软件的版本信息、开发团队和版权声明等。
 
-3.8.3 Legend Setting（图例设置）
-~~~~~~~~~~~~~~~~~~
-(1) 选择一个图例，如果没有请点击 |Add Legend| Add Legend（添加图例）按钮添加一个图例，激活Legend Setting（图例设置）按钮
-(2) 点击该按钮，弹出Legend Setting对话框，如下图所示：
-
-.. image:: ../images/menu_image/File/dialog_legendSetting.png
-    :align: center
-    
-参数说明：
-      * 点击图层列表下方的 |Add Layer| “+”号按钮可以添加视图中未加入的图层， |Delete Layer| “-”号按钮可以删除视图中不需要的图层， |Edit Layer Name| 编辑按钮可以编辑图层名称
-      * Legend Width（图例宽度）、Legend Height（图例高度）用于设置整个图例的宽度和高度
-      * Legend Direction（图例方向）用于设置图例中项目的排列方向为横向或纵向
-      * Legend Font（图例字体）、Font Color（字体颜色）用于设置图例中文本的字体、字号、颜色等样式
-      * Item Background（背景色）如果勾选Transparent则图例背景透明，否则为白色背景
-      * Item Columns（项目）用于设置图例中条目排列的列数
-(3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
-
-3.8.4 Scalebar Setting（比例尺设置）
-~~~~~~~~~~~~~~~~~~
-(1) 选择一个比例尺，如果没有请点击 |Add Scale Bar| Add Scale Bar（添加比例尺）按钮添加一个比例尺，激活Scalebar Setting（比例尺设置）按钮
-(2) 点击该按钮，弹出Scalebar Setting对话框，如下图所示：
-
-.. image:: ../images/menu_image/File/dialog_ScaleBarSetting.png
-    :align: center
-    
-参数说明：
-      * Scalebar Style（比例尺样式）用于设置比例尺的显示样式，可选包括Single Box（单盒式）、Double Box（双盒式）、Line Ticks Middle（中线段式）、Line Ticks Down（下线段式）、Line Ticks Up（上线段式）、Stepped Line（折线式）、Hollow（空心式）、Numeric（数字式）
-      * Scalebar Height（比例尺高度）、Scalebar Width（比例尺宽度）用于设置比例尺高宽
-      * Rotation（角度）用于设置比例尺旋转角度
-      * Frame Width（边框宽度）用于设置比例尺边框宽度
-      * Unit Label（单位标签）用于设置比例尺显示的标签单位，默认为km
-      * Label Margin（标签间距）用于设置标签与比例尺之间的距离
-      * Label Font（标签字体）用于设置比例尺标签的字体、字号、颜色等样式
-(3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
-
-3.8.5 GNSS Setting（GNSS图例设置）
-~~~~~~~~~~~~~~~~~~
-(1) 选择一个GNSS图例，如果没有请点击 |Add GNSS Legend| Add GNSS Legend（添加GNSS图例）按钮添加一个GNSS图例，激活GNSS Setting（GNSS图例设置）按钮
-(2) 点击该按钮，弹出GNSS Setting对话框，如下图所示：
-
-.. image:: ../images/menu_image/File/dialog_GNSSSetting.png
-    :align: center
-    
-参数说明：
-      * Map Scale（地图比例尺）用于设置图例采用的地图比例尺，默认为布局视图中当前的地图比例尺
-      * Displacement Length（位移长度）用于设置图例中GNSS Arrow（GNSS箭头）的位移长度尺寸
-      * Arrow Scale（箭头比例）用于设置图例中GNSS Arrow（GNSS箭头）的箭头比例大小
-      * Error Radius（误差半径）用于设置图例中GNSS Error Ellipse（GNSS误差椭圆）的椭圆半径
-      * Ellipse Scale（椭圆比例）用于设置图例中GNSS Error Ellipse（GNSS误差椭圆）中椭圆的比例
-      * Text（文字）、Font（字体）、Font Size（字号）、Font Color（颜色）用于设置图例中GNSS Text（GNSS文字标注）的文字内容、字体字族、字号大小和文字颜色
-(3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
-
-3.8.6 Lev Setting（水准图例设置）
-~~~~~~~~~~~~~~~~~~
-(1) 选择一个水准图例，如果没有请点击 |Add Lev Legend| Add Lev Legend（添加水准图例）按钮添加一个水准图例，激活Lev Setting（水准图例设置）按钮
-(2) 点击该按钮，弹出Lev Setting对话框，如下图所示：
-
-.. image:: ../images/menu_image/File/dialog_LevSetting.png
-    :align: center
-    
-参数说明：
-      * Map Scale（地图比例尺）用于设置图例采用的地图比例尺，默认为布局视图中当前的地图比例尺
-      * Displacement Length（位移长度）用于设置图例中Lev Arrow（水准箭头）的位移长度尺寸
-      * Arrow Scale（箭头比例）用于设置图例中Lev Arrow（水准箭头）的箭头比例大小
-      * Error Radius（误差半径）用于设置图例中Lev Error Ellipse（水准误差椭圆）的椭圆半径
-      * Ellipse Scale（椭圆比例）用于设置图例中Lev Error Ellipse（水准误差椭圆）中椭圆的比例
-      * Text（文字）、Font（字体）、Font Size（字号）、Font Color（颜色）用于设置图例中Lev Text（Lev文字标注）的文字内容、字体字族、字号大小和文字颜色
-(3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
-
-3.8.7 Rotation Rate Setting（旋转率图例设置）
-~~~~~~~~~~~~~~~~~~
-(1) 选择一个旋转率图例，如果没有请点击 |Add Rotation Rate Legend| Add Rotation Rate Legend（添加旋转率图例）按钮添加一个旋转率图例，激活|Rotation Rate Setting| Rotation Rate Setting（旋转率图例设置）按钮
-(2) 点击该按钮，弹出Rotation Rate Setting对话框，如下图所示：
-
-.. image:: ../images/menu_image/File/dialog_RotationRateSetting.png
-    :align: center
-    
-参数说明：
-      * Map Scale（地图比例尺）用于设置图例采用的地图比例尺，默认为布局视图中当前的地图比例尺
-      * AngleUnit（角度单位）用于设置Rotation Rate（旋转率）扇形的角度间隔（单位：弧度）
-      * Raduis（半径）用于设置Rotation Rate（旋转率）扇形的半径（单位：弧度）
-      * Rotation（旋转）用于设置Rotation Rate（旋转率）扇形的角度（单位：弧度）
-      * AngleScale（角度比例）用于设置Rotation Rate（旋转率）扇形的缩放比例
-      * Text（文字）、Font（字体）、Font Size（字号）、Font Color（颜色）用于设置图例中Rotation Rate Text（旋转率标注）的文字内容、字体字族、字号大小和文字颜色
-(3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
-
-3.8.8 Principal Strain Rate Setting（主应变率图例设置）
-~~~~~~~~~~~~~~~~~~
-(1) 选择一个主应变率图例，如果没有请点击 |Add Principal Strain Rate Legend| Add Principal Strain Rate Legend（添加主应变率图例）按钮添加一个旋转率图例，激活|Principal Strain Rate Setting| Principal Strain Rate Setting（主应变率图例设置）按钮
-(2) 点击该按钮，弹出Principal Strain Rate Setting对话框，如下图所示：
-
-.. image:: ../images/menu_image/File/dialog_PrincipalStrainRateSetting.png
-    :align: center
-    
-参数说明：
-      * Map Scale（地图比例尺）用于设置图例采用的地图比例尺，默认为布局视图中当前的地图比例尺
-      * E1用于设置Principal Strain Rate（主应变率）图例中的最大主应变方向的尺寸
-      * E2用于设置Principal Strain Rate（主应变率）图例中的最小主应变方向的尺寸
-      * Azi用于设置Principal Strain Rate（主应变率）图例中主应变方向的角度
-      * Scale用于设置Principal Strain Rate（主应变率）图例的比例
-      * Text（文字）、Font（字体）、Font Size（字号）、Font Color（颜色）用于设置图例中Principal Strain Rate（主应变率标注）的文字内容、字体字族、字号大小和文字颜色
-(3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
-
-3.8.9 Color Ramp Setting（色带设置）
-~~~~~~~~~~~~~~~~~~
-(1) 选择一个色带，如果没有请点击 |Add Color Ramp| Add Color Ramp（添加色带）按钮添加一个色带图例，激活Color Ramp Setting（色带设置）按钮
-(2) 点击该按钮，弹出Color Ramp Setting对话框，如下图所示：
-
-.. image:: ../images/menu_image/File/dialog_ColorRampSetting.png
-    :align: center
-    
-参数说明：
-      * Color Ramp（色带）用于选择当前使用的色带，在色带下拉列表中，可以选择、新建、修改、保存相应的色带参数
-      * Ramp Orientation（色带方向）用于设置色带的方向，可选Horizontal（水平）和Vertical（垂直）两种方式
-      * Min Value（最小值）和Max Value（最大值）用于设置色带旁标注的数值范围
-      * Font（字体）、Font Size（字号）、Font Color（颜色）用于设置图例中Lev Text（Lev文字标注）的字体字族、字号大小和文字颜色
-(3) 根据需要设置完相关参数后，点击“Apply”按钮即可保存并预览设置效果
+    .. image:: ../images/menu_image/Help/dialog_AboutQTGA.png
+        :align: center
