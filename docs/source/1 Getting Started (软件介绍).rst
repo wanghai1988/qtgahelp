@@ -32,7 +32,7 @@
 
 1.2 Download (软件下载)
 ------------------------------------------------------------------------
-:download:`TGA软件下载（GitHub） <https://github.com/wanghai1988/TGA_Publish/releases/download/TGA1.3.1/TGA_Release_v1.3.1.7z>`  :download:`TGA软件下载（百度网盘） <https://pan.baidu.com/s/1ZtTIVI2a6rryKPC6X59SgQ?pwd=tvgg>` (提取码:tvgg)  更新时间：2026年8月2日
+:download:`TGA软件下载（GitHub） <https://github.com/wanghai1988/TGA_Publish/releases/download/TGA1.3.2/TGA_Release_v1.3.2.zip>`  :download:`TGA软件下载（百度网盘） <https://pan.baidu.com/s/1hbxSmvIZ9oeogljZ0zko3w?pwd=qreh>` (提取码:qreh)  更新时间：2026年8月14日
 
 :download:`测试数据下载 <https://github.com/wanghai1988/TGA_Data/releases/download/v1/test_data.rar>`  上传时间：2024年9月1日
 
